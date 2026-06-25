@@ -106,7 +106,7 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 > Pruning Large Language Models (LLMs) reduces memory and inference costs by removing parts of the network, producing smaller models that retain most of their accuracy. As attention layers are the most resource-intensive parts of LLMs, pruning them is a promising compression strategy. Prior work shows that up to 33% of attention layers can be pruned with minimal accuracy loss. Nevertheless, the impact of attention pruning on model interpretability, specifically faithfulness…
 
 
-<sub>Generated 2026-06-25 04:01 UTC via the arXiv API.</sub>
+<sub>Generated 2026-06-25 04:03 UTC via the arXiv API.</sub>
 
 ---
 
