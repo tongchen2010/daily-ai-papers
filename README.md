@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-10-09** · browse the full archive below.
+**Latest digest: 2026-10-10** · browse the full archive below.
 
 ## How it works
 
@@ -29,89 +29,90 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-10-09
+# arXiv AI/ML digest — 2026-10-10
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [Leakage-Controlled Multimodal Learning for Diagnosis and Progression Prediction in Alzheimer's Disease Research](https://arxiv.org/abs/2610.10648)
-**Akeem Temitope Otapo, Ghazaleh Khodabandelou, Zuheng Ming, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.10648) · [pdf](https://arxiv.org/pdf/2610.10648)  ·  relevance 32
-<br>matched: `alzheimer`, `longitudinal`, `transformer`, `multimodal`
-
-> Alzheimer's disease prediction involves irregular visits, heterogeneous measurements and incomplete modalities. This study presents a multimodal multitask framework combining an adapted SFCN MRI encoder, four causal clinical Transformers, shared fusion and task-specific ODE-GRU dynamics. Fine-tuning and LoRA adapt the final two MRI blocks. Task-DRO balances task losses, while Group-CVaR targets cohort and comorbidity strata. Branch-specific input controls, subject-grouped…
-
-### 2. [CoPoE: Multimodal Fusion via Decomposable Disease-Coordinate Product-of-Experts for Missing-Modality Alzheimer's Diagnosis](https://arxiv.org/abs/2610.11394)
-**Chihun An, Ikbeom Jang**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.11394) · [pdf](https://arxiv.org/pdf/2610.11394)  ·  relevance 30
-<br>matched: `alzheimer`, `interpretab`, `multimodal`
-
-> Multimodal Alzheimer's disease (AD) diagnosis benefits from integrating heterogeneous clinical, imaging, genomic, and biomarker evidence, but clinical cohorts frequently suffer from irregular modality missingness. Existing fusion methods often synthesize absent inputs, risking the introduction of artificial surrogates, or pool available signals into uninterpretable latent spaces. We present CoPoE (Disease-Coordinate Product-of-Experts), a disease-coordinate framework that…
-
-### 3. [A Graph Neural Network for Global Daily Fire Radiative Power Prediction at Medium-Range Lead Times](https://arxiv.org/abs/2610.11022)
-**Li Zhang, Jun Wang, Isidora Jankov, et al.**  ·  `physics.ao-ph`  ·  [abs](https://arxiv.org/abs/2610.11022) · [pdf](https://arxiv.org/pdf/2610.11022)  ·  relevance 27
-<br>matched: `graph neural network`, `graph neural`
-
-> Skillful prediction of biomass-burning activity several days in advance is important for air-quality forecasting and aerosol prediction. Two operational constraints motivate this work. First, the GBBEPx satellite fire radiative power (FRP) product used to initialize NOAA's GEFS-Aerosols is available with about a 1.5-day latency, so each forecast cycle relies on the most recently available, but already outdated, fire observations. Second, these fire inputs are then held fixed…
-
-### 4. [ReCast: Attribution-Oriented Step Representation Learning for LLM-Based Agent Systems](https://arxiv.org/abs/2610.11334)
+### 1. [ReCast: Attribution-Oriented Step Representation Learning for LLM-Based Agent Systems](https://arxiv.org/abs/2610.11334)
 **Weilin Jin, Mingyu Wang, Taiyu Zhu, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.11334) · [pdf](https://arxiv.org/pdf/2610.11334)  ·  relevance 27
 <br>matched: `representation learning`, `llm`, `agent`
 
 > In LLM-based agent systems, failures can originate from early steps whose effects propagate through subsequent interactions, making their origins difficult to identify. To trace such failures back to their origin, failure attribution has been formulated as the task of identifying the earliest step responsible for the failure. Recent methods leverage LLM internal signals for failure attribution, typically using hidden states as step representations. We therefore conduct an…
 
-### 5. [Multimodal Graph Retrieval-Augmented Sequential Recommendation via Collaborative Filtering Paths](https://arxiv.org/abs/2610.11228)
-**Jason Marcell Setiadi, Xin Cao, Lina Yao**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.11228) · [pdf](https://arxiv.org/pdf/2610.11228)  ·  relevance 24
-<br>matched: `large language model`, `llm`, `retrieval-augmented`, `multimodal`
-
-> Multimodal Large Language Models (MLLMs) have demonstrated strong potential for sequential recommendation through their ability to reason over complex multimodal data. However, existing approaches either rely solely on the target user's own interaction history, neglecting collaborative signals from neighboring users, or incur substantial computational overhead through repeated MLLM inference over long interaction histories. To address these challenges, we propose MGRASRec, a…
-
-### 6. [Evi-VN: Hard Region Guided Virtual Node Evidence Injection for GNN-Based Fraud Detection](https://arxiv.org/abs/2610.11665)
-**Jiran Tao, Yifan Wu, Binyan Jiang**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.11665) · [pdf](https://arxiv.org/pdf/2610.11665)  ·  relevance 24
-<br>matched: `graph neural network`, `graph neural`, `gnn`, `multimodal`
-
-> Online platforms contain growing numbers of bots, deceptive reviewers, and scam accounts that imitate legitimate users. Such camouflage blurs graph neighborhoods and behavioral attributes, making it difficult for graph neural networks (GNNs) to distinguish both well-disguised fraudsters and legitimate users. Across diverse GNNs, we observe overlapping errors on a shared hard region, suggesting the presence of latent fraud evidence that graph topologies and standard features…
-
-### 7. [OA-MAP: Evidence-Grounded Multi-Agent Multimodal Framework for Interpretable Knee Osteoarthritis Progression](https://arxiv.org/abs/2610.12134)
+### 2. [OA-MAP: Evidence-Grounded Multi-Agent Multimodal Framework for Interpretable Knee Osteoarthritis Progression](https://arxiv.org/abs/2610.12134)
 **Sixu Chen, Mingrui Yang, Qiang Guan, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.12134) · [pdf](https://arxiv.org/pdf/2610.12134)  ·  relevance 24
 <br>matched: `agent`, `interpretab`, `multimodal`
 
 > Knee osteoarthritis (KOA) progression prediction can support patient monitoring, requiring the integration of multimodal data and multidomain expertise. Moreover, isolated risk estimates provide limited insight underlying a prediction. To automate the progression assessment workflow and reduce manual effort while providing interpretable findings and supporting evidence, we present OA-MAP, an autonomous multi-agent framework for evidence-grounded assessment of structural and…
 
-### 8. [From Pixels, Without Pre-training: Joint Generative and Self-Supervised Representation Learning in One Model](https://arxiv.org/abs/2610.05711)
+### 3. [From Pixels, Without Pre-training: Joint Generative and Self-Supervised Representation Learning in One Model](https://arxiv.org/abs/2610.05711)
 **Vicente Balmaseda, Ching-Long Lin, Tianbao Yang**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.05711) · [pdf](https://arxiv.org/pdf/2610.05711)  ·  relevance 24
 <br>matched: `representation learning`, `self-supervised`
 
 > Strong image generation models are conditioned on class labels, aligned to frozen pretrained encoders, or built on separately trained autoencoders. While effective, generation then depends on supervision or pretraining: labels must be annotated, and encoders or autoencoders pretrained for the target domain. We study joint generative and self-supervised representation learning in a single model, enabling self-conditioned generation without labels or pretrained models. This is…
 
-### 9. [WOVEN: Weaving Visual World Modeling into Multimodal LLMs](https://arxiv.org/abs/2610.12417)
-**Zheyu Fan, Yue Zhang, Mingkai Deng, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.12417) · [pdf](https://arxiv.org/pdf/2610.12417)  ·  relevance 23
-<br>matched: `generative model`, `large language model`, `llm`, `multimodal`
-
-> Multimodal large language models (MLLMs) struggle with spatial, embodied, physical, and temporal reasoning. We hypothesize that these failures reflect a shared deficit in visual transition reasoning, and test whether this capability can serve as a shared training primitive, one that different models can learn from different supervision sources and reuse across different tasks, with a systematic training recipe. Existing benchmarks document these deficits separately but do…
-
-### 10. [Omni-Diffusion-Distill: Few-Step Distillation of Unified Multimodal Diffusion Large Language Models](https://arxiv.org/abs/2610.10990)
-**Hong Huang, Chenhongyi Yang, Junzhe Sun, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.10990) · [pdf](https://arxiv.org/pdf/2610.10990)  ·  relevance 21
-<br>matched: `large language model`, `llm`, `multimodal`
-
-> Unified multimodal diffusion large language models (dLLMs) offer a single architecture for both image generation and multimodal understanding, but their iterative decoding requires tens to hundreds of forward passes. Existing few-step distillation methods largely focus on either image generation or text generation, making it unclear how to compress a fully discrete multimodal dLLM into a single efficient student while preserving both generation and understanding. We…
-
-### 11. [Forms of LLM-Integrated Applications from LLM-Chats to Autonomous AI Agent System](https://arxiv.org/abs/2610.11899)
+### 4. [Forms of LLM-Integrated Applications from LLM-Chats to Autonomous AI Agent System](https://arxiv.org/abs/2610.11899)
 **Irene Weber (University of Applied Sciences Kempten, Germany)**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.11899) · [pdf](https://arxiv.org/pdf/2610.11899)  ·  relevance 21
 <br>matched: `large language model`, `llm`, `agent`, `retrieval-augmented`
 
 > Large language models (LLMs) are increasingly embedded as components in software systems, marketed under labels such as chatbot, copilot, retrieval-augmented generation, workflow, coding agent and AI agent. Whether these labels denote genuine architectural forms or serve as branding has not been assessed systematically. In the sources surveyed, labels do carry architectural content, most clearly in vendor usage: copilot denotes a router-worker architecture operating a host…
 
-### 12. [Deflating the Hessian: Rank-4 W4A4 Quantization for Multimodal Diffusion Transformers](https://arxiv.org/abs/2610.11315)
-**Shiwen Wang, Pengxiang Zhao, Xiaoming Yuan**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.11315) · [pdf](https://arxiv.org/pdf/2610.11315)  ·  relevance 18
-<br>matched: `transformer`, `llm`, `multimodal`
+### 5. [LLM-IDEA: Identifiability-Driven Experimental Agent for Autonomous Discovery of Mechanistic World Models](https://arxiv.org/abs/2610.11253)
+**Surya Shetty, Ulisses Braga-Neto**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.11253) · [pdf](https://arxiv.org/pdf/2610.11253)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
 
-> In diffusion transformers, low-rank branches can mitigate 4-bit weight--activation (W4A4) post-training quantization (PTQ) loss by decomposing each weight into a low-bit residual and a high-precision low-rank component. Existing low-rank PTQ approaches, however, either optimize low-rank compensation and residual quantization separately, often requiring higher ranks, or rely on second-order weight updates without explicitly modeling activation quantization error, which…
+> Large language model agents are being increasingly deployed as autonomous scientists, designing experiments and inferring mechanistic world models with minimal human oversight. Yet identifiability is often overlooked: when a plateau is reached, the agent needs to know whether it is not yet capable enough or the model simply is not identifiable from the data, in which case no amount of further experimentation of the same kind can help. We propose the Identifiability-Driven…
+
+### 6. [Memory Type Varies: Empowering LLM Agents for Long-Term Memory with Diverse Strategies](https://arxiv.org/abs/2610.11573)
+**Yi Wen, Derong Xu, Pengyue Jia, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.11573) · [pdf](https://arxiv.org/pdf/2610.11573)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
+
+> The memory capabilities of Large Language Models (LLMs) have garnered increasing attention recently. Despite great success achieved, existing retrieval-based memory approaches typically overlook the differences between memories and employ a unified strategy to process all memories, leading to suboptimal performance. Thus, an intuitive question arises: can we categorize memory into different types and select appropriate strategies? However, given the topic-rich,…
+
+### 7. [MemTrial: Learning When to Trust Memory in LLM Portfolio Agents](https://arxiv.org/abs/2610.11732)
+**Guanghao Wu, Zhuo Cai, Shoujin Wang**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.11732) · [pdf](https://arxiv.org/pdf/2610.11732)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
+
+> Large language model (LLM) agents for portfolio management learn from experience: they credit each experience in their memory with the outcome of the decisions that used it. In financial markets, however, this outcome mostly reflects the market move shared by all decisions on that date, so the credit tracks the market rather than the experience, and these agents often do worse than simply holding the equal-weight (1/$N$) portfolio. We ask how an agent can credit an…
+
+### 8. [Use and Disuse: Intent-Structured Experience Consolidation for Memory and Learning in LLM Agents](https://arxiv.org/abs/2610.12124)
+**Xiangyi Zeng, Baihang Liu, Xutong Wang, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.12124) · [pdf](https://arxiv.org/pdf/2610.12124)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
+
+> The evolution of Large Language Model agents from single-task execution to long-term autonomous operation highlights the critical challenge of transforming continuous experiences into reusable knowledge. To address this, we propose Hippocam, a hierarchical memory and continual learning architecture. Hippocam draws inspiration from two characteristics of human memory: cognitive processes selectively maintain information relevant to current goals, while long-term memories form…
+
+### 9. [From Investigation Failures to Reliable SOC Agents: Understanding and Improving LLM-Based Alert Triage](https://arxiv.org/abs/2610.10608)
+**Saimon Amanuel Tsegai (Daphne), Alex Kantchelian (Daphne), Danfeng (Daphne), et al.**  ·  `cs.CR`  ·  [abs](https://arxiv.org/abs/2610.10608) · [pdf](https://arxiv.org/pdf/2610.10608)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
+
+> Security operations centers (SOCs) must triage large volumes of alerts, most of which are benign, while missed attacks can remain uninvestigated. Tool-using large language model (LLM) agents can retrieve evidence during triage, but it remains unclear how reasoning strategies determine what to gather and when an investigation is sufficient to close an alert. We study five representative approaches spanning single-pass tool use, iterative retrieval, sampled investigations,…
+
+### 10. [RFChipAgent: Multi-Agentic AI Flow for Analog/RF Chip Design](https://arxiv.org/abs/2610.10858)
+**Awani Khodkumbhe, Yunfei Feng, Raj Rangarajan, et al.**  ·  `cs.AR`  ·  [abs](https://arxiv.org/abs/2610.10858) · [pdf](https://arxiv.org/pdf/2610.10858)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`, `retrieval-augmented`, `multimodal`
+
+> Analog/RF circuits remain the critical interface between digital computation and the physical world, and emerging standards from Wi-Fi 7 to 6G place stringent demands on them, yet analog/RF design remains one of the most labor-intensive steps in chip development. We present RFChipAgent, a first-of-its-kind multi-agent flow of large language model (LLM) agents for end-to-end analog/RF circuit design automation, in which AI agents collaboratively orchestrate the complete…
+
+### 11. [Closed-loop evaluation of LLM agents for embedded software development](https://arxiv.org/abs/2610.11447)
+**Jorge Garc\'ia-Carrasco, Sergio Garc\'ia-Carrasco, Alejandro Mat\'e, et al.**  ·  `cs.SE`  ·  [abs](https://arxiv.org/abs/2610.11447) · [pdf](https://arxiv.org/pdf/2610.11447)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
+
+> Large language models (LLMs) are increasingly deployed as coding agents that edit files, run builds and tests, inspect execution results, and repair software iteratively. Embedded firmware is a demanding target because correctness depends on closed-loop behavior under sensing, timing, and safety constraints, not only on static source quality. Yet embedded-agent evaluation remains limited and often emphasizes one-shot synthesis or offline correctness. We present a benchmark…
+
+### 12. [Narrow and Deep: An Ontology Tower as the Knowledge of an LLM Agent for an Industrial Equipment System](https://arxiv.org/abs/2610.11768)
+**Younghwan Joo, Sung-il Kim**  ·  `eess.SY`  ·  [abs](https://arxiv.org/abs/2610.11768) · [pdf](https://arxiv.org/pdf/2610.11768)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
+
+> Large language model (LLM) agents are beginning to operate industrial energy equipment, and what they get right depends on what they are told about the plant. Established building ontologies name many kinds of points across many sites, whereas an industrial equipment system needs few entities with much knowledge about each. This study proposes the ontology tower, a narrow-and-deep ontology of a single equipment system whose knowledge deepens in two ways: through quantities…
 
 
-<sub>Generated 2026-10-09 18:48 UTC via the arXiv API.</sub>
+<sub>Generated 2026-10-10 17:51 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-10-10](digests/2026-10-10.md) — 12 papers
 - [2026-10-09](digests/2026-10-09.md) — 12 papers
 - [2026-10-08](digests/2026-10-08.md) — 12 papers
 - [2026-10-07](digests/2026-10-07.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-08-08](digests/2026-08-08.md) — 12 papers
 - [2026-08-07](digests/2026-08-07.md) — 12 papers
 - [2026-08-06](digests/2026-08-06.md) — 12 papers
-- [2026-08-05](digests/2026-08-05.md) — 12 papers
 
-_…and 41 earlier digests in [`digests/`](digests/)._
+_…and 42 earlier digests in [`digests/`](digests/)._
 
 ---
 
