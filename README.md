@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-10-10** · browse the full archive below.
+**Latest digest: 2026-10-11** · browse the full archive below.
 
 ## How it works
 
@@ -29,89 +29,90 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-10-10
+# arXiv AI/ML digest — 2026-10-11
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [ReCast: Attribution-Oriented Step Representation Learning for LLM-Based Agent Systems](https://arxiv.org/abs/2610.11334)
-**Weilin Jin, Mingyu Wang, Taiyu Zhu, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.11334) · [pdf](https://arxiv.org/pdf/2610.11334)  ·  relevance 27
-<br>matched: `representation learning`, `llm`, `agent`
+### 1. [WOVEN: Weaving Visual World Modeling into Multimodal LLMs](https://arxiv.org/abs/2610.12417v1)
+**Zheyu Fan, Yue Zhang, Mingkai Deng, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.12417v1) · [pdf](https://arxiv.org/pdf/2610.12417v1)  ·  relevance 23
+<br>matched: `generative model`, `large language model`, `llm`, `multimodal`
 
-> In LLM-based agent systems, failures can originate from early steps whose effects propagate through subsequent interactions, making their origins difficult to identify. To trace such failures back to their origin, failure attribution has been formulated as the task of identifying the earliest step responsible for the failure. Recent methods leverage LLM internal signals for failure attribution, typically using hidden states as step representations. We therefore conduct an…
+> Multimodal large language models (MLLMs) struggle with spatial, embodied, physical, and temporal reasoning. We hypothesize that these failures reflect a shared deficit in visual transition reasoning, and test whether this capability can serve as a shared training primitive, one that different models can learn from different supervision sources and reuse across different tasks, with a systematic training recipe. Existing benchmarks document these deficits separately but do…
 
-### 2. [OA-MAP: Evidence-Grounded Multi-Agent Multimodal Framework for Interpretable Knee Osteoarthritis Progression](https://arxiv.org/abs/2610.12134)
-**Sixu Chen, Mingrui Yang, Qiang Guan, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.12134) · [pdf](https://arxiv.org/pdf/2610.12134)  ·  relevance 24
-<br>matched: `agent`, `interpretab`, `multimodal`
-
-> Knee osteoarthritis (KOA) progression prediction can support patient monitoring, requiring the integration of multimodal data and multidomain expertise. Moreover, isolated risk estimates provide limited insight underlying a prediction. To automate the progression assessment workflow and reduce manual effort while providing interpretable findings and supporting evidence, we present OA-MAP, an autonomous multi-agent framework for evidence-grounded assessment of structural and…
-
-### 3. [From Pixels, Without Pre-training: Joint Generative and Self-Supervised Representation Learning in One Model](https://arxiv.org/abs/2610.05711)
-**Vicente Balmaseda, Ching-Long Lin, Tianbao Yang**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.05711) · [pdf](https://arxiv.org/pdf/2610.05711)  ·  relevance 24
-<br>matched: `representation learning`, `self-supervised`
-
-> Strong image generation models are conditioned on class labels, aligned to frozen pretrained encoders, or built on separately trained autoencoders. While effective, generation then depends on supervision or pretraining: labels must be annotated, and encoders or autoencoders pretrained for the target domain. We study joint generative and self-supervised representation learning in a single model, enabling self-conditioned generation without labels or pretrained models. This is…
-
-### 4. [Forms of LLM-Integrated Applications from LLM-Chats to Autonomous AI Agent System](https://arxiv.org/abs/2610.11899)
-**Irene Weber (University of Applied Sciences Kempten, Germany)**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.11899) · [pdf](https://arxiv.org/pdf/2610.11899)  ·  relevance 21
-<br>matched: `large language model`, `llm`, `agent`, `retrieval-augmented`
-
-> Large language models (LLMs) are increasingly embedded as components in software systems, marketed under labels such as chatbot, copilot, retrieval-augmented generation, workflow, coding agent and AI agent. Whether these labels denote genuine architectural forms or serve as branding has not been assessed systematically. In the sources surveyed, labels do carry architectural content, most clearly in vendor usage: copilot denotes a router-worker architecture operating a host…
-
-### 5. [LLM-IDEA: Identifiability-Driven Experimental Agent for Autonomous Discovery of Mechanistic World Models](https://arxiv.org/abs/2610.11253)
-**Surya Shetty, Ulisses Braga-Neto**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.11253) · [pdf](https://arxiv.org/pdf/2610.11253)  ·  relevance 18
+### 2. [A Closer Look at Agentic BBO: Benchmarking LLM Agents for Black-Box Optimization](https://arxiv.org/abs/2610.12183v1)
+**Ming Chen, Rong-Xi Tan, Ke Xue, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.12183v1) · [pdf](https://arxiv.org/pdf/2610.12183v1)  ·  relevance 18
 <br>matched: `large language model`, `llm`, `agent`
 
-> Large language model agents are being increasingly deployed as autonomous scientists, designing experiments and inferring mechanistic world models with minimal human oversight. Yet identifiability is often overlooked: when a plateau is reached, the agent needs to know whether it is not yet capable enough or the model simply is not identifiable from the data, in which case no amount of further experimentation of the same kind can help. We propose the Identifiability-Driven…
+> Black-box optimization (BBO) arises in many scientific and engineering problems where objective evaluations are expensive and limited. Recent large language model (LLM) agents offer a new way to approach BBO by combining task semantics, computation, optimization tools, and feedback-driven decision making, showing great potential due to the integration with mathematically rigorous tools. However, existing agentic BBO studies use different task domains and system…
 
-### 6. [Memory Type Varies: Empowering LLM Agents for Long-Term Memory with Diverse Strategies](https://arxiv.org/abs/2610.11573)
-**Yi Wen, Derong Xu, Pengyue Jia, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.11573) · [pdf](https://arxiv.org/pdf/2610.11573)  ·  relevance 18
+### 3. [HRIL: Learning Multimodal Synergy via Higher-Order Tensor Modeling](https://arxiv.org/abs/2610.12393v1)
+**Qun Dai, Liangjian Wen, Jiang Duan, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.12393v1) · [pdf](https://arxiv.org/pdf/2610.12393v1)  ·  relevance 17
+<br>matched: `representation learning`, `self-supervised`, `multimodal`
+
+> Self-supervised multimodal representation learning has achieved remarkable success across diverse domains, yet capturing synergistic information remains challenging due to the complexity of cross-modal interactions. Unlike the shared information across individual modalities, synergy arises when task-relevant signals emerge only from the joint configuration of multiple modalities and cannot be recovered from any modality in isolation. This work focuses on how to preserve the…
+
+### 4. [Looking Inside LLMs: Small-World Connectivity as a Signature of Reasoning Performance](https://arxiv.org/abs/2610.12304v1)
+**Zheng Huang, Sansheng Cao, Enpei Zhang, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.12304v1) · [pdf](https://arxiv.org/pdf/2610.12304v1)  ·  relevance 16
+<br>matched: `brain network`, `large language model`, `llm`
+
+> Understanding large language model (LLM) reasoning requires looking beyond behavioral performance to examine how reasoning ability is reflected in internal organization. Inspired by neuroscience findings linking higher intelligence to stronger small-world organization in functional brain networks, we investigate small-world connectivity as a structural signature of LLM reasoning. We construct functional graphs from attention-head activation similarities and find that a…
+
+### 5. [OneSearch-VL: Unified Multimodal Deep Research Agent for Image and Video](https://arxiv.org/abs/2610.12419v1)
+**Hongyu Li, Manyuan Zhang, Kaituo Feng, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.12419v1) · [pdf](https://arxiv.org/pdf/2610.12419v1)  ·  relevance 15
+<br>matched: `agent`, `multimodal`
+
+> Single-image, multi-image, and video deep research require different visual operations but share a workflow of visual grounding, external retrieval, and fact composition. A key challenge is to preserve the dependencies linking localized visual anchors, entity relations, source-supported facts, and answer-producing operations. We introduce OneSearch-VL, a unified agent centered on the Visually Grounded Evidence Graph (VGEG), which encodes these dependencies as a shared…
+
+### 6. [GeoReform: Reflective Formalization Evolution for Multimodal Geometry Problem Solving](https://arxiv.org/abs/2610.12391v1)
+**Jialu Wang, Ruichen Zhang, Xiaoou Liu, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.12391v1) · [pdf](https://arxiv.org/pdf/2610.12391v1)  ·  relevance 15
+<br>matched: `large language model`, `llm`, `multimodal`
+
+> Multimodal large language models (MLLMs) often struggle to identify and use geometric relations in diagrams. Recent methods address this challenge by converting geometric entities, relations, and constraints into explicit textual representations for the model to reason over. However, effective formalization is highly non-trivial: on Geometry3K, structure injection fixes 28 errors but introduces 13 new ones among 200 examples. Redundant relations can distract the model, while…
+
+### 7. [OnTrack: Real-Time Monitoring and Intervention in LLM Agent Trajectories via Streaming Structure-Aware Optimal Transport](https://arxiv.org/abs/2610.12375v1)
+**Babak Barazandeh, Connor Swanson, Chinmay Kulkarni, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.12375v1) · [pdf](https://arxiv.org/pdf/2610.12375v1)  ·  relevance 15
+<br>matched: `llm`, `agent`
+
+> Agents are deployed in applications from trip planners and stock trading to IT incident triage. In most cases, LLM agents work autonomously with minimal rule-based safeguarding, leading to cost and safety issues from irreversible actions. Recent works resolve this either by using a safeguard agent to monitor behavior or evaluating logs post-hoc. The first adds cost and latency to every step; the second delivers its verdict after the run, when tokens are burned and damage is…
+
+### 8. [Accurate but Not Humble: Evaluating Epistemic Humility in LLM Agents under Knowledge Conflict](https://arxiv.org/abs/2610.12360v1)
+**Kaiser Sun, Bernal Jimenez Gutierrez, Hongjun Liu, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.12360v1) · [pdf](https://arxiv.org/pdf/2610.12360v1)  ·  relevance 15
+<br>matched: `llm`, `agent`
+
+> When retrieved evidence contradicts an agent's prior beliefs, does it revise its answer, acknowledge uncertainty, or persist with an incorrect conclusion? Existing evaluations of agentic systems focus primarily on task success, offering limited insight into how agents handle such conflicts. We propose to evaluate agents on epistemic humility (EH): the agent's willingness to recognize, act on, and communicate uncertainty during task execution. We operationalize EH through…
+
+### 9. [From What to Which: Decoding Modifier Grounding in Frozen MLLMs](https://arxiv.org/abs/2610.12305v1)
+**Barbara Toniella Corradini, Caterina Gallegati, Ludovica Genovese, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.12305v1) · [pdf](https://arxiv.org/pdf/2610.12305v1)  ·  relevance 15
+<br>matched: `large language model`, `llm`, `multimodal`
+
+> As Multimodal Large Language Models (MLLMs) can describe increasingly complex visual scenes, token-level grounding becomes crucial. Yet, when an MLLM generates "the yellow banana on the left", established grounding approaches focus on what is in the image ("banana"), overlooking tokens that help describe which instance is meant ("yellow", "left"). In this work, we ask whether frozen MLLM representations contain decodable grounding information about the referred instance…
+
+### 10. [DVD: Dynamic Vector Decoding for Efficient MLLM-based Perception](https://arxiv.org/abs/2610.12266v1)
+**Jinghua Hou, Zhe Liu, Hengshuang Zhao**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.12266v1) · [pdf](https://arxiv.org/pdf/2610.12266v1)  ·  relevance 15
+<br>matched: `large language model`, `llm`, `multimodal`
+
+> Multimodal large language models have made remarkable progress in bridging vision and language, facilitating various perception tasks essential for human-machine interaction, robotics, and autonomous driving. However, existing MLLM-based perception methods predominantly rely on text-based coordinate representation, which suffers from excessive token overhead, or fixed-range quantization, which suffers from range and precision constraints, especially for 3D domains with…
+
+### 11. [Prior or Feedback? What an LLM Uses When Adapting Neural Operators](https://arxiv.org/abs/2610.12325v1)
+**Julian Chan, Javier Mora Jimenez**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.12325v1) · [pdf](https://arxiv.org/pdf/2610.12325v1)  ·  relevance 14
 <br>matched: `large language model`, `llm`, `agent`
 
-> The memory capabilities of Large Language Models (LLMs) have garnered increasing attention recently. Despite great success achieved, existing retrieval-based memory approaches typically overlook the differences between memories and employ a unified strategy to process all memories, leading to suboptimal performance. Thus, an intuitive question arises: can we categorize memory into different types and select appropriate strategies? However, given the topic-rich,…
+> Do LLM scientific agents rely only on their initial task context, or do they adapt their decisions in response to experimental feedback? We study this question in neural operator adaptation, where a large language model (LLM) selects fine-tuning configurations under a limited trial budget. Across transfers within and between partial differential equation (PDE) families, the LLM achieves lower held-out test nRMSE than random search and Bayesian optimisation in nearly every…
 
-### 7. [MemTrial: Learning When to Trust Memory in LLM Portfolio Agents](https://arxiv.org/abs/2610.11732)
-**Guanghao Wu, Zhuo Cai, Shoujin Wang**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.11732) · [pdf](https://arxiv.org/pdf/2610.11732)  ·  relevance 18
-<br>matched: `large language model`, `llm`, `agent`
+### 12. [Long Text to Predictive Features: LLM-Guided Blockwise Feature Engineering via Executable Program Search](https://arxiv.org/abs/2610.12390v1)
+**Ziming Dai, Dabiao Ma, Ziheng Guo, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.12390v1) · [pdf](https://arxiv.org/pdf/2610.12390v1)  ·  relevance 12
+<br>matched: `large language model`, `llm`
 
-> Large language model (LLM) agents for portfolio management learn from experience: they credit each experience in their memory with the outcome of the decisions that used it. In financial markets, however, this outcome mostly reflects the market move shared by all decisions on that date, so the credit tracks the market rather than the experience, and these agents often do worse than simply holding the equal-weight (1/$N$) portfolio. We ask how an agent can credit an…
-
-### 8. [Use and Disuse: Intent-Structured Experience Consolidation for Memory and Learning in LLM Agents](https://arxiv.org/abs/2610.12124)
-**Xiangyi Zeng, Baihang Liu, Xutong Wang, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.12124) · [pdf](https://arxiv.org/pdf/2610.12124)  ·  relevance 18
-<br>matched: `large language model`, `llm`, `agent`
-
-> The evolution of Large Language Model agents from single-task execution to long-term autonomous operation highlights the critical challenge of transforming continuous experiences into reusable knowledge. To address this, we propose Hippocam, a hierarchical memory and continual learning architecture. Hippocam draws inspiration from two characteristics of human memory: cognitive processes selectively maintain information relevant to current goals, while long-term memories form…
-
-### 9. [From Investigation Failures to Reliable SOC Agents: Understanding and Improving LLM-Based Alert Triage](https://arxiv.org/abs/2610.10608)
-**Saimon Amanuel Tsegai (Daphne), Alex Kantchelian (Daphne), Danfeng (Daphne), et al.**  ·  `cs.CR`  ·  [abs](https://arxiv.org/abs/2610.10608) · [pdf](https://arxiv.org/pdf/2610.10608)  ·  relevance 18
-<br>matched: `large language model`, `llm`, `agent`
-
-> Security operations centers (SOCs) must triage large volumes of alerts, most of which are benign, while missed attacks can remain uninvestigated. Tool-using large language model (LLM) agents can retrieve evidence during triage, but it remains unclear how reasoning strategies determine what to gather and when an investigation is sufficient to close an alert. We study five representative approaches spanning single-pass tool use, iterative retrieval, sampled investigations,…
-
-### 10. [RFChipAgent: Multi-Agentic AI Flow for Analog/RF Chip Design](https://arxiv.org/abs/2610.10858)
-**Awani Khodkumbhe, Yunfei Feng, Raj Rangarajan, et al.**  ·  `cs.AR`  ·  [abs](https://arxiv.org/abs/2610.10858) · [pdf](https://arxiv.org/pdf/2610.10858)  ·  relevance 18
-<br>matched: `large language model`, `llm`, `agent`, `retrieval-augmented`, `multimodal`
-
-> Analog/RF circuits remain the critical interface between digital computation and the physical world, and emerging standards from Wi-Fi 7 to 6G place stringent demands on them, yet analog/RF design remains one of the most labor-intensive steps in chip development. We present RFChipAgent, a first-of-its-kind multi-agent flow of large language model (LLM) agents for end-to-end analog/RF circuit design automation, in which AI agents collaboratively orchestrate the complete…
-
-### 11. [Closed-loop evaluation of LLM agents for embedded software development](https://arxiv.org/abs/2610.11447)
-**Jorge Garc\'ia-Carrasco, Sergio Garc\'ia-Carrasco, Alejandro Mat\'e, et al.**  ·  `cs.SE`  ·  [abs](https://arxiv.org/abs/2610.11447) · [pdf](https://arxiv.org/pdf/2610.11447)  ·  relevance 18
-<br>matched: `large language model`, `llm`, `agent`
-
-> Large language models (LLMs) are increasingly deployed as coding agents that edit files, run builds and tests, inspect execution results, and repair software iteratively. Embedded firmware is a demanding target because correctness depends on closed-loop behavior under sensing, timing, and safety constraints, not only on static source quality. Yet embedded-agent evaluation remains limited and often emphasizes one-shot synthesis or offline correctness. We present a benchmark…
-
-### 12. [Narrow and Deep: An Ontology Tower as the Knowledge of an LLM Agent for an Industrial Equipment System](https://arxiv.org/abs/2610.11768)
-**Younghwan Joo, Sung-il Kim**  ·  `eess.SY`  ·  [abs](https://arxiv.org/abs/2610.11768) · [pdf](https://arxiv.org/pdf/2610.11768)  ·  relevance 18
-<br>matched: `large language model`, `llm`, `agent`
-
-> Large language model (LLM) agents are beginning to operate industrial energy equipment, and what they get right depends on what they are told about the plant. Established building ontologies name many kinds of points across many sites, whereas an industrial equipment system needs few entities with much knowledge about each. This study proposes the ontology tower, a narrow-and-deep ontology of a single equipment system whose knowledge deepens in two ways: through quantities…
+> Industrial risk-control systems typically rely on structured-data models for efficient prediction, yet substantial valuable information remains embedded in unstructured long text. Extracting this information through manual feature engineering is labor-intensive, while requiring a large language model (LLM) to process every real-time input may not meet practical deployment requirements. To address this challenge, we propose LLM-BlockFE, an LLM-guided offline feature…
 
 
-<sub>Generated 2026-10-10 17:51 UTC via the arXiv API.</sub>
+<sub>Generated 2026-10-11 18:04 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-10-11](digests/2026-10-11.md) — 12 papers
 - [2026-10-10](digests/2026-10-10.md) — 12 papers
 - [2026-10-09](digests/2026-10-09.md) — 12 papers
 - [2026-10-08](digests/2026-10-08.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-08-09](digests/2026-08-09.md) — 12 papers
 - [2026-08-08](digests/2026-08-08.md) — 12 papers
 - [2026-08-07](digests/2026-08-07.md) — 12 papers
-- [2026-08-06](digests/2026-08-06.md) — 12 papers
 
-_…and 42 earlier digests in [`digests/`](digests/)._
+_…and 43 earlier digests in [`digests/`](digests/)._
 
 ---
 
