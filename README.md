@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-10-11** · browse the full archive below.
+**Latest digest: 2026-10-12** · browse the full archive below.
 
 ## How it works
 
@@ -29,89 +29,90 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-10-11
+# arXiv AI/ML digest — 2026-10-12
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [WOVEN: Weaving Visual World Modeling into Multimodal LLMs](https://arxiv.org/abs/2610.12417v1)
-**Zheyu Fan, Yue Zhang, Mingkai Deng, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.12417v1) · [pdf](https://arxiv.org/pdf/2610.12417v1)  ·  relevance 23
-<br>matched: `generative model`, `large language model`, `llm`, `multimodal`
+### 1. [Amortized Counterfactual Prediction with Graph Neural Networks](https://arxiv.org/abs/2610.13724)
+**Hendrik Stumpf, Francesco Quinzan**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.13724) · [pdf](https://arxiv.org/pdf/2610.13724)  ·  relevance 31
+<br>matched: `graph neural network`, `graph neural`, `gnn`
 
-> Multimodal large language models (MLLMs) struggle with spatial, embodied, physical, and temporal reasoning. We hypothesize that these failures reflect a shared deficit in visual transition reasoning, and test whether this capability can serve as a shared training primitive, one that different models can learn from different supervision sources and reuse across different tasks, with a systematic training recipe. Existing benchmarks document these deficits separately but do…
+> Counterfactual inference asks how an observed outcome might have differed under different circumstances, such as whether a patient would have recovered had they received a different treatment. Such questions arise whenever decisions depend on the outcomes of alternatives that were not observed. Answering counterfactual queries generally requires knowledge of the underlying causal structure, which is often unavailable in practice. A common approach is therefore to first…
 
-### 2. [A Closer Look at Agentic BBO: Benchmarking LLM Agents for Black-Box Optimization](https://arxiv.org/abs/2610.12183v1)
-**Ming Chen, Rong-Xi Tan, Ke Xue, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.12183v1) · [pdf](https://arxiv.org/pdf/2610.12183v1)  ·  relevance 18
+### 2. [Acoustic Biomarkers for Alzheimer's Disease Detection from Spontaneous Speech](https://arxiv.org/abs/2610.12500)
+**Anh L Tran, Arjee Javellana Restar, Bereket Kindo**  ·  `eess.AS`  ·  [abs](https://arxiv.org/abs/2610.12500) · [pdf](https://arxiv.org/pdf/2610.12500)  ·  relevance 29
+<br>matched: `alzheimer`, `dementia`, `longitudinal`, `multimodal`
+
+> Alzheimer's disease (AD) remains a major public health challenge, and early identification is crucial for timely intervention and care planning. Recent work has shown that speech-based digital biomarkers can capture subtle changes in vocal production, prosody, and timing that often precede or accompany cognitive decline. In this study, we investigate whether acoustic features extracted from spontaneous speech can reliably distinguish individuals with AD from healthy…
+
+### 3. [Bridging Human and Model Attention: Explainability Analysis of CNN, Mamba, and ViT Architectures with Gaze-Based Validation](https://arxiv.org/abs/2610.12703)
+**Marco Stefani, Edoardo Parpaiola, Matteo Bino, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.12703) · [pdf](https://arxiv.org/pdf/2610.12703)  ·  relevance 24
+<br>matched: `transformer`, `medical imaging`, `interpretab`, `explainab`, `mamba`
+
+> High-risk applications of deep learning require precise characterization of model decision-making. We conduct a systematic explainability evaluation across Convolutional Neural Networks (CNNs), Vision Transformers (ViTs), and Vision Mamba (ViM). Unlike predominantly qualitative studies, we quantify the alignment between model attention and human visual perception using eye-tracking ground truth. We formalize this comparison via a standardized normalization pipeline mapping…
+
+### 4. [SmartSalesBench: A Resistance-Aware Multi-Turn Benchmark for Evaluating LLM Sales Agents](https://arxiv.org/abs/2610.12975)
+**P N Bhargav Teja, Velpula Lokesh Reddy, Madhu Basumata, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.12975) · [pdf](https://arxiv.org/pdf/2610.12975)  ·  relevance 21
+<br>matched: `large language model`, `llm`, `agent`, `retrieval-augmented`
+
+> We present SmartSalesBench, the first multi-turn conversational benchmark explicitly designed to evaluate large language model (LLM) sales agents against psychologically grounded, resistant buyer personas. Existing task-oriented dialogue benchmarks assume cooperative users and measure task completion; SmartSalesBench inverts this assumption, placing agents against personas programmed to resist and challenge across conversations of up to twenty turns. The benchmark includes…
+
+### 5. [Retrieval-Augmented Multimodal Language Model with Heterogeneous Evidence Integration for Clinical Prognosis](https://arxiv.org/abs/2610.13510)
+**Hamza Shafiq, Jialu Tang, Ting Dang, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.13510) · [pdf](https://arxiv.org/pdf/2610.13510)  ·  relevance 21
+<br>matched: `longitudinal`, `retrieval-augmented`, `multimodal`
+
+> Clinical prognosis requires integrating structured measurements, physiological waveforms, longitudinal history, and population context. We introduce PRISM (Population-Retrieved Inference for Structured Multimodal Prognosis), a multimodal language model that combines per-feature numerical tokenization, recency-weighted aggregation of longitudinal ECGs, and a dual-modality population memory bank. Retrieval operates in representation space: the model receives mean-pooled…
+
+### 6. [The Evidence Anchoring Boundary: Where Visual Interventions Matter and When They Help in Multimodal LLMs](https://arxiv.org/abs/2610.12981)
+**Qiji Zhou, Junyi Hu, Peiyu Wang, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.12981) · [pdf](https://arxiv.org/pdf/2610.12981)  ·  relevance 21
+<br>matched: `large language model`, `llm`, `multimodal`
+
+> Visual interventions provide a training-free way to reduce hallucinations in multimodal large language models. However, an intervention may have little leverage at some layers and may damage a correct answer even when it changes the output. We investigate where visual interventions retain leverage and when they improve predictions. First, we apply the same visual-residual edit at successive decoder layers, matching its RMS strength across depth. Across six checkpoints from…
+
+### 7. [CB-Orchestrator: Adaptive Workflow Optimization for LLM Agents via Contextual Bandits](https://arxiv.org/abs/2610.13064)
+**Jiahang Sun, Zhiwei Shang, Zhipiao Liu, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.13064) · [pdf](https://arxiv.org/pdf/2610.13064)  ·  relevance 18
 <br>matched: `large language model`, `llm`, `agent`
 
-> Black-box optimization (BBO) arises in many scientific and engineering problems where objective evaluations are expensive and limited. Recent large language model (LLM) agents offer a new way to approach BBO by combining task semantics, computation, optimization tools, and feedback-driven decision making, showing great potential due to the integration with mathematically rigorous tools. However, existing agentic BBO studies use different task domains and system…
+> Large Language Model (LLM) agents have demonstrated remarkable capabilities in tackling complex tasks through agentic workflows. However, manually designing these workflows is labor-intensive and lacks flexibility to adapt to diverse queries. While automated workflow optimization is a promising direction, existing methods often incur expensive API costs during training-phase feedback collection. Furthermore, they fail to adaptively reuse high-quality workflows, which creates…
 
-### 3. [HRIL: Learning Multimodal Synergy via Higher-Order Tensor Modeling](https://arxiv.org/abs/2610.12393v1)
-**Qun Dai, Liangjian Wen, Jiang Duan, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.12393v1) · [pdf](https://arxiv.org/pdf/2610.12393v1)  ·  relevance 17
-<br>matched: `representation learning`, `self-supervised`, `multimodal`
+### 8. [AgentTune: A Unified Training Lifecycle for Tool-Using LLM Agents](https://arxiv.org/abs/2610.13335)
+**R E Zera Marveen Lyngkhoi, Abhivansh Gupta, Vidushee Vats, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.13335) · [pdf](https://arxiv.org/pdf/2610.13335)  ·  relevance 18
+<br>matched: `llm`, `agent`, `retrieval-augmented`
 
-> Self-supervised multimodal representation learning has achieved remarkable success across diverse domains, yet capturing synergistic information remains challenging due to the complexity of cross-modal interactions. Unlike the shared information across individual modalities, synergy arises when task-relevant signals emerge only from the joint configuration of multiple modalities and cannot be recovered from any modality in isolation. This work focuses on how to preserve the…
+> Tool-using agents increasingly require a common substrate for building, training, evaluating, distilling, and maintaining agentic systems, yet existing tooling typically addresses these stages in isolation. We present AgentTune, a source-available Python library that provides a unified framework for developing and optimizing tool-using agents. At its core, AgentTune introduces a two-tier EventLog representation that preserves agent trajectories while supporting consistent…
 
-### 4. [Looking Inside LLMs: Small-World Connectivity as a Signature of Reasoning Performance](https://arxiv.org/abs/2610.12304v1)
-**Zheng Huang, Sansheng Cao, Enpei Zhang, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.12304v1) · [pdf](https://arxiv.org/pdf/2610.12304v1)  ·  relevance 16
-<br>matched: `brain network`, `large language model`, `llm`
-
-> Understanding large language model (LLM) reasoning requires looking beyond behavioral performance to examine how reasoning ability is reflected in internal organization. Inspired by neuroscience findings linking higher intelligence to stronger small-world organization in functional brain networks, we investigate small-world connectivity as a structural signature of LLM reasoning. We construct functional graphs from attention-head activation similarities and find that a…
-
-### 5. [OneSearch-VL: Unified Multimodal Deep Research Agent for Image and Video](https://arxiv.org/abs/2610.12419v1)
-**Hongyu Li, Manyuan Zhang, Kaituo Feng, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.12419v1) · [pdf](https://arxiv.org/pdf/2610.12419v1)  ·  relevance 15
-<br>matched: `agent`, `multimodal`
-
-> Single-image, multi-image, and video deep research require different visual operations but share a workflow of visual grounding, external retrieval, and fact composition. A key challenge is to preserve the dependencies linking localized visual anchors, entity relations, source-supported facts, and answer-producing operations. We introduce OneSearch-VL, a unified agent centered on the Visually Grounded Evidence Graph (VGEG), which encodes these dependencies as a shared…
-
-### 6. [GeoReform: Reflective Formalization Evolution for Multimodal Geometry Problem Solving](https://arxiv.org/abs/2610.12391v1)
-**Jialu Wang, Ruichen Zhang, Xiaoou Liu, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.12391v1) · [pdf](https://arxiv.org/pdf/2610.12391v1)  ·  relevance 15
-<br>matched: `large language model`, `llm`, `multimodal`
-
-> Multimodal large language models (MLLMs) often struggle to identify and use geometric relations in diagrams. Recent methods address this challenge by converting geometric entities, relations, and constraints into explicit textual representations for the model to reason over. However, effective formalization is highly non-trivial: on Geometry3K, structure injection fixes 28 errors but introduces 13 new ones among 200 examples. Redundant relations can distract the model, while…
-
-### 7. [OnTrack: Real-Time Monitoring and Intervention in LLM Agent Trajectories via Streaming Structure-Aware Optimal Transport](https://arxiv.org/abs/2610.12375v1)
-**Babak Barazandeh, Connor Swanson, Chinmay Kulkarni, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.12375v1) · [pdf](https://arxiv.org/pdf/2610.12375v1)  ·  relevance 15
-<br>matched: `llm`, `agent`
-
-> Agents are deployed in applications from trip planners and stock trading to IT incident triage. In most cases, LLM agents work autonomously with minimal rule-based safeguarding, leading to cost and safety issues from irreversible actions. Recent works resolve this either by using a safeguard agent to monitor behavior or evaluating logs post-hoc. The first adds cost and latency to every step; the second delivers its verdict after the run, when tokens are burned and damage is…
-
-### 8. [Accurate but Not Humble: Evaluating Epistemic Humility in LLM Agents under Knowledge Conflict](https://arxiv.org/abs/2610.12360v1)
-**Kaiser Sun, Bernal Jimenez Gutierrez, Hongjun Liu, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.12360v1) · [pdf](https://arxiv.org/pdf/2610.12360v1)  ·  relevance 15
-<br>matched: `llm`, `agent`
-
-> When retrieved evidence contradicts an agent's prior beliefs, does it revise its answer, acknowledge uncertainty, or persist with an incorrect conclusion? Existing evaluations of agentic systems focus primarily on task success, offering limited insight into how agents handle such conflicts. We propose to evaluate agents on epistemic humility (EH): the agent's willingness to recognize, act on, and communicate uncertainty during task execution. We operationalize EH through…
-
-### 9. [From What to Which: Decoding Modifier Grounding in Frozen MLLMs](https://arxiv.org/abs/2610.12305v1)
-**Barbara Toniella Corradini, Caterina Gallegati, Ludovica Genovese, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.12305v1) · [pdf](https://arxiv.org/pdf/2610.12305v1)  ·  relevance 15
-<br>matched: `large language model`, `llm`, `multimodal`
-
-> As Multimodal Large Language Models (MLLMs) can describe increasingly complex visual scenes, token-level grounding becomes crucial. Yet, when an MLLM generates "the yellow banana on the left", established grounding approaches focus on what is in the image ("banana"), overlooking tokens that help describe which instance is meant ("yellow", "left"). In this work, we ask whether frozen MLLM representations contain decodable grounding information about the referred instance…
-
-### 10. [DVD: Dynamic Vector Decoding for Efficient MLLM-based Perception](https://arxiv.org/abs/2610.12266v1)
-**Jinghua Hou, Zhe Liu, Hengshuang Zhao**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.12266v1) · [pdf](https://arxiv.org/pdf/2610.12266v1)  ·  relevance 15
-<br>matched: `large language model`, `llm`, `multimodal`
-
-> Multimodal large language models have made remarkable progress in bridging vision and language, facilitating various perception tasks essential for human-machine interaction, robotics, and autonomous driving. However, existing MLLM-based perception methods predominantly rely on text-based coordinate representation, which suffers from excessive token overhead, or fixed-range quantization, which suffers from range and precision constraints, especially for 3D domains with…
-
-### 11. [Prior or Feedback? What an LLM Uses When Adapting Neural Operators](https://arxiv.org/abs/2610.12325v1)
-**Julian Chan, Javier Mora Jimenez**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.12325v1) · [pdf](https://arxiv.org/pdf/2610.12325v1)  ·  relevance 14
+### 9. [A Multi-Agent LLM System for Automated Tuning of Specialized Neural Network Models](https://arxiv.org/abs/2610.13663)
+**Ivan Moloshnikov, Dmitry Kunitsyn, Alexander Sboev, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.13663) · [pdf](https://arxiv.org/pdf/2610.13663)  ·  relevance 18
 <br>matched: `large language model`, `llm`, `agent`
 
-> Do LLM scientific agents rely only on their initial task context, or do they adapt their decisions in response to experimental feedback? We study this question in neural operator adaptation, where a large language model (LLM) selects fine-tuning configurations under a limited trial budget. Across transfers within and between partial differential equation (PDE) families, the LLM achieves lower held-out test nRMSE than random search and Bayesian optimisation in nearly every…
+> Many machine learning approaches are two-level: an expert selects a class of methods, within this class the choice of key components is critical and usually manual. This paper addresses the automatic tuning of these components and proposes a framework transferable across models of different nature. The multi-agent large language model (LLM) framework has three roles---analyst, coder, and recorder~---with an experiment log and a sandboxed execution environment. Unlike systems…
 
-### 12. [Long Text to Predictive Features: LLM-Guided Blockwise Feature Engineering via Executable Program Search](https://arxiv.org/abs/2610.12390v1)
-**Ziming Dai, Dabiao Ma, Ziheng Guo, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.12390v1) · [pdf](https://arxiv.org/pdf/2610.12390v1)  ·  relevance 12
-<br>matched: `large language model`, `llm`
+### 10. [DRYLAB-Bench: Benchmarking the Biosecurity Risk of Agentic LLM Mutation Design](https://arxiv.org/abs/2610.13116)
+**Yuzhen Wang, Chunxiao Li, Baichen Le, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.13116) · [pdf](https://arxiv.org/pdf/2610.13116)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
 
-> Industrial risk-control systems typically rely on structured-data models for efficient prediction, yet substantial valuable information remains embedded in unstructured long text. Extracting this information through manual feature engineering is labor-intensive, while requiring a large language model (LLM) to process every real-time input may not meet practical deployment requirements. To address this challenge, we propose LLM-BlockFE, an LLM-guided offline feature…
+> As large language models (LLMs) acquire advanced biological design capabilities, they offer substantial research benefits but simultaneously introduce severe dual-use risks, such as engineering enhanced pathogens or drug-resistant bacteria. While biosecurity frameworks recognize these threats, the actual risk of LLMs executing dangerous biological modifications remains unquantified, particularly when augmented with specialized biological design tools (BDTs). Existing…
+
+### 11. [Locate, Judge, Read: Role-Specialized Tool Agents over a Knowledge-Point Index for Open-Domain Multimodal Document QA](https://arxiv.org/abs/2610.13128)
+**Wenlin Lin, Fanzhe Wei**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.13128) · [pdf](https://arxiv.org/pdf/2610.13128)  ·  relevance 18
+<br>matched: `agent`, `retrieval-augmented`, `multimodal`
+
+> Question answering over large heterogeneous document collections requires first finding the right passages and then reading them, yet current retrieval-augmented agents give one model both kinds of tools and let it schedule itself. We present KnowForge, a pipeline separated by job: a hybrid-retrieval knowledge-point index; a Locator agent that can only search; a code-scheduled bridge judge that forces the missing second hop; a typed, size-bounded evidence pool that merges…
+
+### 12. [Forgetting is Not Always Bad: A Neuro-Inspired Memory Repair Mechanism for Poisoned LLM Agents](https://arxiv.org/abs/2610.13267)
+**Lei Liu, Yunji Liang, Xiaowen Zhang, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.13267) · [pdf](https://arxiv.org/pdf/2610.13267)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
+
+> Large language model (LLM) agents are highly vulnerable to memory-poisoning attacks. Existing defenses primarily rely on external modules for either static memory isolation or continuous online auditing, resulting in low memory efficiency and high computational overhead. To address these limitations, inspired by neuroscientific mechanisms that weak reactivation can destabilize memories and induce decay in the absence of reinforcement, we propose an agent-intrinsic…
 
 
-<sub>Generated 2026-10-11 18:04 UTC via the arXiv API.</sub>
+<sub>Generated 2026-10-12 21:44 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-10-12](digests/2026-10-12.md) — 12 papers
 - [2026-10-11](digests/2026-10-11.md) — 12 papers
 - [2026-10-10](digests/2026-10-10.md) — 12 papers
 - [2026-10-09](digests/2026-10-09.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-08-10](digests/2026-08-10.md) — 12 papers
 - [2026-08-09](digests/2026-08-09.md) — 12 papers
 - [2026-08-08](digests/2026-08-08.md) — 12 papers
-- [2026-08-07](digests/2026-08-07.md) — 12 papers
 
-_…and 43 earlier digests in [`digests/`](digests/)._
+_…and 44 earlier digests in [`digests/`](digests/)._
 
 ---
 
