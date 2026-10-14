@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-10-13** · browse the full archive below.
+**Latest digest: 2026-10-14** · browse the full archive below.
 
 ## How it works
 
@@ -29,89 +29,90 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-10-13
+# arXiv AI/ML digest — 2026-10-14
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [Amortized Counterfactual Prediction with Graph Neural Networks](https://arxiv.org/abs/2610.13724v1)
-**Hendrik Stumpf, Francesco Quinzan**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.13724v1) · [pdf](https://arxiv.org/pdf/2610.13724v1)  ·  relevance 31
+### 1. [HybridDualPathNet: Cross-Fusion Attention of EfficientNetV2 and Swin Transformer for Brain MRI Classification of Alzheimer's and Parkinson's Disease](https://arxiv.org/abs/2610.17251)
+**Jarpula Nirjala, Rahul Patel**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.17251) · [pdf](https://arxiv.org/pdf/2610.17251)  ·  relevance 44
+<br>matched: `alzheimer`, `neuroimaging`, `brain mri`, `transformer`
+
+> Separating Alzheimer's Disease (AD), Parkinson's Disease (PD), and Healthy Controls (HC) using structural MRI remains challenging because disease signatures overlap and model performance can be strongly affected by data partitioning. We present HybridDualPathNet, a hybrid architecture combining EfficientNetV2-S for local features and Swin-Tiny for global context through a Cross-Fusion Attention (CFA) module. We evaluate the model in two experiments. First, on the Kaggle…
+
+### 2. [DeKoR: Decomposed Knowledge Routing for Efficient GNN--LLM Fusion](https://arxiv.org/abs/2610.14710)
+**Peiyuan Li, Yongqi Huang, Jitao Zhao, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.14710) · [pdf](https://arxiv.org/pdf/2610.14710)  ·  relevance 33
+<br>matched: `graph neural network`, `graph neural`, `gnn`, `large language model`, `llm`
+
+> Large Language Models (LLMs) have shown strong potential for text-attributed graph learning by leveraging rich pre-trained knowledge and language understanding capabilities. Combining LLMs with Graph Neural Networks (GNNs) offers a promising paradigm for expanding the modeling capabilities of graph learning. However, LLMs and GNNs follow distinct learning paradigms, leading to a pronounced mismatch between their knowledge spaces. Such discrepancies make effective knowledge…
+
+### 3. [An Attention-Guided Graph Neural Network Surrogate for Boundary Integral Computation in Physical Field Reconstruction](https://arxiv.org/abs/2610.15590)
+**RongZe Gao, YuWei Wu, XinRan Ji, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.15590) · [pdf](https://arxiv.org/pdf/2610.15590)  ·  relevance 31
 <br>matched: `graph neural network`, `graph neural`, `gnn`
 
-> Counterfactual inference asks how an observed outcome might have differed under different circumstances, such as whether a patient would have recovered had they received a different treatment. Such questions arise whenever decisions depend on the outcomes of alternatives that were not observed. Answering counterfactual queries generally requires knowledge of the underlying causal structure, which is often unavailable in practice. A common approach is therefore to first…
+> In practical engineering and scientific computing, a real physical system can be reduced to a boundary value problem, and the adequate boundary information to determine the interior spatial distribution and evolutionary state of the physical field can be solved with linear equations, alternatively, the the real physical problem can be treated with boundary problems with in adequate information problems in field of machine learning. This paper proposes a deep learning…
 
-### 2. [Neurons++: A Unified Visual-Stream Framework for Image and Video Reconstruction from fMRI with Neural-to-Visual Interpretability](https://arxiv.org/abs/2610.13763v1)
-**Haonan Wang, Yuchen Wang, Jingyu Lu, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.13763v1) · [pdf](https://arxiv.org/pdf/2610.13763v1)  ·  relevance 22
-<br>matched: `cortical`, `fmri`, `interpretab`
+### 4. [A Dependency-Aware Multi-GPU Training Framework for Temporal Graph Neural Networks](https://arxiv.org/abs/2610.15730)
+**Yang Zhao, Yue Dai, Liang Qiao, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.15730) · [pdf](https://arxiv.org/pdf/2610.15730)  ·  relevance 31
+<br>matched: `graph neural network`, `graph neural`, `gnn`
 
-> Decoding visual experience from fMRI is important for understanding human perception and developing brain-computer interfaces. Recent generative decoding methods can reconstruct plausible images and videos, but visual plausibility alone does not ensure that the output is faithfully grounded in brain activity. In this work, we propose Neurons++, a visual-stream fMRI reconstruction framework for both static image and dynamic video reconstruction. Compared with our conference…
+> Temporal graph neural networks (TGNNs) achieve superior performance in many dynamic graph learning tasks. These models use node state vectors (i.e., memories) to capture and record graph changes (i.e., events), and then exploit these memories to assist prediction. However, this memory-centric design makes multi-GPU training challenging because predictions for later events often depend on memory updates from earlier events. To maintain model quality, existing multi-GPU TGNN…
 
-### 3. [UkrMeme: Multimodal Explainable Persuasion Detection in Ukrainian Memes](https://arxiv.org/abs/2610.13783v1)
-**Nazar Andrushko, Vera Schmitt, Veronika Solopova**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.13783v1) · [pdf](https://arxiv.org/pdf/2610.13783v1)  ·  relevance 18
-<br>matched: `explainab`, `multimodal`
+### 5. [Random Probing for Structural Self-Interactions in Graph Neural Networks](https://arxiv.org/abs/2610.18164)
+**Saku Peltonen, H. \c{C}a\u{g}r{\i} Bilgi, Kubilay Atasu**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.18164) · [pdf](https://arxiv.org/pdf/2610.18164)  ·  relevance 31
+<br>matched: `graph neural network`, `graph neural`, `gnn`
 
-> Memes play a central role in modern online communication, especially in contexts of political conflict where visual and textual cues combine to convey persuasive messages. We study persuasive technique detection in Ukrainian memes using vision-language models (VLMs). We introduce UkrMeme, a dataset of 200 organically produced Ukrainian wartime memes annotated for persuasion techniques, and PTM-UA, a Ukrainian translation of a subset of the Propaganda 950 benchmark that…
+> Graph Neural Networks (GNNs) fundamentally lack the ability to capture structural properties defined by node self-interactions, such as cycle counts, subgraph centrality, and heat kernel signatures. Existing solutions often rely on computationally expensive higher-order architectures or hand-crafted features. In this work, we introduce DIAL, a message-passing layer that gives nodes access to graph structure through the diagonal of graph-derived operators. Our approach uses…
 
-### 4. [A Multi-Agent LLM System for Automated Tuning of Specialized Neural Network Models](https://arxiv.org/abs/2610.13663v1)
-**Ivan Moloshnikov, Dmitry Kunitsyn, Alexander Sboev, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.13663v1) · [pdf](https://arxiv.org/pdf/2610.13663v1)  ·  relevance 18
-<br>matched: `large language model`, `llm`, `agent`
+### 6. [PING: physics informed graph neural network for advection-diffusion processes with applications to solar power forecasting](https://arxiv.org/abs/2610.18280)
+**Jelena Simeunovi\'c, Baptiste Schubnel, Pierre-Jean Alet, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.18280) · [pdf](https://arxiv.org/pdf/2610.18280)  ·  relevance 27
+<br>matched: `graph neural network`, `graph neural`
 
-> Many machine learning approaches are two-level: an expert selects a class of methods, within this class the choice of key components is critical and usually manual. This paper addresses the automatic tuning of these components and proposes a framework transferable across models of different nature. The multi-agent large language model (LLM) framework has three roles---analyst, coder, and recorder~---with an experiment log and a sandboxed execution environment. Unlike systems…
+> Advection-diffusion plays an essential role in transport phenomena such as atmospheric and cloud dynamics. Improved forecasting of cloud motion, in turn, enhances solar power production forecasts and facilitates the integration of additional photovoltaic (PV) sources into the power grid. However, both classical numerical models and emerging deep learning approaches face challenges when applied to spatially irregular sensor networks such as those formed by weather stations.…
 
-### 5. [Where to Look Matters: Rethinking Sub-Volume Sampling in 3D Medical Self-supervised Learning](https://arxiv.org/abs/2610.13915v1)
-**Junkai Liu, Le Zhang**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.13915v1) · [pdf](https://arxiv.org/pdf/2610.13915v1)  ·  relevance 16
-<br>matched: `representation learning`, `self-supervised`
+### 7. [Emergent Loop Geometry in Gauge-Equivariant Graph Neural Networks](https://arxiv.org/abs/2610.18742)
+**Ali Rayat, Gia-Wei Chern**  ·  `cond-mat.stat-mech`  ·  [abs](https://arxiv.org/abs/2610.18742) · [pdf](https://arxiv.org/pdf/2610.18742)  ·  relevance 27
+<br>matched: `graph neural network`, `graph neural`
 
-> Self-supervised learning on 3D medical images commonly relies on random sub-volume sampling during pretraining. However, random cropping implicitly treats all spatial regions as equally worth observing, despite anatomical priors and spatial redundancy that make regions inherently unequal in their value for representation learning. To this end, we first show through controlled crop-quality manipulations that better sub-volumes lead to better downstream transfer, revealing the…
+> Gauge-equivariant graph neural networks generate ordered products of gauge links through local message passing, but the geometry of these internal structures is not captured by the receptive field alone. We investigate the statistical ensemble of closed lattice walks generated by recursive node- and edge-feature operations, independently of network training. Analytical and numerical results reveal a separation between rapid growth of contour length and much slower spatial…
 
-### 6. [Matched-Context Group Policy Optimization for LLM Agent Training](https://arxiv.org/abs/2610.13755v1)
-**Chenxu Zhang, Yaorui Shi, Wenlong Zhang, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.13755v1) · [pdf](https://arxiv.org/pdf/2610.13755v1)  ·  relevance 15
-<br>matched: `llm`, `agent`
+### 8. [Toward System One Clinical Intelligence: Parameter-Efficient Fine-Tuning and Counterfactual Explainability of Decision Foundation Models](https://arxiv.org/abs/2610.15029)
+**S. M. Mahbub Uddin Ahmed**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.15029) · [pdf](https://arxiv.org/pdf/2610.15029)  ·  relevance 27
+<br>matched: `foundation model`, `large language model`, `llm`, `interpretab`, `explainab`
 
-> Training long-horizon language model agents requires assigning credit to intermediate decisions from sparse terminal feedback. Within a finite group of sibling rollouts, useful action comparisons depend on their context, evidence for both alternatives, and how that evidence enters learning. We propose Matched-Context Group Policy Optimization (MCGPO), a procedure for constructing weighted action preferences from already collected trajectories. MCGPO defines comparison…
+> Automated disease classification from patient-reported symptoms requires balancing the speed of lightweight discriminative models against the contextual understanding and latency costs of autoregressive large language models (LLMs). Decision foundation models offer an alternative by mapping representations directly to candidate classes without free-form text generation. We adapt Clef-Flash, a 9-billion-parameter decision model built on a Qwen3.5 backbone, for 24-class…
 
-### 7. [Transformer-based In-Context Score Operator Learning for Diffusion Models](https://arxiv.org/abs/2610.13690v1)
-**Wuzhe Xu, Zhaiming Shen, Yulong Lu, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.13690v1) · [pdf](https://arxiv.org/pdf/2610.13690v1)  ·  relevance 15
-<br>matched: `diffusion model`, `transformer`
+### 9. [Uncertainty-Aware Cortical Surface Reconstruction and Spherical Registration for Heterogeneous Brain MRI](https://arxiv.org/abs/2610.16595)
+**Jesper Duemose Nielsen, Karthik Gopinath, Andrew Hoopes, et al.**  ·  `eess.IV`  ·  [abs](https://arxiv.org/abs/2610.16595) · [pdf](https://arxiv.org/pdf/2610.16595)  ·  relevance 27
+<br>matched: `brain mri`, `cortical`
 
-> Diffusion models typically learn the generative dynamics of a single target distribution or a family of distributions indexed by conditioning variables fixed during training. This limits their ability to adapt to a previously unseen distribution from only a small set of examples. We introduce an in-context solution operator learning framework for diffusion models, in which each target distribution is treated as a task drawn from a meta-distribution and is specified at…
+> Surface-based cortical analysis is useful in many applications as it is a natural way to model the highly folded structure of the cerebral cortex, allowing quantities such as curvature and thickness to be easily calculated. Existing deep learning (DL) methods have focused on 1x1x1 mm3 T1-weighted (T1w) scans, thus replicating classical pipelines. Here we present a neural network that is trained exclusively on synthetic scans with random contrast and resolution. Consequently,…
 
-### 8. [TabMF: Learning Dataset Representations with Tabular Foundation Models](https://arxiv.org/abs/2610.13818v1)
-**Rafiq Kamel, Nicolas Atienza, Aziz Fouché, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.13818v1) · [pdf](https://arxiv.org/pdf/2610.13818v1)  ·  relevance 13
-<br>matched: `representation learning`, `foundation model`
+### 10. [HyBRA-EEG: Hyperbolic Global-Local Brain-Region Aggregation for Self-Supervised EEG Representation Learning](https://arxiv.org/abs/2610.16589)
+**Xin Liu, Feng Lu, Wei Li**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.16589) · [pdf](https://arxiv.org/pdf/2610.16589)  ·  relevance 26
+<br>matched: `representation learning`, `self-supervised`, `transformer`
 
-> Representations of supervised datasets support higher-level machine-learning tasks such as dataset retrieval and distribution-shift monitoring. However, existing approaches typically rely either on hand-crafted meta-features or on dataset encoders trained specifically for representation learning. We introduce TabMF, a framework that repurposes pretrained tabular foundation models (TFMs) as encoders of supervised datasets. TabMF equips a predictive TFM with an…
+> Electroencephalography (EEG) representation learning is challenged by noisy signals, inter-subject variability, and heterogeneous electrode montages in different datasets and recording settings. Recent self-supervised EEG pretraining methods improve transferability by converting heterogeneous recordings into unified token or sequence representations, but channel-aware designs may still encode montage- or dataset-specific regularities. We propose HyBRA, a self-supervised…
 
-### 9. [Tracking the Invisible: Self-Supervised Wheel Track Detection with Thermal-RGB Fusion](https://arxiv.org/abs/2610.13872v1)
-**Yiming Yang, Jeremy P. Bos**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.13872v1) · [pdf](https://arxiv.org/pdf/2610.13872v1)  ·  relevance 12
-<br>matched: `self-supervised`
+### 11. [Benchmarking Self-Supervised 3D Medical Vision Foundation Models and Transferability Estimation](https://arxiv.org/abs/2610.17573)
+**Jiaqi Tang, Yu Wang, Yang Liu, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.17573) · [pdf](https://arxiv.org/pdf/2610.17573)  ·  relevance 25
+<br>matched: `self-supervised`, `foundation model`, `transformer`, `segmentation`
 
-> Accurate detection of drivable area is essential for autonomous driving and advanced driver assistance systems. While state-of-the-art methods focus on general traversability estimation, they prove inadequate for snow-covered roads where following existing wheel tracks offers crucial advantages: improved traction, predictable vehicle dynamics, and verified path stability. To address this, we propose a low-cost, self-supervised approach detecting safety-critical wheel tracks…
+> Self-supervised pretraining has expanded the pool of 3D medical foundation models, but published evaluations use different datasets, endpoints and fine-tuning protocols. Models also differ in architecture, pretraining objective and data, while downstream targets range from voxel-level masks to patient-level diagnoses and outcomes. As a result, published findings provide little directly comparable evidence for choosing a model for a new task. Direct comparison of adaptation…
 
-### 10. [QTestBench: A Test Framework for Evaluating LLM-Generated Quantum Code](https://arxiv.org/abs/2610.13811v1)
-**Meriem Terki, Nouhaila Innan, Minghao Shao, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.13811v1) · [pdf](https://arxiv.org/pdf/2610.13811v1)  ·  relevance 12
-<br>matched: `large language model`, `llm`
+### 12. [Design Choices for Multimodal Transformer Learning with Missing and Longitudinal Healthcare Data](https://arxiv.org/abs/2610.14436)
+**Rita Cordeiro Mendes, Maria Manuel Pereira, Carlos Santiago, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.14436) · [pdf](https://arxiv.org/pdf/2610.14436)  ·  relevance 24
+<br>matched: `longitudinal`, `transformer`, `multimodal`
 
-> Large language models (LLMs) have shown strong results in classical code generation and are increasingly used to write the unit tests that safeguard that code. Whether they can do the same for quantum software is less clear, because quantum programs are probabilistic, depend on numerical tolerances, and are judged by domain-specific checkers, so a well-formed test can still disagree with the benchmark's verdict. Existing quantum benchmarks measure whether a model produces a…
-
-### 11. [Tracing and Taming Hallucinated Terms via Subsequence-Association Filtering and Breadth-Aware Selection for LLM Query Expansion](https://arxiv.org/abs/2610.13810v1)
-**Amit Kumar Jaiswal, Sagar Uprety, Prayag Tiwari**  ·  `cs.IR`  ·  [abs](https://arxiv.org/abs/2610.13810v1) · [pdf](https://arxiv.org/pdf/2610.13810v1)  ·  relevance 12
-<br>matched: `large language model`, `llm`
-
-> Large language models (LLMs) are now a standard source of query expansion terms but they hallucinate. They inject non existent entities and off-topic terms that add ranking noise and can hurt strong retrievers. Existing remedies such as corpus grounding, mutual verification and preference alignment treat hallucinated terms as an undifferentiated nuisance to be filtered by agreement heuristics, without a mechanistic account of why a given term appears or a principled…
-
-### 12. [Inject a Turn, Not a Token: Learning Where to Redirect LLM Reasoning for Self-Correction](https://arxiv.org/abs/2610.13672v1)
-**Jiwon Jeon, Myungsik Cho, Jeonghye Kim, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.13672v1) · [pdf](https://arxiv.org/pdf/2610.13672v1)  ·  relevance 12
-<br>matched: `large language model`, `llm`
-
-> Large language models struggle to reliably identify and correct errors in their own reasoning. Unlike prior training-based approaches that fine-tune an LLM to generate revisions or feedback, we learn where to intervene in failed rollouts and determine how to redirect them. To choose where to intervene, we train a 130K-parameter MLP head on a frozen encoder using only final-answer correctness. For redirection, we find that under a fixed generation budget, the tested inline…
+> Multimodal learning offers the potential to improve predictions by integrating complementary information from heterogeneous data sources. However, multimodal datasets are frequently incomplete, raising important questions about how models should handle missing information. Although recent approaches increasingly rely on Transformer-based architectures for multimodal fusion, incomplete multimodal data introduces challenges such as missing modalities and intra-modal…
 
 
-<sub>Generated 2026-10-13 19:51 UTC via the arXiv API.</sub>
+<sub>Generated 2026-10-14 18:01 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-10-14](digests/2026-10-14.md) — 12 papers
 - [2026-10-13](digests/2026-10-13.md) — 12 papers
 - [2026-10-12](digests/2026-10-12.md) — 12 papers
 - [2026-10-11](digests/2026-10-11.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-08-12](digests/2026-08-12.md) — 12 papers
 - [2026-08-11](digests/2026-08-11.md) — 12 papers
 - [2026-08-10](digests/2026-08-10.md) — 12 papers
-- [2026-08-09](digests/2026-08-09.md) — 12 papers
 
-_…and 45 earlier digests in [`digests/`](digests/)._
+_…and 46 earlier digests in [`digests/`](digests/)._
 
 ---
 
