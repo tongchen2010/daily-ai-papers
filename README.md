@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-10-15** · browse the full archive below.
+**Latest digest: 2026-10-16** · browse the full archive below.
 
 ## How it works
 
@@ -29,89 +29,90 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-10-15
+# arXiv AI/ML digest — 2026-10-16
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [Towards Training and Inference of Graph Neural Networks in Graph Databases](https://arxiv.org/abs/2610.19142)
-**Victor Pekkari, Harry Wik, Alfred Clemedtson, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.19142) · [pdf](https://arxiv.org/pdf/2610.19142)  ·  relevance 31
-<br>matched: `graph neural network`, `graph neural`, `gnn`
+### 1. [Transferable conditional brain charts link cortico-subcortical structure to Alzheimer's disease progression](https://arxiv.org/abs/2610.21660)
+**Nitin Sharma, Sicheng Dai, Francesco A. Mallus, et al.**  ·  `q-bio.NC`  ·  [abs](https://arxiv.org/abs/2610.21660) · [pdf](https://arxiv.org/pdf/2610.21660)  ·  relevance 55
+<br>matched: `alzheimer`, `dementia`, `neuroimaging`, `cortical`, `disease progression`
 
-> Graph Neural Networks on large graphs commonly rely on in-memory graph storage with ad hoc data processing pipelines for both training and inference. Graph databases provide scalable storage and efficient traversal for graphs that can evolve over time, but their applicability in GNN training and inference are rarely studied. We show that graph DBs can be used in GNN training and inference directly, executing sampling, feature retrieval, and even the full forward pass. We…
+> Normative models chart how brain measures vary across the lifespan, expressing each individual as a deviation from a healthy reference. However, most regional models of cortical thickness disregard dependencies between cortical and subcortical anatomy, and transferring them to a new site typically requires retraining or a recalibration of location and scale alone. We condition lifespan norms of cortical thickness on subcortical volume, such that each deviation indicates…
 
-### 2. [Simulating Alzheimer's amyloid-like pathology on a fly central nervous system connectome](https://arxiv.org/abs/2610.19153)
-**Taeho Jo**  ·  `q-bio.NC`  ·  [abs](https://arxiv.org/abs/2610.19153) · [pdf](https://arxiv.org/pdf/2610.19153)  ·  relevance 30
-<br>matched: `alzheimer`, `connectome`
+### 2. [Decomposing Brain-LLM Alignment with Interpretable Semantic Representations](https://arxiv.org/abs/2610.21508)
+**Camila Kolling, Mariya Toneva**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.21508) · [pdf](https://arxiv.org/pdf/2610.21508)  ·  relevance 24
+<br>matched: `fmri`, `large language model`, `llm`, `interpretab`
 
-> In Alzheimer's disease, the amount of pathology in the brain is an imperfect predictor of how much function is lost. Pathology leads to that loss through neural circuits, but these cannot be observed neuron by neuron in patients. This study therefore simulated the central nervous system of the adult male Drosophila melanogaster: 166,700 integrate-and-fire neurons wired by the MaleCNS connectome. The simulator reproduced a published fly brain model (rate correlation 0.9997).…
+> Large language models (LLMs) predict neural responses during naturalistic language comprehension, but the linguistic information underlying this brain alignment remains difficult to interpret. We use SCRIBE, an interpretable contextual semantic representation spanning 65 neurocognitively grounded semantic properties, as a lens for decomposing the brain alignment of one LLM, LLaMA2-7B. Using variance partitioning between LLaMA2-7B and SCRIBE on naturalistic fMRI data from…
 
-### 3. [FireGraphNet: Sub-daily wildfire spread prediction with directed graph neural networks](https://arxiv.org/abs/2610.19191)
-**Aiyshwariya Paulvannan Kanmani, Miguel Esparza, Ali Mostafavi**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.19191) · [pdf](https://arxiv.org/pdf/2610.19191)  ·  relevance 27
-<br>matched: `graph neural network`, `graph neural`
+### 3. [MedPAO-VL: Interpretable and Protocol-Compliant Agent for Structured Radiology Report Generation](https://arxiv.org/abs/2610.21794)
+**Shrish Shrinath Vaidya, Gowthamaan Palani, Minmini Selvam, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.21794) · [pdf](https://arxiv.org/pdf/2610.21794)  ·  relevance 24
+<br>matched: `large language model`, `agent`, `interpretab`, `explainab`, `multimodal`
 
-> Wildfire decisions are made in hours, yet most learned spread models predict daily on targets including burned area. We propose FireGraphNet which formulates 12-hour growth as node classification on directed H3 graphs, with candidates ahead of the front and wind alignment, terrain, fuel continuity and barriers on edges. On satellite perimeters it achieves average precision 1.7-1.9x the strongest distance baseline on test California fires and 1.62x out of state. We show this…
+> Despite the remarkable generalization capabilities of Large Language Models, generating clinically accurate and structured radiology reports from medical images remains a significant challenge. Current end-to-end approaches function as black boxes, prone to factual hallucinations and generating ungrounded findings. This lack of reliability and failure to adhere to domain-specific structuring protocols, fundamentally limits their clinical utility. We present MedPAO-VL, a…
 
-### 4. [HGRP: Heterogeneous Graph Neural Network for Routability Prediction](https://arxiv.org/abs/2610.20209)
-**Yule Sheng, Yue Yuan, Shan Shen, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.20209) · [pdf](https://arxiv.org/pdf/2610.20209)  ·  relevance 27
-<br>matched: `graph neural network`, `graph neural`
+### 4. [CoViG: Coarsened Vision GNN for Image Classification](https://arxiv.org/abs/2610.21321)
+**Martial Guidez, Stefan Duffner, Christophe Garcia**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.21321) · [pdf](https://arxiv.org/pdf/2610.21321)  ·  relevance 23
+<br>matched: `graph neural network`, `graph neural`, `gnn`, `transformer`
 
-> Routability prediction enables rapid evaluation of placement quality without routing, providing effective feedback for routability-driven placement optimization. Recent machine learning methods have achieved efficient routability prediction through data-driven approach. However, their prediction performance highly depends on the capability of input representations to capture essential circuit information. To address the limitations of existing circuit representations in…
+> Although Graph Neural Networks are widely used in various domains, they remained mostly unexplored in computer vision. Convolutional Neural Networks and Vision Transformers were leading the field, until the quite recent introduction of Vision Graphs (ViG) that treat images as a set of nodes and apply graph convolution on their k-NN graphs. ViGs show impressive accuracy on image classification but their computational cost remains relatively high. Inspired by optimization…
 
-### 5. [Toward System One Clinical Intelligence: Parameter-Efficient Fine-Tuning and Counterfactual Explainability of Decision Foundation Models](https://arxiv.org/abs/2610.15029)
-**S. M. Mahbub Uddin Ahmed**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.15029) · [pdf](https://arxiv.org/pdf/2610.15029)  ·  relevance 27
-<br>matched: `foundation model`, `large language model`, `llm`, `interpretab`, `explainab`
+### 5. [MSP: Modality Self-Play for Training Multimodal LLMs Without Paired Cross-Modal Data](https://arxiv.org/abs/2610.20965)
+**Robert Moseley, Md Kaykobad Reza, Ameya Patil, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.20965) · [pdf](https://arxiv.org/pdf/2610.20965)  ·  relevance 21
+<br>matched: `foundation model`, `llm`, `multimodal`
 
-> Automated disease classification from patient-reported symptoms requires balancing the speed of lightweight discriminative models against the contextual understanding and latency costs of autoregressive large language models (LLMs). Decision foundation models offer an alternative by mapping representations directly to candidate classes without free-form text generation. We adapt Clef-Flash, a 9-billion-parameter decision model built on a Qwen3.5 backbone, for 24-class…
+> Large multimodal models have achieved remarkable progress by scaling model capacity and training on massive paired multimodal data. However, this paradigm introduces a fundamental bottleneck: aligned multimodal datasets are expensive to curate, difficult to scale across diverse modality combinations, and increasingly constrain further progress. We introduce Modality Self-Play (MSP), a training framework for multimodal foundation models based on proxy-mediated modality…
 
-### 6. [Quantifying privacy risks in foundation model representations of brain MRI](https://arxiv.org/abs/2610.20494)
-**Imen Bajar, H\'eber Hwang Arcolezi, Antoine Boutet, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.20494) · [pdf](https://arxiv.org/pdf/2610.20494)  ·  relevance 27
-<br>matched: `brain mri`, `foundation model`, `longitudinal`
+### 6. [AutoOnboarder: Autonomously Onboarding LLM Agents](https://arxiv.org/abs/2610.21218)
+**Tanay Arora, Cong Liu**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.21218) · [pdf](https://arxiv.org/pdf/2610.21218)  ·  relevance 21
+<br>matched: `foundation model`, `large language model`, `llm`, `agent`
 
-> Pretrained representations are increasingly used to share and reuse information from medical images without exposing the original scans, but it is unclear how much patient-specific information these representations retain. We investigate this question for brain magnetic resonance imaging (MRI) by evaluating five frozen pretrained encoders spanning different architectures, pretraining objectives, and training domains on two longitudinal T1-weighted datasets, OASIS-2 and…
+> Agentic large language models have been documented to lose reasoning capability when placed inside a harness, the software that mediates their observations and actions. To reconcile these losses, we introduce AutoOnboarder, an autonomous system that adapts an agent to a task the way a trainer onboards a new employee. It places the agent under the supervision of an intelligent ``Onboarder'' coding agent, which iteratively tailors its foundation model, prompt, and harness…
 
-### 7. [Benchmarking Self-Supervised 3D Medical Vision Foundation Models and Transferability Estimation](https://arxiv.org/abs/2610.17573)
-**Jiaqi Tang, Yu Wang, Yang Liu, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.17573) · [pdf](https://arxiv.org/pdf/2610.17573)  ·  relevance 25
-<br>matched: `self-supervised`, `foundation model`, `transformer`, `segmentation`
-
-> Self-supervised pretraining has expanded the pool of 3D medical foundation models, but published evaluations use different datasets, endpoints and fine-tuning protocols. Models also differ in architecture, pretraining objective and data, while downstream targets range from voxel-level masks to patient-level diagnoses and outcomes. As a result, published findings provide little directly comparable evidence for choosing a model for a new task. Direct comparison of adaptation…
-
-### 8. [SurgiCLAW: An Interpretable Atomic-Skill Agent for Precision Robotic Micromanipulation](https://arxiv.org/abs/2610.15766)
-**Angen Ye, junjie xie, Yujia Song, et al.**  ·  `cs.RO`  ·  [abs](https://arxiv.org/abs/2610.15766) · [pdf](https://arxiv.org/pdf/2610.15766)  ·  relevance 24
-<br>matched: `large language model`, `llm`, `agent`, `interpretab`, `multimodal`
-
-> Recent multimodal large language models (MLLMs) and vision--language--action models have provided robots with new capabilities for long-horizon task understanding and planning. In surgical robotics, however, end-to-end prediction of low-level actions remains limited by insufficient precision, opaque decisions, and scarce data. This paper presents SurgiCLAW, a hierarchical skill-based framework for precision surgical manipulation. SurgiCLAW confines an MLLM to intraoperative…
-
-### 9. [MemeTrace: A Multimodal LLM-Based Agent for Safety-Aware Meme Provenance Analysis](https://arxiv.org/abs/2610.19267)
-**Bo Shao, Yihan Ma, Yiting Qu, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.19267) · [pdf](https://arxiv.org/pdf/2610.19267)  ·  relevance 24
-<br>matched: `llm`, `agent`, `multimodal`
-
-> Online memes are often carriers of unsafe content such as disinformation and propaganda. Their rapid evolution in response to news events and strong dependence on contextual information make it difficult for platforms and moderators to detect and moderate them effectively. Moreover, existing moderation studies typically classify memes as safe or unsafe based on individual images, lacking the ability to perform broader provenance analysis, i.e., where a meme originates, how…
-
-### 10. [Towards a Data-Centric Understanding of Spatial Reasoning in Multimodal Large Language Models](https://arxiv.org/abs/2610.19108)
-**Mahdieh Mallahnezhad, Masoud Jafaripour, Mohamadali Tofigh, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.19108) · [pdf](https://arxiv.org/pdf/2610.19108)  ·  relevance 23
-<br>matched: `large language model`, `llm`, `agent`, `multimodal`
-
-> Multimodal Large Language Models (MLLMs) have been widely applied in embodied agents and robotics for vision tasks. However, MLLMs suffer from limitations in spatial reasoning and perception. Post-training techniques have shown promise for improving these capabilities; yet, there are limited data-driven surveys of such approaches. In this survey, we consider approaches to fine-tuning pretrained MLLMs for spatial reasoning tasks, ranging from supervised to reinforcement…
-
-### 11. [DTA-GT: Direction- and Topology-Aware Graph Transformer for Neural Network Representation Learning](https://arxiv.org/abs/2610.16822)
-**Yuxiang Zeng, Kun Xie, Yang Wang, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.16822) · [pdf](https://arxiv.org/pdf/2610.16822)  ·  relevance 22
-<br>matched: `gnn`, `representation learning`, `transformer`
-
-> Architecture attribute predictors reduce the cost of neural architecture search by estimating accuracy or latency from a small set of evaluated candidates. The key difficulty is that neural architectures are operation-labeled DAGs: edge direction defines computational flow, but existing predictors often treat direction as a local structural cue. We propose DTA-GT, a Direction- and Topology-Aware Graph Transformer based on encoder-wide directional consistency, which preserves…
-
-### 12. [On the Limits of Representation-Based Test-Time Adaptation for Multimodal LLMs](https://arxiv.org/abs/2610.19892)
-**Miko{\l}aj Pi\'orczy\'nski, Wojciech Masarczyk, Damian S\'ojka, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.19892) · [pdf](https://arxiv.org/pdf/2610.19892)  ·  relevance 21
+### 7. [When Reasoning Is Not Enough: Proactive Inquiry for Cross-Modal Safety in Multimodal Large Language Models](https://arxiv.org/abs/2610.22068)
+**Wei Cai, Jian Zhao, Yuchen Yuan, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.22068) · [pdf](https://arxiv.org/pdf/2610.22068)  ·  relevance 21
 <br>matched: `large language model`, `llm`, `multimodal`
 
-> Vision-language models suffer significant accuracy drops under common corruptions. While test-time adaptation (TTA) successfully mitigates these shifts in CLIP-like contrastive models, its application to generative multimodal large language models (MLLMs) remains underexplored and uniquely challenging due to their sequential token generation. In this work, we demonstrate that representation-based TTA fails to recover performance in MLLMs. Our experiments reveal that even…
+> Multimodal large language models (MLLMs) can act unsafely when individually benign images and texts are interpreted jointly. Beyond implicit reasoning risk, where reasoning drifts toward harm, we identify intent-level risk, where cross-modal ambiguity silently commits the model to a hazardous premise that path-level optimization alone cannot correct. We propose SAFE-PRO, which uses a Risk-Conditioned Uncertainty (RCU) signal, combining predictive entropy with a learned…
+
+### 8. [GNN-Guided Local Refinement for Efficient Layout Decomposition with DSA-MP](https://arxiv.org/abs/2610.22214)
+**Yu Feng, Liyi Zhou, Haoyu Wang, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.22214) · [pdf](https://arxiv.org/pdf/2610.22214)  ·  relevance 21
+<br>matched: `graph neural network`, `graph neural`, `gnn`
+
+> Multiple patterning lithography (MPL) has been widely used to improve lithography resolution in advanced nodes, but it faces cost limits as feature sizes shrink. Directed self-assembly (DSA) offers a cost-effective complement, extending the resolution of optical lithography to sub-10 nm and beyond. Integrating DSA into MPL (DSA-MP) further enhances the resolution of contact/via patterning. Nevertheless, growing design complexity exposes the limits of existing decomposition…
+
+### 9. [Hierarchical Interpretable Multitask Audio Representation Learning: An Analysis of Event-Scene Relationships through the Information Bottleneck](https://arxiv.org/abs/2610.21520)
+**Claudia Montero-Ram\'irez, Alba Mart\'inez-Serrano, Carmen Pel\'aez-Moreno**  ·  `eess.AS`  ·  [abs](https://arxiv.org/abs/2610.21520) · [pdf](https://arxiv.org/pdf/2610.21520)  ·  relevance 21
+<br>matched: `representation learning`, `interpretab`
+
+> Joint Acoustic Scene Classification (ASC) and Audio Tagging (AT) models traditionally rely on unconstrained multihead architectures. However, this design ignores the natural hierarchical dependency between sounds and acoustic scenes. In this work, we investigate a hierarchical (sequential) conditioning paradigm that predicts scene categories directly from intermediate event probabilities. Through a large-scale empirical benchmark with 66 full training runs across three…
+
+### 10. [Agentic-Priors: Using Large Language Models to Address the Cold Start Problem in Preference Elicitation](https://arxiv.org/abs/2610.21938)
+**Bruno Arcanjo, Zhaoxing Li, Sebastian Stein**  ·  `cs.MA`  ·  [abs](https://arxiv.org/abs/2610.21938) · [pdf](https://arxiv.org/pdf/2610.21938)  ·  relevance 21
+<br>matched: `large language model`, `llm`, `agent`, `interpretab`
+
+> An agent that learns a user's preferences from their choices faces a cold start problem: before any choices are observed, it must rely solely on a prior. Informative priors are usually fitted to historical choice data, which new tasks and deployments lack. To address this, we present Agentic-Priors, which lets agentic systems use the implicit knowledge of large language models (LLMs) instead. Specifically, an LLM states a new user's trade-offs in interpretable terms, such as…
+
+### 11. [CausalEvo: Causal Skill Self-Evolution for Health LLM Agents](https://arxiv.org/abs/2610.21016)
+**Yuchen Zhang**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.21016) · [pdf](https://arxiv.org/pdf/2610.21016)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
+
+> Large language model (LLM) agents for health can accumulate reusable textual skills from task feedback, such as calculation criteria, measurement time points, and formula units. Deciding which skills to retain is consequential: useful rules improve later answers, while faulty generalizations propagate errors. We propose CausalEvo, a method for causal skill self-evolution that estimates the relative effects of deliberately changed skill sets while holding the model weights,…
+
+### 12. [GraphBEAT: Graph-based Bucketized Event Aggregation Over Time for Early Risk Stratification of Gastrointestinal Cancers](https://arxiv.org/abs/2610.22014)
+**Leo Y. Li-Han, Chris Varghese, Elizabeth B. Habermann, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.22014) · [pdf](https://arxiv.org/pdf/2610.22014)  ·  relevance 18
+<br>matched: `graph neural network`, `graph neural`, `representation learning`, `longitudinal`, `transformer`
+
+> Longitudinal electronic health records (EHRs) contain complementary diagnostic and laboratory information about patient health. However, irregularity, sparsity, heterogeneity, and incompleteness in documentation complicate EHR modeling. To address the problem, we introduce GraphBEAT (Graph-based Bucketized Event Aggregation over Time), a temporal graph representation learning framework that groups clinical events into time buckets and transforms observed features into…
 
 
-<sub>Generated 2026-10-15 17:46 UTC via the arXiv API.</sub>
+<sub>Generated 2026-10-16 17:23 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-10-16](digests/2026-10-16.md) — 12 papers
 - [2026-10-15](digests/2026-10-15.md) — 12 papers
 - [2026-10-14](digests/2026-10-14.md) — 12 papers
 - [2026-10-13](digests/2026-10-13.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-08-15](digests/2026-08-15.md) — 12 papers
 - [2026-08-14](digests/2026-08-14.md) — 12 papers
 - [2026-08-12](digests/2026-08-12.md) — 12 papers
-- [2026-08-11](digests/2026-08-11.md) — 12 papers
 
-_…and 47 earlier digests in [`digests/`](digests/)._
+_…and 48 earlier digests in [`digests/`](digests/)._
 
 ---
 
