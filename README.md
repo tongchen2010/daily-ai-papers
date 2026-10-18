@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-10-17** · browse the full archive below.
+**Latest digest: 2026-10-18** · browse the full archive below.
 
 ## How it works
 
@@ -29,89 +29,90 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-10-17
+# arXiv AI/ML digest — 2026-10-18
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [Decomposing Brain-LLM Alignment with Interpretable Semantic Representations](https://arxiv.org/abs/2610.21508)
-**Camila Kolling, Mariya Toneva**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.21508) · [pdf](https://arxiv.org/pdf/2610.21508)  ·  relevance 24
-<br>matched: `fmri`, `large language model`, `llm`, `interpretab`
-
-> Large language models (LLMs) predict neural responses during naturalistic language comprehension, but the linguistic information underlying this brain alignment remains difficult to interpret. We use SCRIBE, an interpretable contextual semantic representation spanning 65 neurocognitively grounded semantic properties, as a lens for decomposing the brain alignment of one LLM, LLaMA2-7B. Using variance partitioning between LLaMA2-7B and SCRIBE on naturalistic fMRI data from…
-
-### 2. [MSP: Modality Self-Play for Training Multimodal LLMs Without Paired Cross-Modal Data](https://arxiv.org/abs/2610.20965)
-**Robert Moseley, Md Kaykobad Reza, Ameya Patil, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.20965) · [pdf](https://arxiv.org/pdf/2610.20965)  ·  relevance 21
-<br>matched: `foundation model`, `llm`, `multimodal`
-
-> Large multimodal models have achieved remarkable progress by scaling model capacity and training on massive paired multimodal data. However, this paradigm introduces a fundamental bottleneck: aligned multimodal datasets are expensive to curate, difficult to scale across diverse modality combinations, and increasingly constrain further progress. We introduce Modality Self-Play (MSP), a training framework for multimodal foundation models based on proxy-mediated modality…
-
-### 3. [AutoOnboarder: Autonomously Onboarding LLM Agents](https://arxiv.org/abs/2610.21218)
-**Tanay Arora, Cong Liu**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.21218) · [pdf](https://arxiv.org/pdf/2610.21218)  ·  relevance 21
-<br>matched: `foundation model`, `large language model`, `llm`, `agent`
-
-> Agentic large language models have been documented to lose reasoning capability when placed inside a harness, the software that mediates their observations and actions. To reconcile these losses, we introduce AutoOnboarder, an autonomous system that adapts an agent to a task the way a trainer onboards a new employee. It places the agent under the supervision of an intelligent ``Onboarder'' coding agent, which iteratively tailors its foundation model, prompt, and harness…
-
-### 4. [When Reasoning Is Not Enough: Proactive Inquiry for Cross-Modal Safety in Multimodal Large Language Models](https://arxiv.org/abs/2610.22068)
-**Wei Cai, Jian Zhao, Yuchen Yuan, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.22068) · [pdf](https://arxiv.org/pdf/2610.22068)  ·  relevance 21
-<br>matched: `large language model`, `llm`, `multimodal`
-
-> Multimodal large language models (MLLMs) can act unsafely when individually benign images and texts are interpreted jointly. Beyond implicit reasoning risk, where reasoning drifts toward harm, we identify intent-level risk, where cross-modal ambiguity silently commits the model to a hazardous premise that path-level optimization alone cannot correct. We propose SAFE-PRO, which uses a Risk-Conditioned Uncertainty (RCU) signal, combining predictive entropy with a learned…
-
-### 5. [GNN-Guided Local Refinement for Efficient Layout Decomposition with DSA-MP](https://arxiv.org/abs/2610.22214)
-**Yu Feng, Liyi Zhou, Haoyu Wang, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.22214) · [pdf](https://arxiv.org/pdf/2610.22214)  ·  relevance 21
+### 1. [GNN-Guided Local Refinement for Efficient Layout Decomposition with DSA-MP](https://arxiv.org/abs/2610.22214v1)
+**Yu Feng, Liyi Zhou, Haoyu Wang, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.22214v1) · [pdf](https://arxiv.org/pdf/2610.22214v1)  ·  relevance 21
 <br>matched: `graph neural network`, `graph neural`, `gnn`
 
 > Multiple patterning lithography (MPL) has been widely used to improve lithography resolution in advanced nodes, but it faces cost limits as feature sizes shrink. Directed self-assembly (DSA) offers a cost-effective complement, extending the resolution of optical lithography to sub-10 nm and beyond. Integrating DSA into MPL (DSA-MP) further enhances the resolution of contact/via patterning. Nevertheless, growing design complexity exposes the limits of existing decomposition…
 
-### 6. [Hierarchical Interpretable Multitask Audio Representation Learning: An Analysis of Event-Scene Relationships through the Information Bottleneck](https://arxiv.org/abs/2610.21520)
-**Claudia Montero-Ram\'irez, Alba Mart\'inez-Serrano, Carmen Pel\'aez-Moreno**  ·  `eess.AS`  ·  [abs](https://arxiv.org/abs/2610.21520) · [pdf](https://arxiv.org/pdf/2610.21520)  ·  relevance 21
-<br>matched: `representation learning`, `interpretab`
-
-> Joint Acoustic Scene Classification (ASC) and Audio Tagging (AT) models traditionally rely on unconstrained multihead architectures. However, this design ignores the natural hierarchical dependency between sounds and acoustic scenes. In this work, we investigate a hierarchical (sequential) conditioning paradigm that predicts scene categories directly from intermediate event probabilities. Through a large-scale empirical benchmark with 66 full training runs across three…
-
-### 7. [Agentic-Priors: Using Large Language Models to Address the Cold Start Problem in Preference Elicitation](https://arxiv.org/abs/2610.21938)
-**Bruno Arcanjo, Zhaoxing Li, Sebastian Stein**  ·  `cs.MA`  ·  [abs](https://arxiv.org/abs/2610.21938) · [pdf](https://arxiv.org/pdf/2610.21938)  ·  relevance 21
-<br>matched: `large language model`, `llm`, `agent`, `interpretab`
-
-> An agent that learns a user's preferences from their choices faces a cold start problem: before any choices are observed, it must rely solely on a prior. Informative priors are usually fitted to historical choice data, which new tasks and deployments lack. To address this, we present Agentic-Priors, which lets agentic systems use the implicit knowledge of large language models (LLMs) instead. Specifically, an LLM states a new user's trade-offs in interpretable terms, such as…
-
-### 8. [MemComposer: Learning to Assemble Memories for LLM Agents via Reinforcement Learning](https://arxiv.org/abs/2610.21091)
-**Yixuan Xie, Xueqiang Xu, Xinyi Fan, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.21091) · [pdf](https://arxiv.org/pdf/2610.21091)  ·  relevance 18
+### 2. [Learning to Steer LLM Agents and Multi-Agent Systems](https://arxiv.org/abs/2610.22316v1)
+**Leyang Shen, Yaxin Gong, Yang Zhang, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.22316v1) · [pdf](https://arxiv.org/pdf/2610.22316v1)  ·  relevance 18
 <br>matched: `large language model`, `llm`, `agent`
 
-> Agent memory enables large language model (LLM) agents to reuse past experiences without updating their parameters. However, semantic similarity alone does not guarantee memory usefulness: downstream performance depends on how memories are selected and presented to the agent. We propose MemComposer, a memory composer that jointly examines the current query and retrieved candidates to decide which experiences to include, how many to select, and how to order them. We train the…
+> Large language model (LLM)-based agents and multi-agent systems increasingly tackle complex tasks through long-horizon tool use and inter-agent collaboration. However, these systems are prone to deviating from the overall goal as execution unfolds, which wastes execution resources and leads to undesired outcomes, a failure termed goal drift. In this work, we propose a steering agent that supervises execution on the fly and steers the system back on track when drift occurs.…
 
-### 9. [MemCut: Every Secret Leaves a Trail in the Long-Term Memory of LLM Agents](https://arxiv.org/abs/2610.21405)
-**Cheng Zhang, Xuanning Cao, Zhicheng Zheng, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.21405) · [pdf](https://arxiv.org/pdf/2610.21405)  ·  relevance 18
+### 3. [Librarian Agents: Training LLMs to Curate Long-Context Workspaces that Anticipate Future Queries](https://arxiv.org/abs/2610.22273v1)
+**Anikait Singh, Teresa Zhang, Yoonho Lee, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.22273v1) · [pdf](https://arxiv.org/pdf/2610.22273v1)  ·  relevance 18
 <br>matched: `large language model`, `llm`, `agent`
 
-> Long-term memory has become a crucial component of large language model (LLM) agents, with most research focusing on retrieving relevant information accurately and efficiently. However, a dependable memory system must also forget sensitive user data upon request. To evaluate this capability, we introduce MemCut, a systematic benchmark for user-requested forgetting. Its 456 hand-designed secrets in long-horizon conversations have fully annotated evidence trails to test…
+> Reasoning over long document contexts remains a challenge for large language models (LLMs). Standard retrieval methods are inherently reactive, bottlenecking agents with complex, cross-document reasoning at inference time, while precomputed structures like knowledge graphs often fall short because they rely on rigid heuristics. Instead, can we allow agents to perform anticipatory directed curation: learning to proactively reorganize unstructured corpora prior to inference to…
 
-### 10. [JevAgentHarness: Benchmarking, Deploying and Training Decision Models That Share Control with LLMs](https://arxiv.org/abs/2610.21412)
-**Kunlun Zhu, Tao Feng, Xu Han, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.21412) · [pdf](https://arxiv.org/pdf/2610.21412)  ·  relevance 18
+### 4. [SurvICL: a Foundation Model for in-context Survival Analysis](https://arxiv.org/abs/2610.22242v1)
+**Julie Alberge, Linus Bleistein, Judith Abécassis, et al.**  ·  `stat.ML`  ·  [abs](https://arxiv.org/abs/2610.22242v1) · [pdf](https://arxiv.org/pdf/2610.22242v1)  ·  relevance 15
+<br>matched: `foundation model`, `survival analysis`
+
+> Tabular foundation models (TFMs) now outperform gradient-boosted trees in classification and regression. Yet in survival analysis, which predicts when an event occurs from censored data, often on small clinical cohorts, we find that no existing TFM beats the half-century-old Cox model. We address this issue by introducing SurvICL, a TFM that predicts survival curves in-context. SurvICL is pretrained on purely synthetic datasets generated from a novel flexible…
+
+### 5. [MMSearch-OPD: Easy Made Hard, Hard Made Learnable for Long-Horizon Multimodal Search Agents](https://arxiv.org/abs/2610.22240v1)
+**Huanyao Zhang, Jiepeng Zhou, Jiaye Lin, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.22240v1) · [pdf](https://arxiv.org/pdf/2610.22240v1)  ·  relevance 15
+<br>matched: `agent`, `multimodal`
+
+> Multimodal deep search is moving from short queries to long-horizon investigations that continually acquire evidence. However, training such agents remains constrained by limited challenging training questions and insufficient process feedback. We introduce MMSearch-OPD, combining controllable data refinement with joint reinforcement learning (RL) and on-policy distillation (OPD). Our Refine pipeline performs targeted expansion of reasoning chains derived from existing…
+
+### 6. [Believed but Not Said: Measuring Hidden Belief Collapse in Multi-Agent LLM Discussions](https://arxiv.org/abs/2610.22138v1)
+**Liangjie Huang, Henry Peng Zou, Wei-Chieh Huang, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.22138v1) · [pdf](https://arxiv.org/pdf/2610.22138v1)  ·  relevance 15
+<br>matched: `llm`, `agent`
+
+> LLM systems increasingly rely on groups of agents that discuss, critique, and check one another, assuming that peers will catch individual errors. We test this assumption against a minimal adversary. In a ten-agent factual discussion, one or three adversarial agents repeatedly assert a plausible false answer. After each round we probe each benign agent's private answer through a separate call whose response is hidden from its peers, and we separately label its public stance…
+
+### 7. [CART: Compatible Routing for Multimodal Continual Instruction Tuning](https://arxiv.org/abs/2610.22137v1)
+**Ling-Xiang Zhang, Tao Hu, Da-Wei Zhou**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.22137v1) · [pdf](https://arxiv.org/pdf/2610.22137v1)  ·  relevance 15
+<br>matched: `large language model`, `llm`, `multimodal`
+
+> Multimodal Large Language Models (MLLMs) achieve strong performance through instruction tuning, yet real-world applications often require them to continually acquire new capabilities from sequential tasks, i.e., Multimodal Continual Instruction Tuning (MCIT). In typical MLLMs, a projector is employed to align visual representations with the language model. However, existing methods primarily protect the language model from forgetting while continuously updating the projector…
+
+### 8. [Explaining the Roles of Experts in Mixture-of-Experts LLMs for Personalization](https://arxiv.org/abs/2610.22127v1)
+**Sekh Mainul Islam, Pepa Atanasova, Isabelle Augenstein**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.22127v1) · [pdf](https://arxiv.org/pdf/2610.22127v1)  ·  relevance 15
+<br>matched: `large language model`, `llm`, `interpretab`
+
+> Personalization of Large Language Models (LLMs) is increasingly important for user-centric applications, yet prior methods mainly adapt dense LLMs, whose polysemantic neurons, each encoding multiple unrelated concepts, hinder localizing the components behind personalization, and thus understanding and controlling it. We propose to personalize Mixture-of-Experts (MoE) LLMs, which sparsely route each token to a few specialized experts, reducing polysemanticity and enabling…
+
+### 9. [PROBE: Learning to Audit Policy Compliance in Tool-Using LLM Agents](https://arxiv.org/abs/2610.22124v1)
+**Kshitij Mishra, Abhijith Sharma, Nils Lukas, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.22124v1) · [pdf](https://arxiv.org/pdf/2610.22124v1)  ·  relevance 15
+<br>matched: `llm`, `agent`
+
+> Modern agentic systems extend language models with external tools, enabling them to complete complex tasks through multi-turn interactions. As these agents are deployed in consequential settings, they are often constrained by policies governing pricing, privacy, confirmation, safety, and other requirements. However, existing evaluation methods leave a critical gap: capability benchmarks measure what agents can accomplish, while content-safety red-teaming measures harmful…
+
+### 10. [CAT-alyzing Honesty: Continuous Adversarial Training for Transferable LLM Honesty](https://arxiv.org/abs/2610.22292v1)
+**Yuan-Chen Chang, Niklas Herbster, Gauthier Gidel, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.22292v1) · [pdf](https://arxiv.org/pdf/2610.22292v1)  ·  relevance 14
 <br>matched: `large language model`, `llm`, `agent`
 
-> Large language model (LLM) agents now fix software, operate computers and serve customers, but their harnesses, the programs that run them, call a large LLM at every step, which makes long tasks slow and costly. Most of these calls end in a multiple-choice decision, such as which tool to call next. Decision models such as Jev answer these questions directly, at a fraction of an LLM call's time and price. We ask how a harness can delegate these decisions to a decision model…
+> Large language models (LLMs) are becoming prevalent in scenarios where honesty is critical. However, despite alignment training, these models still exhibit dishonest behaviour, such as outputting claims that contradict some knowledge or are not supported by what is accessible in context. We introduce Continuous Adversarial Training for Consistent Honesty (CATCH), inspired by a method originally developed to robustly refuse harmful queries. CATCH trains the model towards an…
 
-### 11. [ISW-Agent: Integrating LLM-Driven Dialogue with n8n Workflow for Internal Solitary Wave Remote Sensing Image Processing](https://arxiv.org/abs/2610.21502)
-**Hao Zhang (First Institute of Oceanography, Ministry of Natural Resources, Qingdao, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.21502) · [pdf](https://arxiv.org/pdf/2610.21502)  ·  relevance 18
-<br>matched: `large language model`, `llm`, `agent`
+### 11. [X-RIC: An Agentic RAN-Intelligent Controller Benchmark for Enhancing Reinforcement Learning](https://arxiv.org/abs/2610.22269v1)
+**Adhwaa Al-Chaab, Ayman Younis, Dario Pompili**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.22269v1) · [pdf](https://arxiv.org/pdf/2610.22269v1)  ·  relevance 14
+<br>matched: `transformer`, `agent`, `interpretab`, `explainab`
 
-> Internal solitary wave (ISW) remote sensing requires task parameters and spatial information to be transferred across image acquisition, detection, stripe extraction, and propagation prediction. Here, we present ISW-Agent, which integrates large language model (LLM) interpretation with n8n workflows and independent scientific models through structured task constraints, geospatial transformations, and stage-specific output validation. In tests of 120 Chinese instructions per…
+> The O-RAN ALLIANCE introduces architectural flexibility through disaggregation and AI-driven control. While the RAN Intelligent Controller (RIC) enables centralized optimization, current AI approaches lack reasoning capabilities and explainability. We propose eXplainable RIC (X-RIC), a novel framework integrating agentic AI into O-RAN architectures. X-RIC combines reactive Reinforcement Learning (RL) with strategic agentic reasoning through: (i) automated Behavioral Cloning…
 
-### 12. [Reinforcement Learning-driven Diffusion Models: Language, Vision, and Beyond](https://arxiv.org/abs/2610.21539)
-**Zhiyuan Ma, Jiabao Wei, Tianyu Wang, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.21539) · [pdf](https://arxiv.org/pdf/2610.21539)  ·  relevance 18
-<br>matched: `diffusion model`, `llm`, `interpretab`, `multimodal`
+### 12. [Discovering state-of-the-art quantum circuits with large language models](https://arxiv.org/abs/2610.22367v1)
+**Andi Gu, Alek H. Kemeny, Susanne F. Yelin, et al.**  ·  `quant-ph`  ·  [abs](https://arxiv.org/abs/2610.22367v1) · [pdf](https://arxiv.org/pdf/2610.22367v1)  ·  relevance 12
+<br>matched: `large language model`, `llm`
 
-> Diffusion models (DMs) have steadily demonstrated outstanding performance in high-fidelity, controllable generation across diverse scenarios, following the "pretraining-finetuning" paradigm established in LLMs. Despite these advances, conventional DMs still face critical limitations in sophisticated reasoning, autonomous exploration of generation pathways, and adaptability to complex, human-aligned objectives. Inspired by RLHF's success in LLMs, RL has recently emerged as a…
+> Significant efforts are currently being directed toward the implementation of large-scale quantum information processors, but realizing useful quantum advantage also requires the development of efficient quantum algorithms. While for many practical problems the dominant resource costs are associated with a small set of computational primitives, optimizing them in the quantum setting presents unique challenges, including a reversibility constraint absent from ordinary…
 
 
-<sub>Generated 2026-10-17 16:24 UTC via the arXiv API.</sub>
+<sub>Generated 2026-10-18 16:31 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-10-18](digests/2026-10-18.md) — 12 papers
 - [2026-10-17](digests/2026-10-17.md) — 12 papers
 - [2026-10-16](digests/2026-10-16.md) — 12 papers
 - [2026-10-15](digests/2026-10-15.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-08-17](digests/2026-08-17.md) — 12 papers
 - [2026-08-16](digests/2026-08-16.md) — 12 papers
 - [2026-08-15](digests/2026-08-15.md) — 12 papers
-- [2026-08-14](digests/2026-08-14.md) — 12 papers
 
-_…and 49 earlier digests in [`digests/`](digests/)._
+_…and 50 earlier digests in [`digests/`](digests/)._
 
 ---
 
