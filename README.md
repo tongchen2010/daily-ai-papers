@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-10-18** · browse the full archive below.
+**Latest digest: 2026-10-19** · browse the full archive below.
 
 ## How it works
 
@@ -29,89 +29,90 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-10-18
+# arXiv AI/ML digest — 2026-10-19
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [GNN-Guided Local Refinement for Efficient Layout Decomposition with DSA-MP](https://arxiv.org/abs/2610.22214v1)
-**Yu Feng, Liyi Zhou, Haoyu Wang, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.22214v1) · [pdf](https://arxiv.org/pdf/2610.22214v1)  ·  relevance 21
+### 1. [Brain-Aligned Multimodal LLMs for Social and Emotional Understanding of Cartoon Movies](https://arxiv.org/abs/2610.22706)
+**Yiran Huang, Zeyong Zhang, Bharat Biswal, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.22706) · [pdf](https://arxiv.org/pdf/2610.22706)  ·  relevance 24
+<br>matched: `fmri`, `large language model`, `llm`, `multimodal`
+
+> Multimodal large language models (MLLMs) offer scalable annotations of social and affective content, but their temporal agreement with human judgments and neural predictive value require further evaluation. We compared diffusion-based and autoregressive MLLMs with continuous human Theory of Mind (ToM) and affective valence ratings across three short cartoon movies. Behavioral analyses assessed temporally aligned Pearson correlations, rating distributions, and the effects of…
+
+### 2. [Diagnosing GNN Failure Modes with Layer-Wise Probe Entropy](https://arxiv.org/abs/2610.22595)
+**Shanzi Bao, Mar Gonz\`alez I Catal\`a, Pietro Li\`o**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.22595) · [pdf](https://arxiv.org/pdf/2610.22595)  ·  relevance 21
 <br>matched: `graph neural network`, `graph neural`, `gnn`
 
-> Multiple patterning lithography (MPL) has been widely used to improve lithography resolution in advanced nodes, but it faces cost limits as feature sizes shrink. Directed self-assembly (DSA) offers a cost-effective complement, extending the resolution of optical lithography to sub-10 nm and beyond. Integrating DSA into MPL (DSA-MP) further enhances the resolution of contact/via patterning. Nevertheless, growing design complexity exposes the limits of existing decomposition…
+> Graph neural networks (GNNs) are typically evaluated only at their final layer, obscuring how task-relevant information evolves during message passing. We introduce a post-hoc diagnostic that freezes a trained GNN, fits an independent linear probe to each layer, and tracks probe accuracy alongside normalized predictive entropy. Across real and synthetic graph settings, layer-wise probe entropy distinguishes beneficial, neutral, and harmful smoothing, a capability not…
 
-### 2. [Learning to Steer LLM Agents and Multi-Agent Systems](https://arxiv.org/abs/2610.22316v1)
-**Leyang Shen, Yaxin Gong, Yang Zhang, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.22316v1) · [pdf](https://arxiv.org/pdf/2610.22316v1)  ·  relevance 18
+### 3. [Domain-specific language alignment of multimodal embeddings towards explainable predictions](https://arxiv.org/abs/2610.23110)
+**Gabriel\.e Tij\=unaityt\.e, Thijs L. van der Plas, Mohamed-Bachir Belaid, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.23110) · [pdf](https://arxiv.org/pdf/2610.23110)  ·  relevance 21
+<br>matched: `interpretab`, `explainab`, `multimodal`
+
+> Multimodal data are commonly fused into latent representations that improve downstream task performance but are not interpretable, limiting their application in domains that require explainable model decisions. Vision-language alignment has made image embeddings interpretable through language, but requires vast image-caption training data. However, captioned data are typically not available for multimodal embeddings, as relevant features cannot directly be observed and…
+
+### 4. [When is a large language model a good calibration agent? Physics-labeled prompting for budgeted engineering simulator calibration](https://arxiv.org/abs/2610.22379)
+**Ruo-Qian Wang**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.22379) · [pdf](https://arxiv.org/pdf/2610.22379)  ·  relevance 18
 <br>matched: `large language model`, `llm`, `agent`
 
-> Large language model (LLM)-based agents and multi-agent systems increasingly tackle complex tasks through long-horizon tool use and inter-agent collaboration. However, these systems are prone to deviating from the overall goal as execution unfolds, which wastes execution resources and leads to undesired outcomes, a failure termed goal drift. In this work, we propose a steering agent that supervises execution on the fly and steers the system back on track when drift occurs.…
+> Calibrating expensive engineering simulators requires tuning model parameters to match reference data, a process heavily constrained by computational costs. This study investigates whether Large Language Models (LLMs), conditioned on physical diagnostic descriptions of simulation errors, can propose informative parameter updates more efficiently than conventional derivative-free optimizers. We test this on a cylinder-wake Large-Eddy Simulation and a damped-oscillator inverse…
 
-### 3. [Librarian Agents: Training LLMs to Curate Long-Context Workspaces that Anticipate Future Queries](https://arxiv.org/abs/2610.22273v1)
-**Anikait Singh, Teresa Zhang, Yoonho Lee, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.22273v1) · [pdf](https://arxiv.org/pdf/2610.22273v1)  ·  relevance 18
+### 5. [AlphaBet: Reinforcement Learning for LLM Event Forecasting Agents](https://arxiv.org/abs/2610.22684)
+**Liqin Ye, Rongzhi Zhang, Xin Liu, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.22684) · [pdf](https://arxiv.org/pdf/2610.22684)  ·  relevance 18
 <br>matched: `large language model`, `llm`, `agent`
 
-> Reasoning over long document contexts remains a challenge for large language models (LLMs). Standard retrieval methods are inherently reactive, bottlenecking agents with complex, cross-document reasoning at inference time, while precomputed structures like knowledge graphs often fall short because they rely on rigid heuristics. Instead, can we allow agents to perform anticipatory directed curation: learning to proactively reorganize unstructured corpora prior to inference to…
+> Forecasting an unresolved event requires finding relevant evidence and deciding how strongly it supports each outcome. Yet outcome-based training of Large Language Model (LLM) forecasters often begins with preassembled evidence at a single prediction date, leaving evidence acquisition outside the learning loop. We introduce AlphaBet, an agentic reinforcement learning (RL) framework that trains a single LLM policy to search, reason, and report probabilities across multiple…
 
-### 4. [SurvICL: a Foundation Model for in-context Survival Analysis](https://arxiv.org/abs/2610.22242v1)
-**Julie Alberge, Linus Bleistein, Judith Abécassis, et al.**  ·  `stat.ML`  ·  [abs](https://arxiv.org/abs/2610.22242v1) · [pdf](https://arxiv.org/pdf/2610.22242v1)  ·  relevance 15
-<br>matched: `foundation model`, `survival analysis`
+### 6. [What Shapes Brain Alignment of Large Language Models during Dialogue? Insights from Language Production and Comprehension](https://arxiv.org/abs/2610.22961)
+**Yuko Nakagi, Yuya Chiba, Yasue Kishino**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.22961) · [pdf](https://arxiv.org/pdf/2610.22961)  ·  relevance 18
+<br>matched: `fmri`, `large language model`, `llm`, `interpretab`
 
-> Tabular foundation models (TFMs) now outperform gradient-boosted trees in classification and regression. Yet in survival analysis, which predicts when an event occurs from censored data, often on small clinical cohorts, we find that no existing TFM beats the half-century-old Cox model. We address this issue by introducing SurvICL, a TFM that predicts survival curves in-context. SurvICL is pretrained on purely synthetic datasets generated from a novel flexible…
+> Brain alignment of large language models (LLMs) offers a way to investigate representational similarities between LLMs and the human brain during language processing. While previous studies have mainly focused on passive language comprehension, little is known about such alignment during dialogue, in which speakers engage in both language production and comprehension. In this study, using fMRI data collected during dialogue, we examine brain alignment during language…
 
-### 5. [MMSearch-OPD: Easy Made Hard, Hard Made Learnable for Long-Horizon Multimodal Search Agents](https://arxiv.org/abs/2610.22240v1)
-**Huanyao Zhang, Jiepeng Zhou, Jiaye Lin, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.22240v1) · [pdf](https://arxiv.org/pdf/2610.22240v1)  ·  relevance 15
-<br>matched: `agent`, `multimodal`
+### 7. [Beyond Latent Personalization: Integrating HRV-Conditioned Personalization via LLM for Interpretable Stress Detection](https://arxiv.org/abs/2610.23555)
+**Wei-Hsiang Ma, Ya-Tse Wu, Hsing-Hang Chou, et al.**  ·  `eess.SP`  ·  [abs](https://arxiv.org/abs/2610.23555) · [pdf](https://arxiv.org/pdf/2610.23555)  ·  relevance 18
+<br>matched: `llm`, `interpretab`
 
-> Multimodal deep search is moving from short queries to long-horizon investigations that continually acquire evidence. However, training such agents remains constrained by limited challenging training questions and insufficient process feedback. We introduce MMSearch-OPD, combining controllable data refinement with joint reinforcement learning (RL) and on-policy distillation (OPD). Our Refine pipeline performs targeted expansion of reasoning chains derived from existing…
+> Stress detection based on heart rate variability (HRV) has received increasing attention. However, existing personalized approaches integrate personal attributes with HRV through latent representations, limiting the interpretability of their interactions. In this work, we propose an LLM-enhanced personalized stress detection framework that integrates HRV features and personal attributes through LLM-based semantic interpretation. The proposed framework achieves a 29.9%…
 
-### 6. [Believed but Not Said: Measuring Hidden Belief Collapse in Multi-Agent LLM Discussions](https://arxiv.org/abs/2610.22138v1)
-**Liangjie Huang, Henry Peng Zou, Wei-Chieh Huang, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.22138v1) · [pdf](https://arxiv.org/pdf/2610.22138v1)  ·  relevance 15
+### 8. [AuditKIT: A Unified Evaluation Spine for Benchmarking, Judging, and Comparing Large Language Models and Agentic Systems](https://arxiv.org/abs/2610.22511)
+**Shreeyans Arora, Utsav Avaiya, Zera Lyngkhoi, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.22511) · [pdf](https://arxiv.org/pdf/2610.22511)  ·  relevance 18
+<br>matched: `large language model`, `agent`, `retrieval-augmented`
+
+> Evaluating language models and agents requires combining benchmark accuracy, judge-based assessment, runtime performance, tool-use behavior, and retrieval quality. Differences in interfaces, metric semantics, and trace formats complicate these comparisons and can hide failures in agentic workflows. We present AuditKIT, a source-available evaluation library that records these measurements in one result representation, with direction-aware metric contracts, configuration…
+
+### 9. [Before Retrieval Begins: Safety and Tool-Use Decisions in LLM Agents](https://arxiv.org/abs/2610.23071)
+**Aditya Nawal, Manit Baser, Mohan Gurusamy**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.23071) · [pdf](https://arxiv.org/pdf/2610.23071)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
+
+> Large language models increasingly act as agents that call external tools, yet most tool-safety research examines only what follows a tool call. The prior decision of whether to call the tool remains largely unexamined and can influence downstream safety. Across the seven open-weight models, the unweighted model-average harm rate after admitted harmful requests is 74.5%. To identify what governs this decision, we apply a factorial intervention to the input request. Within…
+
+### 10. [Data-Efficient Classifier Pretraining Through Diffusion Models](https://arxiv.org/abs/2610.23289)
+**Qinyu Li, Yee Whye Teh, Chris Holmes, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.23289) · [pdf](https://arxiv.org/pdf/2610.23289)  ·  relevance 17
+<br>matched: `self-supervised`, `diffusion model`, `medical imaging`
+
+> Machine learning with limited data is susceptible to overfitting, especially with modern deep neural networks. Prior to the introduction of AlexNet, reconstruction-based pretraining with auto-encoder and denoising auto-encoder were found to be beneficial, partially due to the limited size of the training sets at the time. Motivated by these traditional approaches, we propose DiffPT, a simple diffusion modeling approach to pretrain a given classifier backbone for limited…
+
+### 11. [LGGS: Longitudinal MRI Reconstruction via Guided Group Sparsity](https://arxiv.org/abs/2610.22643)
+**Nikola Janju\v{s}evi\'{c}, Hersh Chandarana, Yao Wang, et al.**  ·  `eess.IV`  ·  [abs](https://arxiv.org/abs/2610.22643) · [pdf](https://arxiv.org/pdf/2610.22643)  ·  relevance 17
+<br>matched: `brain mri`, `longitudinal`, `interpretab`
+
+> Serial MRI is routinely performed in current clinical practice for disease surveillance and applications such as MR-guided radiotherapy. However, long MRI scan times increase costs and limit patient access, making accelerated image reconstruction of broad clinical importance. Previous scans of the same patient contain image information highly correlated with the current exam, yet existing reconstruction methods rarely exploit this information. Major challenges in the…
+
+### 12. [Beyond Marginal Influence: Interaction-Aware Memory Selection for LLM Agents](https://arxiv.org/abs/2610.23266)
+**BHVSP Subrahmanyam, Neeraj Choudhary**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.23266) · [pdf](https://arxiv.org/pdf/2610.23266)  ·  relevance 15
 <br>matched: `llm`, `agent`
 
-> LLM systems increasingly rely on groups of agents that discuss, critique, and check one another, assuming that peers will catch individual errors. We test this assumption against a minimal adversary. In a ten-agent factual discussion, one or three adversarial agents repeatedly assert a plausible false answer. After each round we probe each benign agent's private answer through a separate call whose response is hidden from its peers, and we separately label its public stance…
-
-### 7. [CART: Compatible Routing for Multimodal Continual Instruction Tuning](https://arxiv.org/abs/2610.22137v1)
-**Ling-Xiang Zhang, Tao Hu, Da-Wei Zhou**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.22137v1) · [pdf](https://arxiv.org/pdf/2610.22137v1)  ·  relevance 15
-<br>matched: `large language model`, `llm`, `multimodal`
-
-> Multimodal Large Language Models (MLLMs) achieve strong performance through instruction tuning, yet real-world applications often require them to continually acquire new capabilities from sequential tasks, i.e., Multimodal Continual Instruction Tuning (MCIT). In typical MLLMs, a projector is employed to align visual representations with the language model. However, existing methods primarily protect the language model from forgetting while continuously updating the projector…
-
-### 8. [Explaining the Roles of Experts in Mixture-of-Experts LLMs for Personalization](https://arxiv.org/abs/2610.22127v1)
-**Sekh Mainul Islam, Pepa Atanasova, Isabelle Augenstein**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.22127v1) · [pdf](https://arxiv.org/pdf/2610.22127v1)  ·  relevance 15
-<br>matched: `large language model`, `llm`, `interpretab`
-
-> Personalization of Large Language Models (LLMs) is increasingly important for user-centric applications, yet prior methods mainly adapt dense LLMs, whose polysemantic neurons, each encoding multiple unrelated concepts, hinder localizing the components behind personalization, and thus understanding and controlling it. We propose to personalize Mixture-of-Experts (MoE) LLMs, which sparsely route each token to a few specialized experts, reducing polysemanticity and enabling…
-
-### 9. [PROBE: Learning to Audit Policy Compliance in Tool-Using LLM Agents](https://arxiv.org/abs/2610.22124v1)
-**Kshitij Mishra, Abhijith Sharma, Nils Lukas, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.22124v1) · [pdf](https://arxiv.org/pdf/2610.22124v1)  ·  relevance 15
-<br>matched: `llm`, `agent`
-
-> Modern agentic systems extend language models with external tools, enabling them to complete complex tasks through multi-turn interactions. As these agents are deployed in consequential settings, they are often constrained by policies governing pricing, privacy, confirmation, safety, and other requirements. However, existing evaluation methods leave a critical gap: capability benchmarks measure what agents can accomplish, while content-safety red-teaming measures harmful…
-
-### 10. [CAT-alyzing Honesty: Continuous Adversarial Training for Transferable LLM Honesty](https://arxiv.org/abs/2610.22292v1)
-**Yuan-Chen Chang, Niklas Herbster, Gauthier Gidel, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.22292v1) · [pdf](https://arxiv.org/pdf/2610.22292v1)  ·  relevance 14
-<br>matched: `large language model`, `llm`, `agent`
-
-> Large language models (LLMs) are becoming prevalent in scenarios where honesty is critical. However, despite alignment training, these models still exhibit dishonest behaviour, such as outputting claims that contradict some knowledge or are not supported by what is accessible in context. We introduce Continuous Adversarial Training for Consistent Honesty (CATCH), inspired by a method originally developed to robustly refuse harmful queries. CATCH trains the model towards an…
-
-### 11. [X-RIC: An Agentic RAN-Intelligent Controller Benchmark for Enhancing Reinforcement Learning](https://arxiv.org/abs/2610.22269v1)
-**Adhwaa Al-Chaab, Ayman Younis, Dario Pompili**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.22269v1) · [pdf](https://arxiv.org/pdf/2610.22269v1)  ·  relevance 14
-<br>matched: `transformer`, `agent`, `interpretab`, `explainab`
-
-> The O-RAN ALLIANCE introduces architectural flexibility through disaggregation and AI-driven control. While the RAN Intelligent Controller (RIC) enables centralized optimization, current AI approaches lack reasoning capabilities and explainability. We propose eXplainable RIC (X-RIC), a novel framework integrating agentic AI into O-RAN architectures. X-RIC combines reactive Reinforcement Learning (RL) with strategic agentic reasoning through: (i) automated Behavioral Cloning…
-
-### 12. [Discovering state-of-the-art quantum circuits with large language models](https://arxiv.org/abs/2610.22367v1)
-**Andi Gu, Alek H. Kemeny, Susanne F. Yelin, et al.**  ·  `quant-ph`  ·  [abs](https://arxiv.org/abs/2610.22367v1) · [pdf](https://arxiv.org/pdf/2610.22367v1)  ·  relevance 12
-<br>matched: `large language model`, `llm`
-
-> Significant efforts are currently being directed toward the implementation of large-scale quantum information processors, but realizing useful quantum advantage also requires the development of efficient quantum algorithms. While for many practical problems the dominant resource costs are associated with a small set of computational primitives, optimizing them in the quantum setting presents unique challenges, including a reversibility constraint absent from ordinary…
+> LLM-agent memory selection often uses retrieval rankings based on record relevance or individual influence. Such rankings cannot identify sufficient subsets under redundant or jointly necessary evidence. We study per-decision memory sufficiency: selecting a small subset that preserves full-memory behavior. To separate search error from model error, we introduce JointCoreBench, a benchmark with nine interaction families, six workflow domains, natural-language decisions, and…
 
 
-<sub>Generated 2026-10-18 16:31 UTC via the arXiv API.</sub>
+<sub>Generated 2026-10-19 19:19 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-10-19](digests/2026-10-19.md) — 12 papers
 - [2026-10-18](digests/2026-10-18.md) — 12 papers
 - [2026-10-17](digests/2026-10-17.md) — 12 papers
 - [2026-10-16](digests/2026-10-16.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-08-18](digests/2026-08-18.md) — 12 papers
 - [2026-08-17](digests/2026-08-17.md) — 12 papers
 - [2026-08-16](digests/2026-08-16.md) — 12 papers
-- [2026-08-15](digests/2026-08-15.md) — 12 papers
 
-_…and 50 earlier digests in [`digests/`](digests/)._
+_…and 51 earlier digests in [`digests/`](digests/)._
 
 ---
 
