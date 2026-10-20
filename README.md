@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-10-19** · browse the full archive below.
+**Latest digest: 2026-10-20** · browse the full archive below.
 
 ## How it works
 
@@ -29,89 +29,90 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-10-19
+# arXiv AI/ML digest — 2026-10-20
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [Brain-Aligned Multimodal LLMs for Social and Emotional Understanding of Cartoon Movies](https://arxiv.org/abs/2610.22706)
-**Yiran Huang, Zeyong Zhang, Bharat Biswal, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.22706) · [pdf](https://arxiv.org/pdf/2610.22706)  ·  relevance 24
-<br>matched: `fmri`, `large language model`, `llm`, `multimodal`
+### 1. [Multimodal-Conditioned Latent Diffusion Models for Spatiotemporal Brain MRI Forecasting](https://arxiv.org/abs/2610.25481)
+**Antonio Scardace, Silvia Ingala, Sebastiano Battiato, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.25481) · [pdf](https://arxiv.org/pdf/2610.25481)  ·  relevance 49
+<br>matched: `alzheimer`, `dementia`, `neuroimaging`, `brain mri`, `diffusion model`, `multimodal`
 
-> Multimodal large language models (MLLMs) offer scalable annotations of social and affective content, but their temporal agreement with human judgments and neural predictive value require further evaluation. We compared diffusion-based and autoregressive MLLMs with continuous human Theory of Mind (ToM) and affective valence ratings across three short cartoon movies. Behavioral analyses assessed temporally aligned Pearson correlations, rating distributions, and the effects of…
+> Spatiotemporal forecasting of 3D anatomical changes is a critical generative vision challenge for modeling Alzheimer's Disease (AD) progression. While brain MRI forecasting from single-modality data has advanced, other key complementary multimodal biomarkers remain underutilized. In this work, we propose the Multimodal-Conditioned Latent Diffusion Model (MC-LDM), a novel framework for patient-specific brain MRI synthesis. MC-LDM leverages multimodal biomarkers---MRI,…
 
-### 2. [Diagnosing GNN Failure Modes with Layer-Wise Probe Entropy](https://arxiv.org/abs/2610.22595)
-**Shanzi Bao, Mar Gonz\`alez I Catal\`a, Pietro Li\`o**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.22595) · [pdf](https://arxiv.org/pdf/2610.22595)  ·  relevance 21
+### 2. [Contrastive Adversarial Training for Robust Graph Neural Networks under Label Poisoning](https://arxiv.org/abs/2610.24685)
+**Manshika Charvi Bissessur, Melis Ilayda Bal, Michael Muehlebach**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.24685) · [pdf](https://arxiv.org/pdf/2610.24685)  ·  relevance 35
+<br>matched: `graph neural network`, `graph neural`, `gnn`, `representation learning`
+
+> Graph Neural Networks (GNNs) are effective for modeling relational data but are vulnerable to label poisoning, where a small number of corrupted training labels can propagate errors across the graph via message passing. Despite this risk, defenses against label poisoning remain underexplored: existing methods are primarily designed for label noise and often rely on robust losses or heuristic data cleaning that fail to distinguish adversarial poisoning from naturally hard…
+
+### 3. [RAFT: Redundancy-Aware Input Filtering for Temporal Graph Neural Network Training](https://arxiv.org/abs/2610.24875)
+**Yue Dai, Sarah Zhou, Youtao Zhang**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.24875) · [pdf](https://arxiv.org/pdf/2610.24875)  ·  relevance 31
 <br>matched: `graph neural network`, `graph neural`, `gnn`
 
-> Graph neural networks (GNNs) are typically evaluated only at their final layer, obscuring how task-relevant information evolves during message passing. We introduce a post-hoc diagnostic that freezes a trained GNN, fits an independent linear probe to each layer, and tracks probe accuracy alongside normalized predictive entropy. Across real and synthetic graph settings, layer-wise probe entropy distinguishes beneficial, neutral, and harmful smoothing, a capability not…
+> Temporal graph neural networks (TGNNs) have shown strong performance on dynamic graph learning tasks by continuously updating node memories from evolving interactions (i.e., events) and leveraging these memories for downstream predictions. As graphs grow rapidly in modern applications, training requires processing an increasing number of events; meanwhile, each event can update node memories used by later events, creating dependencies that constrain parallel execution and…
 
-### 3. [Domain-specific language alignment of multimodal embeddings towards explainable predictions](https://arxiv.org/abs/2610.23110)
-**Gabriel\.e Tij\=unaityt\.e, Thijs L. van der Plas, Mohamed-Bachir Belaid, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.23110) · [pdf](https://arxiv.org/pdf/2610.23110)  ·  relevance 21
-<br>matched: `interpretab`, `explainab`, `multimodal`
+### 4. [Declarative Explanations for Graph Neural Networks: A Demonstration](https://arxiv.org/abs/2610.26104)
+**Cibo Yu, Haitong Tang, Yinghui Wu, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.26104) · [pdf](https://arxiv.org/pdf/2610.26104)  ·  relevance 31
+<br>matched: `graph neural network`, `graph neural`, `gnn`
 
-> Multimodal data are commonly fused into latent representations that improve downstream task performance but are not interpretable, limiting their application in domains that require explainable model decisions. Vision-language alignment has made image embeddings interpretable through language, but requires vast image-caption training data. However, captioned data are typically not available for multimodal embeddings, as relevant features cannot directly be observed and…
+> Graph Neural Networks (GNNs) have proven effective for graph analytical tasks, yet their "black-box" nature complicates the understanding of their layer-wise behavior and hinders their application to large graphs. We demonstrate SliceGXQ, an end-to-end declarative and interactive system for querying and exploring layer-wise explanations for GNNs over large-scale graphs. In particular, SliceGXQ provides (1) an interactive graphical user interface for dataset, model, and…
 
-### 4. [When is a large language model a good calibration agent? Physics-labeled prompting for budgeted engineering simulator calibration](https://arxiv.org/abs/2610.22379)
-**Ruo-Qian Wang**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.22379) · [pdf](https://arxiv.org/pdf/2610.22379)  ·  relevance 18
-<br>matched: `large language model`, `llm`, `agent`
+### 5. [Learning SOCP Solver Dynamics with Graph Neural Networks](https://arxiv.org/abs/2610.26285)
+**Adam Ghalem, Lou Sala\"un, Davide Rinaldi, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.26285) · [pdf](https://arxiv.org/pdf/2610.26285)  ·  relevance 31
+<br>matched: `graph neural network`, `graph neural`, `gnn`
 
-> Calibrating expensive engineering simulators requires tuning model parameters to match reference data, a process heavily constrained by computational costs. This study investigates whether Large Language Models (LLMs), conditioned on physical diagnostic descriptions of simulation errors, can propose informative parameter updates more efficiently than conventional derivative-free optimizers. We test this on a cylinder-wake Large-Eddy Simulation and a damped-oscillator inverse…
+> Second-order cone programs (SOCPs) are a fundamental class of convex optimization problems widely applied across engineering domains. Classical interior-point methods are robust and accurate, but their iterative nature can be costly in real-time or repeated-solve settings. This has motivated learning-based solvers that approximate optimizer solutions with neural networks. Recent work has increasingly studied graph neural networks (GNNs) for linear, quadratic, and…
 
-### 5. [AlphaBet: Reinforcement Learning for LLM Event Forecasting Agents](https://arxiv.org/abs/2610.22684)
-**Liqin Ye, Rongzhi Zhang, Xin Liu, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.22684) · [pdf](https://arxiv.org/pdf/2610.22684)  ·  relevance 18
-<br>matched: `large language model`, `llm`, `agent`
+### 6. [Longitudinal fMRI reveals multi-network reconfiguration and a recurrent frontoparietal shift across rest and task states during adult aging](https://arxiv.org/abs/2610.24433)
+**Tingshan Liu, Wanxin Dong, Hairong Zheng, et al.**  ·  `q-bio.NC`  ·  [abs](https://arxiv.org/abs/2610.24433) · [pdf](https://arxiv.org/pdf/2610.24433)  ·  relevance 29
+<br>matched: `cortical`, `connectome`, `functional mri`, `fmri`, `longitudinal`
 
-> Forecasting an unresolved event requires finding relevant evidence and deciding how strongly it supports each outcome. Yet outcome-based training of Large Language Model (LLM) forecasters often begins with preassembled evidence at a single prediction date, leaving evidence acquisition outside the learning loop. We introduce AlphaBet, an agentic reinforcement learning (RL) framework that trains a single LLM policy to search, reason, and report probabilities across multiple…
+> Functional connectivity changes across adult aging, but most evidence is cross-sectional, and covariance-based connectivity depends on blood oxygenation level dependent (BOLD) fluctuation amplitude. Covariance decline can reflect changing fluctuation amplitude, and its interpretation may depend on whether normalization uses signal amplitude or includes estimated noise. It is also unclear which longitudinal changes recur across brain states. We analyzed 852 adults (baseline…
 
-### 6. [What Shapes Brain Alignment of Large Language Models during Dialogue? Insights from Language Production and Comprehension](https://arxiv.org/abs/2610.22961)
-**Yuko Nakagi, Yuya Chiba, Yasue Kishino**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.22961) · [pdf](https://arxiv.org/pdf/2610.22961)  ·  relevance 18
-<br>matched: `fmri`, `large language model`, `llm`, `interpretab`
+### 7. [Uncovering Semantic Hierarchies in Text-Attributed Graphs via Variational EM-based LLM-GNN Synergy](https://arxiv.org/abs/2610.24624)
+**Yunhui Liu, Xudong Jin, Qizhuo Xie, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.24624) · [pdf](https://arxiv.org/pdf/2610.24624)  ·  relevance 25
+<br>matched: `gnn`, `representation learning`, `llm`
 
-> Brain alignment of large language models (LLMs) offers a way to investigate representational similarities between LLMs and the human brain during language processing. While previous studies have mainly focused on passive language comprehension, little is known about such alignment during dialogue, in which speakers engage in both language production and comprehension. In this study, using fMRI data collected during dialogue, we examine brain alignment during language…
+> While hierarchical structures are intrinsic to organizing human knowledge, current representation learning on text-attributed graphs predominantly operates on flat semantic spaces, overlooking the rich coarse-to-fine granularity inherent in real-world data. To bridge this gap, we propose SHiFT, which synergizes the reasoning power of LLMs with the structural representation capability of GNNs within an Expectation-Maximization (EM) paradigm. In the E-step, we harness LLMs as…
 
-### 7. [Beyond Latent Personalization: Integrating HRV-Conditioned Personalization via LLM for Interpretable Stress Detection](https://arxiv.org/abs/2610.23555)
-**Wei-Hsiang Ma, Ya-Tse Wu, Hsing-Hang Chou, et al.**  ·  `eess.SP`  ·  [abs](https://arxiv.org/abs/2610.23555) · [pdf](https://arxiv.org/pdf/2610.23555)  ·  relevance 18
-<br>matched: `llm`, `interpretab`
+### 8. [Single-Pass Decision Scores Enable Rapid Classification with Adjustable Thresholds in Medical Multimodal Large Language Models](https://arxiv.org/abs/2610.23988)
+**Patrick Wienholt, Frederik Hauke, Christiane Kuhl, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.23988) · [pdf](https://arxiv.org/pdf/2610.23988)  ·  relevance 25
+<br>matched: `large language model`, `llm`, `medical imaging`, `multimodal`
 
-> Stress detection based on heart rate variability (HRV) has received increasing attention. However, existing personalized approaches integrate personal attributes with HRV through latent representations, limiting the interpretability of their interactions. In this work, we propose an LLM-enhanced personalized stress detection framework that integrates HRV features and personal attributes through LLM-based semantic interpretation. The proposed framework achieves a 29.9%…
+> Multimodal large language models (MLLMs) answer binary clinical questions with a yes or no token, leaving the decision threshold implicit and fixed. We derive a continuous score from a single forward pass by renormalizing the probabilities of the yes and no tokens, allowing the threshold to be adapted to clinical needs without retraining. We evaluated this approach with MedGemma and Gemma-3 (4B and 27B) on six medical imaging datasets. The default threshold was frequently…
 
-### 8. [AuditKIT: A Unified Evaluation Spine for Benchmarking, Judging, and Comparing Large Language Models and Agentic Systems](https://arxiv.org/abs/2610.22511)
-**Shreeyans Arora, Utsav Avaiya, Zera Lyngkhoi, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.22511) · [pdf](https://arxiv.org/pdf/2610.22511)  ·  relevance 18
-<br>matched: `large language model`, `agent`, `retrieval-augmented`
+### 9. [Dual Task Vector Merging: Leveraging Emotion and ASR Knowledge for Low-Resource Alzheimer's Disease Detection](https://arxiv.org/abs/2610.24870)
+**Yuan-Chao Li, Yin-Long Liu, Liu He, et al.**  ·  `eess.AS`  ·  [abs](https://arxiv.org/abs/2610.24870) · [pdf](https://arxiv.org/pdf/2610.24870)  ·  relevance 25
+<br>matched: `alzheimer`, `dementia`, `transformer`
 
-> Evaluating language models and agents requires combining benchmark accuracy, judge-based assessment, runtime performance, tool-use behavior, and retrieval quality. Differences in interfaces, metric semantics, and trace formats complicate these comparisons and can hide failures in agentic workflows. We present AuditKIT, a source-available evaluation library that records these measurements in one result representation, with direction-aware metric contracts, configuration…
+> Alzheimer's Disease (AD) detection from speech benefits from both paralinguistic and linguistic cues, yet model training is frequently constrained by limited data. Fine-tuning a large pretrained speech encoder can easily overfit, while a frozen probe leaves the encoder's task-relevant knowledge underutilized. Therefore, we propose Dual Task Vector Merging, a parameter-efficient method that adapts a frozen wav2vec 2.0 backbone using task knowledge learned outside the AD task.…
 
-### 9. [Before Retrieval Begins: Safety and Tool-Use Decisions in LLM Agents](https://arxiv.org/abs/2610.23071)
-**Aditya Nawal, Manit Baser, Mohan Gurusamy**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.23071) · [pdf](https://arxiv.org/pdf/2610.23071)  ·  relevance 18
-<br>matched: `large language model`, `llm`, `agent`
+### 10. [OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory](https://arxiv.org/abs/2610.26860)
+**Yu Zhou, Cheng-Fu Yang, Rui Sun, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.26860) · [pdf](https://arxiv.org/pdf/2610.26860)  ·  relevance 24
+<br>matched: `large language model`, `llm`, `agent`, `interpretab`, `multimodal`
 
-> Large language models increasingly act as agents that call external tools, yet most tool-safety research examines only what follows a tool call. The prior decision of whether to call the tool remains largely unexamined and can influence downstream safety. Across the seven open-weight models, the unweighted model-average harm rate after admitted harmful requests is 74.5%. To identify what governs this decision, we apply a factorial intervention to the input request. Within…
+> Multimodal large language models (MLLMs) have made rapid progress on visual reasoning, yet many tasks require evidence that is difficult to obtain through internal reasoning alone: our controlled study on 22 benchmarks shows that simply increasing the inference budget of the base model yields only modest gains. Such tasks demand grounded perception, external knowledge, and numerical measurements obtained through heterogeneous tools, whose outputs must be made interpretable…
 
-### 10. [Data-Efficient Classifier Pretraining Through Diffusion Models](https://arxiv.org/abs/2610.23289)
-**Qinyu Li, Yee Whye Teh, Chris Holmes, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.23289) · [pdf](https://arxiv.org/pdf/2610.23289)  ·  relevance 17
-<br>matched: `self-supervised`, `diffusion model`, `medical imaging`
+### 11. [Cross-Dimension and Cross-Modality Relational Tensor Representation Learning for Multimodal Health Data Modeling](https://arxiv.org/abs/2610.24419)
+**Jiawei Guo, Meng Zhao**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.24419) · [pdf](https://arxiv.org/pdf/2610.24419)  ·  relevance 23
+<br>matched: `representation learning`, `transformer`, `multimodal`
 
-> Machine learning with limited data is susceptible to overfitting, especially with modern deep neural networks. Prior to the introduction of AlexNet, reconstruction-based pretraining with auto-encoder and denoising auto-encoder were found to be beneficial, partially due to the limited size of the training sets at the time. Motivated by these traditional approaches, we propose DiffPT, a simple diffusion modeling approach to pretrain a given classifier backbone for limited…
+> Multimodal health data integrate information from heterogeneous clinical sources, creating substantial opportunities for data-driven decision support. Realizing these opportunities, however, requires effectively modeling complex dependencies that arise both within individual modalities and across modalities. This paper proposes Relational Tensor Representation (RTR), a unified framework that jointly learns dimension-specific tensor representations and cross-dimensional and…
 
-### 11. [LGGS: Longitudinal MRI Reconstruction via Guided Group Sparsity](https://arxiv.org/abs/2610.22643)
-**Nikola Janju\v{s}evi\'{c}, Hersh Chandarana, Yao Wang, et al.**  ·  `eess.IV`  ·  [abs](https://arxiv.org/abs/2610.22643) · [pdf](https://arxiv.org/pdf/2610.22643)  ·  relevance 17
-<br>matched: `brain mri`, `longitudinal`, `interpretab`
+### 12. [EMMA: Event-Driven Multimodal Memory System with Multi-Agent Retrieval](https://arxiv.org/abs/2610.23892)
+**Ruochen Zhao, Jiazheng Kang, Gezi Li, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.23892) · [pdf](https://arxiv.org/pdf/2610.23892)  ·  relevance 23
+<br>matched: `large language model`, `llm`, `agent`, `segmentation`, `multimodal`
 
-> Serial MRI is routinely performed in current clinical practice for disease surveillance and applications such as MR-guided radiotherapy. However, long MRI scan times increase costs and limit patient access, making accelerated image reconstruction of broad clinical importance. Previous scans of the same patient contain image information highly correlated with the current exam, yet existing reconstruction methods rarely exploit this information. Major challenges in the…
-
-### 12. [Beyond Marginal Influence: Interaction-Aware Memory Selection for LLM Agents](https://arxiv.org/abs/2610.23266)
-**BHVSP Subrahmanyam, Neeraj Choudhary**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.23266) · [pdf](https://arxiv.org/pdf/2610.23266)  ·  relevance 15
-<br>matched: `llm`, `agent`
-
-> LLM-agent memory selection often uses retrieval rankings based on record relevance or individual influence. Such rankings cannot identify sufficient subsets under redundant or jointly necessary evidence. We study per-decision memory sufficiency: selecting a small subset that preserves full-memory behavior. To separate search error from model error, we introduce JointCoreBench, a benchmark with nine interaction families, six workflow domains, natural-language decisions, and…
+> Long video understanding requires reasoning over hours of content that far exceed the context window of multimodal large language models (MLLMs). Existing approaches compress video into fixed-length clips, yet events are fragmented and unrelated content is merged, yielding noisy retrieval. To overcome this challenge, we propose EMMA, an Event-driven Multimodal Memory system with Multi-Agent retrieval, which organizes memory around semantic events in three stages: (1) Event…
 
 
-<sub>Generated 2026-10-19 19:19 UTC via the arXiv API.</sub>
+<sub>Generated 2026-10-20 17:58 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-10-20](digests/2026-10-20.md) — 12 papers
 - [2026-10-19](digests/2026-10-19.md) — 12 papers
 - [2026-10-18](digests/2026-10-18.md) — 12 papers
 - [2026-10-17](digests/2026-10-17.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-08-19](digests/2026-08-19.md) — 12 papers
 - [2026-08-18](digests/2026-08-18.md) — 12 papers
 - [2026-08-17](digests/2026-08-17.md) — 12 papers
-- [2026-08-16](digests/2026-08-16.md) — 12 papers
 
-_…and 51 earlier digests in [`digests/`](digests/)._
+_…and 52 earlier digests in [`digests/`](digests/)._
 
 ---
 
