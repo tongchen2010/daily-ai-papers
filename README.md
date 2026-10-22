@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-10-21** · browse the full archive below.
+**Latest digest: 2026-10-22** · browse the full archive below.
 
 ## How it works
 
@@ -29,89 +29,90 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-10-21
+# arXiv AI/ML digest — 2026-10-22
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [Brain2Vec: A Self-Supervised 3D Foundation Model for Structural Brain MRI](https://arxiv.org/abs/2610.28411)
-**Spiros Maggioros, Guray Erus, Gareth Harman, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.28411) · [pdf](https://arxiv.org/pdf/2610.28411)  ·  relevance 45
-<br>matched: `neuroimaging`, `brain mri`, `self-supervised`, `foundation model`, `medical imaging`
+### 1. [YingLan: A Multimodal Ocean Foundation Model for Unified Representation Learning from Heterogeneous Observations](https://arxiv.org/abs/2610.29313)
+**Sen Jia, Siqi Wei, Junyu Wang, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.29313) · [pdf](https://arxiv.org/pdf/2610.29313)  ·  relevance 30
+<br>matched: `representation learning`, `foundation model`, `multimodal`
 
-> Deep learning models have become essential tools in medical imaging, yet training them end-to-end for diverse tasks remains challenging due to limited labeled data and computational constraints. To address this, we introduce Brain2Vec, a foundation model pre-trained on 74,425 T1-weighted Magnetic Resonance Imaging (MRI) scans pooled from multiple studies. Brain2Vec can serve both as a weight initialization backbone for fine-tuning downstream tasks and as a standalone feature…
+> Multimodal ocean modeling remains challenging due to substantial heterogeneity in data structures, physical semantics, and spatiotemporal characteristics across satellite imagery, gridded oceanographic fields, and buoy observations. Existing approaches largely focus on task-specific ocean modeling, while learning transferable representations from heterogeneous observations remains an open problem. To address this challenge, we propose YingLan, a multimodal ocean foundation…
 
-### 2. [Convergent Performance, Divergent Mechanisms in LoRA-Adapted Vision Foundation Models for Brain MRI](https://arxiv.org/abs/2610.28255)
-**Cecilia Diana-Albelda, Fiona Kekwick, Raghav Mehta, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.28255) · [pdf](https://arxiv.org/pdf/2610.28255)  ·  relevance 36
-<br>matched: `alzheimer`, `brain mri`, `foundation model`, `medical imaging`, `segmentation`
+### 2. [Balancing Foundation Models and Trait-Specific Learning for Forehead-Crease Recognition](https://arxiv.org/abs/2610.29495)
+**Geetanjali Sharma, Aryan Jain, Dev Nagaich, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.29495) · [pdf](https://arxiv.org/pdf/2610.29495)  ·  relevance 24
+<br>matched: `foundation model`, `large language model`, `llm`, `interpretab`, `explainab`, `multimodal`
 
-> Adapting Vision Foundation Models (VFMs) to medical imaging via LoRA has become standard practice, yet model selection is guided almost entirely by downstream task metrics, treating backbones with similar performance as interchangeable. We investigate whether equal performance implies equal internal representational shift. We analyse four ViT-B/16 backbones, DINOv3, SigLIP2, MerMED-FM, and BiomedCLIP, pre-trained with different objectives (self-distillation vs. contrastive…
+> Biometric recognition often degrades under partial facial vis- ibility, where conventional facial cues are occluded. The forehead region remains consistently visible and contains distinctive crease patterns that can serve as a complementary biometric trait. We present a unified eval- uation of forehead-crease recognition across explainable zero-shot rea- soning, domain-adaptive learning, and trait-specific modeling. FIRE en- ables interpretable zero-shot verification using…
 
-### 3. [Contrastive Adversarial Training for Robust Graph Neural Networks under Label Poisoning](https://arxiv.org/abs/2610.24685)
-**Manshika Charvi Bissessur, Melis Ilayda Bal, Michael Muehlebach**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.24685) · [pdf](https://arxiv.org/pdf/2610.24685)  ·  relevance 35
-<br>matched: `graph neural network`, `graph neural`, `gnn`, `representation learning`
+### 3. [Omnilingual-MsASR: Benchmarking Multimodal, Multilingual, Long-Form Multi-Speaker ASR of Omni Large Language Models](https://arxiv.org/abs/2610.29455)
+**Yuan Ge, Pei Zhang, Xize Cheng, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.29455) · [pdf](https://arxiv.org/pdf/2610.29455)  ·  relevance 24
+<br>matched: `foundation model`, `large language model`, `llm`, `multimodal`
 
-> Graph Neural Networks (GNNs) are effective for modeling relational data but are vulnerable to label poisoning, where a small number of corrupted training labels can propagate errors across the graph via message passing. Despite this risk, defenses against label poisoning remain underexplored: existing methods are primarily designed for label noise and often rely on robust losses or heuristic data cleaning that fail to distinguish adversarial poisoning from naturally hard…
+> Omni-modal large language models (LLMs) have achieved remarkable progress in audio and video understanding. However, existing models struggle with long-form, multi-speaker videos, especially in understanding the entire video and recognizing who says what and when. To characterize the capability limit of current omni LLMs and guide future model development, we introduce Omnilingual-MsASR, a multilingual, multimodal benchmark for long-form Multi-speaker Automatic Speech…
 
-### 4. [HypTI: Hyperbolic Geometry-Aware Multimodal Feature Fusion Framework for Dementia Detection Based on Tabular-Image Data](https://arxiv.org/abs/2610.27941)
-**Jianfei Xu, Huizhi Liang, Judith Harrison, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.27941) · [pdf](https://arxiv.org/pdf/2610.27941)  ·  relevance 33
-<br>matched: `dementia`, `neuroimaging`, `representation learning`, `multimodal`
+### 4. [Fragment-Level Graph Encoding for Interpretable Molecular Property Prediction](https://arxiv.org/abs/2610.29589)
+**Rafael Lopes Almeida (School of Pharmacy, University of Eastern Finland, Kuopio, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.29589) · [pdf](https://arxiv.org/pdf/2610.29589)  ·  relevance 22
+<br>matched: `graph neural network`, `graph neural`, `gnn`, `interpretab`
 
-> AI-assisted dementia detection usually requires multimodal fusion of diverse data, such as clinical tabular assessments and neuroimaging data. However, most existing approaches perform feature fusion in Euclidean space. This overlooks the geometric structure of representation, including hierarchical organization in clinical assessments and multi-scale anatomical patterns in neuroimaging data. Recent studies have proved hyperbolic space provides a natural geometry for…
+> Graph neural networks (GNNs) are among the standard tools for molecular property prediction, but the atom-level explanations of their predictions are hard for medicinal chemists to act on. We propose a change of input representation rather than a new model: molecules are encoded as fragment-level graphs from BRICS decomposition, where each node is a synthetically meaningful fragment whose features are the element-wise sum of its atoms' features. Because only the…
 
-### 5. [RAFT: Redundancy-Aware Input Filtering for Temporal Graph Neural Network Training](https://arxiv.org/abs/2610.24875)
-**Yue Dai, Sarah Zhou, Youtao Zhang**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.24875) · [pdf](https://arxiv.org/pdf/2610.24875)  ·  relevance 31
-<br>matched: `graph neural network`, `graph neural`, `gnn`
+### 5. [Leveraging Time-Series Foundation Models for Financial Crime Detection](https://arxiv.org/abs/2610.29667)
+**Danae Natalie Savvidi, H. \c{C}a\u{g}r{\i} Bilgi, Kubilay Atasu, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.29667) · [pdf](https://arxiv.org/pdf/2610.29667)  ·  relevance 22
+<br>matched: `graph neural network`, `graph neural`, `gnn`, `foundation model`
 
-> Temporal graph neural networks (TGNNs) have shown strong performance on dynamic graph learning tasks by continuously updating node memories from evolving interactions (i.e., events) and leveraging these memories for downstream predictions. As graphs grow rapidly in modern applications, training requires processing an increasing number of events; meanwhile, each event can update node memories used by later events, creating dependencies that constrain parallel execution and…
+> Financial crime detection requires identifying illicit activity within large transaction networks, where suspicious behaviour is rare and unfolds over time. Existing graph-based methods capture relationships among accounts but typically underuse the temporal behaviour encoded in account transaction histories. We introduce Temporal-Context Edge Enrichment (TCEE), a framework that addresses this gap by summarising each account's transaction history with a frozen time-series…
 
-### 6. [Declarative Explanations for Graph Neural Networks: A Demonstration](https://arxiv.org/abs/2610.26104)
-**Cibo Yu, Haitong Tang, Yinghui Wu, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.26104) · [pdf](https://arxiv.org/pdf/2610.26104)  ·  relevance 31
-<br>matched: `graph neural network`, `graph neural`, `gnn`
+### 6. [S^3martCirc: Self-supervised Smart Circuit Discovery](https://arxiv.org/abs/2609.00755)
+**Wendy Zheng, Yinhan He, Liang Wu, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2609.00755) · [pdf](https://arxiv.org/pdf/2609.00755)  ·  relevance 21
+<br>matched: `self-supervised`, `large language model`, `llm`, `interpretab`
 
-> Graph Neural Networks (GNNs) have proven effective for graph analytical tasks, yet their "black-box" nature complicates the understanding of their layer-wise behavior and hinders their application to large graphs. We demonstrate SliceGXQ, an end-to-end declarative and interactive system for querying and exploring layer-wise explanations for GNNs over large-scale graphs. In particular, SliceGXQ provides (1) an interactive graphical user interface for dataset, model, and…
+> Large Language Models (LLMs) have demonstrated remarkable performance across diverse tasks, from text summarization to question answering. Despite these capabilities, their black-box nature obscures internal decision-making processes. Mechanistic interpretability (MI) aims to address this by reverse-engineering neural networks into human-understandable algorithms. Current MI approaches for LLMs typically follow a two-stage paradigm: first identifying important components…
 
-### 7. [Learning SOCP Solver Dynamics with Graph Neural Networks](https://arxiv.org/abs/2610.26285)
-**Adam Ghalem, Lou Sala\"un, Davide Rinaldi, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.26285) · [pdf](https://arxiv.org/pdf/2610.26285)  ·  relevance 31
-<br>matched: `graph neural network`, `graph neural`, `gnn`
+### 7. [LLMSeg: Training-Free Text-Prompted Image Segmentation with B-Splines](https://arxiv.org/abs/2610.29409)
+**Abdullah Hamdi**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.29409) · [pdf](https://arxiv.org/pdf/2610.29409)  ·  relevance 21
+<br>matched: `large language model`, `llm`, `segmentation`, `multimodal`
 
-> Second-order cone programs (SOCPs) are a fundamental class of convex optimization problems widely applied across engineering domains. Classical interior-point methods are robust and accurate, but their iterative nature can be costly in real-time or repeated-solve settings. This has motivated learning-based solvers that approximate optimizer solutions with neural networks. Recent work has increasingly studied graph neural networks (GNNs) for linear, quadratic, and…
+> Promptable segmentation models such as SAM 3 achieve remarkable open-vocabulary performance but require dedicated architectures, large-scale annotation engines, and task-specific training. We ask a different question: can a general-purpose multimodal large language model (MLLM) segment images directly, without an added segmentation head, mask decoder, or training? We present LLMSeg, a training-free pipeline that turns a vision-capable LLM into a text-prompted image…
 
-### 8. [Rate as a Feature, Not a Nuisance: Curriculum FiLM Training for Event-Based Graph Neural Networks](https://arxiv.org/abs/2610.26933)
-**Kavyansh Tyagi, Andreas Ziegler**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.26933) · [pdf](https://arxiv.org/pdf/2610.26933)  ·  relevance 31
-<br>matched: `graph neural network`, `graph neural`, `gnn`
-
-> An event camera emits events at a rate given by the scene motion, object texture, illumination, its own contrast thresholds, and other settings. Across the N-Caltech101 dataset, recorded by a single event camera, the event rate varies by roughly 26x. Standard event-based Graph Neural Network GNN pipelines do not make use of the variable event rate. They either normalize each event's timestamp into a fixed window or train the network to be invariant to the event rate. We…
-
-### 9. [Cross-disorder Learning of Imaging-derived Joint Mophometric Markers in Alzheimer's and Parkinson's Diseases](https://arxiv.org/abs/2610.27150)
-**Yuji Zhao, Boris Gutman**  ·  `q-bio.QM`  ·  [abs](https://arxiv.org/abs/2610.27150) · [pdf](https://arxiv.org/pdf/2610.27150)  ·  relevance 31
-<br>matched: `alzheimer`, `neurodegenerative`, `neuroimaging`, `interpretab`
-
-> As two most prevalent neurodegenerative diseases (NDDs), Alzheimer's disease (AD) and Parkinson's disease (PD) shared commonalities both in symptomology and pathophysiology. However, to what extent and in what way these two distinct disorders overlap remain underexplored. In this study, we propose an explicit, interpretable and spatially adaptive transfer learning framework to elucidate the morphometric biomarkers linked to AD and PD. We applied such high-dimensional machine…
-
-### 10. [AnchorRM: Parallel Intra-Batch State Reconstruction with Anchor-Based Residual Memory for Temporal Graph Neural Networks](https://arxiv.org/abs/2610.27558)
-**Haroon Gharwi, Kai Shu, Yue Dai**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.27558) · [pdf](https://arxiv.org/pdf/2610.27558)  ·  relevance 27
-<br>matched: `graph neural network`, `graph neural`
-
-> Memory-based temporal graph neural networks (TGN) rely on recurrent node memories to capture evolving interaction histories. However, temporal mini-batching introduces a trade-off between computational efficiency and temporal fidelity: when a node appears multiple times within the same batch, later interactions are evaluated using stale pre-batch memory because the intermediate memory updates have not yet been committed. This problem becomes more severe as temporal batch…
-
-### 11. [PI-MLLM: Psychophysics-Inspired Multimodal Large Language Model for Oddly Satisfying Video Emotion Analysis](https://arxiv.org/abs/2610.28264)
-**Yuheng Zhang, Jie Zhang, Yuecong Min, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.28264) · [pdf](https://arxiv.org/pdf/2610.28264)  ·  relevance 27
+### 8. [Asking a Multimodal LLM Whether Someone Fell: Zero-Shot Screening of Low-Resolution Thermal Video in a Laboratory and an Occupied Home](https://arxiv.org/abs/2610.29913)
+**Marcos Junca (Senecta Inc.), Mauro Junca (Senecta Inc.)**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.29913) · [pdf](https://arxiv.org/pdf/2610.29913)  ·  relevance 21
 <br>matched: `large language model`, `llm`, `multimodal`
 
-> Oddly Satisfying Videos (OSVs) can evoke strong viewer responses through repetitive motion, visual tactility, and ASMR-like sounds despite containing few explicit semantic emotion cues. This makes OSVs a challenging setting for Video Emotion Analysis (VEA), since most existing methods focus on semantic video content and under-model the physical sensory dynamics that shape viewer responses. To support Oddly Satisfying Video Emotion Analysis (OSVEA), we construct the Oddly…
+> Thermal cameras can watch over older people living alone without capturing faces, and multimodal large language models (LLMs) can judge a short video without task-specific training. We evaluate a production multimodal LLM, Gemini 3.8 Flash at temperature 0, as the decision stage of an event-triggered fall screener, used exactly as a deployed prototype uses it: one request per short thermal clip, with its sound track when there is one, and its predecessor Gemini 3.7 Flash on…
 
-### 12. [Uncovering Semantic Hierarchies in Text-Attributed Graphs via Variational EM-based LLM-GNN Synergy](https://arxiv.org/abs/2610.24624)
-**Yunhui Liu, Xudong Jin, Qizhuo Xie, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.24624) · [pdf](https://arxiv.org/pdf/2610.24624)  ·  relevance 25
-<br>matched: `gnn`, `representation learning`, `llm`
+### 9. [A Mechanistic Study of Automated Failure Attribution in LLM-based Agentic Systems](https://arxiv.org/abs/2610.28811)
+**Wendy Zheng, Liang Wu, Yinhan He, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.28811) · [pdf](https://arxiv.org/pdf/2610.28811)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
 
-> While hierarchical structures are intrinsic to organizing human knowledge, current representation learning on text-attributed graphs predominantly operates on flat semantic spaces, overlooking the rich coarse-to-fine granularity inherent in real-world data. To bridge this gap, we propose SHiFT, which synergizes the reasoning power of LLMs with the structural representation capability of GNNs within an Expectation-Maximization (EM) paradigm. In the E-step, we harness LLMs as…
+> Agentic systems have demonstrated strong capabilities on complex tasks by enabling multiple interacting large language model (LLM)-based agents to collaborate and execute subtasks in parallel. However, this collaborative structure introduces new challenges for reliably evaluating and diagnosing system failures, particularly failure attribution: tracing a system's execution to identify the agent step responsible for an incorrect final outcome. Because manually performing this…
+
+### 10. [Benchmarking and Error Analysis of Deep Search and Deep Research LLM Agents](https://arxiv.org/abs/2610.29346)
+**Zixuan Yu, Zhenheng Tang, Xiaowen Chu, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.29346) · [pdf](https://arxiv.org/pdf/2610.29346)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
+
+> As Large Language Models (LLMs) evolve into autonomous Deep Search and Deep Research Agents capable of executing long-horizon, multi-step tasks, evaluating their reliability becomes increasingly critical. However, existing evaluation paradigms predominantly focus on final task outcomes, leaving a significant gap in understanding the intermediate execution traces, where agents are highly susceptible to various errors. To address this critical gap, we introduce a comprehensive…
+
+### 11. [SkillEval: Learning Interpretable Ability Profiles of LLMs via Cognitive Diagnosis Models](https://arxiv.org/abs/2610.28767)
+**Berke Arda, Peng Cui, Qiaoyuan Zheng, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.28767) · [pdf](https://arxiv.org/pdf/2610.28767)  ·  relevance 18
+<br>matched: `llm`, `interpretab`
+
+> Current evaluation of LLMs on benchmarks typically aggregates performance over individual examples into a single scalar score. This approach is overly coarse and ignores the diverse scope of skills covered by benchmark datasets. To address this limitation and better exploit benchmark data, we propose SkillEval, a new evaluation framework that performs cross-model, skill-level analysis. The framework integrates advances from two areas: (1) it leverages the meta-cognitive…
+
+### 12. [Is Anyone Enforcing the Cartel? What Reinforcement Learning Teaches LLM Agents in Markets](https://arxiv.org/abs/2610.28787)
+**Hieu Tran, Hong Yu**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.28787) · [pdf](https://arxiv.org/pdf/2610.28787)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
+
+> Evaluations of large language model (LLM) agents report that pricing agents collude at others' expense. Yet collusion is defined by enforcement: a cartel, in which competitors share monopoly profits, holds only if a member who cheats is punished. We introduce an audit that tests enforcement by forcing a member to cheat in counterfactual copies of a market, and use it to study what reinforcement learning (RL) teaches agents in pricing and trading. Small LLMs trained by RL…
 
 
-<sub>Generated 2026-10-21 18:02 UTC via the arXiv API.</sub>
+<sub>Generated 2026-10-22 17:58 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-10-22](digests/2026-10-22.md) — 12 papers
 - [2026-10-21](digests/2026-10-21.md) — 12 papers
 - [2026-10-20](digests/2026-10-20.md) — 12 papers
 - [2026-10-19](digests/2026-10-19.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-08-21](digests/2026-08-21.md) — 12 papers
 - [2026-08-20](digests/2026-08-20.md) — 12 papers
 - [2026-08-19](digests/2026-08-19.md) — 12 papers
-- [2026-08-18](digests/2026-08-18.md) — 12 papers
 
-_…and 53 earlier digests in [`digests/`](digests/)._
+_…and 54 earlier digests in [`digests/`](digests/)._
 
 ---
 
