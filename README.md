@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-10-23** · browse the full archive below.
+**Latest digest: 2026-10-24** · browse the full archive below.
 
 ## How it works
 
@@ -29,89 +29,90 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-10-23
+# arXiv AI/ML digest — 2026-10-24
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [Escaping the Phylogenetic Trap: Persistent Homology Enables Cross-Species Ion Channel Classification via Multimodal Graph Neural Networks](https://arxiv.org/abs/2610.30394)
-**Arezoo Bybordi, Favour Achimba, Mariam Gelashvili, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.30394) · [pdf](https://arxiv.org/pdf/2610.30394)  ·  relevance 40
-<br>matched: `graph neural network`, `graph neural`, `gnn`, `multimodal`
-
-> Protein classifiers are highly sensitive to evaluation protocol: random train/test splits induce phylogenetic leakage, allowing models to exploit taxon-specific correlations and substantially overestimate out-of-distribution performance. This issue is particularly acute for venom compound classification by ion-channel target (Ca2+, K+, Na+), where reported accuracies of 80-90% do not reflect generalization to unseen taxa. We formulate cross-species prediction as a structured…
-
-### 2. [I$^2$-KAN: Interpretable Intra- and Inter-Modal Multi-Pathway Representation Learning for Multimodal Sentiment Analysis](https://arxiv.org/abs/2610.31087)
-**Xiaoting Xie, Feng Qiao, Xianwei Zhang, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.31087) · [pdf](https://arxiv.org/pdf/2610.31087)  ·  relevance 30
-<br>matched: `representation learning`, `interpretab`, `multimodal`
-
-> Multimodal sentiment analysis (MSA) aims to infer sentiment by integrating linguistic, acoustic, and visual information. However, many fusion methods integrate modality-specific representations and cross-modal interactions into joint representations, making it difficult to determine whether predictive utility arises from a modality itself or from its interactions with others. More fundamentally, a modality's standalone predictive utility may not faithfully reflect its…
-
-### 3. [SIGNN++: Robust Graph Neural Star Identification on Earth](https://arxiv.org/abs/2610.30186)
-**Jeongbin Sohn, Jina Lee, Max Yen, et al.**  ·  `astro-ph.IM`  ·  [abs](https://arxiv.org/abs/2610.30186) · [pdf](https://arxiv.org/pdf/2610.30186)  ·  relevance 29
-<br>matched: `graph neural network`, `graph neural`, `gnn`
-
-> We present SIGNN++, a learning-based star identification (SID) framework for celestial navigation in GNSS-denied nighttime environments. Although researchers have developed learning-based SID methods to improve robustness to observation noise, prior evaluations have focused mainly on synthetic or non-terrestrial environments, leaving their reliability under real terrestrial conditions unclear. To address these limitations, SIGNN++ extends SIGNN, a graph neural network-based…
-
-### 4. [A Visual Grounding Benchmark for Retinal OCT with Multimodal Large Language Models](https://arxiv.org/abs/2610.31205)
-**Ronald Fecso, Jos\'e Morano, Botond Fazekas, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.31205) · [pdf](https://arxiv.org/pdf/2610.31205)  ·  relevance 21
-<br>matched: `large language model`, `llm`, `multimodal`
-
-> Multimodal large language models (MLLMs) can answer clinical questions about medical images, but trustworthy use requires visual grounding: models should localize the pathology they report rather than rely on spurious shortcuts. Whether MLLMs can visually ground clinical findings in retinal optical coherence tomography (OCT), the most widely used imaging modality in ophthalmology, remains largely unexplored. To address this gap, we introduce RetinaGroundBench, the first…
-
-### 5. [Self-Assessment Reinforcement Learning for Search-State Awareness in Retrieval-Augmented Large Language Models](https://arxiv.org/abs/2610.30435)
+### 1. [Self-Assessment Reinforcement Learning for Search-State Awareness in Retrieval-Augmented Large Language Models](https://arxiv.org/abs/2610.30435)
 **Taewhoo Lee, Minju Song, Jungwoo Park, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.30435) · [pdf](https://arxiv.org/pdf/2610.30435)  ·  relevance 20
 <br>matched: `large language model`, `agent`, `retrieval-augmented`
 
 > Recent advances in search agents have enabled large language models to tackle complex tasks by retrieving and synthesizing external information. However, existing search agents often lack search-state awareness, i.e., the ability to recognize what information has been obtained and what remains missing, leading to hallucinated reasoning and prematurely terminated search. To address this limitation, we propose Self-Assessment Reinforcement Learning (SARL), a reinforcement…
 
-### 6. [Visualizing and Interpreting Temporal Care Team Dynamics for Cancer Survival Risk Analysis](https://arxiv.org/abs/2610.30748)
-**Yuhua Huang, Hsiao-Ying Lu, Kwan-Liu Ma**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.30748) · [pdf](https://arxiv.org/pdf/2610.30748)  ·  relevance 19
-<br>matched: `graph neural network`, `graph neural`, `gnn`, `longitudinal`, `interpretab`
-
-> Cancer care is a longitudinal, time-sensitive process requiring coordination among diverse healthcare professionals (HCPs), whose collaboration evolves throughout treatment. Prior studies link care team structure to patient outcomes, but the temporal dynamics of collaboration and their relationship to evolving patient risk remain poorly understood. We introduce a visual analytics framework for modeling and interpreting time-varying care team interactions in oncology. We…
-
-### 7. [LLM Multi-Agent Systems Are Vulnerable to Herding and Runaway Cascades](https://arxiv.org/abs/2610.30769)
-**Farnoosh Hashemi, Shiyu Ji, Joice Chen, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.30769) · [pdf](https://arxiv.org/pdf/2610.30769)  ·  relevance 18
-<br>matched: `large language model`, `llm`, `agent`
-
-> Large language models (LLMs) increasingly operate in multi-agent systems where they collaborate by responding to others' choices, creating endogenous feedback loops with vulnerability to social influence, herding behavior and runaway cascades. Following the design of the classic Music Lab experiment, we tested this vulnerability in large populations of LLM agents that recommended unfamiliar songs, with or without exposure to cumulative recommendation counts. Exposure led to…
-
-### 8. [PhysTrace: Interpretable Temporal Evaluation of Physical Consistency in Video Generative Models](https://arxiv.org/abs/2610.31429)
-**Taekoan Yoo, Wonkyung Jung, Kyunghun Kim, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.31429) · [pdf](https://arxiv.org/pdf/2610.31429)  ·  relevance 18
-<br>matched: `generative model`, `llm`, `interpretab`
-
-> World action models increasingly rely on pretrained video models assumed to capture physical dynamics for prediction, planning, and action generation. Existing evaluations assess plausibility, probe representations, or measure predictive surprise, but rarely identify which history-conditioned physical expectations conflict with observations. We introduce PhysTrace, a training-free framework aligning MLLM-generated, history-conditioned expectations with observed video windows…
-
-### 9. [Predicting Music Valence and Arousal via Textual and Multimodal In-Context Learning in Large Language Models](https://arxiv.org/abs/2610.31202)
-**Chi-En Dai, Chih-Pin Tan, Yi-Hsuan Yang**  ·  `cs.SD`  ·  [abs](https://arxiv.org/abs/2610.31202) · [pdf](https://arxiv.org/pdf/2610.31202)  ·  relevance 18
-<br>matched: `large language model`, `multimodal`
-
-> While arousal can be reliably predicted from musical audio, emotional valence remains difficult to model due to its subjective and context-dependent nature. In this work, we investigate the potential of in-context learning (ICL) with large language models to advance continuous valence and arousal prediction. Rather than predicting emotion scores directly, our framework leverages contextual demonstrations from an auxiliary dataset to refine the initial predictions produced by…
-
-### 10. [CODI: Improving Self-Supervised Vision Transformers with Cross Distillation](https://arxiv.org/abs/2610.30639)
-**Siran Dai, Qianqian Xu, Peisong Wen, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.30639) · [pdf](https://arxiv.org/pdf/2610.30639)  ·  relevance 18
-<br>matched: `self-supervised`, `transformer`
-
-> Self-supervised Vision Transformers learn strong image-level representations, but their patch-level representations can be unreliable for dense prediction. We study this mismatch and find that the class token concentrates global semantics on a small number of representative patches, while dense prediction errors often occur on low-attention regions. We provide a local gradient analysis showing that, along the [CLS] attention readout, image-level self-distillation gradients…
-
-### 11. [IFC-MCQ: Automatically Generating Multiple-Choice Benchmarks for Evaluating LLM Agents on IFC Data Retrieval](https://arxiv.org/abs/2610.30533)
+### 2. [IFC-MCQ: Automatically Generating Multiple-Choice Benchmarks for Evaluating LLM Agents on IFC Data Retrieval](https://arxiv.org/abs/2610.30533)
 **Rabindra Lamsal, Sisi Zlatanova, Xuesong Shen**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.30533) · [pdf](https://arxiv.org/pdf/2610.30533)  ·  relevance 18
 <br>matched: `large language model`, `llm`, `agent`
 
 > Industry Foundation Classes (IFC), the standard for building information exchange in architecture, engineering, and construction (AEC), is increasingly queried through large language models (LLMs) using natural language. Evaluating these systems at scale is difficult because free-text answers require costly human or LLM-based review. We propose IFC-MCQ, a method that automatically generates multiple-choice benchmarks from IFC files for exact option-set grading. The taxonomy…
 
-### 12. [TRIAD: Benchmarking Omni-Modal Ambiguity in Multimodal Large Language Models](https://arxiv.org/abs/2610.30841)
+### 3. [TRIAD: Benchmarking Omni-Modal Ambiguity in Multimodal Large Language Models](https://arxiv.org/abs/2610.30841)
 **Zhaolu Kang, Yidi Wang, Yile Li, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.30841) · [pdf](https://arxiv.org/pdf/2610.30841)  ·  relevance 18
 <br>matched: `large language model`, `multimodal`
 
 > Ambiguity is a central feature of natural communication: a sentence, image, or sound may remain underspecified until evidence from the other channels is considered. Yet current multimodal benchmarks mostly test perception, recognition, or reasoning over already determinate inputs, leaving unclear whether omni-modal large language models can resolve ambiguity distributed across text, vision, and audio. We introduce TRIAD, a benchmark for omni-modal ambiguity resolution. Each…
 
+### 4. [ReflectPO: Reflection-Guided Policy Optimization for Long-Horizon LLM Agents](https://arxiv.org/abs/2610.30933)
+**Rumei Li, Xunliang Cai**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.30933) · [pdf](https://arxiv.org/pdf/2610.30933)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
 
-<sub>Generated 2026-10-23 17:52 UTC via the arXiv API.</sub>
+> With external tools, large language models (LLMs) can tackle complex tasks through sustained environmental interaction. LLM-based agents are therefore increasingly used to tackle complex long-horizon tasks in real-world environments. However, these tasks involve sequential, interdependent decisions and changes in environmental states. Early execution errors affect subsequent interaction histories and environmental states, and their effects accumulate along the decision…
+
+### 5. [From Structured Records to Patient Narratives: Preserving Clinical Alignment in LLM-Generated Health Summaries](https://arxiv.org/abs/2610.31467)
+**Bayram Ayadi, Florian Geissler, Johanna Schmidhuber**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.31467) · [pdf](https://arxiv.org/pdf/2610.31467)  ·  relevance 18
+<br>matched: `longitudinal`, `large language model`, `llm`, `retrieval-augmented`
+
+> As wearable and digital health systems increasingly generate longitudinal physiological records, communicating these observations in patient-accessible language remains a significant challenge. Large Language Models (LLMs) offer a promising mechanism for translating structured clinical information into readable narratives, but this process may introduce semantic drift, where clinically precise meaning is distorted during simplification. We investigate evidence-grounded…
+
+### 6. [Predicting Music Valence and Arousal via Textual and Multimodal In-Context Learning in Large Language Models](https://arxiv.org/abs/2610.31202)
+**Chi-En Dai, Chih-Pin Tan, Yi-Hsuan Yang**  ·  `cs.SD`  ·  [abs](https://arxiv.org/abs/2610.31202) · [pdf](https://arxiv.org/pdf/2610.31202)  ·  relevance 18
+<br>matched: `large language model`, `multimodal`
+
+> While arousal can be reliably predicted from musical audio, emotional valence remains difficult to model due to its subjective and context-dependent nature. In this work, we investigate the potential of in-context learning (ICL) with large language models to advance continuous valence and arousal prediction. Rather than predicting emotion scores directly, our framework leverages contextual demonstrations from an auxiliary dataset to refine the initial predictions produced by…
+
+### 7. [The Geometry of Metaphor: Probing and Steering Metaphor Representations in Large Language Models](https://arxiv.org/abs/2610.31520)
+**Shihui Li, Mette Andersen, Martha Lewis**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.31520) · [pdf](https://arxiv.org/pdf/2610.31520)  ·  relevance 15
+<br>matched: `large language model`, `llm`, `interpretab`
+
+> Metaphor is a crucial aspect of human cognition. As such, we would like to understand how it is represented in large language models (LLMs) and how it might be controlled. We use mechanistic interpretability techniques to identify causal subspaces in a range of LLMs covering different architectures and sizes. We show that we are able to steer output on classification tasks across different parts of speech. We are also able to steer output on generation tasks, indicating that…
+
+### 8. [Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems](https://arxiv.org/abs/2610.30418)
+**Daniel Ruiz, Luca Luceri, Emilio Ferrara**  ·  `cs.CR`  ·  [abs](https://arxiv.org/abs/2610.30418) · [pdf](https://arxiv.org/pdf/2610.30418)  ·  relevance 15
+<br>matched: `llm`, `agent`
+
+> Modern LLM agents can retrieve information from accessible documents, and then disclose a sensitive conclusion assembled from them. This mosaic effect creates a critical risk for agents operating over confidential data. We quantify its realization with 30 synthetic cybersecurity, medical, and military examples, yielding 10,800 final answers from three LLM agents in controlled simulation and 1,440 answers from live agents in two open-source harnesses. Even under benign…
+
+### 9. [Governed Self-Evolution for Autonomous Investing: A Multi-Agent LLM System with an Invariant Core](https://arxiv.org/abs/2610.30557)
+**Yebo Feng, Jingyang Dai, Liangrui Pan, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.30557) · [pdf](https://arxiv.org/pdf/2610.30557)  ·  relevance 15
+<br>matched: `llm`, `agent`
+
+> LLM agents that act on live Web data must combine heterogeneous evidence, remember what they have done and improve from outcomes without weakening their own safeguards. We study this problem in autonomous investing, where every action is irreversible and based on untrusted Web content. We present Steward, a multi-agent LLM system that draws the boundary of self-evolution in its type system. First, nine role-specialised agents decide jointly: four analysts read news feeds,…
+
+### 10. [AfterDeleteBench: Auditing Post-Deletion Information Persistence in LLM Agents](https://arxiv.org/abs/2610.31366)
+**Ehsan Saleh, Roozbeh Nahavandi, Sama Salarian, et al.**  ·  `cs.CR`  ·  [abs](https://arxiv.org/abs/2610.31366) · [pdf](https://arxiv.org/pdf/2610.31366)  ·  relevance 15
+<br>matched: `llm`, `agent`
+
+> Many LLM agents maintain external persistent memory and derive additional state from past interactions, such as summaries. Deleting an original memory record therefore need not remove information carried by its descendants. We introduce AfterDeleteBench, a controlled behavioral audit for this failure mode in fixed-weight LLM agents. For each synthetic secret, we compare an exposed-then-deleted agent with an otherwise matched agent that was never exposed to the secret,…
+
+### 11. [AQL-Lite: Enabling Efficient Knowledge Acquisition for Arabic LLMs via Data-Centric Continual Pretraining](https://arxiv.org/abs/2610.30344)
+**Houssam Eddine Boukhalfa, Mourad Bouache, Mourad Dahmane**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.30344) · [pdf](https://arxiv.org/pdf/2610.30344)  ·  relevance 14
+<br>matched: `transformer`, `large language model`, `llm`
+
+> Training Arabic large language models faces challenges from noisy web data, dialectal variation, and the high cost of continual pretraining (CPT). We introduce AQL-Lite (AQL: Arabic Quality Language), a time- and resource-efficient framework for adapting a multilingual LLM to Modern Standard Arabic (MSA). AQL-Lite couples a quality-first curation pipeline (structural cleaning, heuristic and model-based filtering, MSA selection, and deduplication) with a partial-parameter CPT…
+
+### 12. [Rethinking the Evaluation of LLM Fact-Checkers](https://arxiv.org/abs/2610.30504)
+**Ayana Niwa, Miyu Yamada, Kouta Nakayama, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.30504) · [pdf](https://arxiv.org/pdf/2610.30504)  ·  relevance 12
+<br>matched: `large language model`, `llm`
+
+> Large language models (LLMs) are widely used to answer factual questions, but their answers can contain errors and must be fact-checked claim by claim. Yet the resulting score depends on three design decisions: which questions the claims answer, under what conditions each claim is judged, and which sources count as evidence. No existing benchmark specifies all three. We introduce JSFactCheckBench, a Japanese benchmark that specifies all three, with 1,913 claims from LLM…
+
+
+<sub>Generated 2026-10-24 16:34 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-10-24](digests/2026-10-24.md) — 12 papers
 - [2026-10-23](digests/2026-10-23.md) — 12 papers
 - [2026-10-22](digests/2026-10-22.md) — 12 papers
 - [2026-10-21](digests/2026-10-21.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-08-23](digests/2026-08-23.md) — 12 papers
 - [2026-08-22](digests/2026-08-22.md) — 12 papers
 - [2026-08-21](digests/2026-08-21.md) — 12 papers
-- [2026-08-20](digests/2026-08-20.md) — 12 papers
 
-_…and 55 earlier digests in [`digests/`](digests/)._
+_…and 56 earlier digests in [`digests/`](digests/)._
 
 ---
 
