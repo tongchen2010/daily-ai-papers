@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-10-25** · browse the full archive below.
+**Latest digest: 2026-10-26** · browse the full archive below.
 
 ## How it works
 
@@ -29,89 +29,90 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-10-25
+# arXiv AI/ML digest — 2026-10-26
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [From Structured Records to Patient Narratives: Preserving Clinical Alignment in LLM-Generated Health Summaries](https://arxiv.org/abs/2610.31467v1)
-**Bayram Ayadi, Florian Geissler, Johanna Schmidhuber**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.31467v1) · [pdf](https://arxiv.org/pdf/2610.31467v1)  ·  relevance 18
-<br>matched: `longitudinal`, `large language model`, `llm`, `retrieval-augmented`
+### 1. [EigenGradCAM with AugSmooth: Enhancing Explainability and Precision in Multi-Stage Alzheimer's Disease Detection](https://arxiv.org/abs/2610.32374)
+**Arsham Azam, Sagar Ashraf, Tayyaba Farhat, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.32374) · [pdf](https://arxiv.org/pdf/2610.32374)  ·  relevance 35
+<br>matched: `alzheimer`, `dementia`, `interpretab`, `explainab`
 
-> As wearable and digital health systems increasingly generate longitudinal physiological records, communicating these observations in patient-accessible language remains a significant challenge. Large Language Models (LLMs) offer a promising mechanism for translating structured clinical information into readable narratives, but this process may introduce semantic drift, where clinically precise meaning is distorted during simplification. We investigate evidence-grounded…
+> Alzheimer's disease (AD) is a progressive neurological disorder associated with memory loss, cognitive decline, and behavioral disturbances. Early and accurate diagnosis is essential, yet MRI-based deep learning models often lack interpretability, limiting their clinical use. This study presents an explainable deep learning approach for four-class AD staging using 2D axial MRI images. The method combines eigenvector-based Grad-CAM with gradient smoothing to improve saliency…
 
-### 2. [PhysTrace: Interpretable Temporal Evaluation of Physical Consistency in Video Generative Models](https://arxiv.org/abs/2610.31429v1)
-**Taekoan Yoo, Wonkyung Jung, Kyunghun Kim, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.31429v1) · [pdf](https://arxiv.org/pdf/2610.31429v1)  ·  relevance 18
-<br>matched: `generative model`, `llm`, `interpretab`
+### 2. [Towards Adversarially Robust Multigraph Neural Networks for Financial Crime Analysis](https://arxiv.org/abs/2610.31718)
+**Dennis Heijmans, H. \c{C}a\u{g}r{\i} Bilgi, Rui Wang, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.31718) · [pdf](https://arxiv.org/pdf/2610.31718)  ·  relevance 31
+<br>matched: `graph neural network`, `graph neural`, `gnn`
 
-> World action models increasingly rely on pretrained video models assumed to capture physical dynamics for prediction, planning, and action generation. Existing evaluations assess plausibility, probe representations, or measure predictive surprise, but rarely identify which history-conditioned physical expectations conflict with observations. We introduce PhysTrace, a training-free framework aligning MLLM-generated, history-conditioned expectations with observed video windows…
+> Financial transaction networks are naturally represented as multigraphs, where repeated transactions between the same pair of accounts are modeled as distinct edges. Recently proposed multigraph neural network architectures leverage this structure explicitly to achieve a strong performance on anti-money laundering (AML) tasks. However, their robustness to adversaries that manipulate transaction structures to evade detection remains largely unexplored. We present the first…
 
-### 3. [Evaluation of Uncertainty-Aware Multi-Software Ensembles for Hippocampal Segmentation](https://arxiv.org/abs/2610.31505v1)
-**Gabriel Oliveira-Stahl, Anna Schroder, James Moggridge, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.31505v1) · [pdf](https://arxiv.org/pdf/2610.31505v1)  ·  relevance 17
-<br>matched: `alzheimer`, `dementia`, `segmentation`
+### 3. [CFBrainAug: Modularity-Induced Counterfactual Brain Network Augmentation for Interpretable fMRI-based Autism Diagnosis](https://arxiv.org/abs/2610.32184)
+**Yifan Qiao, Sheng Li**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.32184) · [pdf](https://arxiv.org/pdf/2610.32184)  ·  relevance 30
+<br>matched: `brain network`, `fmri`, `interpretab`
 
-> Accurate hippocampal segmentation can be a useful tool for diagnosing and monitoring neurological conditions such as Alzheimer's disease and epilepsy. While numerous automated segmentation methods exist, their clinical adoption remains limited. Reliable uncertainty assessment can enhance trust and facilitate clinical translation. This study evaluates ensembles of five heterogeneous hippocampal segmentation methods - InnerEye, ASHS, FastSurfer, HippoSeg, and FreeSurfer -…
+> Machine learning on resting-state functional magnetic resonance imaging (rs-fMRI) brain networks is promising for diagnosing Autism Spectrum Disorder (ASD), but existing methods are prone to overfitting on limited training data, and their post-hoc statistical attribution offers limited clinical interpretability. We propose CFBrainAug, a counterfactual brain network learning framework that unifies data augmentation and counterfactual explanation by learning label-altered…
 
-### 4. [On the Token Collapse Phenomenon in Textual Graph Soft Prompting](https://arxiv.org/abs/2610.31572v1)
-**Andrea Giuseppe Di Francesco, Rishabh Jain, Franco Maria Nardini, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.31572v1) · [pdf](https://arxiv.org/pdf/2610.31572v1)  ·  relevance 16
-<br>matched: `graph neural network`, `graph neural`, `gnn`, `llm`
+### 4. [Autoregressive Multimodal Anomaly Detection with Large Language Models for Microservice Systems](https://arxiv.org/abs/2610.31722)
+**Yixiang Tang, Fagui Liu, Guoxiang Zhong, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.31722) · [pdf](https://arxiv.org/pdf/2610.31722)  ·  relevance 21
+<br>matched: `large language model`, `llm`, `multimodal`
 
-> Recent methods for injecting graph structure into LLM prompts include graph soft prompting, in which a graph neural network (GNN) learns graph-specific tokens that capture relational information among entities in textual prompts. G-Retriever combines graph soft prompts with a verbalized description of the same graph to strengthen the textual prompt signal. We conduct an in-depth analysis of G-Retriever and uncover a pathological behavior we term token collapse. Across three…
+> Microservice systems have become a dominant architecture for large-scale cloud applications, enabling rapid deployment and elastic scaling. However, ensuring the reliability and availability of microservice systems critically relies on effective anomaly detection, as failures and performance anomalies can quickly propagate across services and severely impact end-to-end system behavior. Existing multimodal anomaly detection approaches for microservice systems often struggle…
 
-### 5. [EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence](https://arxiv.org/abs/2610.31650v1)
-**Qijin Zhang, Hanzhen Wang, Yuehan Zhao, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.31650v1) · [pdf](https://arxiv.org/pdf/2610.31650v1)  ·  relevance 15
-<br>matched: `llm`, `agent`
+### 5. [MedCaseAgent: From Multimodal Clinical Evidence to Rare Disease Case Reports](https://arxiv.org/abs/2610.32258)
+**Hongkang Chu, Yifan Shen, Tianjiao Yu, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.32258) · [pdf](https://arxiv.org/pdf/2610.32258)  ·  relevance 21
+<br>matched: `large language model`, `llm`, `agent`, `multimodal`
 
-> Tool-using language model agents rely on environmental facts to decide whether an action is permitted. When a tool response omits a safety-relevant fact, an agent may carry out a prohibited action even though the user request is benign and every returned statement is true. We introduce \bench{}, an executable benchmark for evaluating unsafe execution, safety boundaries, and evidence recovery in LLM agents under missing evidence. It contains 300 matched unsafe/safe task pairs…
+> Although Large Language Models (LLMs) have demonstrated potential in clinical documentation, generating the rigorous, evidence-based reasoning required for unprecedented, atypical, and rare disease case reports remains a significant challenge. We present MedCaseAgent, an end-to-end agentic reasoning paradigm that bridges this gap by synthesizing publication-quality reports from unstructured clinical notes. MedCaseAgent leverages a hierarchical structure, integrating…
 
-### 6. [The Geometry of Metaphor: Probing and Steering Metaphor Representations in Large Language Models](https://arxiv.org/abs/2610.31520v1)
-**Shihui Li, Mette Andersen, Martha Lewis**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.31520v1) · [pdf](https://arxiv.org/pdf/2610.31520v1)  ·  relevance 15
-<br>matched: `large language model`, `llm`, `interpretab`
+### 6. [Adaptive Control of Scientific Instruments with Nonstationary Responses through Multimodal Agents](https://arxiv.org/abs/2610.32370)
+**Guoyang Shi, Hongwen Li, Yiding Yu, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.32370) · [pdf](https://arxiv.org/pdf/2610.32370)  ·  relevance 21
+<br>matched: `large language model`, `llm`, `agent`, `multimodal`
 
-> Metaphor is a crucial aspect of human cognition. As such, we would like to understand how it is represented in large language models (LLMs) and how it might be controlled. We use mechanistic interpretability techniques to identify causal subspaces in a range of LLMs covering different architectures and sizes. We show that we are able to steer output on classification tasks across different parts of speech. We are also able to steer output on generation tasks, indicating that…
+> Controlling scientific instruments requires parameters to be adjusted progressively in response to feedback from successive operations. When unobserved operating conditions evolve with operational history, responses become nonstationary, and a static mapping from actions to responses becomes inadequate for decisions across shots. Shot-to-shot tuning of neutral beam injection (NBI) ion sources in magnetic confinement fusion devices is representative of this class of problems:…
 
-### 7. [AgentPhishing: A Benchmark of LLM Email Agents Under Adaptive Attack](https://arxiv.org/abs/2610.31404v1)
-**Justin Tan, Miao Li, Ding Zhao**  ·  `cs.CR`  ·  [abs](https://arxiv.org/abs/2610.31404v1) · [pdf](https://arxiv.org/pdf/2610.31404v1)  ·  relevance 15
-<br>matched: `llm`, `agent`
+### 7. [Representation Learning via Composite Subspace Flow Matching](https://arxiv.org/abs/2610.32256)
+**Jos\'e Afonso, M\'ario Figueiredo**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.32256) · [pdf](https://arxiv.org/pdf/2610.32256)  ·  relevance 20
+<br>matched: `representation learning`, `self-supervised`, `generative model`, `transformer`
 
-> Computer-use agents increasingly handle private information and act on users' behalf across desktop and web applications, including email. Phishing therefore poses privacy and security risks that depend not only on whether agents recognize malicious messages, but also on how they respond. Existing phishing datasets were developed primarily for conventional detection, leaving agent susceptibility to persuasive malicious requests insufficiently characterized. To expose…
+> Distilling semantic meaning from raw image data remains a challenge in machine learning. Current self-supervised paradigms face a trade-off: joint-embedding architectures produce relevant features by aggressively discarding intra-class variance, irreversibly spatial and reconstruction. Conversely, generative models preserve spatial details but struggle to isolate semantics, as their optimization is dominated by pixel variations. To bridge this divide, we propose composite…
 
-### 8. [AfterDeleteBench: Auditing Post-Deletion Information Persistence in LLM Agents](https://arxiv.org/abs/2610.31366v1)
-**Ehsan Saleh, Roozbeh Nahavandi, Sama Salarian, et al.**  ·  `cs.CR`  ·  [abs](https://arxiv.org/abs/2610.31366v1) · [pdf](https://arxiv.org/pdf/2610.31366v1)  ·  relevance 15
-<br>matched: `llm`, `agent`
+### 8. [Hybrid SEIR Temporal Fusion Transformer Framework with SHAP Analysis for Interpretable Pandemic Forecasting](https://arxiv.org/abs/2610.31673)
+**Ashish Anton Abraham, Gopi Krishnan R, Aiswarya Anil Nair, et al.**  ·  `physics.soc-ph`  ·  [abs](https://arxiv.org/abs/2610.31673) · [pdf](https://arxiv.org/pdf/2610.31673)  ·  relevance 18
+<br>matched: `transformer`, `interpretab`, `explainab`
 
-> Many LLM agents maintain external persistent memory and derive additional state from past interactions, such as summaries. Deleting an original memory record therefore need not remove information carried by its descendants. We introduce AfterDeleteBench, a controlled behavioral audit for this failure mode in fixed-weight LLM agents. For each synthetic secret, we compare an exposed-then-deleted agent with an otherwise matched agent that was never exposed to the secret,…
+> Forecasting pandemic spread across heterogeneous regions demands models that are both accurate and interpretable for public health action. This paper proposes a hybrid forecasting framework that integrates an SEIR epidemiological model enhanced with a Temporal Fusion Transformer (TFT) to produce interpretable multi-horizon infection forecasts. Using region-wise COVID-19 data from the Our World in Data corpus, we present a unified pipeline that integrates epidemiological…
 
-### 9. [Automating Feature Flag Cleanup at Scale with Multi-Agent LLM Systems: An Industrial Experience at DoorDash](https://arxiv.org/abs/2610.31351v1)
-**Atharv Chandratre, Jai Datar**  ·  `cs.SE`  ·  [abs](https://arxiv.org/abs/2610.31351v1) · [pdf](https://arxiv.org/pdf/2610.31351v1)  ·  relevance 15
-<br>matched: `llm`, `agent`
+### 9. [Behaviour analysis for large language model-driven agents](https://arxiv.org/abs/2610.32087)
+**Tianqiang Yan, Lizhen Qu**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.32087) · [pdf](https://arxiv.org/pdf/2610.32087)  ·  relevance 18
+<br>matched: `large language model`, `agent`, `interpretab`
 
-> Feature flags are runtime configuration mechanisms used for gradual feature rollouts, experimentation, and kill switches. Once a feature is fully rolled out, the flag and its gated code become technical debt and can introduce operational risk through inadvertently enabling dormant code paths. At DoorDash, over 56,000 feature flags span 623 repositories, with 1,659 currently stale as of May 2026, with internal estimates of one to two hours per manual cleanup. Existing…
+> Understanding language-agent behaviour requires learning how actions are organised across a trajectory and how this organisation relates to context and outcomes. We propose a general framework that connects data-driven behavioural discovery with analysis and experimental investigation. Categories developed from recorded activity define what is measured. Analyses preserve the behaviours' positions in the process and express their relationships as interpretable hypotheses.…
 
-### 10. [Social-HUMINT: An LLM-Augmented Unified Framework for Measuring Social Media Exposure](https://arxiv.org/abs/2610.31573v1)
-**Pellegrino Casoria, Simon Pietro Romano**  ·  `cs.CR`  ·  [abs](https://arxiv.org/abs/2610.31573v1) · [pdf](https://arxiv.org/pdf/2610.31573v1)  ·  relevance 14
+### 10. [LeafSkill: Efficient Leaf-Level Action Grounding for Recursive LLM Agents](https://arxiv.org/abs/2610.32412)
+**Shen Liu, Ze Zhou, Zhenguo Xu, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.32412) · [pdf](https://arxiv.org/pdf/2610.32412)  ·  relevance 18
 <br>matched: `large language model`, `llm`, `agent`
 
-> In the post-API landscape, social-media profiling has become inexpensive and automated: Large Language Models (LLMs) can extract structured information from unstructured content and deduce attributes users never disclosed. A person's true exposure is not what they post but what can be inferred from it. As these practices become routine, exposure to social engineering attacks becomes an operational certainty, demanding a shared framework for assessment and mitigation. We make…
+> Recursive large language model (LLM) agents solve long-horizon tasks through decomposition, execution, and environmental feedback. Yet after producing an atomic subtask, they often invoke the same large model again to translate a familiar instruction into an executable action. We observe that high-level planning is task-specific, whereas leaf-level action grounding recurs across tasks and can be checked against environment-admitted actions. We introduce LeafSkill, an…
 
-### 11. [Cost-Aware Abstention for LLM-Based IT Ticket Classification](https://arxiv.org/abs/2610.31657v1)
-**Sachin Gupta**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.31657v1) · [pdf](https://arxiv.org/pdf/2610.31657v1)  ·  relevance 12
-<br>matched: `large language model`, `llm`
+### 11. [Async-RBench: Benchmarking Asynchronous Task Execution in LLM Agents](https://arxiv.org/abs/2610.32429)
+**Detao Zeng, Guilin Ou, Nuo Chen, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.32429) · [pdf](https://arxiv.org/pdf/2610.32429)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
 
-> Wrong automatic routing of an IT support ticket can cost more than human triage. We evaluate cost-aware abstention as an offline, cost-conditional readiness assessment: select a routing policy on calibration data under explicit costs, then evaluate that frozen policy once on held-out test data. On a public 47,837-ticket, eight-class corpus, we compare four trained non-LLM classifiers with four large language models under zero- and few-shot prompting. Under the illustrative…
+> Large language model (LLM) agents increasingly execute tasks asynchronously: a main agent continues working while its subagents run, and the task state may change before their results arrive. The main agent must decide which work to update or preserve and which checks to repeat, while avoiding prohibited changes. Final task success alone does not reveal whether these results were handled correctly, and natural asynchronous arrivals are hard to reproduce. We introduce…
 
-### 12. [How Ground Truth Shapes Retrieval Scores: Evidence-Aware Evaluation of a Retrieval-Augmented Generation System for Breast Lesions](https://arxiv.org/abs/2610.31606v1)
-**Miguel Mochizuki Silva, Samuel Ismael, Mateus C. Dias, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.31606v1) · [pdf](https://arxiv.org/pdf/2610.31606v1)  ·  relevance 12
-<br>matched: `llm`, `retrieval-augmented`
+### 12. [A Foundation Model for Policy In-Context Longitudinal Causal Effect Estimation](https://arxiv.org/abs/2610.32863)
+**Wenxin Chen, Kyra Gan, Mingyu Lu, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.32863) · [pdf](https://arxiv.org/pdf/2610.32863)  ·  relevance 18
+<br>matched: `foundation model`, `longitudinal`
 
-> Purpose: To describe an evidence-aware retrieval evaluation protocol for a clinical retrieval-augmented generation (RAG) system over breast lesion management literature, addressing the dependence of retrieval scores on annotation coverage. Methods: An 18-document corpus and an 18-query development benchmark, with one Yes/No or WH-question per document, were used. Retrieval combined dense embeddings, BM25, and cross-encoder reranking. Chunk sizes of 128 to 1024 tokens,…
+> Longitudinal causal effect estimation is complicated by time-varying confounding and treatment-confounder feedback loops. Existing methods generally require data-specific nuisance-model fitting, and many are tailored to prespecified treatment sequences or prediction horizons, leading to time-consuming computation at deployment. We introduce *Policy In-Context Longitudinal causal Effect estimation with Prior-data Fitted Networks* (**PICLE-PFN**), the first foundation model…
 
 
-<sub>Generated 2026-10-25 17:03 UTC via the arXiv API.</sub>
+<sub>Generated 2026-10-26 19:19 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-10-26](digests/2026-10-26.md) — 12 papers
 - [2026-10-25](digests/2026-10-25.md) — 12 papers
 - [2026-10-24](digests/2026-10-24.md) — 12 papers
 - [2026-10-23](digests/2026-10-23.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-08-25](digests/2026-08-25.md) — 12 papers
 - [2026-08-24](digests/2026-08-24.md) — 12 papers
 - [2026-08-23](digests/2026-08-23.md) — 12 papers
-- [2026-08-22](digests/2026-08-22.md) — 12 papers
 
-_…and 57 earlier digests in [`digests/`](digests/)._
+_…and 58 earlier digests in [`digests/`](digests/)._
 
 ---
 
