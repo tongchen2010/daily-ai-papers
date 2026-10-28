@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-10-27** · browse the full archive below.
+**Latest digest: 2026-10-28** · browse the full archive below.
 
 ## How it works
 
@@ -29,89 +29,90 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-10-27
+# arXiv AI/ML digest — 2026-10-28
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [Towards Adversarially Robust Multigraph Neural Networks for Financial Crime Analysis](https://arxiv.org/abs/2610.31718)
-**Dennis Heijmans, H. \c{C}a\u{g}r{\i} Bilgi, Rui Wang, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.31718) · [pdf](https://arxiv.org/pdf/2610.31718)  ·  relevance 31
+### 1. [Systematic Morphometric Brain Autoencoding for Representation Learning in Neurodegenerative Diseases](https://arxiv.org/abs/2610.37074)
+**Nuria Balb\'as-Esteban, Albert Belenguer-Llorens, Elaheh Moradi, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.37074) · [pdf](https://arxiv.org/pdf/2610.37074)  ·  relevance 50
+<br>matched: `alzheimer`, `neurodegenerative`, `neuroimaging`, `brain mri`, `representation learning`, `self-supervised`
+
+> Early identification of neurodegenerative disorders using structural T1-weighted MRI is essential for timely clinical intervention, yet supervised deep learning models often struggle to generalize due to limited annotations and scanner-induced distribution shift. Self-supervised learning offers a promising alternative; however, existing approaches are largely adapted from natural image paradigms, relying on contrastive objectives or generic masked reconstruction with…
+
+### 2. [Multiple Leak Localization in Water Distribution Networks through Graph Neural Networks](https://arxiv.org/abs/2610.35972)
+**Arvin Ajoodani, Sara Nazif, Pouria Ramazi**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.35972) · [pdf](https://arxiv.org/pdf/2610.35972)  ·  relevance 31
 <br>matched: `graph neural network`, `graph neural`, `gnn`
 
-> Financial transaction networks are naturally represented as multigraphs, where repeated transactions between the same pair of accounts are modeled as distinct edges. Recently proposed multigraph neural network architectures leverage this structure explicitly to achieve a strong performance on anti-money laundering (AML) tasks. However, their robustness to adversaries that manipulate transaction structures to evade detection remains largely unexplored. We present the first…
+> Leak localization in water distribution networks is challenging when multiple leaks occur simultaneously, particularly under sparse monitoring. Existing data-driven methods often assume a single or predefined number of leaks or require extensive enumeration of leak combinations. This study proposes a graph neural network (GNN) model that localizes a variable number of simultaneous leaks without specifying the leak count in advance or exhaustively generating every possible…
 
-### 2. [CFBrainAug: Modularity-Induced Counterfactual Brain Network Augmentation for Interpretable fMRI-based Autism Diagnosis](https://arxiv.org/abs/2610.32184)
-**Yifan Qiao, Sheng Li**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.32184) · [pdf](https://arxiv.org/pdf/2610.32184)  ·  relevance 30
-<br>matched: `brain network`, `fmri`, `interpretab`
+### 3. [Interpretable Deep Learning Models for Breast Cancer Diagnosis Using Medical Imaging](https://arxiv.org/abs/2610.37026)
+**Sami Alnawali, Muhammad Atif Saeed, Abdul Hadi, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.37026) · [pdf](https://arxiv.org/pdf/2610.37026)  ·  relevance 26
+<br>matched: `transformer`, `medical imaging`, `interpretab`, `explainab`
 
-> Machine learning on resting-state functional magnetic resonance imaging (rs-fMRI) brain networks is promising for diagnosing Autism Spectrum Disorder (ASD), but existing methods are prone to overfitting on limited training data, and their post-hoc statistical attribution offers limited clinical interpretability. We propose CFBrainAug, a counterfactual brain network learning framework that unifies data augmentation and counterfactual explanation by learning label-altered…
+> Deep learning shows promise for breast cancer diagnosis, but limited interpretability hinders clinical adoption. We benchmark ten ImageNet-pretrained models (ResNet50, VGG19, InceptionV3, DenseNet121, Xception, MobileNetV2, EfficientNet, ConvNeXt, ViT, and Swin Transformer) for benign-versus-malignant classification on the BreakHis histopathology dataset using a patient-level split, and explain their predictions with Grad-CAM, LIME, Integrated Gradients, and LRP. DenseNet121…
 
-### 3. [How Robust Are CNNs and Vision Transformers for Alzheimer's MRI Classification Across Datasets?](https://arxiv.org/abs/2610.33416)
-**Hafija Aktar, Molly Croes, Frank S. Menniti, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.33416) · [pdf](https://arxiv.org/pdf/2610.33416)  ·  relevance 29
-<br>matched: `alzheimer`, `disease progression`, `transformer`
+### 4. [Graph Representation Learning via Adaptive Expectile Aggregation](https://arxiv.org/abs/2610.37450)
+**Tianyi Zhu, Wei Lan**  ·  `stat.ML`  ·  [abs](https://arxiv.org/abs/2610.37450) · [pdf](https://arxiv.org/pdf/2610.37450)  ·  relevance 25
+<br>matched: `graph neural network`, `graph neural`, `gnn`, `representation learning`
 
-> Accurate assessment of Alzheimer's disease stages from MRI is important for understanding disease progression and supporting the development of computer-aided analysis tools. Deep learning models have shown promising results for Alzheimer's disease classification from MRI. However, when evaluated on single datasets, it is difficult to determine whether the observed performance reflects consistent architectural behavior or dataset-specific effects. In this work, we present a…
+> Graph neural networks (GNNs) rely critically on neighborhood aggregation, yet conventional mean aggregation may fail to capture class-relevant distributional information, particularly in heterophilic graphs. We propose ExpectileGCN, an adaptive graph aggregation framework that introduces a learnable expectile level to capture neighborhood information beyond the mean. The proposed operator continuously adjusts aggregation between minimum- and maximum-type behaviors, with mean…
 
-### 4. [PathKGen: Pathology Knowledge Assisted MLLM for Explainable Histopathology](https://arxiv.org/abs/2610.33691)
-**Nadun Rajapaksha, Sandun Herath, Devnith Wijesinghe, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.33691) · [pdf](https://arxiv.org/pdf/2610.33691)  ·  relevance 27
-<br>matched: `foundation model`, `large language model`, `llm`, `explainab`, `multimodal`
+### 5. [MtReNIRS: A Self-Supervised Foundation Model for Transferable Neurovascular Representations](https://arxiv.org/abs/2610.36159)
+**Tony Chae, Kleanthis Avramidis, Dimitra Emmanouilidou, et al.**  ·  `eess.SP`  ·  [abs](https://arxiv.org/abs/2610.36159) · [pdf](https://arxiv.org/pdf/2610.36159)  ·  relevance 25
+<br>matched: `cortical`, `self-supervised`, `foundation model`
 
-> Whole Slide Image (WSI) analysis serves as the fundamental method for the clinical diagnosis of cancer in digital histopathology. Recent advances in Multimodal Large Language Models (MLLMs) have enabled state-of-the-art (SOTA) automated histopathology report generation. However, MLLMs reason purely through distributions encoded in their neural parameters, limiting the amount of knowledge and reasoning logic they can contain given the model scale. Their black-box reasoning…
+> Functional near-infrared spectroscopy (fNIRS) offers a promising approach for monitoring the hemodynamic correlates of neural activity in naturalistic settings. However, existing modeling methods for fNIRS are largely confined to small-scale, single-session data with low sampling rates, driven by high heterogeneity in acquisition devices and optode montages. In addition, the complex spatiotemporal structure of fNIRS signals further restricts model scalability and…
 
-### 5. [Aerial-R1: Reinforcing Aerial Reasoning and Segmentation in MLLMs](https://arxiv.org/abs/2610.33056)
-**Jisheng Dang, Huaiyuan Peng, Yixuan Wang, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.33056) · [pdf](https://arxiv.org/pdf/2610.33056)  ·  relevance 23
-<br>matched: `large language model`, `llm`, `agent`, `segmentation`, `multimodal`
+### 6. [How Reliable Is Individualized Functional-Network Attribution in Resting-State fMRI Cognitive Prediction in ADNI?](https://arxiv.org/abs/2610.37472)
+**Sheethal Bhat, Mahfuzur Rahman Chowdhury, Imam Ahmed Shaik, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.37472) · [pdf](https://arxiv.org/pdf/2610.37472)  ·  relevance 23
+<br>matched: `alzheimer`, `neuroimaging`, `fmri`, `interpretab`
 
-> While Multimodal Large Language Models (MLLMs) have revolutionized general visual perception, existing methods suffer from severe hallucination in the aerial domain, where extreme scale variations and visual ambiguity abound. Existing Supervised Fine-Tuning (SFT) paradigms force models to mimic ground truth without modeling uncertainty, often resulting in blind guessing on tiny or unrecognizable objects in aerial scenes. In this paper, we present Aerial-R1, the first aerial…
+> Individualized attribution estimates which functional networks drive a model prediction for a given subject and is often proposed as an interpretable resting-state fMRI (rs-fMRI) biomarker, but its test-retest reliability is rarely quantified. We evaluate per-subject network-ablation attribution for a frozen resting-state functional connectivity (FC) predictor (Schaefer-200 FC predicting MMSE/ADAS-Cog13) trained on N=875 subjects from the Alzheimer's Disease Neuroimaging…
 
-### 6. [MedAdaptAgent: An Automatic Harness for Adapting Medical Imaging Models to New Sites](https://arxiv.org/abs/2610.34884)
-**Hanxue Gu, Zhonghao Liu, Xingrui Gu, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.34884) · [pdf](https://arxiv.org/pdf/2610.34884)  ·  relevance 23
-<br>matched: `llm`, `agent`, `medical imaging`, `segmentation`
+### 7. [DocXEval: A Systematic Evaluation of Explainability in Multimodal Document Understanding](https://arxiv.org/abs/2610.36929)
+**Saifullah Saifullah, David Dembinsky, Stefan Agne, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.36929) · [pdf](https://arxiv.org/pdf/2610.36929)  ·  relevance 23
+<br>matched: `transformer`, `interpretab`, `explainab`, `multimodal`
 
-> Reusing pretrained medical-imaging models offers an alternative to training from scratch. A model trained for the same task may perform poorly at a new hospital because imaging protocols and preprocessing differ. Effective adaptation depends on the model architecture, domain shift, and available labels and compute. Adaptation can improve scores on a small labeled set yet reduce performance on unseen data. We present MedAdaptAgent, an automatic harness that turns a supplied…
+> Multimodal transformer models have driven unprecedented performance breakthroughs in modern document understanding. However, the inherent black-box nature of these models remains a major obstacle to their safe deployment in high-stakes sectors. Despite significant progress in explainability for vision and language tasks, explainable AI (XAI) research tailored to multimodal document understanding has received little attention. To address this gap, we present \ourframework{},…
 
-### 7. [Autoregressive Multimodal Anomaly Detection with Large Language Models for Microservice Systems](https://arxiv.org/abs/2610.31722)
-**Yixiang Tang, Fagui Liu, Guoxiang Zhong, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.31722) · [pdf](https://arxiv.org/pdf/2610.31722)  ·  relevance 21
-<br>matched: `large language model`, `llm`, `multimodal`
+### 8. [GNN-Guided Network Reduction for Centralized Urban Traffic Routing](https://arxiv.org/abs/2610.36981)
+**Nikolai Antonov, Luk\'a\v{s} Chrpa, Andrii Nyporko, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.36981) · [pdf](https://arxiv.org/pdf/2610.36981)  ·  relevance 21
+<br>matched: `graph neural network`, `graph neural`, `gnn`
 
-> Microservice systems have become a dominant architecture for large-scale cloud applications, enabling rapid deployment and elastic scaling. However, ensuring the reliability and availability of microservice systems critically relies on effective anomaly detection, as failures and performance anomalies can quickly propagate across services and severely impact end-to-end system behavior. Existing multimodal anomaly detection approaches for microservice systems often struggle…
+> We consider the centralized traffic routing (CTR) problem, where a central planner assigns routes to origin-destination (OD) vehicle flows to minimize congestion-dependent segment cost. Prior work formulates CTR efficiently as a mixed-integer linear program (MILP), but scaling this formulation to the full road network is computationally prohibitive within an operational time budget. Bounded Routes and Smart Routes speed up optimization using precomputed reduced networks;…
 
-### 8. [MedCaseAgent: From Multimodal Clinical Evidence to Rare Disease Case Reports](https://arxiv.org/abs/2610.32258)
-**Hongkang Chu, Yifan Shen, Tianjiao Yu, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.32258) · [pdf](https://arxiv.org/pdf/2610.32258)  ·  relevance 21
-<br>matched: `large language model`, `llm`, `agent`, `multimodal`
+### 9. [Ontology-guided multi-agent reasoning for explainable differential diagnosis](https://arxiv.org/abs/2610.36325)
+**Roxana Ramona Szomiu, George Ursu, Adrian Groza**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.36325) · [pdf](https://arxiv.org/pdf/2610.36325)  ·  relevance 21
+<br>matched: `large language model`, `llm`, `agent`, `explainab`
 
-> Although Large Language Models (LLMs) have demonstrated potential in clinical documentation, generating the rigorous, evidence-based reasoning required for unprecedented, atypical, and rare disease case reports remains a significant challenge. We present MedCaseAgent, an end-to-end agentic reasoning paradigm that bridges this gap by synthesizing publication-quality reports from unstructured clinical notes. MedCaseAgent leverages a hierarchical structure, integrating…
+> Effective differential diagnosis depends on well structured and unambiguous patient case descriptions, since incomplete or ambiguous clinical information readily leads to diagnostic errors and inconsistent reasoning. Large Language Models (LLMs) have recently shown promising capabilities in medical question answering and clinical reasoning; however, even when achieving competitive performance on medical benchmarks, they often rely on pattern recognition learned from training…
 
-### 9. [Adaptive Control of Scientific Instruments with Nonstationary Responses through Multimodal Agents](https://arxiv.org/abs/2610.32370)
-**Guoyang Shi, Hongwen Li, Yiding Yu, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.32370) · [pdf](https://arxiv.org/pdf/2610.32370)  ·  relevance 21
-<br>matched: `large language model`, `llm`, `agent`, `multimodal`
+### 10. [OA-RAG: Ontology-based Agentic RAG for Faithful LLM Reasoning](https://arxiv.org/abs/2610.36335)
+**Hui Yang, Jiaoyan Chen, Yongsheng Gao**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.36335) · [pdf](https://arxiv.org/pdf/2610.36335)  ·  relevance 21
+<br>matched: `large language model`, `llm`, `agent`, `retrieval-augmented`
 
-> Controlling scientific instruments requires parameters to be adjusted progressively in response to feedback from successive operations. When unobserved operating conditions evolve with operational history, responses become nonstationary, and a static mapping from actions to responses becomes inadequate for decisions across shots. Shot-to-shot tuning of neutral beam injection (NBI) ion sources in magnetic confinement fusion devices is representative of this class of problems:…
+> Large language models (LLMs) perform well across many real-world tasks but remain prone to hallucination, limiting their reliability in domains such as biomedicine and healthcare, where answers must be grounded in established knowledge. Retrieval-augmented generation (RAG) mitigates this problem by incorporating external information, but often overlooks logical relationships and relies heavily on the LLM's own reasoning, which can compromise answer faithfulness. We propose…
 
-### 10. [From Presence Labels to Bounding Boxes: Can Multimodal Large Language Models Scale Surgical Instrument Localization?](https://arxiv.org/abs/2610.34218)
-**Mohamed Hamdy, Muraam Abdel-Ghani, Fatmaelzahraa Ahmed, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.34218) · [pdf](https://arxiv.org/pdf/2610.34218)  ·  relevance 21
-<br>matched: `large language model`, `llm`, `multimodal`
+### 11. [Grounding LLM Agents in Business Processes: Process-Aware Knowledge Graphs for Reliable Multi-Step Service Invocation](https://arxiv.org/abs/2610.37242)
+**Saiful Khan, Afrah Farea**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.37242) · [pdf](https://arxiv.org/pdf/2610.37242)  ·  relevance 21
+<br>matched: `large language model`, `llm`, `agent`, `retrieval-augmented`
 
-> Spatial localization of surgical instruments through bounding-box annotations is a foundational component of surgical scene understanding, supporting detection, tracking, interaction analysis, and grounded vision-language applications. Yet existing annotations often cover selected frames, video subsets, or dataset variants rather than complete procedures. Manual extension is time-consuming and expert-dependent. Additionally, weakly supervised and detector-based pseudo-labels…
+> Large language model (LLM) agents that call enterprise APIs must select the correct endpoints, follow process order, use valid payload keys, and choose coded values from predefined lists. However, current retrieval-augmented service discovery treats endpoints independently and therefore misses process and schema constraints. We address this limitation by integrating Open Data Protocol (OData) metadata and Business Process Model and Notation (BPMN) reference processes in a…
 
-### 11. [An Agentic AI Workflow for Liver Lesion Segmentation and Structured Radiology Reporting](https://arxiv.org/abs/2610.34599)
-**Fatma Ahmed Mansour, Rahatara Ferdousi, Manar Fathy Elshenawy**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.34599) · [pdf](https://arxiv.org/pdf/2610.34599)  ·  relevance 21
-<br>matched: `large language model`, `llm`, `agent`, `segmentation`, `interpretab`
+### 12. [Retrospective macromolecular pool fraction mapping from conventional clinical MRI: a physics-guided self-supervised deep learning framework](https://arxiv.org/abs/2610.37213)
+**Jelmer van Lune, Miha Fuderer, Oscar van der Heide, et al.**  ·  `physics.med-ph`  ·  [abs](https://arxiv.org/abs/2610.37213) · [pdf](https://arxiv.org/pdf/2610.37213)  ·  relevance 20
+<br>matched: `brain mri`, `self-supervised`, `longitudinal`
 
-> Despite advances in automated liver lesion segmentation, a gap remains between image-derived predictions and clinically interpretable radiology reports. Bridging this gap requires quantitative measurements that are both reproducible and traceable. We present an evidence-grounded agentic AI framework that connects liver and lesion segmentation with deterministic quantification and structured reporting. TotalSegmentator-based nnU-Net models delineate the liver, Couinaud…
-
-### 12. [AdShot: Benchmarking Multimodal Large Language Models for Video Advertisement Clipping](https://arxiv.org/abs/2610.33377)
-**Wen Xie, Om Rastogi, Sai Siddhartha Vivek Dhir Rangoju, et al.**  ·  `cs.MM`  ·  [abs](https://arxiv.org/abs/2610.33377) · [pdf](https://arxiv.org/pdf/2610.33377)  ·  relevance 21
-<br>matched: `large language model`, `llm`, `multimodal`
-
-> Advertisers routinely create multiple duration variants of ads to meet marketing budgets and viewer preferences, a labor-intensive and costly process. While multimodal large language models (MLLMs) excel at general video understanding, their ability to perform specialized editorial tasks remains unexplored. We introduce AdShot, a benchmark for evaluating MLLMs on shot selection for ad clipping. It contains 823 professionally edited ad pairs (30-sec sources and 15-sec edits)…
+> Macromolecular pool fraction (MPF) is a quantitative imaging biomarker sensitive to myelin integrity and other changes in tissue macromolecular content, but specialized acquisitions and reconstruction methods limit its use in large-scale studies. We present a physics-guided, self-supervised deep learning framework for retrospectively estimating MPF directly from conventional clinical brain MRI ($T_1$-weighted, $T_2$-weighted, and fluid-attenuated inversion recovery [FLAIR])…
 
 
-<sub>Generated 2026-10-27 18:41 UTC via the arXiv API.</sub>
+<sub>Generated 2026-10-28 18:51 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-10-28](digests/2026-10-28.md) — 12 papers
 - [2026-10-27](digests/2026-10-27.md) — 12 papers
 - [2026-10-26](digests/2026-10-26.md) — 12 papers
 - [2026-10-25](digests/2026-10-25.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-08-27](digests/2026-08-27.md) — 12 papers
 - [2026-08-26](digests/2026-08-26.md) — 12 papers
 - [2026-08-25](digests/2026-08-25.md) — 12 papers
-- [2026-08-24](digests/2026-08-24.md) — 12 papers
 
-_…and 59 earlier digests in [`digests/`](digests/)._
+_…and 60 earlier digests in [`digests/`](digests/)._
 
 ---
 
