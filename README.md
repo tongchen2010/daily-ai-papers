@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-10-28** · browse the full archive below.
+**Latest digest: 2026-10-29** · browse the full archive below.
 
 ## How it works
 
@@ -29,89 +29,90 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-10-28
+# arXiv AI/ML digest — 2026-10-29
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [Systematic Morphometric Brain Autoencoding for Representation Learning in Neurodegenerative Diseases](https://arxiv.org/abs/2610.37074)
-**Nuria Balb\'as-Esteban, Albert Belenguer-Llorens, Elaheh Moradi, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.37074) · [pdf](https://arxiv.org/pdf/2610.37074)  ·  relevance 50
-<br>matched: `alzheimer`, `neurodegenerative`, `neuroimaging`, `brain mri`, `representation learning`, `self-supervised`
-
-> Early identification of neurodegenerative disorders using structural T1-weighted MRI is essential for timely clinical intervention, yet supervised deep learning models often struggle to generalize due to limited annotations and scanner-induced distribution shift. Self-supervised learning offers a promising alternative; however, existing approaches are largely adapted from natural image paradigms, relying on contrastive objectives or generic masked reconstruction with…
-
-### 2. [Multiple Leak Localization in Water Distribution Networks through Graph Neural Networks](https://arxiv.org/abs/2610.35972)
+### 1. [Multiple Leak Localization in Water Distribution Networks through Graph Neural Networks](https://arxiv.org/abs/2610.35972)
 **Arvin Ajoodani, Sara Nazif, Pouria Ramazi**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.35972) · [pdf](https://arxiv.org/pdf/2610.35972)  ·  relevance 31
 <br>matched: `graph neural network`, `graph neural`, `gnn`
 
 > Leak localization in water distribution networks is challenging when multiple leaks occur simultaneously, particularly under sparse monitoring. Existing data-driven methods often assume a single or predefined number of leaks or require extensive enumeration of leak combinations. This study proposes a graph neural network (GNN) model that localizes a variable number of simultaneous leaks without specifying the leak count in advance or exhaustively generating every possible…
 
-### 3. [Interpretable Deep Learning Models for Breast Cancer Diagnosis Using Medical Imaging](https://arxiv.org/abs/2610.37026)
+### 2. [Interpretable Deep Learning Models for Breast Cancer Diagnosis Using Medical Imaging](https://arxiv.org/abs/2610.37026)
 **Sami Alnawali, Muhammad Atif Saeed, Abdul Hadi, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.37026) · [pdf](https://arxiv.org/pdf/2610.37026)  ·  relevance 26
 <br>matched: `transformer`, `medical imaging`, `interpretab`, `explainab`
 
 > Deep learning shows promise for breast cancer diagnosis, but limited interpretability hinders clinical adoption. We benchmark ten ImageNet-pretrained models (ResNet50, VGG19, InceptionV3, DenseNet121, Xception, MobileNetV2, EfficientNet, ConvNeXt, ViT, and Swin Transformer) for benign-versus-malignant classification on the BreakHis histopathology dataset using a patient-level split, and explain their predictions with Grad-CAM, LIME, Integrated Gradients, and LRP. DenseNet121…
 
-### 4. [Graph Representation Learning via Adaptive Expectile Aggregation](https://arxiv.org/abs/2610.37450)
-**Tianyi Zhu, Wei Lan**  ·  `stat.ML`  ·  [abs](https://arxiv.org/abs/2610.37450) · [pdf](https://arxiv.org/pdf/2610.37450)  ·  relevance 25
-<br>matched: `graph neural network`, `graph neural`, `gnn`, `representation learning`
-
-> Graph neural networks (GNNs) rely critically on neighborhood aggregation, yet conventional mean aggregation may fail to capture class-relevant distributional information, particularly in heterophilic graphs. We propose ExpectileGCN, an adaptive graph aggregation framework that introduces a learnable expectile level to capture neighborhood information beyond the mean. The proposed operator continuously adjusts aggregation between minimum- and maximum-type behaviors, with mean…
-
-### 5. [MtReNIRS: A Self-Supervised Foundation Model for Transferable Neurovascular Representations](https://arxiv.org/abs/2610.36159)
-**Tony Chae, Kleanthis Avramidis, Dimitra Emmanouilidou, et al.**  ·  `eess.SP`  ·  [abs](https://arxiv.org/abs/2610.36159) · [pdf](https://arxiv.org/pdf/2610.36159)  ·  relevance 25
-<br>matched: `cortical`, `self-supervised`, `foundation model`
-
-> Functional near-infrared spectroscopy (fNIRS) offers a promising approach for monitoring the hemodynamic correlates of neural activity in naturalistic settings. However, existing modeling methods for fNIRS are largely confined to small-scale, single-session data with low sampling rates, driven by high heterogeneity in acquisition devices and optode montages. In addition, the complex spatiotemporal structure of fNIRS signals further restricts model scalability and…
-
-### 6. [How Reliable Is Individualized Functional-Network Attribution in Resting-State fMRI Cognitive Prediction in ADNI?](https://arxiv.org/abs/2610.37472)
+### 3. [How Reliable Is Individualized Functional-Network Attribution in Resting-State fMRI Cognitive Prediction in ADNI?](https://arxiv.org/abs/2610.37472)
 **Sheethal Bhat, Mahfuzur Rahman Chowdhury, Imam Ahmed Shaik, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.37472) · [pdf](https://arxiv.org/pdf/2610.37472)  ·  relevance 23
 <br>matched: `alzheimer`, `neuroimaging`, `fmri`, `interpretab`
 
 > Individualized attribution estimates which functional networks drive a model prediction for a given subject and is often proposed as an interpretable resting-state fMRI (rs-fMRI) biomarker, but its test-retest reliability is rarely quantified. We evaluate per-subject network-ablation attribution for a frozen resting-state functional connectivity (FC) predictor (Schaefer-200 FC predicting MMSE/ADAS-Cog13) trained on N=875 subjects from the Alzheimer's Disease Neuroimaging…
 
-### 7. [DocXEval: A Systematic Evaluation of Explainability in Multimodal Document Understanding](https://arxiv.org/abs/2610.36929)
-**Saifullah Saifullah, David Dembinsky, Stefan Agne, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.36929) · [pdf](https://arxiv.org/pdf/2610.36929)  ·  relevance 23
-<br>matched: `transformer`, `interpretab`, `explainab`, `multimodal`
-
-> Multimodal transformer models have driven unprecedented performance breakthroughs in modern document understanding. However, the inherent black-box nature of these models remains a major obstacle to their safe deployment in high-stakes sectors. Despite significant progress in explainability for vision and language tasks, explainable AI (XAI) research tailored to multimodal document understanding has received little attention. To address this gap, we present \ourframework{},…
-
-### 8. [GNN-Guided Network Reduction for Centralized Urban Traffic Routing](https://arxiv.org/abs/2610.36981)
-**Nikolai Antonov, Luk\'a\v{s} Chrpa, Andrii Nyporko, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.36981) · [pdf](https://arxiv.org/pdf/2610.36981)  ·  relevance 21
-<br>matched: `graph neural network`, `graph neural`, `gnn`
-
-> We consider the centralized traffic routing (CTR) problem, where a central planner assigns routes to origin-destination (OD) vehicle flows to minimize congestion-dependent segment cost. Prior work formulates CTR efficiently as a mixed-integer linear program (MILP), but scaling this formulation to the full road network is computationally prohibitive within an operational time budget. Bounded Routes and Smart Routes speed up optimization using precomputed reduced networks;…
-
-### 9. [Ontology-guided multi-agent reasoning for explainable differential diagnosis](https://arxiv.org/abs/2610.36325)
+### 4. [Ontology-guided multi-agent reasoning for explainable differential diagnosis](https://arxiv.org/abs/2610.36325)
 **Roxana Ramona Szomiu, George Ursu, Adrian Groza**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.36325) · [pdf](https://arxiv.org/pdf/2610.36325)  ·  relevance 21
 <br>matched: `large language model`, `llm`, `agent`, `explainab`
 
 > Effective differential diagnosis depends on well structured and unambiguous patient case descriptions, since incomplete or ambiguous clinical information readily leads to diagnostic errors and inconsistent reasoning. Large Language Models (LLMs) have recently shown promising capabilities in medical question answering and clinical reasoning; however, even when achieving competitive performance on medical benchmarks, they often rely on pattern recognition learned from training…
 
-### 10. [OA-RAG: Ontology-based Agentic RAG for Faithful LLM Reasoning](https://arxiv.org/abs/2610.36335)
+### 5. [OA-RAG: Ontology-based Agentic RAG for Faithful LLM Reasoning](https://arxiv.org/abs/2610.36335)
 **Hui Yang, Jiaoyan Chen, Yongsheng Gao**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.36335) · [pdf](https://arxiv.org/pdf/2610.36335)  ·  relevance 21
 <br>matched: `large language model`, `llm`, `agent`, `retrieval-augmented`
 
 > Large language models (LLMs) perform well across many real-world tasks but remain prone to hallucination, limiting their reliability in domains such as biomedicine and healthcare, where answers must be grounded in established knowledge. Retrieval-augmented generation (RAG) mitigates this problem by incorporating external information, but often overlooks logical relationships and relies heavily on the LLM's own reasoning, which can compromise answer faithfulness. We propose…
 
-### 11. [Grounding LLM Agents in Business Processes: Process-Aware Knowledge Graphs for Reliable Multi-Step Service Invocation](https://arxiv.org/abs/2610.37242)
+### 6. [Grounding LLM Agents in Business Processes: Process-Aware Knowledge Graphs for Reliable Multi-Step Service Invocation](https://arxiv.org/abs/2610.37242)
 **Saiful Khan, Afrah Farea**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.37242) · [pdf](https://arxiv.org/pdf/2610.37242)  ·  relevance 21
 <br>matched: `large language model`, `llm`, `agent`, `retrieval-augmented`
 
 > Large language model (LLM) agents that call enterprise APIs must select the correct endpoints, follow process order, use valid payload keys, and choose coded values from predefined lists. However, current retrieval-augmented service discovery treats endpoints independently and therefore misses process and schema constraints. We address this limitation by integrating Open Data Protocol (OData) metadata and Business Process Model and Notation (BPMN) reference processes in a…
 
-### 12. [Retrospective macromolecular pool fraction mapping from conventional clinical MRI: a physics-guided self-supervised deep learning framework](https://arxiv.org/abs/2610.37213)
-**Jelmer van Lune, Miha Fuderer, Oscar van der Heide, et al.**  ·  `physics.med-ph`  ·  [abs](https://arxiv.org/abs/2610.37213) · [pdf](https://arxiv.org/pdf/2610.37213)  ·  relevance 20
-<br>matched: `brain mri`, `self-supervised`, `longitudinal`
+### 7. [LM-DSB: A Lightweight Multi-agent System for Automated Daily Safety Bulletin Generation in Construction](https://arxiv.org/abs/2610.36433)
+**Xianxiang Zhao, Advik Mehta, Falak Sethi, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.36433) · [pdf](https://arxiv.org/pdf/2610.36433)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`, `retrieval-augmented`, `multimodal`
 
-> Macromolecular pool fraction (MPF) is a quantitative imaging biomarker sensitive to myelin integrity and other changes in tissue macromolecular content, but specialized acquisitions and reconstruction methods limit its use in large-scale studies. We present a physics-guided, self-supervised deep learning framework for retrospectively estimating MPF directly from conventional clinical brain MRI ($T_1$-weighted, $T_2$-weighted, and fluid-attenuated inversion recovery [FLAIR])…
+> Construction safety management still struggles to produce daily safety bulletins (DSBs), structured daily communications that identify site-specific hazards, convey safety protocols, and set preventive measures for workers. Manual DSB creation takes 2-3 hours daily and yields inconsistent quality, with 25% of crews never conducting pretask planning (Olson et al., 2016), diverting safety personnel from field supervision. This study proposes the Lightweight Multi-Agent DSB…
+
+### 8. [RouteDRAG: Learning to Route and Control Agentic Execution for Multimodal Document RAG](https://arxiv.org/abs/2610.36444)
+**Zekai Chen, Hao Zhu, Yu Liu, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.36444) · [pdf](https://arxiv.org/pdf/2610.36444)  ·  relevance 18
+<br>matched: `agent`, `retrieval-augmented`, `multimodal`
+
+> Web-based applications increasingly rely on understanding long multimodal documents, where answering questions often requires combining information across pages, tables, and figures. Agentic retrieval-augmented generation addresses these tasks through iterative retrieval and reasoning. However, Agentic execution is not always necessary, introducing additional computation and potentially incorrect answers. Our empirical analysis reveals that Agentic execution provides…
+
+### 9. [CogArena: Benchmarking Multimodal Agents on Interactive Behavioral Experiments](https://arxiv.org/abs/2610.36484)
+**Kiant\'e Fernandez, Caitlin Chen, Jialu Zhou, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.36484) · [pdf](https://arxiv.org/pdf/2610.36484)  ·  relevance 18
+<br>matched: `large language model`, `agent`, `multimodal`
+
+> Claims about the cognitive capabilities of large language models are typically tested by translating behavioral paradigms into text prompts, bypassing the visual interfaces and time pressure through which human participants actually engage with experiments. At the same time, AI agents can now complete online behavioral tasks and produce human-like data, which raises concerns that online datasets in the social and behavioral sciences are increasingly open to contamination. We…
+
+### 10. [Proactive Memory for Event-Driven LLM Agents](https://arxiv.org/abs/2610.36967)
+**Jinyang Li, Zichuan Fu, Xian Wu, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.36967) · [pdf](https://arxiv.org/pdf/2610.36967)  ·  relevance 18
+<br>matched: `longitudinal`, `llm`, `agent`
+
+> Proactive LLM agents anticipate service opportunities from ongoing observations and accumulated history. Existing approaches emphasize recent context or retrieval of related memories, providing limited support for validating recurring behavioral regularities and assessing their applicability to the current event. We propose Proactive Memory (ProactMem), which organizes history into recent events, temporal trajectories, and behavioral regularities. Trajectory facts are…
+
+### 11. [AutoVend: Benchmarking LLM Agents on Long-Horizon Autonomous Vending Operations](https://arxiv.org/abs/2610.36980)
+**Qiming Shi, Yikun Li, Beidi Luan, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.36980) · [pdf](https://arxiv.org/pdf/2610.36980)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
+
+> Large language model (LLM) agents are extending agent-mediated commerce on the Web from shopping for consumers to operating businesses for sellers. In online-to-offline (O2O) commerce, decisions are issued through Web-based platforms but realized through costly physical execution. Evaluating such agents requires going beyond individual transactions to ask whether decisions made online turn into sustained economic returns. We introduce AutoVend, a benchmark in which one LLM…
+
+### 12. [Concordat: Typed Sessions for LLM Agents](https://arxiv.org/abs/2610.37461)
+**Milad Sikaroudi**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.37461) · [pdf](https://arxiv.org/pdf/2610.37461)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
+
+> Agents built on large language models are increasingly allowed to take consequential actions: cancelling bookings, issuing refunds, changing accounts. The rules that govern those actions, such as "obtain the customer's explicit confirmation before changing anything", are usually stated in the prompt and followed only as reliably as the model chooses to follow them. We present Concordat, a Python library that treats an agent as an object whose interface is a finite-state…
 
 
-<sub>Generated 2026-10-28 18:51 UTC via the arXiv API.</sub>
+<sub>Generated 2026-10-29 18:57 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-10-29](digests/2026-10-29.md) — 12 papers
 - [2026-10-28](digests/2026-10-28.md) — 12 papers
 - [2026-10-27](digests/2026-10-27.md) — 12 papers
 - [2026-10-26](digests/2026-10-26.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-08-28](digests/2026-08-28.md) — 12 papers
 - [2026-08-27](digests/2026-08-27.md) — 12 papers
 - [2026-08-26](digests/2026-08-26.md) — 12 papers
-- [2026-08-25](digests/2026-08-25.md) — 12 papers
 
-_…and 60 earlier digests in [`digests/`](digests/)._
+_…and 61 earlier digests in [`digests/`](digests/)._
 
 ---
 
