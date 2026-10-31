@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-10-30** · browse the full archive below.
+**Latest digest: 2026-10-31** · browse the full archive below.
 
 ## How it works
 
@@ -29,89 +29,90 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-10-30
+# arXiv AI/ML digest — 2026-10-31
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [Predicting Sparse Observables in Parameterized Unsteady Flows Using Coarse-Mesh Graph Neural Networks](https://arxiv.org/abs/2610.37986)
-**Brener Ramos, William R. Wolf, Tarc\'isio C. D. Oliveira, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.37986) · [pdf](https://arxiv.org/pdf/2610.37986)  ·  relevance 31
-<br>matched: `graph neural network`, `graph neural`, `gnn`
-
-> Full-order surrogates for high-dimensional nonlinear flows are often unnecessary when applications require only selected degrees of freedom. We propose reduced-order models that bypass full-state reconstruction by deploying graph neural networks (GNNs) directly on coarse meshes. Applied to parameterized 2D/3D confined cylinder flows and an unevenly heated cavity over Reynolds/Rayleigh-number ranges, the models generalize to unseen conditions and accurately predict sparse…
-
-### 2. [A Separation Principle for Adversarial Attacks and Defense of Graph Neural Networks](https://arxiv.org/abs/2610.38127)
-**Farid Mafi, Saber Jafarpour, Mohammad Pirani**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.38127) · [pdf](https://arxiv.org/pdf/2610.38127)  ·  relevance 31
-<br>matched: `graph neural network`, `graph neural`, `gnn`
-
-> Adversarial attacks on graph neural networks (GNNs) have been studied as a model-centric optimization problem driven by gradients, learned policies, or meta-learning, with the graph treated as a passive substrate. This view overlooks a defining feature of GNNs: their predictions are produced by structured message passing along the graph, so their adversarial vulnerabilities are encoded as much in the geometry of the graph as in the learned weights. We develop a…
-
-### 3. [Benchmarking Graph Neural Networks for AC Power Flow: The Role of Inductive Biases and Physical Constraints](https://arxiv.org/abs/2610.38985)
+### 1. [Benchmarking Graph Neural Networks for AC Power Flow: The Role of Inductive Biases and Physical Constraints](https://arxiv.org/abs/2610.38985)
 **Federico Clerici, Ferran Bohigas-Daranas, Hamid Latif-Mart\'inez, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.38985) · [pdf](https://arxiv.org/pdf/2610.38985)  ·  relevance 31
 <br>matched: `graph neural network`, `graph neural`, `gnn`
 
 > Fast and accurate models for AC power flow (ACPF) are increasingly important as modern electrical grids require more frequent system analyses. Graph neural networks (GNNs) naturally exploit electrical grid topology, yet the effects of architectural design choices on predictive performance remain poorly understood given differences in graph representations and evaluation settings across studies. We present a unified benchmark of representative GNN architectures for ACPF…
 
-### 4. [Recurrent Bipartite Graph Neural Networks for QC-MDPC Error Decoding in McEliece Cryptosystems](https://arxiv.org/abs/2610.38479)
-**Parth Rajeshkumar Tandel, Elisabeth Fink**  ·  `cs.CR`  ·  [abs](https://arxiv.org/abs/2610.38479) · [pdf](https://arxiv.org/pdf/2610.38479)  ·  relevance 31
-<br>matched: `graph neural network`, `graph neural`, `gnn`
-
-> As the advent of large-scale quantum computing threatens classical encryption, Quasi-Cyclic Moderate Density Parity-Check (QC-MDPC) codes have emerged as a foundational element of Post-Quantum Cryptography (PQC). However, decoding these relatively dense codes using classical Belief Propagation algorithms often leads to failures caused by short graph cycles that stall the decoder. In cryptographic applications, these failures are severe security vulnerabilities that leak…
-
-### 5. [MLLM-GS: Multimodal Large Language Model Prior-Guided Fast Novel View Synthesis in Extreme Environments](https://arxiv.org/abs/2610.39936)
-**Zhiliang Wu, Xinye Zheng, Kun Li, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.39936) · [pdf](https://arxiv.org/pdf/2610.39936)  ·  relevance 29
-<br>matched: `generative model`, `large language model`, `llm`, `multimodal`
-
-> Novel view synthesis (NVS) in degraded scenes aims to reconstruct 3D scenes from multi-view observations affected by various degradations, and to generate clear and photorealistic images at unseen viewpoints. Despite recent advances, existing methods often rely on degradation-specific models, limiting their generalization across diverse extreme environments. Generative models provide rich visual priors, but their outputs often suffer from pixel misalignment and color…
-
-### 6. [LoRe-MIM: Lost-or-Replaced Masked Image Modeling for Self-Supervised Representation Learning in Whole-Body PET/CT](https://arxiv.org/abs/2610.40284)
-**Amartya Bhattacharya, Bashirul Azam Biswas, Biratal Raj Wagle, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.40284) · [pdf](https://arxiv.org/pdf/2610.40284)  ·  relevance 29
-<br>matched: `representation learning`, `self-supervised`, `segmentation`, `multimodal`
-
-> Deep learning models for whole-body positron emission tomography/computed tomography (PET/CT) hold significant clinical potential for disease detection, treatment planning, and response assessment. However, the time and cost associated with expert annotations remain major bottlenecks in developing robust and generalizable models. Although self-supervised learning (SSL) has emerged as a promising approach to mitigating annotation scarcity, its application to whole-body PET/CT…
-
-### 7. [LLM-Integrated Bayesian State Space Models for Multimodal Time-Series Forecasting](https://arxiv.org/abs/2510.20952)
+### 2. [LLM-Integrated Bayesian State Space Models for Multimodal Time-Series Forecasting](https://arxiv.org/abs/2510.20952)
 **Sungjun Cho, Changho Shin, Suenggwan Jo, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2510.20952) · [pdf](https://arxiv.org/pdf/2510.20952)  ·  relevance 27
 <br>matched: `large language model`, `llm`, `multimodal`, `state space model`
 
 > Forecasting in the real world requires integrating structured time-series data with unstructured textual information, but existing methods are architecturally limited by fixed input/output horizons and are unable to model or quantify uncertainty. We address this challenge by introducing LLM-integrated Bayesian State space models (LBS), a novel probabilistic framework for multimodal temporal forecasting. At a high level, LBS consists of two components: (1) a state space model…
 
-### 8. [Agentic LLM reasoning in pediatric diabetes outcome prediction from multimodal medical records](https://arxiv.org/abs/2610.40379)
-**Daniel Palacios, Guantong Qi, Anna Kadi, et al.**  ·  `q-bio.QM`  ·  [abs](https://arxiv.org/abs/2610.40379) · [pdf](https://arxiv.org/pdf/2610.40379)  ·  relevance 27
-<br>matched: `large language model`, `llm`, `agent`, `multimodal`
-
-> Large language model (LLM) agents are proposed for clinical prediction but are untested in pediatrics, where cohorts are small and outcomes are uncommon. Using records from 2,489 youth with type 2 diabetes (T2D) and 4,018 with type 1 diabetes (T1D), spanning structured data, note-derived social determinants and, in T1D, continuous glucose monitoring data, we predicted seven T2D outcomes, four also in T1D, at 24 months from 18 months of follow-up. CEDAR (Clinical…
-
-### 9. [Post-Training Large Language Models with LLMON](https://arxiv.org/abs/2610.38120)
+### 3. [Post-Training Large Language Models with LLMON](https://arxiv.org/abs/2610.38120)
 **Basel Shbita, Michael Hind, Chad DeLuca, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.38120) · [pdf](https://arxiv.org/pdf/2610.38120)  ·  relevance 26
 <br>matched: `transformer`, `large language model`, `llm`, `retrieval-augmented`, `interpretab`
 
 > Large Language Models (LLMs) treat all context tokens uniformly, lacking explicit separation between executable instructions and passive data. This leads to prompt injection vulnerabilities, ambiguous instruction binding, and unreliable execution control. We present a post-training methodology using LLMON (LLM Object Notation), a framework that enables separating instructions from data and requires explicit identifier-based execution. We construct a large-scale structured…
 
-### 10. [BRIDGE: Learning Brain-Gut Metabolic Evidence for Alzheimer's Disease Diagnosis](https://arxiv.org/abs/2610.39520)
-**Pengli Zhu, Ruxi Chang, Tianliang Yao, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.39520) · [pdf](https://arxiv.org/pdf/2610.39520)  ·  relevance 24
-<br>matched: `alzheimer`, `large language model`, `llm`
+### 4. [Can LLMs Faithfully Solve Ontology Engineering Tasks? A Mechanistic Interpretability Study](https://arxiv.org/abs/2610.38326)
+**Bohui Zhang, Albert Mero\~no-Pe\~nuela, Elena Simperl**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.38326) · [pdf](https://arxiv.org/pdf/2610.38326)  ·  relevance 21
+<br>matched: `large language model`, `llm`, `interpretab`
 
-> Alzheimer's disease (AD) diagnosis may benefit from gut metabolic information associated with brain-gut interactions, yet existing models largely analyze cerebral glucose metabolism alone. Although whole-body fluorodeoxyglucose positron emission tomography (FDG-PET) can provide paired brain-gut observations, routine brain examinations rarely include gut imaging, limiting direct use of this information for diagnosis. In this paper, we present BRIDGE (Brain and Gut…
+> Ontological knowledge underpins large language model (LLM) performance on knowledge-intensive tasks. However, existing evaluations of LLMs' ontological understanding largely rely on behavioral correctness, leaving the underlying mechanisms unexplained. Existing mechanistic interpretability work has largely focused on instance-level factual knowledge, leaving ontological knowledge under-explored. To bridge this gap, we introduce MIOE, a causal-abstraction benchmark that…
 
-### 11. [Jailbreak Connectivity: Towards Diverse, Transferable, and Universal Multimodal Large Language Model Jailbreak](https://arxiv.org/abs/2610.38091)
+### 5. [Auditable Belief Updates as a Missing Safety Layer for LLM-Powered Multi-Agent Systems](https://arxiv.org/abs/2610.38869)
+**Zhuoyun Li, Boxuan Wang, Jinwei Hu, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.38869) · [pdf](https://arxiv.org/pdf/2610.38869)  ·  relevance 21
+<br>matched: `large language model`, `llm`, `agent`, `multimodal`
+
+> Large Language Models (LLMs) are increasingly being used as cognitive interfaces that shape how users interpret evidence, communicate, and make decisions. As deployed systems become more multimodal, tool-using, and multi-agent, safety failures no longer arise only from isolated harmful outputs, but also from how agents update, store, and propagate epistemic commitments across retrieval, memory, tools, and peer communication. In this paper, we define belief as an engineering…
+
+### 6. [Interpretable Feature Discovery from Unstructured Data Using LLMs and Statistical Choice Models](https://arxiv.org/abs/2610.38082)
+**Baptiste Arnaudo, Amine Bennouna, S\'ebastien Martin**  ·  `stat.ML`  ·  [abs](https://arxiv.org/abs/2610.38082) · [pdf](https://arxiv.org/pdf/2610.38082)  ·  relevance 21
+<br>matched: `large language model`, `llm`, `interpretab`
+
+> Feature extraction from unstructured data typically relies on opaque embeddings unsuited to interpretable decision-making. Interpretable features, on the other hand, typically require costly, and often infeasible, hand-engineering. Large language models (LLMs) offer a natural bridge, as they can read raw data and describe it in interpretable terms. One could simply ask an LLM to extract features from a large sample of the dataset, but context limitations and diluted…
+
+### 7. [Jailbreak Connectivity: Towards Diverse, Transferable, and Universal Multimodal Large Language Model Jailbreak](https://arxiv.org/abs/2610.38091)
 **Xu Zhang, Ziqing Hu, Shuo Han, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.38091) · [pdf](https://arxiv.org/pdf/2610.38091)  ·  relevance 21
 <br>matched: `large language model`, `llm`, `multimodal`
 
 > Multimodal large language models (MLLMs) are vulnerable to visual jailbreak attacks that bypass safety safeguards. Existing methods typically optimize isolated adversarial examples, limiting attack diversity, transferability, and generalization. We propose Jailbreak Connectivity (JC), a framework based on the observation that effective adversarial inputs can be connected through low-loss regions in image space. JC optimizes continuous adversarial paths: path sampling yields…
 
-### 12. [Data Amount Heterogeneity Improves Performance in Federated Learning for Neuroimaging](https://arxiv.org/abs/2610.38172)
-**Paul Kurian, Tamoghna Chattopadhyay, Abhijith Shaji, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.38172) · [pdf](https://arxiv.org/pdf/2610.38172)  ·  relevance 21
-<br>matched: `alzheimer`, `neuroimaging`
+### 8. [Nemotron 3.5 Super and Lightning: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Models for Agentic AI](https://arxiv.org/abs/2610.38095)
+**NVIDIA, :, Aastha Jhunjhunwala, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.38095) · [pdf](https://arxiv.org/pdf/2610.38095)  ·  relevance 21
+<br>matched: `transformer`, `agent`, `multimodal`, `mamba`
 
-> Federated Learning (FL) allows for secure analysis of distributed data without data sharing. We and others have successfully applied FL to neuroimaging tasks, such as Alzheimer's disease classification from structural magnetic resonance imaging (MRI). FL trains a deep learning model locally at each site, encrypts the local model parameters and sends them to a federation controller that aggregates the local models under homomorphic encryption, the resulting community model is…
+> We introduce Nemotron 3.5 Super and Nemotron 3.5 Lightning, open and efficient Mixture-of-Experts Hybrid Mamba-Transformer models designed for reasoning, long-context understanding, and agentic workloads. Super is a 120B-parameter, 12B-active multimodal model, while Lightning is a smaller 30B-parameter, 3B-active text model; both designed for efficient deployment. Both models combine large-scale distillation, long-context training, and native speculative decoding, while…
+
+### 9. [Raincheck: Deferred Multimodal Prefill for Efficient Multi-Turn MLLM Inference](https://arxiv.org/abs/2610.39562)
+**Wenjie Huang, Jun Zhang, Hongyaoxing Gu, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.39562) · [pdf](https://arxiv.org/pdf/2610.39562)  ·  relevance 21
+<br>matched: `large language model`, `llm`, `multimodal`
+
+> Multi-turn conversations with multimodal large language models (MLLMs) reuse input context, but long multimodal inputs increase time to first token (TTFT). Query-aware hard pruning reduces prefill tokens but permanently excludes information that later questions may require. We propose Raincheck, a framework for deferred multimodal prefill that decouples initial token selection from later information availability. An existing pruning method selects tokens for initial prefill;…
+
+### 10. [DecompGym: Benchmarking LLM Agents on Designing Decomposition Algorithms](https://arxiv.org/abs/2610.38175)
+**Sikai Cheng, Tinghan Ye, Arnaud Deza, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.38175) · [pdf](https://arxiv.org/pdf/2610.38175)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
+
+> Benders decomposition and column generation solve large optimization problems by passing cuts, columns, and dual values between a master problem and subproblems, and are hard to implement correctly. Large language models now automate parts of algorithm design, which points toward agents that build decomposition solvers for new problems. As a first step toward such agents, we study how well current coding agents design and implement these two algorithms, and how they fail. We…
+
+### 11. [Vendster: An Evaluation Arena to Investigate How Forecasting Tool Quality Affects LLM Agent Behaviors in Buyer-Vendor Negotiation](https://arxiv.org/abs/2610.38292)
+**Charin Polpanumas**  ·  `cs.GT`  ·  [abs](https://arxiv.org/abs/2610.38292) · [pdf](https://arxiv.org/pdf/2610.38292)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
+
+> Time-series forecasters are ranked almost entirely by accuracy metrics, but a forecast's decision value, its effect on the downstream decision, need not track accuracy and is rarely measured. This problem compounds as large language model (LLM) agents increasingly consume forecasters as tools, mediating them through stochastic, opaque policies. We present Vendster, an evaluation arena measuring how a forecaster's bias and prediction-interval width change the outcome of a…
+
+### 12. [REALM: Identifying Minimal Task Assets for LLM Agents](https://arxiv.org/abs/2610.39155)
+**Zihou Ren, Byungchul Tak, Long Wang**  ·  `cs.CR`  ·  [abs](https://arxiv.org/abs/2610.39155) · [pdf](https://arxiv.org/pdf/2610.39155)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
+
+> Large language model (LLM) agents often receive access to more files, accounts, and services than a task requires. Prompt injection turns this excess access into an opportunity to redirect execution toward unrelated resources. Applying least privilege therefore requires identifying the assets needed by a task, including assets whose identities emerge only during execution. We present REALM (Required Execution Assets Linked to a Mission), an approach to identifying and…
 
 
-<sub>Generated 2026-10-30 18:37 UTC via the arXiv API.</sub>
+<sub>Generated 2026-10-31 17:43 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-10-31](digests/2026-10-31.md) — 12 papers
 - [2026-10-30](digests/2026-10-30.md) — 12 papers
 - [2026-10-29](digests/2026-10-29.md) — 12 papers
 - [2026-10-28](digests/2026-10-28.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-08-30](digests/2026-08-30.md) — 12 papers
 - [2026-08-29](digests/2026-08-29.md) — 12 papers
 - [2026-08-28](digests/2026-08-28.md) — 12 papers
-- [2026-08-27](digests/2026-08-27.md) — 12 papers
 
-_…and 62 earlier digests in [`digests/`](digests/)._
+_…and 63 earlier digests in [`digests/`](digests/)._
 
 ---
 
