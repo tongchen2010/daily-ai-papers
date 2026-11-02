@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-11-01** · browse the full archive below.
+**Latest digest: 2026-11-02** · browse the full archive below.
 
 ## How it works
 
@@ -29,89 +29,90 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-11-01
+# arXiv AI/ML digest — 2026-11-02
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [LoRe-MIM: Lost-or-Replaced Masked Image Modeling for Self-Supervised Representation Learning in Whole-Body PET/CT](https://arxiv.org/abs/2610.40284v1)
-**Amartya Bhattacharya, Bashirul Azam Biswas, Biratal Raj Wagle, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.40284v1) · [pdf](https://arxiv.org/pdf/2610.40284v1)  ·  relevance 29
-<br>matched: `representation learning`, `self-supervised`, `segmentation`, `multimodal`
+### 1. [From WSIs to Bulk, Spatial and Single-Cell Transcriptomics via Multi-Scale Graph Neural Networks](https://arxiv.org/abs/2610.41692)
+**Miguel Andrade, Jos\'e Almeida, Carlos Santiago, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.41692) · [pdf](https://arxiv.org/pdf/2610.41692)  ·  relevance 36
+<br>matched: `graph neural network`, `graph neural`, `gnn`, `foundation model`, `survival analysis`
 
-> Deep learning models for whole-body positron emission tomography/computed tomography (PET/CT) hold significant clinical potential for disease detection, treatment planning, and response assessment. However, the time and cost associated with expert annotations remain major bottlenecks in developing robust and generalizable models. Although self-supervised learning (SSL) has emerged as a promising approach to mitigating annotation scarcity, its application to whole-body PET/CT…
+> Understanding the spatial distribution of gene expression is key to studying complex diseases like cancer. While Spatial Transcriptomics (ST) and Single-Cell Transcriptomics (scT) provide high-resolution insights, they remain expensive and scarce. In contrast, standard histopathology Whole-Slide Images (WSIs) paired with bulk RNA sequencing are widely available. This work introduces a Multi-Scale Graph Neural Network (GNN) capable of simultaneously predicting bulk, spatial,…
 
-### 2. [Agentic LLM reasoning in pediatric diabetes outcome prediction from multimodal medical records](https://arxiv.org/abs/2610.40379v1)
-**Daniel Palacios, Guantong Qi, Anna Kadi, et al.**  ·  `q-bio.QM`  ·  [abs](https://arxiv.org/abs/2610.40379v1) · [pdf](https://arxiv.org/pdf/2610.40379v1)  ·  relevance 27
-<br>matched: `large language model`, `llm`, `agent`, `multimodal`
+### 2. [Payroll Fraud Detection in Synthetic HR/ERP Graphs: An Inductive Comparison of Rules, Path Features, and Graph Neural Networks](https://arxiv.org/abs/2610.41085)
+**Xiaobo Chen, Genliang Zhu, Ziyuan Wang, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.41085) · [pdf](https://arxiv.org/pdf/2610.41085)  ·  relevance 31
+<br>matched: `graph neural network`, `graph neural`, `gnn`
 
-> Large language model (LLM) agents are proposed for clinical prediction but are untested in pediatrics, where cohorts are small and outcomes are uncommon. Using records from 2,489 youth with type 2 diabetes (T2D) and 4,018 with type 1 diabetes (T1D), spanning structured data, note-derived social determinants and, in T1D, continuous glucose monitoring data, we predicted seven T2D outcomes, four also in T1D, at 24 months from 18 months of follow-up. CEDAR (Clinical…
+> Payroll-fraud screening requires finding hidden employee--payee links while distinguishing suspicious relationships from legitimate ones. We formulate this problem as inductive link prediction and entity ranking on synthetic human-resources and enterprise resource planning (HR/ERP) graphs, with unseen organizations and a matched benign twin for every planted case. An original study on 24 held-out organizations and a prospectively frozen extension compare analyst rules,…
 
-### 3. [A Low-Rank Space Captures Linear Alignment Between LLM and Human Neural Activity During Naturalistic Language Listening](https://arxiv.org/abs/2610.40511v1)
-**Zach Paris, Emily Finn**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.40511v1) · [pdf](https://arxiv.org/pdf/2610.40511v1)  ·  relevance 18
-<br>matched: `fmri`, `large language model`, `llm`, `interpretab`
+### 3. [Accurate and Auditable ECG Classification via Visibility Graph Neural Networks](https://arxiv.org/abs/2610.41795)
+**Artur Xavier, Guilherme Henrique Gomes Evangelista, Aitazaz Khan, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.41795) · [pdf](https://arxiv.org/pdf/2610.41795)  ·  relevance 30
+<br>matched: `graph neural network`, `graph neural`, `foundation model`
 
-> Large language models (LLMs) are increasingly used as computational models of human language processing, yet it remains unclear which components of their representations drive alignment with neural activity. Here, we use ridge reduced-rank regression to identify the brain-predictive subspace of LLM representations: the representational directions that support linear prediction of neural responses. Across three naturalistic language-listening datasets spanning intracranial…
+> Physicians read electrocardiograms (ECGs) from waveform shape and timing, yet accurate deep-learning classifiers rarely show which waveform regions drive their predictions. We introduce LYNX-ECG, a graph neural network that represents each heartbeat as a sparse visibility graph of timestamped turning points. On CODE-Test, LYNX-ECG reaches a macro F1 score of 0.889, outperforming five baselines including the ECGFounder foundation model, while its graphs need about 14% of the…
 
-### 4. [Don't Lose the Thread: Empowering Long-Horizon LLM Agents with Cognitive Resource Self-Allocation](https://arxiv.org/abs/2610.40350v1)
-**Zheng Zhu, Xiaozhuan Liang, Xi Chen, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.40350v1) · [pdf](https://arxiv.org/pdf/2610.40350v1)  ·  relevance 18
+### 4. [Nonlinear Maps Between Irreducible Representations in Graph Neural Networks](https://arxiv.org/abs/2610.41059)
+**Mani Shayestehfar**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.41059) · [pdf](https://arxiv.org/pdf/2610.41059)  ·  relevance 27
+<br>matched: `graph neural network`, `graph neural`
+
+> Equivariant linear maps cannot mix non-isomorphic irreducible representations, whereas nonlinear activations can. We develop a degree-resolved version of this nonlinear interaction picture and use the resulting block inventory to construct Specht Triple, a residual on unordered graph triples. On a synthetic structural benchmark with a frozen GIN backbone, Specht Triple reduces aggregate standardised test MSE by 11.05% relative to a parameter-matched Projector Control using…
+
+### 5. [Aligning MLLMs with the Latent Structure of Human Cognition via Behavior-Derived Semantic Dimensions](https://arxiv.org/abs/2610.41951)
+**Ning E, Changde Du, Yizhuo Lu, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.41951) · [pdf](https://arxiv.org/pdf/2610.41951)  ·  relevance 21
+<br>matched: `fmri`, `large language model`, `llm`, `interpretab`, `multimodal`
+
+> Multimodal Large Language Models (MLLMs) have achieved impressive performance across a wide range of reasoning tasks, yet it remains unclear whether their internal representations and decision criteria align with the latent structure of human cognition. In this work, we propose a novel framework to align MLLMs with the multidimensional mental representations underlying human similarity judgements. We build on a previously established behavior-derived semantic embedding…
+
+### 6. [When Links Mislead: Label-Free Structural Polarity for Zero-Shot Classification of Web Pages](https://arxiv.org/abs/2610.41464)
+**Hanshuai Cui, Zhiqing Tang, Zhi Yao, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.41464) · [pdf](https://arxiv.org/pdf/2610.41464)  ·  relevance 19
+<br>matched: `graph neural network`, `graph neural`, `gnn`, `large language model`, `llm`
+
+> Web platforms such as digital libraries, online stores and university sites must classify new pages before anyone labels them. Large language models (LLMs) can label each page from its text, but these labels are noisy, and links could correct them only where linked pages share classes. Existing zero-shot methods ignore the links, or pull a page toward its neighbours as label propagation and graph neural networks (GNNs) do, which hurts where linked pages differ in class.…
+
+### 7. [What Standard Evaluations Hide About Detectors of Hijacked LLM Agents: Rare Attacks, Unseen Tools and Benchmark Transfer](https://arxiv.org/abs/2610.41803)
+**Mahmoud Abbasi, Juan M. N\'u\~nez V., Amin Shahraki**  ·  `cs.CR`  ·  [abs](https://arxiv.org/abs/2610.41803) · [pdf](https://arxiv.org/pdf/2610.41803)  ·  relevance 18
 <br>matched: `large language model`, `llm`, `agent`
 
-> Agents powered by large language models (LLMs) have demonstrated remarkable progress in solving complex reasoning tasks. However, LLM agents often falter on long-horizon tasks due to cognitive overload, as their working memory becomes cluttered with expanding and irrelevant information, which dilutes their attention and hinders effective planning and reasoning. To mitigate this challenge, we introduce Cognitive Resource Self-Allocation (CORAL), a novel reasoning paradigm…
+> Detectors can flag hijacked large language model (LLM) agents from the traces of the tools they call. In the eleven evaluations we audited, attacks or anomalies make up 16% to 86% of the test samples, no evaluation varies that share, and six report no test on data from a second benchmark or source. We ask what such evaluations hide. On the AgentDrift and AgentDojo benchmarks we test trained detectors that read tool identities, behavior, call sequences, step embeddings or…
 
-### 5. [PhysCount: Do MLLMs Count Visual Appearances or Physical Entities?](https://arxiv.org/abs/2610.40530v1)
-**Lidong Lu, Jiaxin Lv, Liangrui Dong, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2610.40530v1) · [pdf](https://arxiv.org/pdf/2610.40530v1)  ·  relevance 15
-<br>matched: `large language model`, `llm`, `multimodal`
+### 8. [Incongruence-Aware Evaluation of Multimodal Speech Emotion Recognition in Audio Large Language Models](https://arxiv.org/abs/2610.40883)
+**Fengji Jing, Guy Laban**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.40883) · [pdf](https://arxiv.org/pdf/2610.40883)  ·  relevance 18
+<br>matched: `large language model`, `multimodal`
 
-> Images reveal appearances, but counting often asks about physical objects. A single entity may be visible directly, in several reflections, or through glass, so detecting every visible occurrence does not determine how many entities are present. Existing visual counting benchmarks rarely separate these two operations. We introduce PhysCount, a benchmark for evaluating whether multimodal large language models (MLLMs) can distinguish what appears in an image from what…
+> Voice-interactive large language models process both what a speaker says and how they say it, yet the two channels do not always agree. We ask whether that disagreement degrades speech emotion recognition. Mapping text and audio into a shared valence-arousal-dominance space, we convert the distance between them into a continuous, threshold-free incongruence score with a two-component Gaussian mixture, and validate the score against human judgement. We evaluate three…
 
-### 6. [Latent Prediction Yields Cross-Subject Alignable Representations in Sensory-Evoked fMRI](https://arxiv.org/abs/2610.40280v1)
-**Serwan Jassim, Victoria Bosch, Daniel Anthes, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.40280v1) · [pdf](https://arxiv.org/pdf/2610.40280v1)  ·  relevance 13
-<br>matched: `fmri`, `self-supervised`
+### 9. [CIRCE Divines LLM Task Complexity from Constraint Structure](https://arxiv.org/abs/2610.41089)
+**Chenhao Hong, Jiakai Xu, Kaushiki Singh, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.41089) · [pdf](https://arxiv.org/pdf/2610.41089)  ·  relevance 18
+<br>matched: `gnn`, `large language model`, `llm`, `agent`
 
-> Decoding sensory-evoked functional magnetic resonance imaging (fMRI) data is a central analytical tool in cognitive neuroscience. Here we ask whether self-supervised learning (SSL), which has been scarcely explored in this domain, can yield representations that support strong downstream performance. To do so, we adapt a joint embedding predictive architecture (JEPA) to train participant-specific encoders on brain data alone. The encoders never see the stimulus images or any…
+> Estimating whether a problem is too complex for a large language model (LLM) before the model attempts it can guide model routing, how to allocate test-time compute, and suggest the need for new tools to aid the agent. While existing estimators rely on the problem text, LLM-annotated task difficulty labels, or signals obtained after a model attempts to solve the problem, such as its hidden states, none explicitly leverage the constraint structure inherent in the problem: the…
 
-### 7. [TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races](https://arxiv.org/abs/2610.40613v1)
-**Tom Sander, Pierre Fernandez, Itai Gat, et al.**  ·  `cs.CR`  ·  [abs](https://arxiv.org/abs/2610.40613v1) · [pdf](https://arxiv.org/pdf/2610.40613v1)  ·  relevance 12
-<br>matched: `large language model`, `llm`
-
-> We present TextSeal2, a distortion-free watermark for large language models that keeps its signal under speculative decoding: tokens that replace rejected drafts remain watermarked with the same keys, and the acceptance rate is unchanged. It also preserves output diversity and adds no measurable inference latency. Its predecessor, TextSeal, restores diversity in the Gumbel-max scheme by routing each token to one of two keys via a coin flip. This is suboptimal because the…
-
-### 8. [Comparing Human Role-Players and LLM-Simulated Clients in Online Counselling Training: An Analysis of Counselling Patterns](https://arxiv.org/abs/2610.40563v1)
-**Eric Rudolph, Philipp Steigerwald, Jens Albrecht**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.40563v1) · [pdf](https://arxiv.org/pdf/2610.40563v1)  ·  relevance 12
-<br>matched: `large language model`, `llm`
-
-> This study investigates the capabilities of Large Language Models to simulate counselling clients in educational role-plays in comparison to human role-players. Initially, we recorded role-playing sessions, where novice counsellors interacted with human peers acting as clients, followed by role-plays between humans and clients simulated by Mistrals Mixtral 8x7b using 4-bit quantization. These interactions were analysed with a counselling communication pattern system at…
-
-### 9. [TRACER, a time-to-event EHR foundation model for disease detection across health systems](https://arxiv.org/abs/2610.40536v1)
-**Mara Pleasure, Ekaterina Redekop, Vedrana Ivezic, et al.**  ·  `cs.CE`  ·  [abs](https://arxiv.org/abs/2610.40536v1) · [pdf](https://arxiv.org/pdf/2610.40536v1)  ·  relevance 12
-<br>matched: `foundation model`, `longitudinal`
-
-> Foundation models trained on longitudinal electronic health records (EHRs) can predict clinical diagnoses years in the future, making them a potential tool for disease screening. We developed TRACER (Temporal Risk Assessment with Clinical EHR Representations), a decoder-based foundation model pretrained on data from over 4.5 million patients from four health systems, and evaluated it on 16 incident diseases at 1-, 2-, and 5-year horizons in more than 2 million patients from…
-
-### 10. [The Athlete as a Scientist of One: Agentic Bayesian Experimental Design for Individualized Physiology from Consumer Wearables](https://arxiv.org/abs/2610.40370v1)
-**Behnam Moradi**  ·  `cs.RO`  ·  [abs](https://arxiv.org/abs/2610.40370v1) · [pdf](https://arxiv.org/pdf/2610.40370v1)  ·  relevance 12
+### 10. [Real Computation or Merely Naming? A Pre-Registered Mechanism Audit of 25 Cognitive-Architecture Modules in an LLM-Based Agent System](https://arxiv.org/abs/2610.41604)
+**Peter Chen, Ni Zhang, Ying Xu, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.41604) · [pdf](https://arxiv.org/pdf/2610.41604)  ·  relevance 18
 <br>matched: `large language model`, `llm`, `agent`
 
-> Large language model (LLM) agents for personal health read wearable data and recommend, but do not learn about the individual in a way that can be audited or falsified. We present EpiCoach, an agentic system that treats one athlete, a cross-country mountain biker, as the subject of accountable N-of-1 science. Claims about the athlete live in an evidence-gated hypothesis registry: each must issue a probabilistic prediction about a future session before it occurs, and its…
+> Agent systems built on local large language models are increasingly marketed through the vocabulary of cognitive architecture: modules named global workspace, theory of mind, causal reasoning, or active inference are listed as features, and the presence of the name is taken as the presence of the mechanism. We ask the prior question -- does the named computation actually happen -- and contribute a transferable verification method for the claim-implementation gap: a…
 
-### 11. [Multistep and Multivariate Time Series Explainability with GradientSHAP: A Wind Power Case Study](https://arxiv.org/abs/2610.40330v1)
-**Robbie Southam, Zhong Fan, Ke Li**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.40330v1) · [pdf](https://arxiv.org/pdf/2610.40330v1)  ·  relevance 12
-<br>matched: `interpretab`, `explainab`
+### 11. [Multimodal In-Context Learning with Explicit Rule Induction](https://arxiv.org/abs/2610.41754)
+**Yuquan Li, Xinyang Jiang, Yuhao Xue, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.41754) · [pdf](https://arxiv.org/pdf/2610.41754)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `interpretab`, `multimodal`
 
-> As the effects of climate change become increasingly apparent, the demand for renewable energy sources such as wind power continues to grow. However, renewables' variable and intermittent nature presents significant challenges in their integration into energy grids. Artificial intelligence (AI) has emerged as a powerful tool to address these issues. Still, its adoption in the energy sector has been hindered by the opacity of many AI models, which often function as black…
+> A central challenge in multimodal in-context learning (MICL) arises from tasks that are ill-defined without context and require uncovering the underlying rules from demonstrations. Existing methods predominantly treat MICL as direct input-output mapping, overlooking the importance of explicitly inducing and reasoning over such rules, limiting both performance and interpretability. We propose ERIM, Explicit Rule-Induction for Multimodal In-Context Learning, a unified…
 
-### 12. [DolphinRouting: Cluster-Level Binary Routing for Disaggregated LLM Inference Serving](https://arxiv.org/abs/2610.40292v1)
-**Yishuo Yuan, Shaoyu Yang, Chunrong Fang**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.40292v1) · [pdf](https://arxiv.org/pdf/2610.40292v1)  ·  relevance 12
-<br>matched: `large language model`, `llm`
+### 12. [TradeWar: A Benchmark for Execution-Grounded Trade Negotiation with Adaptive LLM Agents](https://arxiv.org/abs/2610.42004)
+**Xiangyu Kong, Ruirui Yang, Xia Hou**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.42004) · [pdf](https://arxiv.org/pdf/2610.42004)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
 
-> Prefill-decode (PD) disaggregation isolates the two phases of large language model serving, but request-level path selection must account for prefill work, cache reuse, and decode demand. We present DolphinRouting, which learns this choice from end-to-end SLO feedback under a given P/D resource allocation. Requests are clustered by raw prompt length, cache-adjusted input lengths on both worker pools, and output-length information. Offline policy search learns one binary…
+> Multi-turn negotiation remains a challenging problem for large language model (LLM) agents. While LLMs can conduct natural-language dialogue, existing benchmarks predominantly assess only agreement rates, overlooking whether negotiated commitments actually create value once executed. To address this gap, we introduce TradeWar, a multi-country simulation benchmark that translates negotiation dialogues into concrete tariff and trade-share policies, enforces capacity and…
 
 
-<sub>Generated 2026-11-01 18:25 UTC via the arXiv API.</sub>
+<sub>Generated 2026-11-02 22:18 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-11-02](digests/2026-11-02.md) — 12 papers
 - [2026-11-01](digests/2026-11-01.md) — 12 papers
 - [2026-10-31](digests/2026-10-31.md) — 12 papers
 - [2026-10-30](digests/2026-10-30.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-09-01](digests/2026-09-01.md) — 12 papers
 - [2026-08-31](digests/2026-08-31.md) — 12 papers
 - [2026-08-30](digests/2026-08-30.md) — 12 papers
-- [2026-08-29](digests/2026-08-29.md) — 12 papers
 
-_…and 64 earlier digests in [`digests/`](digests/)._
+_…and 65 earlier digests in [`digests/`](digests/)._
 
 ---
 
