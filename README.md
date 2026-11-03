@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-11-02** · browse the full archive below.
+**Latest digest: 2026-11-03** · browse the full archive below.
 
 ## How it works
 
@@ -29,89 +29,90 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-11-02
+# arXiv AI/ML digest — 2026-11-03
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [From WSIs to Bulk, Spatial and Single-Cell Transcriptomics via Multi-Scale Graph Neural Networks](https://arxiv.org/abs/2610.41692)
-**Miguel Andrade, Jos\'e Almeida, Carlos Santiago, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.41692) · [pdf](https://arxiv.org/pdf/2610.41692)  ·  relevance 36
-<br>matched: `graph neural network`, `graph neural`, `gnn`, `foundation model`, `survival analysis`
+### 1. [Interpretable structural temperature scaling for calibrating graph neural networks and point-cloud segmentation](https://arxiv.org/abs/2611.00175)
+**Chenyi Huang**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.00175) · [pdf](https://arxiv.org/pdf/2611.00175)  ·  relevance 46
+<br>matched: `graph neural network`, `graph neural`, `gnn`, `segmentation`, `interpretab`
 
-> Understanding the spatial distribution of gene expression is key to studying complex diseases like cancer. While Spatial Transcriptomics (ST) and Single-Cell Transcriptomics (scT) provide high-resolution insights, they remain expensive and scarce. In contrast, standard histopathology Whole-Slide Images (WSIs) paired with bulk RNA sequencing are widely available. This work introduces a Multi-Scale Graph Neural Network (GNN) capable of simultaneously predicting bulk, spatial,…
+> Graph-aware calibrators make graph neural networks (GNNs) more trustworthy by predicting a temperature for each node, usually with auxiliary networks whose decisions are hard to inspect. We propose Interpretable Structural Temperature Scaling (ISTS), a twelve-parameter linear model that sets each node's temperature from named descriptors of its confidence, neighbourhood and closeness to labelled nodes, so every temperature traces back to descriptor contributions. ISTS…
 
-### 2. [Payroll Fraud Detection in Synthetic HR/ERP Graphs: An Inductive Comparison of Rules, Path Features, and Graph Neural Networks](https://arxiv.org/abs/2610.41085)
-**Xiaobo Chen, Genliang Zhu, Ziyuan Wang, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.41085) · [pdf](https://arxiv.org/pdf/2610.41085)  ·  relevance 31
+### 2. [AdaptAD: Foundation Model Adaptation with Missing Modality Robustness for Alzheimer's Disease Staging Across the Disease Continuum](https://arxiv.org/abs/2611.00084)
+**Dawa Chyophel Lepcha, Sophie A. Martin, Pierrick Coup\'e, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.00084) · [pdf](https://arxiv.org/pdf/2611.00084)  ·  relevance 32
+<br>matched: `alzheimer`, `dementia`, `foundation model`
+
+> Staging Alzheimer's disease (AD) across its continuum, from cognitively normal (CN) through mild cognitive impairment (MCI) to dementia from a single structural MRI remains difficult because 3-D networks overfit small cohorts, and FreeSurfer morphometry is often unavailable. We present AdaptAD, which reads a registered T1-weighted scan as 16 anatomically placed 2.5-D slices through the medial temporal lobe and adapts a frozen ImageNet-pretrained ViT-B/16 with low-rank…
+
+### 3. [Omni-iEEG Planner: an open-source Python platform integrating multimodal neuroimaging and intracranial EEG data for epilepsy surgery research](https://arxiv.org/abs/2611.00018)
+**Yuta Tanoue, Masaki Izumi, Yipeng Zhang, et al.**  ·  `physics.med-ph`  ·  [abs](https://arxiv.org/abs/2611.00018) · [pdf](https://arxiv.org/pdf/2611.00018)  ·  relevance 31
+<br>matched: `neuroimaging`, `cortical`, `diffusion mri`, `multimodal`
+
+> Multimodal intracranial EEG (iEEG) research for epilepsy surgery combines anatomical and functional imaging, implanted electrode locations, interictal biomarkers, and functional mapping--outputs produced by different applications and reconciled by hand before they can be viewed on the same anatomy. Omni-iEEG Planner is an open-source Python platform that brings these inputs into one patient coordinate frame for research data analysis. The workflow starts from the…
+
+### 4. [A Surrogate Model for Variation-Aware Clock-Mesh Analysis and Design-Space Exploration using Graph Neural Networks](https://arxiv.org/abs/2611.01473)
+**Muhammad Hadir Khan, Wajid Ali, Arya Thottiparambil Manikandan, et al.**  ·  `cs.AR`  ·  [abs](https://arxiv.org/abs/2611.01473) · [pdf](https://arxiv.org/pdf/2611.01473)  ·  relevance 31
 <br>matched: `graph neural network`, `graph neural`, `gnn`
 
-> Payroll-fraud screening requires finding hidden employee--payee links while distinguishing suspicious relationships from legitimate ones. We formulate this problem as inductive link prediction and entity ranking on synthetic human-resources and enterprise resource planning (HR/ERP) graphs, with unseen organizations and a matched benign twin for every planted case. An original study on 24 held-out organizations and a prospectively frozen extension compare analyst rules,…
+> Clock meshes are widely used in high-performance VLSI systems to minimize skew and tolerate On-Chip Variation (OCV) in nanometer technologies. However, analyzing meshes is difficult because reconvergent paths and multi-source drivers prevent static timing analysis (STA) tools from handling mesh loops, making SPICE the industrial standard. SPICE simulations are accurate but slow, so clock-mesh synthesis relies on approximate models that overlook critical effects such as…
 
-### 3. [Accurate and Auditable ECG Classification via Visibility Graph Neural Networks](https://arxiv.org/abs/2610.41795)
-**Artur Xavier, Guilherme Henrique Gomes Evangelista, Aitazaz Khan, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.41795) · [pdf](https://arxiv.org/pdf/2610.41795)  ·  relevance 30
-<br>matched: `graph neural network`, `graph neural`, `foundation model`
+### 5. [Resilient Cell-Free MIMO ISAC Under Uncertainties: An Impairment-Aware Graph Neural Network Framework](https://arxiv.org/abs/2611.03054)
+**Oways Alsoloh, Robert-Jeron Reifert, Aymen Khaleel, et al.**  ·  `eess.SP`  ·  [abs](https://arxiv.org/abs/2611.03054) · [pdf](https://arxiv.org/pdf/2611.03054)  ·  relevance 31
+<br>matched: `graph neural network`, `graph neural`, `gnn`
 
-> Physicians read electrocardiograms (ECGs) from waveform shape and timing, yet accurate deep-learning classifiers rarely show which waveform regions drive their predictions. We introduce LYNX-ECG, a graph neural network that represents each heartbeat as a sparse visibility graph of timestamped turning points. On CODE-Test, LYNX-ECG reaches a macro F1 score of 0.889, outperforming five baselines including the ECGFounder foundation model, while its graphs need about 14% of the…
+> Beamforming designs for integrated sensing and communication (ISAC) in cell-free multiple-input multiple-output (MIMO) systems face the challenge to stay reliable under uncertainties from both channel state information (CSI) as well as clutter. To this end, this paper proposes an impairment-aware heterogeneous graph neural network (GNN) framework for beamforming that obtains the CSI error level and the clutter covariance as edge features, which enables a single trained model…
 
-### 4. [Nonlinear Maps Between Irreducible Representations in Graph Neural Networks](https://arxiv.org/abs/2610.41059)
-**Mani Shayestehfar**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.41059) · [pdf](https://arxiv.org/pdf/2610.41059)  ·  relevance 27
+### 6. [Predicting Cognitive Profiles from Structural MRI using Spatial Graph Representation Learning](https://arxiv.org/abs/2611.00113)
+**Taslima Ferdaus Shuva, Md. Tanvir Rahman, Risala Tasin Khan, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.00113) · [pdf](https://arxiv.org/pdf/2611.00113)  ·  relevance 30
+<br>matched: `neuroimaging`, `graph neural network`, `graph neural`, `gnn`, `representation learning`
+
+> Predicting cognitive abilities from structural neuroimaging remains challenging due to the high dimensionality and geometric complexity of brain morphology. Conventional models typically flatten regional morphometry into tabular features, failing to explicitly represent spatial relationships. We propose a Spatial-Topological Graph Neural Network (ST-GNN) to predict four distinct cognitive phenotypes across large pediatric cohorts (N = 2,378 to 2,424). By projecting regional…
+
+### 7. [Certifying Graph Neural Networks Against Label and Structure Poisoning](https://arxiv.org/abs/2611.03350)
+**Lukas Gosch, Xichuan Chen, Yan Scholten, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.03350) · [pdf](https://arxiv.org/pdf/2611.03350)  ·  relevance 27
 <br>matched: `graph neural network`, `graph neural`
 
-> Equivariant linear maps cannot mix non-isomorphic irreducible representations, whereas nonlinear activations can. We develop a degree-resolved version of this nonlinear interaction picture and use the resulting block inventory to construct Specht Triple, a residual on unordered graph triples. On a synthetic structural benchmark with a frozen GIN backbone, Specht Triple reduces aggregate standardised test MSE by 11.05% relative to a parameter-matched Projector Control using…
+> Robust machine learning for graph-structured data has made significant progress against test-time attacks, yet certified robustness to poisoning - where adversaries manipulate the training data - remains largely underexplored. For image data, state-of-the-art poisoning certificates rely on partitioning-and-aggregation schemes. However, we show that these methods fail when applied in the graph domain due to the inherent label and structure sparsity found in common graph…
 
-### 5. [Aligning MLLMs with the Latent Structure of Human Cognition via Behavior-Derived Semantic Dimensions](https://arxiv.org/abs/2610.41951)
-**Ning E, Changde Du, Yizhuo Lu, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2610.41951) · [pdf](https://arxiv.org/pdf/2610.41951)  ·  relevance 21
-<br>matched: `fmri`, `large language model`, `llm`, `interpretab`, `multimodal`
+### 8. [Efficient NPN Classification for Large Functions using Graph Neural Network](https://arxiv.org/abs/2611.00339)
+**Chengdi Cao, Hanyu Wang, Wan-Hsuan Lin, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.00339) · [pdf](https://arxiv.org/pdf/2611.00339)  ·  relevance 27
+<br>matched: `graph neural network`, `graph neural`
 
-> Multimodal Large Language Models (MLLMs) have achieved impressive performance across a wide range of reasoning tasks, yet it remains unclear whether their internal representations and decision criteria align with the latent structure of human cognition. In this work, we propose a novel framework to align MLLMs with the multidimensional mental representations underlying human similarity judgements. We build on a previously established behavior-derived semantic embedding…
+> Two Boolean functions are considered NPN equivalent if one can be transformed into the other by negating inputs, permuting inputs, or negating the output. Efficient NPN classification is valuable in fields such as logic synthesis, quantum computing, and information theory. However, exact NPN classification demands exhaustive enumeration of all possible input permutations and negations. Its complexity grows exponentially, making it impractical for larger functions with more…
 
-### 6. [When Links Mislead: Label-Free Structural Polarity for Zero-Shot Classification of Web Pages](https://arxiv.org/abs/2610.41464)
-**Hanshuai Cui, Zhiqing Tang, Zhi Yao, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2610.41464) · [pdf](https://arxiv.org/pdf/2610.41464)  ·  relevance 19
-<br>matched: `graph neural network`, `graph neural`, `gnn`, `large language model`, `llm`
+### 9. [CONFIRM: Governing Scientific Reporting for Trustworthy Agentic Neuroimaging](https://arxiv.org/abs/2611.01449)
+**Yuxiang Wei, Lijing Zhu, Qizhen Lan, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.01449) · [pdf](https://arxiv.org/pdf/2611.01449)  ·  relevance 27
+<br>matched: `neuroimaging`, `large language model`, `llm`, `agent`
 
-> Web platforms such as digital libraries, online stores and university sites must classify new pages before anyone labels them. Large language models (LLMs) can label each page from its text, but these labels are noisy, and links could correct them only where linked pages share classes. Existing zero-shot methods ignore the links, or pull a page toward its neighbours as label propagation and graph neural networks (GNNs) do, which hurts where linked pages differ in class.…
+> Large language model (LLM) agents can autonomously run neuroimaging analyses from research questions to reported findings. Existing agentic systems use tools to check that code runs and reported values match its output, but rely on LLM judgment to decide which results warrant scientific reporting. We show that LLM judges endorse site-confounded findings even when the confound is presented as evidence. We present \textbf{CONFIRM}, a framework that separates running an…
 
-### 7. [What Standard Evaluations Hide About Detectors of Hijacked LLM Agents: Rare Attacks, Unseen Tools and Benchmark Transfer](https://arxiv.org/abs/2610.41803)
-**Mahmoud Abbasi, Juan M. N\'u\~nez V., Amin Shahraki**  ·  `cs.CR`  ·  [abs](https://arxiv.org/abs/2610.41803) · [pdf](https://arxiv.org/pdf/2610.41803)  ·  relevance 18
-<br>matched: `large language model`, `llm`, `agent`
+### 10. [Learning to Group and Order: Cross-Instance Self-Supervised RL for Vision-Centric MLLMs](https://arxiv.org/abs/2611.00892)
+**Songming Yang, Hong-Tao Yu, Xiu-Shen Wei**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.00892) · [pdf](https://arxiv.org/pdf/2611.00892)  ·  relevance 27
+<br>matched: `self-supervised`, `large language model`, `llm`, `multimodal`
 
-> Detectors can flag hijacked large language model (LLM) agents from the traces of the tools they call. In the eleven evaluations we audited, attacks or anomalies make up 16% to 86% of the test samples, no evaluation varies that share, and six report no test on data from a second benchmark or source. We ask what such evaluations hide. On the AgentDrift and AgentDojo benchmarks we test trained detectors that read tool identities, behavior, call sequences, step embeddings or…
+> Reinforcement learning (RL) post-training has become an important paradigm for improving multimodal large language models (MLLMs), especially with automatically verifiable rewards. Self-supervised visual pretext tasks provide such rewards without human annotations. However, existing methods mainly exploit within-instance structure, offering limited supervision for cross-instance discrimination and fine-grained comparison. We introduce Group-and-Order Self-Supervised…
 
-### 8. [Incongruence-Aware Evaluation of Multimodal Speech Emotion Recognition in Audio Large Language Models](https://arxiv.org/abs/2610.40883)
-**Fengji Jing, Guy Laban**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.40883) · [pdf](https://arxiv.org/pdf/2610.40883)  ·  relevance 18
-<br>matched: `large language model`, `multimodal`
+### 11. [LLM-Enhanced Multimodal House Price Prediction using Structured, Textual, and Visual Features](https://arxiv.org/abs/2611.01615)
+**Khandokar Md. Rahat Hossain, Souvik Das, Tahsina Hashem, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.01615) · [pdf](https://arxiv.org/pdf/2611.01615)  ·  relevance 26
+<br>matched: `large language model`, `llm`, `agent`, `interpretab`, `multimodal`
 
-> Voice-interactive large language models process both what a speaker says and how they say it, yet the two channels do not always agree. We ask whether that disagreement degrades speech emotion recognition. Mapping text and audio into a shared valence-arousal-dominance space, we convert the distance between them into a continuous, threshold-free incongruence score with a two-component Gaussian mixture, and validate the score against human judgement. We evaluate three…
+> Accurate house price prediction is essential for real estate buyers, sellers, agents, and financial institutions. Traditional methods rely primarily on structured data, e.g., number of bedrooms, bathrooms, parkings, but they overlook rich contextual information embedded in textual descriptions and property photos. Previous deep learning approaches for house price prediction have fused multimodal data but they fall short to extract structured spatio-temporal and contextual…
 
-### 9. [CIRCE Divines LLM Task Complexity from Constraint Structure](https://arxiv.org/abs/2610.41089)
-**Chenhao Hong, Jiakai Xu, Kaushiki Singh, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.41089) · [pdf](https://arxiv.org/pdf/2610.41089)  ·  relevance 18
-<br>matched: `gnn`, `large language model`, `llm`, `agent`
+### 12. [Stage-aware Multimodal Brain Graph Contrastive Learning for Neurodegenerative Disorder Diagnosis](https://arxiv.org/abs/2611.02771)
+**Jingjing Zhou, Chenxuan Meng, Ciyuan Peng, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.02771) · [pdf](https://arxiv.org/pdf/2611.02771)  ·  relevance 24
+<br>matched: `neurodegenerative`, `multimodal`
 
-> Estimating whether a problem is too complex for a large language model (LLM) before the model attempts it can guide model routing, how to allocate test-time compute, and suggest the need for new tools to aid the agent. While existing estimators rely on the problem text, LLM-annotated task difficulty labels, or signals obtained after a model attempts to solve the problem, such as its hidden states, none explicitly leverage the constraint structure inherent in the problem: the…
-
-### 10. [Real Computation or Merely Naming? A Pre-Registered Mechanism Audit of 25 Cognitive-Architecture Modules in an LLM-Based Agent System](https://arxiv.org/abs/2610.41604)
-**Peter Chen, Ni Zhang, Ying Xu, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.41604) · [pdf](https://arxiv.org/pdf/2610.41604)  ·  relevance 18
-<br>matched: `large language model`, `llm`, `agent`
-
-> Agent systems built on local large language models are increasingly marketed through the vocabulary of cognitive architecture: modules named global workspace, theory of mind, causal reasoning, or active inference are listed as features, and the presence of the name is taken as the presence of the mechanism. We ask the prior question -- does the named computation actually happen -- and contribute a transferable verification method for the claim-implementation gap: a…
-
-### 11. [Multimodal In-Context Learning with Explicit Rule Induction](https://arxiv.org/abs/2610.41754)
-**Yuquan Li, Xinyang Jiang, Yuhao Xue, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.41754) · [pdf](https://arxiv.org/pdf/2610.41754)  ·  relevance 18
-<br>matched: `large language model`, `llm`, `interpretab`, `multimodal`
-
-> A central challenge in multimodal in-context learning (MICL) arises from tasks that are ill-defined without context and require uncovering the underlying rules from demonstrations. Existing methods predominantly treat MICL as direct input-output mapping, overlooking the importance of explicitly inducing and reasoning over such rules, limiting both performance and interpretability. We propose ERIM, Explicit Rule-Induction for Multimodal In-Context Learning, a unified…
-
-### 12. [TradeWar: A Benchmark for Execution-Grounded Trade Negotiation with Adaptive LLM Agents](https://arxiv.org/abs/2610.42004)
-**Xiangyu Kong, Ruirui Yang, Xia Hou**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2610.42004) · [pdf](https://arxiv.org/pdf/2610.42004)  ·  relevance 18
-<br>matched: `large language model`, `llm`, `agent`
-
-> Multi-turn negotiation remains a challenging problem for large language model (LLM) agents. While LLMs can conduct natural-language dialogue, existing benchmarks predominantly assess only agreement rates, overlooking whether negotiated commitments actually create value once executed. To address this gap, we introduce TradeWar, a multi-country simulation benchmark that translates negotiation dialogues into concrete tariff and trade-share policies, enforces capacity and…
+> Neurodegenerative disorders are characterized by their progressive nature, with distinct stages that require precise identification and tracking of progression trajectories for accurate diagnosis. However, existing diagnostic methods often fail to fully capture the unique brain patterns associated with different stages, limiting their ability to effectively target specific stages of the disorders. To address this issue, we propose a Stage-aware Multimodal Brain Graph…
 
 
-<sub>Generated 2026-11-02 22:18 UTC via the arXiv API.</sub>
+<sub>Generated 2026-11-03 20:05 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-11-03](digests/2026-11-03.md) — 12 papers
 - [2026-11-02](digests/2026-11-02.md) — 12 papers
 - [2026-11-01](digests/2026-11-01.md) — 12 papers
 - [2026-10-31](digests/2026-10-31.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-09-02](digests/2026-09-02.md) — 12 papers
 - [2026-09-01](digests/2026-09-01.md) — 12 papers
 - [2026-08-31](digests/2026-08-31.md) — 12 papers
-- [2026-08-30](digests/2026-08-30.md) — 12 papers
 
-_…and 65 earlier digests in [`digests/`](digests/)._
+_…and 66 earlier digests in [`digests/`](digests/)._
 
 ---
 
