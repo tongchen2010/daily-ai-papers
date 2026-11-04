@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-11-03** · browse the full archive below.
+**Latest digest: 2026-11-04** · browse the full archive below.
 
 ## How it works
 
@@ -29,89 +29,90 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-11-03
+# arXiv AI/ML digest — 2026-11-04
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [Interpretable structural temperature scaling for calibrating graph neural networks and point-cloud segmentation](https://arxiv.org/abs/2611.00175)
-**Chenyi Huang**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.00175) · [pdf](https://arxiv.org/pdf/2611.00175)  ·  relevance 46
-<br>matched: `graph neural network`, `graph neural`, `gnn`, `segmentation`, `interpretab`
-
-> Graph-aware calibrators make graph neural networks (GNNs) more trustworthy by predicting a temperature for each node, usually with auxiliary networks whose decisions are hard to inspect. We propose Interpretable Structural Temperature Scaling (ISTS), a twelve-parameter linear model that sets each node's temperature from named descriptors of its confidence, neighbourhood and closeness to labelled nodes, so every temperature traces back to descriptor contributions. ISTS…
-
-### 2. [AdaptAD: Foundation Model Adaptation with Missing Modality Robustness for Alzheimer's Disease Staging Across the Disease Continuum](https://arxiv.org/abs/2611.00084)
-**Dawa Chyophel Lepcha, Sophie A. Martin, Pierrick Coup\'e, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.00084) · [pdf](https://arxiv.org/pdf/2611.00084)  ·  relevance 32
-<br>matched: `alzheimer`, `dementia`, `foundation model`
-
-> Staging Alzheimer's disease (AD) across its continuum, from cognitively normal (CN) through mild cognitive impairment (MCI) to dementia from a single structural MRI remains difficult because 3-D networks overfit small cohorts, and FreeSurfer morphometry is often unavailable. We present AdaptAD, which reads a registered T1-weighted scan as 16 anatomically placed 2.5-D slices through the medial temporal lobe and adapts a frozen ImageNet-pretrained ViT-B/16 with low-rank…
-
-### 3. [Omni-iEEG Planner: an open-source Python platform integrating multimodal neuroimaging and intracranial EEG data for epilepsy surgery research](https://arxiv.org/abs/2611.00018)
-**Yuta Tanoue, Masaki Izumi, Yipeng Zhang, et al.**  ·  `physics.med-ph`  ·  [abs](https://arxiv.org/abs/2611.00018) · [pdf](https://arxiv.org/pdf/2611.00018)  ·  relevance 31
-<br>matched: `neuroimaging`, `cortical`, `diffusion mri`, `multimodal`
-
-> Multimodal intracranial EEG (iEEG) research for epilepsy surgery combines anatomical and functional imaging, implanted electrode locations, interictal biomarkers, and functional mapping--outputs produced by different applications and reconciled by hand before they can be viewed on the same anatomy. Omni-iEEG Planner is an open-source Python platform that brings these inputs into one patient coordinate frame for research data analysis. The workflow starts from the…
-
-### 4. [A Surrogate Model for Variation-Aware Clock-Mesh Analysis and Design-Space Exploration using Graph Neural Networks](https://arxiv.org/abs/2611.01473)
-**Muhammad Hadir Khan, Wajid Ali, Arya Thottiparambil Manikandan, et al.**  ·  `cs.AR`  ·  [abs](https://arxiv.org/abs/2611.01473) · [pdf](https://arxiv.org/pdf/2611.01473)  ·  relevance 31
+### 1. [What Does It Mean to Remove an Edge? Intervention-Aware Fidelity for Graph Neural Network Explanations](https://arxiv.org/abs/2611.04751)
+**Rocco Mattia Di Mauro, Marco Grassia, Giuseppe Mangioni**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.04751) · [pdf](https://arxiv.org/pdf/2611.04751)  ·  relevance 31
 <br>matched: `graph neural network`, `graph neural`, `gnn`
 
-> Clock meshes are widely used in high-performance VLSI systems to minimize skew and tolerate On-Chip Variation (OCV) in nanometer technologies. However, analyzing meshes is difficult because reconvergent paths and multi-source drivers prevent static timing analysis (STA) tools from handling mesh loops, making SPICE the industrial standard. SPICE simulations are accurate but slow, so clock-mesh synthesis relies on approximate models that overlook critical effects such as…
+> Graph neural network explanations are often evaluated via deletion fidelity, i.e., by deleting their top-ranked edges and measuring the resulting change in model output. Yet, in a message-passing GNN, "deleting an edge" does not specify a unique intervention. Structural deletion removes the edge from the graph and recomputes quantities such as degree normalization and attention, whereas message suppression leaves this structural context intact while blocking the message…
 
-### 5. [Resilient Cell-Free MIMO ISAC Under Uncertainties: An Impairment-Aware Graph Neural Network Framework](https://arxiv.org/abs/2611.03054)
-**Oways Alsoloh, Robert-Jeron Reifert, Aymen Khaleel, et al.**  ·  `eess.SP`  ·  [abs](https://arxiv.org/abs/2611.03054) · [pdf](https://arxiv.org/pdf/2611.03054)  ·  relevance 31
-<br>matched: `graph neural network`, `graph neural`, `gnn`
+### 2. [Measure Before You Repair: An Explainable Agent for Blind Restoration of Multi-Artifact 3-D MRI](https://arxiv.org/abs/2611.03996)
+**Necati Sefercioglu, Mehmet Ozan Unal, Metin Ertas, et al.**  ·  `eess.IV`  ·  [abs](https://arxiv.org/abs/2611.03996) · [pdf](https://arxiv.org/pdf/2611.03996)  ·  relevance 29
+<br>matched: `brain mri`, `large language model`, `llm`, `agent`, `explainab`, `multimodal`
 
-> Beamforming designs for integrated sensing and communication (ISAC) in cell-free multiple-input multiple-output (MIMO) systems face the challenge to stay reliable under uncertainties from both channel state information (CSI) as well as clutter. To this end, this paper proposes an impairment-aware heterogeneous graph neural network (GNN) framework for beamforming that obtains the CSI error level and the clutter covariance as edge features, which enables a single trained model…
+> A brain MRI scan can carry an unknown mix of artifacts, so restoration has to be blind, yet most deep-learning methods are built to correct one known artifact. We present Dx-Rx, an agent in which a multimodal large language model (MLLM) measures suspected artifacts before it repairs them. To our knowledge, it is the first agent to restore whole 3-D MRI volumes, whereas earlier MRI agents restore 2-D slices. In a loop, it looks at slices of the 3-D volume, calls five…
 
-### 6. [Predicting Cognitive Profiles from Structural MRI using Spatial Graph Representation Learning](https://arxiv.org/abs/2611.00113)
-**Taslima Ferdaus Shuva, Md. Tanvir Rahman, Risala Tasin Khan, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.00113) · [pdf](https://arxiv.org/pdf/2611.00113)  ·  relevance 30
-<br>matched: `neuroimaging`, `graph neural network`, `graph neural`, `gnn`, `representation learning`
+### 3. [LENS: Reliability-Aware Stock Prediction via LLM-Extracted Priors and News-Driven Semantic Graphs](https://arxiv.org/abs/2611.04217)
+**Hao Zhou, Tiejun Ma, Luis Felipe Costa Sperb**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.04217) · [pdf](https://arxiv.org/pdf/2611.04217)  ·  relevance 25
+<br>matched: `graph neural network`, `graph neural`, `gnn`, `large language model`, `llm`
 
-> Predicting cognitive abilities from structural neuroimaging remains challenging due to the high dimensionality and geometric complexity of brain morphology. Conventional models typically flatten regional morphometry into tabular features, failing to explicitly represent spatial relationships. We propose a Spatial-Topological Graph Neural Network (ST-GNN) to predict four distinct cognitive phenotypes across large pediatric cohorts (N = 2,378 to 2,424). By projecting regional…
+> Predicting stock returns requires modeling persistent company relations and time-varying market signals. Graph Neural Network (GNN) approaches combine static priors with dynamic relational graphs, but treat every extracted edge as a trustworthy binary fact, ignoring heterogeneous reliability across relational sources. We propose LENS (LLM-Extracted priors and News-driven Semantics), a static--dynamic graph framework for stock return prediction and ranking that models…
 
-### 7. [Certifying Graph Neural Networks Against Label and Structure Poisoning](https://arxiv.org/abs/2611.03350)
-**Lukas Gosch, Xichuan Chen, Yan Scholten, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.03350) · [pdf](https://arxiv.org/pdf/2611.03350)  ·  relevance 27
-<br>matched: `graph neural network`, `graph neural`
+### 4. [RGDM: Robust Graph Diffusion Model](https://arxiv.org/abs/2611.04146)
+**Yancheng Wang, Ping Li, Dongfang Sun, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.04146) · [pdf](https://arxiv.org/pdf/2611.04146)  ·  relevance 24
+<br>matched: `graph neural network`, `graph neural`, `gnn`, `diffusion model`, `generative model`
 
-> Robust machine learning for graph-structured data has made significant progress against test-time attacks, yet certified robustness to poisoning - where adversaries manipulate the training data - remains largely underexplored. For image data, state-of-the-art poisoning certificates rely on partitioning-and-aggregation schemes. However, we show that these methods fail when applied in the graph domain due to the inherent label and structure sparsity found in common graph…
+> Diffusion models represent a powerful class of generative models known for their solid theoretical foundations and remarkable performance across diverse tasks and domains. Existing node level diffusion methods synthesize nodes and edges within a graph, but are not designed to learn a robust generator from adversarially corrupted graphs. In this study, we introduce the Robust Graph Diffusion Model (RGDM), designed to generate labeled synthetic graph structures consisting of…
 
-### 8. [Efficient NPN Classification for Large Functions using Graph Neural Network](https://arxiv.org/abs/2611.00339)
-**Chengdi Cao, Hanyu Wang, Wan-Hsuan Lin, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.00339) · [pdf](https://arxiv.org/pdf/2611.00339)  ·  relevance 27
-<br>matched: `graph neural network`, `graph neural`
+### 5. [GlucoAgent: Personalized Glucose Forecasting from Multimodal Personal Context](https://arxiv.org/abs/2611.04126)
+**Xingzhi Sun, Hyo Jin Kim, Zhiyuan Wang, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.04126) · [pdf](https://arxiv.org/pdf/2611.04126)  ·  relevance 21
+<br>matched: `foundation model`, `llm`, `agent`, `multimodal`
 
-> Two Boolean functions are considered NPN equivalent if one can be transformed into the other by negating inputs, permuting inputs, or negating the output. Efficient NPN classification is valuable in fields such as logic synthesis, quantum computing, and information theory. However, exact NPN classification demands exhaustive enumeration of all possible input permutations and negations. Its complexity grows exponentially, making it impractical for larger functions with more…
+> Continuous glucose monitors, smartwatches, meal logs, and health profiles form a rich multimodal personal context that can significantly enhance glucose forecasting. However, existing methods struggle to effectively utilize these signals to improve glucose prediction because the relevance of different modalities varies drastically across individuals and time. We present GlucoAgent, an LLM-based agentic system that addresses this challenge through dynamic, case-by-case…
 
-### 9. [CONFIRM: Governing Scientific Reporting for Trustworthy Agentic Neuroimaging](https://arxiv.org/abs/2611.01449)
-**Yuxiang Wei, Lijing Zhu, Qizhen Lan, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.01449) · [pdf](https://arxiv.org/pdf/2611.01449)  ·  relevance 27
-<br>matched: `neuroimaging`, `large language model`, `llm`, `agent`
+### 6. [What Does the Model See? Representation Validity in Multimodal LLM-Based Video Analysis](https://arxiv.org/abs/2611.05181)
+**Christian Pipal, Eva-Maria Vogel, Morgan Wack**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.05181) · [pdf](https://arxiv.org/pdf/2611.05181)  ·  relevance 21
+<br>matched: `large language model`, `llm`, `multimodal`
 
-> Large language model (LLM) agents can autonomously run neuroimaging analyses from research questions to reported findings. Existing agentic systems use tools to check that code runs and reported values match its output, but rely on LLM judgment to decide which results warrant scientific reporting. We show that LLM judges endorse site-confounded findings even when the confound is presented as evidence. We present \textbf{CONFIRM}, a framework that separates running an…
+> Multimodal large language models (MLLMs) allow social scientists to analyze video at scale, but researchers must decide which parts of a video to provide as input. We use the term representation validity to examine how text, audio, video, and combined inputs affect measurement and subsequent analysis. We compare input representations across six open-weight MLLMs and three human-annotated video datasets. No representation consistently performs best. On seven news-related…
 
-### 10. [Learning to Group and Order: Cross-Instance Self-Supervised RL for Vision-Centric MLLMs](https://arxiv.org/abs/2611.00892)
-**Songming Yang, Hong-Tao Yu, Xiu-Shen Wei**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.00892) · [pdf](https://arxiv.org/pdf/2611.00892)  ·  relevance 27
-<br>matched: `self-supervised`, `large language model`, `llm`, `multimodal`
+### 7. [Behind Video Generation: Observations and Insights on Multimodal Understanding from Kling](https://arxiv.org/abs/2611.04916)
+**Kling Team, Dong Chen, Jialu Chen, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.04916) · [pdf](https://arxiv.org/pdf/2611.04916)  ·  relevance 20
+<br>matched: `foundation model`, `llm`, `agent`, `explainab`, `multimodal`
 
-> Reinforcement learning (RL) post-training has become an important paradigm for improving multimodal large language models (MLLMs), especially with automatically verifiable rewards. Self-supervised visual pretext tasks provide such rewards without human annotations. However, existing methods mainly exploit within-instance structure, offering limited supervision for cross-instance discrimination and fine-grained comparison. We introduce Group-and-Order Self-Supervised…
+> Video generation has progressed from isolated clips to coherent short-form audiovisual sequences, and the bottleneck is shifting from rendering to semantic control. This report summarizes the observations and insights on multimodal understanding gained from successive generations of Kling. We argue that generation quality is the projection of multimodal understanding through the entire data--conditioning--alignment--evaluation chain, and we examine this chain module by…
 
-### 11. [LLM-Enhanced Multimodal House Price Prediction using Structured, Textual, and Visual Features](https://arxiv.org/abs/2611.01615)
-**Khandokar Md. Rahat Hossain, Souvik Das, Tahsina Hashem, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.01615) · [pdf](https://arxiv.org/pdf/2611.01615)  ·  relevance 26
-<br>matched: `large language model`, `llm`, `agent`, `interpretab`, `multimodal`
+### 8. [PATTS: Parallel-Aware Test-Time Scaling for Thought-Image Generation in Multimodal Discrete Diffusion LLMs](https://arxiv.org/abs/2611.04948)
+**Yasong Dai, Zeeshan Hayder, David Ahmedt-Aristizabal, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.04948) · [pdf](https://arxiv.org/pdf/2611.04948)  ·  relevance 20
+<br>matched: `generative model`, `llm`, `multimodal`
 
-> Accurate house price prediction is essential for real estate buyers, sellers, agents, and financial institutions. Traditional methods rely primarily on structured data, e.g., number of bedrooms, bathrooms, parkings, but they overlook rich contextual information embedded in textual descriptions and property photos. Previous deep learning approaches for house price prediction have fused multimodal data but they fall short to extract structured spatio-temporal and contextual…
+> Test-time scaling (TTS) improves generative models by allocating additional inference-time computation to sampling, search, and verification. Existing image generation approaches, however, typically rank completed images or image-centric intermediate states. We study TTS for parallel multimodal discrete diffusion language models, in which reasoning tokens and image tokens are decoded jointly within a single generation trajectory. We first diagnose a limitation of…
 
-### 12. [Stage-aware Multimodal Brain Graph Contrastive Learning for Neurodegenerative Disorder Diagnosis](https://arxiv.org/abs/2611.02771)
-**Jingjing Zhou, Chenxuan Meng, Ciyuan Peng, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.02771) · [pdf](https://arxiv.org/pdf/2611.02771)  ·  relevance 24
-<br>matched: `neurodegenerative`, `multimodal`
+### 9. [Behavioral Prior Elicitation via LLM for Heterogeneous-Agent Bitcoin Flash-Crash Simulation](https://arxiv.org/abs/2611.03660)
+**Tran Phuong Linh Pham, Thi Minh Phuong Ngo, Phuong Thao Nguyen, et al.**  ·  `stat.AP`  ·  [abs](https://arxiv.org/abs/2611.03660) · [pdf](https://arxiv.org/pdf/2611.03660)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
 
-> Neurodegenerative disorders are characterized by their progressive nature, with distinct stages that require precise identification and tracking of progression trajectories for accurate diagnosis. However, existing diagnostic methods often fail to fully capture the unique brain patterns associated with different stages, limiting their ability to effectively target specific stages of the disorders. To address this issue, we propose a Stage-aware Multimodal Brain Graph…
+> Bitcoin perpetual futures trade continuously with shallow liquidity and high price impact, making them prone to millisecond-scale flash crashes. Agent-based limit order book simulators are a natural tool for studying such events, but their behavioral parameters are usually hand-crafted or require full order book histories that are rarely available at scale. We propose a four-stage pipeline that constructs a reproducible 100 ms BTCUSDT flash-crash event panel from 66 detected…
+
+### 10. [LLMs as MDP Designers: A Dependency-Aware Agentic Framework for Automated Robot Policy Generation](https://arxiv.org/abs/2611.04974)
+**Hong Je-Gal, Jinwoo Kim, Chanbin Yi, et al.**  ·  `cs.RO`  ·  [abs](https://arxiv.org/abs/2611.04974) · [pdf](https://arxiv.org/pdf/2611.04974)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
+
+> We investigate the automated generation of executable robot reinforcement learning (RL) policies from natural-language task descriptions. Rather than using large language models (LLMs) as execution-time decision makers, we use them as designers that construct RL pipelines before deployment, including Markov decision process (MDP) formulation and simulator implementation. We identify a phase-wise structure in this problem: MDP formulation is dependency-structured and…
+
+### 11. [TraceRouter++: Causal Semantic Routing Realignment via Optimal Transport](https://arxiv.org/abs/2611.04878)
+**Chuancheng Shi, Shangze Li, Wenhua Wu, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.04878) · [pdf](https://arxiv.org/pdf/2611.04878)  ·  relevance 18
+<br>matched: `foundation model`, `diffusion model`, `large language model`, `llm`, `interpretab`, `multimodal`
+
+> Despite their remarkable capabilities, large foundation models (LFMs) remain susceptible to adversarial manipulation. Current safety intervention methods primarily rely on the \textit{locality hypothesis}, rigidly suppressing isolated neurons or features. However, harmful semantics manifest as distributed, cross-layer circuits, rendering localized ablations both brittle against complex jailbreaks and detrimental to general utility. To bridge this gap, we propose…
+
+### 12. [OpenBrain: An Auditable Generated-Label Release for Whole-Brain MRI Parcellation](https://arxiv.org/abs/2611.05348)
+**Qizhen Lan, Yu-Chun Hsu, Yuxiang Wei, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.05348) · [pdf](https://arxiv.org/pdf/2611.05348)  ·  relevance 17
+<br>matched: `brain mri`, `segmentation`
+
+> Automatic tools can now generate whole-brain MRI parcellations at cohort scale, but generated-label releases often provide little evidence about which cases are reliable enough to reuse. We introduce OpenBrain, a confidence-aware release of 35,838 provenance-verified OpenNeuro T1w cases from 607 source datasets. OpenBrain is organized as an auditable case-record release rather than a directory of standalone segmentation files: each record links a primary parcellation, two…
 
 
-<sub>Generated 2026-11-03 20:05 UTC via the arXiv API.</sub>
+<sub>Generated 2026-11-04 20:25 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-11-04](digests/2026-11-04.md) — 12 papers
 - [2026-11-03](digests/2026-11-03.md) — 12 papers
 - [2026-11-02](digests/2026-11-02.md) — 12 papers
 - [2026-11-01](digests/2026-11-01.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-09-03](digests/2026-09-03.md) — 12 papers
 - [2026-09-02](digests/2026-09-02.md) — 12 papers
 - [2026-09-01](digests/2026-09-01.md) — 12 papers
-- [2026-08-31](digests/2026-08-31.md) — 12 papers
 
-_…and 66 earlier digests in [`digests/`](digests/)._
+_…and 67 earlier digests in [`digests/`](digests/)._
 
 ---
 
