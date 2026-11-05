@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-11-04** · browse the full archive below.
+**Latest digest: 2026-11-05** · browse the full archive below.
 
 ## How it works
 
@@ -29,21 +29,21 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-11-04
+# arXiv AI/ML digest — 2026-11-05
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [What Does It Mean to Remove an Edge? Intervention-Aware Fidelity for Graph Neural Network Explanations](https://arxiv.org/abs/2611.04751)
+### 1. [C-WFDM: A ControlNet-Guided Wavelet-Fusion Diffusion Model for Multimodal Brain MRI Completion](https://arxiv.org/abs/2611.05737)
+**Muhammad Nabi Yasinzai, Remika Mito, Mangor Pedersen**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.05737) · [pdf](https://arxiv.org/pdf/2611.05737)  ·  relevance 38
+<br>matched: `neuroimaging`, `brain mri`, `diffusion model`, `multimodal`
+
+> Multimodal brain MRI provides complementary anatomical, tissue, and pathological information to support downstream artificial intelligence (AI) applications. However, modality availability is uneven across public and pooled neuroimaging datasets: T1-weighted (T1w) MRI is widely represented, T2-weighted (T2w) and fluid-attenuated inversion recovery (FLAIR) MRI are less consistently available, and gadolinium-enhanced T1-weighted (T1Gd) MRI is relatively scarce. Pooled datasets…
+
+### 2. [What Does It Mean to Remove an Edge? Intervention-Aware Fidelity for Graph Neural Network Explanations](https://arxiv.org/abs/2611.04751)
 **Rocco Mattia Di Mauro, Marco Grassia, Giuseppe Mangioni**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.04751) · [pdf](https://arxiv.org/pdf/2611.04751)  ·  relevance 31
 <br>matched: `graph neural network`, `graph neural`, `gnn`
 
 > Graph neural network explanations are often evaluated via deletion fidelity, i.e., by deleting their top-ranked edges and measuring the resulting change in model output. Yet, in a message-passing GNN, "deleting an edge" does not specify a unique intervention. Structural deletion removes the edge from the graph and recomputes quantities such as degree normalization and attention, whereas message suppression leaves this structural context intact while blocking the message…
-
-### 2. [Measure Before You Repair: An Explainable Agent for Blind Restoration of Multi-Artifact 3-D MRI](https://arxiv.org/abs/2611.03996)
-**Necati Sefercioglu, Mehmet Ozan Unal, Metin Ertas, et al.**  ·  `eess.IV`  ·  [abs](https://arxiv.org/abs/2611.03996) · [pdf](https://arxiv.org/pdf/2611.03996)  ·  relevance 29
-<br>matched: `brain mri`, `large language model`, `llm`, `agent`, `explainab`, `multimodal`
-
-> A brain MRI scan can carry an unknown mix of artifacts, so restoration has to be blind, yet most deep-learning methods are built to correct one known artifact. We present Dx-Rx, an agent in which a multimodal large language model (MLLM) measures suspected artifacts before it repairs them. To our knowledge, it is the first agent to restore whole 3-D MRI volumes, whereas earlier MRI agents restore 2-D slices. In a loop, it looks at slices of the 3-D volume, calls five…
 
 ### 3. [LENS: Reliability-Aware Stock Prediction via LLM-Extracted Priors and News-Driven Semantic Graphs](https://arxiv.org/abs/2611.04217)
 **Hao Zhou, Tiejun Ma, Luis Felipe Costa Sperb**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.04217) · [pdf](https://arxiv.org/pdf/2611.04217)  ·  relevance 25
@@ -57,61 +57,62 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 
 > Diffusion models represent a powerful class of generative models known for their solid theoretical foundations and remarkable performance across diverse tasks and domains. Existing node level diffusion methods synthesize nodes and edges within a graph, but are not designed to learn a robust generator from adversarially corrupted graphs. In this study, we introduce the Robust Graph Diffusion Model (RGDM), designed to generate labeled synthetic graph structures consisting of…
 
-### 5. [GlucoAgent: Personalized Glucose Forecasting from Multimodal Personal Context](https://arxiv.org/abs/2611.04126)
-**Xingzhi Sun, Hyo Jin Kim, Zhiyuan Wang, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.04126) · [pdf](https://arxiv.org/pdf/2611.04126)  ·  relevance 21
-<br>matched: `foundation model`, `llm`, `agent`, `multimodal`
-
-> Continuous glucose monitors, smartwatches, meal logs, and health profiles form a rich multimodal personal context that can significantly enhance glucose forecasting. However, existing methods struggle to effectively utilize these signals to improve glucose prediction because the relevance of different modalities varies drastically across individuals and time. We present GlucoAgent, an LLM-based agentic system that addresses this challenge through dynamic, case-by-case…
-
-### 6. [What Does the Model See? Representation Validity in Multimodal LLM-Based Video Analysis](https://arxiv.org/abs/2611.05181)
-**Christian Pipal, Eva-Maria Vogel, Morgan Wack**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.05181) · [pdf](https://arxiv.org/pdf/2611.05181)  ·  relevance 21
+### 5. [Modality-Aware Expert Pruning for MoE-Based Multimodal Large Language Models](https://arxiv.org/abs/2611.05927)
+**Donggeun Kim**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.05927) · [pdf](https://arxiv.org/pdf/2611.05927)  ·  relevance 21
 <br>matched: `large language model`, `llm`, `multimodal`
 
-> Multimodal large language models (MLLMs) allow social scientists to analyze video at scale, but researchers must decide which parts of a video to provide as input. We use the term representation validity to examine how text, audio, video, and combined inputs affect measurement and subsequent analysis. We compare input representations across six open-weight MLLMs and three human-annotated video datasets. No representation consistently performs best. On seven news-related…
+> Mixture-of-Experts (MoE) enables multimodal large language models (MLLMs) to scale capacity efficiently, but expert parameters dominate memory even though only a few experts are activated per token: they account for over 90% of model size in modern MoE-MLLMs (e.g., 54 GB out of about 58 GB in BF16 for InternVL3.5-30B-A3B and Qwen3-VL-30B-A3B). Expert pruning has emerged as an effective compression strategy, but existing methods aggregate importance uniformly across tokens,…
 
-### 7. [Behind Video Generation: Observations and Insights on Multimodal Understanding from Kling](https://arxiv.org/abs/2611.04916)
-**Kling Team, Dong Chen, Jialu Chen, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.04916) · [pdf](https://arxiv.org/pdf/2611.04916)  ·  relevance 20
-<br>matched: `foundation model`, `llm`, `agent`, `explainab`, `multimodal`
-
-> Video generation has progressed from isolated clips to coherent short-form audiovisual sequences, and the bottleneck is shifting from rendering to semantic control. This report summarizes the observations and insights on multimodal understanding gained from successive generations of Kling. We argue that generation quality is the projection of multimodal understanding through the entire data--conditioning--alignment--evaluation chain, and we examine this chain module by…
-
-### 8. [PATTS: Parallel-Aware Test-Time Scaling for Thought-Image Generation in Multimodal Discrete Diffusion LLMs](https://arxiv.org/abs/2611.04948)
-**Yasong Dai, Zeeshan Hayder, David Ahmedt-Aristizabal, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.04948) · [pdf](https://arxiv.org/pdf/2611.04948)  ·  relevance 20
-<br>matched: `generative model`, `llm`, `multimodal`
-
-> Test-time scaling (TTS) improves generative models by allocating additional inference-time computation to sampling, search, and verification. Existing image generation approaches, however, typically rank completed images or image-centric intermediate states. We study TTS for parallel multimodal discrete diffusion language models, in which reasoning tokens and image tokens are decoded jointly within a single generation trajectory. We first diagnose a limitation of…
-
-### 9. [Behavioral Prior Elicitation via LLM for Heterogeneous-Agent Bitcoin Flash-Crash Simulation](https://arxiv.org/abs/2611.03660)
-**Tran Phuong Linh Pham, Thi Minh Phuong Ngo, Phuong Thao Nguyen, et al.**  ·  `stat.AP`  ·  [abs](https://arxiv.org/abs/2611.03660) · [pdf](https://arxiv.org/pdf/2611.03660)  ·  relevance 18
+### 6. [FlyHash for LLM Agent Memory: An Empirical Validation and a New Application](https://arxiv.org/abs/2611.05791)
+**Mohan Bheemadolu, Chrisogonas O. Odhiambo**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.05791) · [pdf](https://arxiv.org/pdf/2611.05791)  ·  relevance 18
 <br>matched: `large language model`, `llm`, `agent`
 
-> Bitcoin perpetual futures trade continuously with shallow liquidity and high price impact, making them prone to millisecond-scale flash crashes. Agent-based limit order book simulators are a natural tool for studying such events, but their behavioral parameters are usually hand-crafted or require full order book histories that are rarely available at scale. We propose a four-stage pipeline that constructs a reproducible 100 ms BTCUSDT flash-crash event panel from 66 detected…
+> Large language model (LLM) agents increasingly rely on external memory stores to retain information across conversations, typically via dense vector embeddings searched with approximate nearest-neighbor methods. The fruit fly's olfactory circuit computes a locality-sensitive hash of sensory input using a strikingly different mechanism - sparse random projection followed by winner-take-all competition - and prior work (Dasgupta et al., 2017) showed this scheme, dubbed…
 
-### 10. [LLMs as MDP Designers: A Dependency-Aware Agentic Framework for Automated Robot Policy Generation](https://arxiv.org/abs/2611.04974)
-**Hong Je-Gal, Jinwoo Kim, Chanbin Yi, et al.**  ·  `cs.RO`  ·  [abs](https://arxiv.org/abs/2611.04974) · [pdf](https://arxiv.org/pdf/2611.04974)  ·  relevance 18
+### 7. [Graph-Mediated Large Language Model Systems in the Agentic Era: Reasoning, Knowledge, Retrieval, Execution, and Coordination](https://arxiv.org/abs/2611.05953)
+**Haihui Liu, Yang Chen, Zice Qiu, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.05953) · [pdf](https://arxiv.org/pdf/2611.05953)  ·  relevance 18
 <br>matched: `large language model`, `llm`, `agent`
 
-> We investigate the automated generation of executable robot reinforcement learning (RL) policies from natural-language task descriptions. Rather than using large language models (LLMs) as execution-time decision makers, we use them as designers that construct RL pipelines before deployment, including Markov decision process (MDP) formulation and simulator implementation. We identify a phase-wise structure in this problem: MDP formulation is dependency-structured and…
+> Graphs play an increasingly important role in large language model (LLM) systems, supporting structural reasoning, knowledge grounding, retrieval, and memory. As these systems evolve toward the agentic era, graphs also organize execution dependencies and multi-agent communication, linking intermediate observations and retained information to subsequent decisions. However, understanding their contribution requires distinguishing the function of each graph operation, the…
 
-### 11. [TraceRouter++: Causal Semantic Routing Realignment via Optimal Transport](https://arxiv.org/abs/2611.04878)
-**Chuancheng Shi, Shangze Li, Wenhua Wu, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.04878) · [pdf](https://arxiv.org/pdf/2611.04878)  ·  relevance 18
-<br>matched: `foundation model`, `diffusion model`, `large language model`, `llm`, `interpretab`, `multimodal`
+### 8. [HarnessFlow: MCTS-Guided Harness Optimization for LLM Agents](https://arxiv.org/abs/2611.06254)
+**Zhi Hong, Qianlong Wang, Hongchen Wei, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.06254) · [pdf](https://arxiv.org/pdf/2611.06254)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
 
-> Despite their remarkable capabilities, large foundation models (LFMs) remain susceptible to adversarial manipulation. Current safety intervention methods primarily rely on the \textit{locality hypothesis}, rigidly suppressing isolated neurons or features. However, harmful semantics manifest as distributed, cross-layer circuits, rendering localized ablations both brittle against complex jailbreaks and detrimental to general utility. To bridge this gap, we propose…
+> The performance of large language model (LLM) agents depends on both the underlying model and the harness that governs interaction with tools and the environment. Yet harness design remains largely manual, and automating it requires navigating an open-ended search space through costly end-to-end evaluations. We introduce HarnessFlow, a framework for optimizing complete executable harnesses under a limited candidate-evaluation budget, with the model and task environment held…
 
-### 12. [OpenBrain: An Auditable Generated-Label Release for Whole-Brain MRI Parcellation](https://arxiv.org/abs/2611.05348)
-**Qizhen Lan, Yu-Chun Hsu, Yuxiang Wei, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.05348) · [pdf](https://arxiv.org/pdf/2611.05348)  ·  relevance 17
-<br>matched: `brain mri`, `segmentation`
+### 9. [A Systematic Benchmark for Evaluating Multimodal Personalized Reasoning of Vision-Language Models](https://arxiv.org/abs/2611.06259)
+**Dohyun Kim, Junyong Lhim, Kwanyong Park**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.06259) · [pdf](https://arxiv.org/pdf/2611.06259)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `interpretab`, `multimodal`
 
-> Automatic tools can now generate whole-brain MRI parcellations at cohort scale, but generated-label releases often provide little evidence about which cases are reliable enough to reuse. We introduce OpenBrain, a confidence-aware release of 35,838 provenance-verified OpenNeuro T1w cases from 607 source datasets. OpenBrain is organized as an auditable case-record release rather than a directory of standalone segmentation files: each record links a primary parcellation, two…
+> People often make decisions by holistically reasoning over heterogeneous forms of personal information. In this paper, we study the relatively underexplored capability of multimodal personalized reasoning in multimodal large language models (MLLMs). To this end, we introduce \texttt{MPRBench}, a novel and comprehensive benchmark specifically designed to evaluate personalized reasoning across a wide range of tasks and real-world challenges. \texttt{MPRBench} consists of 12…
+
+### 10. [ServerBench: How can your coding agents design specialized LLM serving systems?](https://arxiv.org/abs/2611.06841)
+**Xinrui Zhong, Zhiming Wang, Yongqi Liu, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.06841) · [pdf](https://arxiv.org/pdf/2611.06841)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
+
+> Large language model (LLM) coding agents develop software through experimentation, offering an opportunity to design the serving systems supporting their own operation. Effective serving requires coordinating implementation and operating decisions under session dependencies, latency constraints, and correctness requirements. We introduce ServerBench, a benchmark for agentic design of complete, specialized LLM serving systems. Agents experiment against a common objective,…
+
+### 11. [On Turn-Level Best-of-N Sampling for Scaling LLM Agents](https://arxiv.org/abs/2611.06868)
+**Jalaj Bhandari, Dhawal Gupta, Hongli Zhan, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.06868) · [pdf](https://arxiv.org/pdf/2611.06868)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
+
+> In this work, we evaluate a simple inference-time scaling approach based on \textit{turn-level best-of-N sampling} (\method) for large language model (LLM) agents on complex, long-horizon tasks. We instantiate this using a \textit{generator-selector} framework with two LLMs; at each turn, a \emph{generator} model generates $N$ candidate actions and a \emph{selector} model selects one of them, which is then executed in the environment. This paper is closely related to the…
+
+### 12. [TSFM Meets LLM: Context as Covariates](https://arxiv.org/abs/2611.05515)
+**Hemanth Ram, Sai Shankar Narasimhan, Shubhankar Agarwal, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.05515) · [pdf](https://arxiv.org/pdf/2611.05515)  ·  relevance 18
+<br>matched: `foundation model`, `large language model`, `llm`, `multimodal`
+
+> Textual information is ubiquitous in real-world time series datasets, appearing as news, reports, and annotations that hold key predictive signals not deducible from numerical history alone. Large Language Models (LLMs) interpret text but lack numerical precision, while Time Series Foundation Models (TSFMs) are quantitatively accurate but cannot reason about the effects of text. Moreover, the lack of large-scale paired multimodal datasets limits progress in bridging this…
 
 
-<sub>Generated 2026-11-04 20:25 UTC via the arXiv API.</sub>
+<sub>Generated 2026-11-05 20:39 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-11-05](digests/2026-11-05.md) — 12 papers
 - [2026-11-04](digests/2026-11-04.md) — 12 papers
 - [2026-11-03](digests/2026-11-03.md) — 12 papers
 - [2026-11-02](digests/2026-11-02.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-09-04](digests/2026-09-04.md) — 12 papers
 - [2026-09-03](digests/2026-09-03.md) — 12 papers
 - [2026-09-02](digests/2026-09-02.md) — 12 papers
-- [2026-09-01](digests/2026-09-01.md) — 12 papers
 
-_…and 67 earlier digests in [`digests/`](digests/)._
+_…and 68 earlier digests in [`digests/`](digests/)._
 
 ---
 
