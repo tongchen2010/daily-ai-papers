@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-11-06** · browse the full archive below.
+**Latest digest: 2026-11-07** · browse the full archive below.
 
 ## How it works
 
@@ -29,89 +29,90 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-11-06
+# arXiv AI/ML digest — 2026-11-07
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [Graph Neural Networks for Resource Allocation in Integrated Sensing and Communication](https://arxiv.org/abs/2611.07277)
-**Junyu Liao, Lili Chen, Tian Han, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.07277) · [pdf](https://arxiv.org/pdf/2611.07277)  ·  relevance 31
-<br>matched: `graph neural network`, `graph neural`, `gnn`
-
-> In vehicular integrated sensing and communication (ISAC) networks, each service-provider vehicle uses a limited power budget to serve multiple sensing targets and communication receivers. Maximizing the communication sum-rate subject to sensing signal-to-interference-plus-noise ratio (SINR) constraints is nonconvex, and iterative optimization is costly to rerun for every network layout. This paper proposes a graph neural network (GNN)-based power allocation algorithm, termed…
-
-### 2. [Module-Aware Optimization for Graph Neural Networks](https://arxiv.org/abs/2611.08379)
-**Guy Hadad, Haggai Roitman, Moshe Eliasof, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.08379) · [pdf](https://arxiv.org/pdf/2611.08379)  ·  relevance 31
+### 1. [Module-Aware Optimization for Graph Neural Networks](https://arxiv.org/abs/2611.08379v1)
+**Guy Hadad, Haggai Roitman, Moshe Eliasof, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.08379v1) · [pdf](https://arxiv.org/pdf/2611.08379v1)  ·  relevance 31
 <br>matched: `graph neural network`, `graph neural`, `gnn`
 
 > Different optimizers impose different geometries on parameter updates. Adaptive methods such as Adam and AdamW use coordinate-wise updates, while matrix-aware optimizers such as Muon utilize weight-matrix structure through orthogonalized updates. For Graph Neural Networks (GNNs), however, the effective geometry of its weight matrices is shaped not only by its learned channel-mixing weights, but also by the graph-propagated representations it acts on. Thus, even if an update…
 
-### 3. [VINO: Revisiting 3D Representation Learning with Volume Transformers](https://arxiv.org/abs/2611.07176)
-**Adrian Kruse, Kadir Yilmaz, Daan de Geus, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.07176) · [pdf](https://arxiv.org/pdf/2611.07176)  ·  relevance 25
-<br>matched: `representation learning`, `self-supervised`, `foundation model`, `transformer`
-
-> Self-supervised learning has given rise to vision foundation models that learn general-purpose image representations transferable across downstream tasks, yet representation learning for 3D scenes has not achieved comparable success. Motivated by this, we identify key limitations of current 3D representation learning approaches and revisit their core design choices. We first replace the commonly used hierarchical PTv3 backbone with the Volume Transformer, a ViT-like…
-
-### 4. [PSGAgent: Enhancing MLLMs' Dynamic Visual Perception for Panoptic Scene Graph Generation via Agentic Reasoning](https://arxiv.org/abs/2611.07408)
-**Qingyun Liu, Yuankun Liu, Jiaye Feng, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.07408) · [pdf](https://arxiv.org/pdf/2611.07408)  ·  relevance 23
-<br>matched: `large language model`, `llm`, `agent`, `segmentation`, `multimodal`
-
-> Panoptic Scene Graph generation (PSG) requires holistic yet fine-grained reasoning over complex relations among objects. However, current Multimodal Large Language Models (MLLMs) applied to PSG suffer from a perception bottleneck: they function as static observers limited by fixed-resolution views. As a result, models often overlook critical relations involving small or peripheral objects and struggle to differentiate ambiguous predicates in complex scenes. To address these…
-
-### 5. [Foundation Models as Modular Tools for fMRI Analysis](https://arxiv.org/abs/2611.06926)
-**Joseph Kilgore, Noemia Mahmud, Shinjae Yoo, et al.**  ·  `q-bio.NC`  ·  [abs](https://arxiv.org/abs/2611.06926) · [pdf](https://arxiv.org/pdf/2611.06926)  ·  relevance 23
-<br>matched: `fmri`, `foundation model`, `llm`, `agent`
-
-> Foundation models (FMs) for the brain are rapidly growing in number and each captures a different aspect of the same data. A single scientific question often needs several of them at once, alongside classical analysis and the literature, but no established method combines them, because each model defines its own inputs, outputs, and spatial conventions. Representation alignment, the usual route from an FM into a language model, binds one FM to one LLM and requires retraining…
-
-### 6. [Multimodal Information Interactions Bottleneck for Multimodal Self-Supervised Learning](https://arxiv.org/abs/2611.07718)
-**Liangjian Wen, Jiangtao Zheng, Jiang Duan, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.07718) · [pdf](https://arxiv.org/pdf/2611.07718)  ·  relevance 21
-<br>matched: `self-supervised`, `multimodal`
-
-> Multimodal self-supervised learning is challenged by heterogeneity, unequal informativeness, and complex information interactions across multimodal data sources such as images, text, audio, and tabular data. While contrastive methods effectively align shared semantics, they typically rely on strong multi-view redundancy assumptions, overlooking modality-specific and synergistic information, thus leading to suboptimal representations. We propose the Multimodal Information…
-
-### 7. [Self-Supervised Diffusion Models for Handwritten Signature Verification via Ruin Reconstruction](https://arxiv.org/abs/2611.07810)
-**Peirong Zhang, Zhenhua Yang, Jiaxin Zhang, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.07810) · [pdf](https://arxiv.org/pdf/2611.07810)  ·  relevance 21
-<br>matched: `self-supervised`, `diffusion model`
-
-> Handwritten signature verification (HSV) is a critical biometric technique in legal and forensic authentication, whose efficacy hinges on the discriminability of signature representations. Current HSV methods predominantly adopt supervised learning to enhance representation quality, leaving self-supervised learning largely unexplored. We propose \emph{SigDiffuser}, a diffusion-based self-supervised framework for signature representation and verification. At its core,…
-
-### 8. [Modality-Aware Expert Pruning for MoE-Based Multimodal Large Language Models](https://arxiv.org/abs/2611.05927)
-**Donggeun Kim**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.05927) · [pdf](https://arxiv.org/pdf/2611.05927)  ·  relevance 21
-<br>matched: `large language model`, `llm`, `multimodal`
-
-> Mixture-of-Experts (MoE) enables multimodal large language models (MLLMs) to scale capacity efficiently, but expert parameters dominate memory even though only a few experts are activated per token: they account for over 90% of model size in modern MoE-MLLMs (e.g., 54 GB out of about 58 GB in BF16 for InternVL3.5-30B-A3B and Qwen3-VL-30B-A3B). Expert pruning has emerged as an effective compression strategy, but existing methods aggregate importance uniformly across tokens,…
-
-### 9. [A Generative Foundation Model for Multimodal Tokamak Tasks](https://arxiv.org/abs/2611.08153)
-**Yingshuai Ji, Haodong Feng, Guohong Deng, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.08153) · [pdf](https://arxiv.org/pdf/2611.08153)  ·  relevance 20
+### 2. [A Generative Foundation Model for Multimodal Tokamak Tasks](https://arxiv.org/abs/2611.08153v1)
+**Yingshuai Ji, Haodong Feng, Guohong Deng, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.08153v1) · [pdf](https://arxiv.org/pdf/2611.08153v1)  ·  relevance 20
 <br>matched: `foundation model`, `transformer`, `multimodal`
 
 > Tokamak experiments record diverse measurements, including waveforms, profiles, fields, and scalars, which are used to reconstruct the plasma, forecast its evolution, recover associated control signals, and estimate disruption risk. Most models are built separately for one task and a fixed set of inputs and outputs, and each relies on a prescribed subset of diagnostics rather than structuring the full multimodal observation set to extract global, cross-signal information…
 
-### 10. [Binding Paraphrased Instructions to Encountered Objects in sLLM Agents under Partial Observability](https://arxiv.org/abs/2611.07599)
-**Chanyoung Kim, Harim Song, Byoungchan Ko, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.07599) · [pdf](https://arxiv.org/pdf/2611.07599)  ·  relevance 18
+### 3. [From Twisted Facts to Rogue Agents: Can LLMs Reliably Detect Multi-Dimensional Hallucinations?](https://arxiv.org/abs/2611.08231v1)
+**Hanyu Qiu, Ze Liu, Zhe Zhao, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.08231v1) · [pdf](https://arxiv.org/pdf/2611.08231v1)  ·  relevance 18
 <br>matched: `large language model`, `llm`, `agent`
 
-> Reliable deployment of LLM agents requires grounding diverse user expressions in their environments. Although RL-finetuned smaller large language model (sLLM) agents rival larger prompted LLMs on embodied tasks, their robustness to instruction paraphrases remains unclear. We introduce ALFWorld-Para to evaluate this robustness under controlled paraphrases, revealing 21-52% declines in success rates (SRs), predominantly driven by object synonyms. Despite retaining knowledge of…
+> Large language models (LLMs) are widely used for information access, content production, and agent-based task execution, but their outputs remain vulnerable to subtle, high-risk hallucinations. To systematically evaluate and advance post-generation hallucination detection, we introduce HaluCheck, a large-scale, bilingual benchmark comprising over 42k instances spanning both factual hallucinations in text and faithfulness hallucinations in agent trajectories. HaluCheck…
 
-### 11. [Towards Multiscale Molecular Representation Learning through Geometry-Based Fragmentation for Polymer Property Prediction](https://arxiv.org/abs/2611.07998)
-**Makoto Takamoto, Chaitanya Sampara, Viktor Zaverkin, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.07998) · [pdf](https://arxiv.org/pdf/2611.07998)  ·  relevance 18
-<br>matched: `representation learning`, `explainab`, `multimodal`
+### 4. [PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?](https://arxiv.org/abs/2611.08175v1)
+**Yue Zhang, Jilei Sun, Liqiang Jing, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.08175v1) · [pdf](https://arxiv.org/pdf/2611.08175v1)  ·  relevance 18
+<br>matched: `llm`, `agent`, `multimodal`
 
-> It is well established that molecular substructures can contribute unequally to chemical and physical properties, with specific motifs or side chains often playing dominant roles. Fragment-based representations have therefore emerged as an effective strategy for incorporating chemically meaningful inductive biases, as exemplified by molecular fingerprints and fragment-based attention mechanisms. However, many existing fragmentation-based machine learning methods rely on…
+> Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric execution under strict design rules. Although recent agents can interact with native routing tools, reliable routing on complex boards remains challenging. We present PCBRouteAgent, a multimodal PCB routing agent inspired by how human engineers coordinate global strategy with local execution. A Global Routing Planner combines board images and structured…
 
-### 12. [Interpretable Multimodal MRI-Clinical Fusion for Functional Outcome Prediction After Acute Ischemic Stroke](https://arxiv.org/abs/2611.08154)
-**Sina Raeisadigh, Henning M\"uller, Abderrahmane Hedjoudje**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.08154) · [pdf](https://arxiv.org/pdf/2611.08154)  ·  relevance 18
+### 5. [Interpretable Multimodal MRI-Clinical Fusion for Functional Outcome Prediction After Acute Ischemic Stroke](https://arxiv.org/abs/2611.08154v1)
+**Sina Raeisadigh, Henning Müller, Abderrahmane Hedjoudje**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.08154v1) · [pdf](https://arxiv.org/pdf/2611.08154v1)  ·  relevance 18
 <br>matched: `interpretab`, `multimodal`
 
 > This study evaluates the added prognostic value of day-1 multimodal MRI for predicting three-month functional outcome after acute ischemic stroke (AIS). Sixty-six AIS patients with ADC, DWI, FLAIR, and clinical data were analyzed. Three-dimensional pretrained ResNet embeddings were extracted from each MRI modality, reduced using fold-isolated principal component analysis, and combined with structured clinical variables and ADC-derived lesion biomarkers. Linear support vector…
 
+### 6. [Benchmarking Large Language Models on Heterogeneous Cognitive and Biomedical Knowledge Graphs: The Role of Graph Grounding in Multi-Hop Reasoning and Hallucination Mitigation](https://arxiv.org/abs/2611.08315v1)
+**Ali Sarabadani, Kheirolah Rahsepar Fard, Tahereh Jeirani**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.08315v1) · [pdf](https://arxiv.org/pdf/2611.08315v1)  ·  relevance 15
+<br>matched: `large language model`, `llm`, `explainab`
 
-<sub>Generated 2026-11-06 19:57 UTC via the arXiv API.</sub>
+> Large language models (LLMs) are increasingly used in biomedical and cognitive neuroscience, but their ability to reason reliably over heterogeneous knowledge graphs (KGs) remains unclear. We benchmark five LLMs (GPT-5.1, Gemini 2.0 Pro, Llama 3, Qwen, and BioGPT) across five KGs: DrugBank, NeuroSynth, Cognitive Atlas, Brain Map, and GDPKG. We introduce a multitier query dataset to evaluate reasoning depth and factual accuracy under KG-aware (graph-grounded) and KG-agnostic…
+
+### 7. [Multimodal-SEA: Benchmarking AI Agent Security under Multimodal Social Engineering Attacks](https://arxiv.org/abs/2611.08281v1)
+**Zhitao He, Chi Him Zhang, Chengru Han, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.08281v1) · [pdf](https://arxiv.org/pdf/2611.08281v1)  ·  relevance 15
+<br>matched: `agent`, `multimodal`
+
+> Personal AI agents face social engineering attacks supported by forged multimodal content, but existing evaluations mainly focus on text-based dialogue, leaving their intrinsic security under such attacks insufficiently studied. We introduce Multimodal-SEA, an interactive benchmark comprising 608 expert-designed tasks grounded in real-world fraud cases, covering 14 domains and 152 attack scenarios with prepared multimodal content. The tasks span four difficulty levels and…
+
+### 8. [ProQuant: Progressive Quantization-aware Training for Edge MLLMs](https://arxiv.org/abs/2611.08216v1)
+**Yufei Xue, Yushi Huang, Jiawei Shao, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.08216v1) · [pdf](https://arxiv.org/pdf/2611.08216v1)  ·  relevance 15
+<br>matched: `large language model`, `llm`, `multimodal`
+
+> Multi-modal large language models (MLLMs) with impressive perception and understanding capabilities will enable a range of downstream applications. However, their substantial computational and memory requirements hinder the real-world implementation, particularly for resource-constrained edge devices. Quantization has emerged as an effective solution for deploying large models. While post-training quantization (PTQ) successfully retains the performance at moderate bit-width…
+
+### 9. [Multimodal Hierarchical Mixture-of-Experts for 3D Medical Vision-Language Modeling](https://arxiv.org/abs/2611.08185v1)
+**Gizem Mert, Szymon Płotka, Pedro R. A. S. Bassi, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.08185v1) · [pdf](https://arxiv.org/pdf/2611.08185v1)  ·  relevance 15
+<br>matched: `medical imaging`, `segmentation`, `multimodal`
+
+> Medical 3D scans and reports are inherently hierarchical, with diagnostic cues concentrated in specific anatomical regions across multiple levels of organization. Yet, most medical vision-language models ignore this structure and fail to focus on clinically relevant anatomy. We introduce MedHiVE, which combines hierarchical vision-language Soft Mixture-of-Experts (SMoE) with contrastive learning to jointly model fine-grained anatomy and global scan context. To our knowledge,…
+
+### 10. [PersonaAgent: Retrieval-Augmented Transaction Anomaly Scoring with Refreshable Multi-Entity Persona Memory](https://arxiv.org/abs/2611.08094v1)
+**Zhengyu Fang, Liang Wang, Yingtong Dou, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.08094v1) · [pdf](https://arxiv.org/pdf/2611.08094v1)  ·  relevance 15
+<br>matched: `agent`, `retrieval-augmented`
+
+> In large-scale payment networks, entities (card, merchant, etc.) and their interactions play a key role in transaction anomaly detection. However, transaction patterns between different entities usually change more frequently than the production model refresh schedule. Meanwhile, entity embedding tables suffer from high-cardinality and sparse interaction issues. To resolve the above challenges, we present PersonaAgent, an agentic transaction anomaly detection framework which…
+
+### 11. [The Power of Meta Access in the Software of the Future --- Demonstrated on LLM Chat UIs and Chat AI](https://arxiv.org/abs/2611.08428v1)
+**Julian Kunkel, Ali Doosthosseini**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.08428v1) · [pdf](https://arxiv.org/pdf/2611.08428v1)  ·  relevance 14
+<br>matched: `large language model`, `llm`, `agent`
+
+> Chat remains the default surface for many large language model (LLM) tasks, even as agentic tools such as OpenCode excel at coding and automation. Yet the model sees the current dialogue but not the workspace around it. We explore meta access---giving the assistant a structured, permissioned view of the interface itself and propose a ladder of levels: feature tutoring; metadata, settings, and preference access; retrieval over summaries and messages, confirmed mutation, and…
+
+### 12. [User Embeddings are Superpositions of Interpretable Behavioral Modes](https://arxiv.org/abs/2611.08487v1)
+**Jonathan Kozaczuk, Zheng Dong, Noyan Evirgen, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.08487v1) · [pdf](https://arxiv.org/pdf/2611.08487v1)  ·  relevance 13
+<br>matched: `generative model`, `transformer`, `interpretab`
+
+> User embeddings are central components of modern recommendation, personalization, and behavioral modeling systems. Though these embeddings can compactly encode rich behavioral information, they are inherently dense and opaque, limiting interpretability. To address this gap, we argue that user embeddings can be understood as sparse superpositions of interpretable behavioral modes. This structure is directly predicted by generative models of user behavior for linear embeddings…
+
+
+<sub>Generated 2026-11-07 18:02 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-11-07](digests/2026-11-07.md) — 12 papers
 - [2026-11-06](digests/2026-11-06.md) — 12 papers
 - [2026-11-05](digests/2026-11-05.md) — 12 papers
 - [2026-11-04](digests/2026-11-04.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-09-06](digests/2026-09-06.md) — 12 papers
 - [2026-09-05](digests/2026-09-05.md) — 12 papers
 - [2026-09-04](digests/2026-09-04.md) — 12 papers
-- [2026-09-03](digests/2026-09-03.md) — 12 papers
 
-_…and 69 earlier digests in [`digests/`](digests/)._
+_…and 70 earlier digests in [`digests/`](digests/)._
 
 ---
 
