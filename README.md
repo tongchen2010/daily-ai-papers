@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-11-07** · browse the full archive below.
+**Latest digest: 2026-11-08** · browse the full archive below.
 
 ## How it works
 
@@ -29,7 +29,7 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-11-07
+# arXiv AI/ML digest — 2026-11-08
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
@@ -106,12 +106,13 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 > User embeddings are central components of modern recommendation, personalization, and behavioral modeling systems. Though these embeddings can compactly encode rich behavioral information, they are inherently dense and opaque, limiting interpretability. To address this gap, we argue that user embeddings can be understood as sparse superpositions of interpretable behavioral modes. This structure is directly predicted by generative models of user behavior for linear embeddings…
 
 
-<sub>Generated 2026-11-07 18:02 UTC via the arXiv API.</sub>
+<sub>Generated 2026-11-08 18:20 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-11-08](digests/2026-11-08.md) — 12 papers
 - [2026-11-07](digests/2026-11-07.md) — 12 papers
 - [2026-11-06](digests/2026-11-06.md) — 12 papers
 - [2026-11-05](digests/2026-11-05.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-09-07](digests/2026-09-07.md) — 12 papers
 - [2026-09-06](digests/2026-09-06.md) — 12 papers
 - [2026-09-05](digests/2026-09-05.md) — 12 papers
-- [2026-09-04](digests/2026-09-04.md) — 12 papers
 
-_…and 70 earlier digests in [`digests/`](digests/)._
+_…and 71 earlier digests in [`digests/`](digests/)._
 
 ---
 
