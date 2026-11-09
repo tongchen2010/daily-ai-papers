@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-11-08** · browse the full archive below.
+**Latest digest: 2026-11-09** · browse the full archive below.
 
 ## How it works
 
@@ -29,89 +29,90 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-11-08
+# arXiv AI/ML digest — 2026-11-09
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [Module-Aware Optimization for Graph Neural Networks](https://arxiv.org/abs/2611.08379v1)
-**Guy Hadad, Haggai Roitman, Moshe Eliasof, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.08379v1) · [pdf](https://arxiv.org/pdf/2611.08379v1)  ·  relevance 31
+### 1. [Interpretable Context-Aware Multi-Label Retinal Classification with Dual-Hub Heterogeneous Graph Neural Network](https://arxiv.org/abs/2611.09309)
+**Proshanto Chanda, Munib Mesinovic, Tingting Zhu, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.09309) · [pdf](https://arxiv.org/pdf/2611.09309)  ·  relevance 43
+<br>matched: `graph neural network`, `graph neural`, `gnn`, `interpretab`, `multimodal`
+
+> Multi-label retinal screening requires capturing co-occurring pathologies and clinical context, yet standard multimodal fusion remains opaque. We propose a dual-hub heterogeneous graph neural network (GNN) that couples spatial fundus features and structured clinical covariates through cross-modal message passing while providing inherent interpretability. Rather than relying on post-hoc saliency approximations, our architecture exposes multi-level decision pathways during…
+
+### 2. [Scaling Graph Similarity Learning with Graph Neural Networks](https://arxiv.org/abs/2611.09805)
+**Ahmet T\"uzen, Helge Langseth, Kjetil N{\o}rv{\aa}g**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.09805) · [pdf](https://arxiv.org/pdf/2611.09805)  ·  relevance 31
 <br>matched: `graph neural network`, `graph neural`, `gnn`
 
-> Different optimizers impose different geometries on parameter updates. Adaptive methods such as Adam and AdamW use coordinate-wise updates, while matrix-aware optimizers such as Muon utilize weight-matrix structure through orthogonalized updates. For Graph Neural Networks (GNNs), however, the effective geometry of its weight matrices is shaped not only by its learned channel-mixing weights, but also by the graph-propagated representations it acts on. Thus, even if an update…
+> Graph similarity computation is an important task in graph mining with many real-world applications, such as chemical compound analysis, program dependence comparison, and social network analysis. The problem is computationally challenging: Graph Edit Distance (GED) and Maximum Common Subgraph (MCS), which quantify the distance between graphs and identify their largest shared subgraph, respectively, are NP-hard to compute exactly. To address these computational challenges,…
 
-### 2. [A Generative Foundation Model for Multimodal Tokamak Tasks](https://arxiv.org/abs/2611.08153v1)
-**Yingshuai Ji, Haodong Feng, Guohong Deng, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.08153v1) · [pdf](https://arxiv.org/pdf/2611.08153v1)  ·  relevance 20
-<br>matched: `foundation model`, `transformer`, `multimodal`
+### 3. [RAG-Enhanced LLMs for Interactive Explainability in Clinical Decision Support Systems](https://arxiv.org/abs/2611.09232)
+**Lorenzo Mannocci, Francesca Naretto, Lucia Passaro, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.09232) · [pdf](https://arxiv.org/pdf/2611.09232)  ·  relevance 27
+<br>matched: `large language model`, `llm`, `retrieval-augmented`, `interpretab`, `explainab`
 
-> Tokamak experiments record diverse measurements, including waveforms, profiles, fields, and scalars, which are used to reconstruct the plasma, forecast its evolution, recover associated control signals, and estimate disruption risk. Most models are built separately for one task and a fixed set of inputs and outputs, and each relies on a prescribed subset of diagnostics rather than structuring the full multimodal observation set to extract global, cross-signal information…
+> Artificial Intelligence (AI) is increasingly embedded in high-risks decision-making systems across domains such as healthcare, finance, and the judicial system. As reliance on predictive models grows, so does the demand for Explainable AI (XAI) to ensure transparency, trust, and interpretability. However, existing XAI approaches often fail to present explanations in a format accessible to domain experts, limiting their practical utility. Large Language Models (LLMs) have…
 
-### 3. [From Twisted Facts to Rogue Agents: Can LLMs Reliably Detect Multi-Dimensional Hallucinations?](https://arxiv.org/abs/2611.08231v1)
-**Hanyu Qiu, Ze Liu, Zhe Zhao, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.08231v1) · [pdf](https://arxiv.org/pdf/2611.08231v1)  ·  relevance 18
-<br>matched: `large language model`, `llm`, `agent`
+### 4. [Measurement-Aware Multimodal LLM for No-Reference Low-Dose CT Quality Assessment](https://arxiv.org/abs/2611.08754)
+**Kerem Basim, Tolga Demiroglu, Mehmet Ozan Unal, et al.**  ·  `eess.IV`  ·  [abs](https://arxiv.org/abs/2611.08754) · [pdf](https://arxiv.org/pdf/2611.08754)  ·  relevance 23
+<br>matched: `large language model`, `llm`, `agent`, `multimodal`
 
-> Large language models (LLMs) are widely used for information access, content production, and agent-based task execution, but their outputs remain vulnerable to subtle, high-risk hallucinations. To systematically evaluate and advance post-generation hallucination detection, we introduce HaluCheck, a large-scale, bilingual benchmark comprising over 42k instances spanning both factual hallucinations in text and faithfulness hallucinations in agent trajectories. HaluCheck…
+> No-reference image quality assessment (IQA) of low-dose CT predicts the score that radiologists would assign to a slice without a full-dose reference, as needed to compare dose protocols and denoisers. Trained CT IQA networks agree well with radiologists but output only a score, whereas multimodal large language models (MLLMs) can explain a score but perform poorly on CT when only prompted. We propose a measurement-aware MLLM, built on Qwen3.8-27B, that rates a slice from…
 
-### 4. [PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?](https://arxiv.org/abs/2611.08175v1)
-**Yue Zhang, Jilei Sun, Liqiang Jing, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.08175v1) · [pdf](https://arxiv.org/pdf/2611.08175v1)  ·  relevance 18
-<br>matched: `llm`, `agent`, `multimodal`
+### 5. [Federated training performs as well as centralized for 3D Latent Diffusion for Diagnosis-Conditioned Brain MRI Synthesis](https://arxiv.org/abs/2611.08771)
+**Abhijith Shaji, Paul Kurian, Greg Ver Steeg, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.08771) · [pdf](https://arxiv.org/pdf/2611.08771)  ·  relevance 22
+<br>matched: `neuroimaging`, `brain mri`, `generative model`
 
-> Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric execution under strict design rules. Although recent agents can interact with native routing tools, reliable routing on complex boards remains challenging. We present PCBRouteAgent, a multimodal PCB routing agent inspired by how human engineers coordinate global strategy with local execution. A Global Routing Planner combines board images and structured…
+> Generative models of brain MRI are useful to understand brain conditions, and to enrich scarce and imbalanced neuroimaging data. However, training these models requires large, multi-site training sets, which is challenging. Federated learning (FL) allows for training deep learning models without sharing data. We show that training a 3D conditional latent model federatedly (where data is kept private at each site) performs similarly to centralized training (where all the data…
 
-### 5. [Interpretable Multimodal MRI-Clinical Fusion for Functional Outcome Prediction After Acute Ischemic Stroke](https://arxiv.org/abs/2611.08154v1)
-**Sina Raeisadigh, Henning Müller, Abderrahmane Hedjoudje**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.08154v1) · [pdf](https://arxiv.org/pdf/2611.08154v1)  ·  relevance 18
-<br>matched: `interpretab`, `multimodal`
-
-> This study evaluates the added prognostic value of day-1 multimodal MRI for predicting three-month functional outcome after acute ischemic stroke (AIS). Sixty-six AIS patients with ADC, DWI, FLAIR, and clinical data were analyzed. Three-dimensional pretrained ResNet embeddings were extracted from each MRI modality, reduced using fold-isolated principal component analysis, and combined with structured clinical variables and ADC-derived lesion biomarkers. Linear support vector…
-
-### 6. [Benchmarking Large Language Models on Heterogeneous Cognitive and Biomedical Knowledge Graphs: The Role of Graph Grounding in Multi-Hop Reasoning and Hallucination Mitigation](https://arxiv.org/abs/2611.08315v1)
-**Ali Sarabadani, Kheirolah Rahsepar Fard, Tahereh Jeirani**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.08315v1) · [pdf](https://arxiv.org/pdf/2611.08315v1)  ·  relevance 15
-<br>matched: `large language model`, `llm`, `explainab`
-
-> Large language models (LLMs) are increasingly used in biomedical and cognitive neuroscience, but their ability to reason reliably over heterogeneous knowledge graphs (KGs) remains unclear. We benchmark five LLMs (GPT-5.1, Gemini 2.0 Pro, Llama 3, Qwen, and BioGPT) across five KGs: DrugBank, NeuroSynth, Cognitive Atlas, Brain Map, and GDPKG. We introduce a multitier query dataset to evaluate reasoning depth and factual accuracy under KG-aware (graph-grounded) and KG-agnostic…
-
-### 7. [Multimodal-SEA: Benchmarking AI Agent Security under Multimodal Social Engineering Attacks](https://arxiv.org/abs/2611.08281v1)
-**Zhitao He, Chi Him Zhang, Chengru Han, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.08281v1) · [pdf](https://arxiv.org/pdf/2611.08281v1)  ·  relevance 15
-<br>matched: `agent`, `multimodal`
-
-> Personal AI agents face social engineering attacks supported by forged multimodal content, but existing evaluations mainly focus on text-based dialogue, leaving their intrinsic security under such attacks insufficiently studied. We introduce Multimodal-SEA, an interactive benchmark comprising 608 expert-designed tasks grounded in real-world fraud cases, covering 14 domains and 152 attack scenarios with prepared multimodal content. The tasks span four difficulty levels and…
-
-### 8. [ProQuant: Progressive Quantization-aware Training for Edge MLLMs](https://arxiv.org/abs/2611.08216v1)
-**Yufei Xue, Yushi Huang, Jiawei Shao, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.08216v1) · [pdf](https://arxiv.org/pdf/2611.08216v1)  ·  relevance 15
+### 6. [ROSE: Risk-Aware Orthogonal Subspace Navigation for Lifelong Knowledge Editing in Multimodal Large Language Models](https://arxiv.org/abs/2611.09770)
+**Lingyun Song, Ziyao Chen, Kang Pan, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.09770) · [pdf](https://arxiv.org/pdf/2611.09770)  ·  relevance 21
 <br>matched: `large language model`, `llm`, `multimodal`
 
-> Multi-modal large language models (MLLMs) with impressive perception and understanding capabilities will enable a range of downstream applications. However, their substantial computational and memory requirements hinder the real-world implementation, particularly for resource-constrained edge devices. Quantization has emerged as an effective solution for deploying large models. While post-training quantization (PTQ) successfully retains the performance at moderate bit-width…
+> Multimodal Large Language Models (MLLMs) require continuous factual updates to stay current, yet lifelong knowledge editing remains a daunting challenge. The primary obstacle is the severe Locality Erosion and Catastrophic Forgetting, where sequential edits inevitably interfere with pre-trained capabilities and prior updates. In this paper, we propose \textbf{ROSE}, a \textbf{R}isk-aware \textbf{O}rthogonal \textbf{S}ubspace navigation framework for lifelong knowledge…
 
-### 9. [Multimodal Hierarchical Mixture-of-Experts for 3D Medical Vision-Language Modeling](https://arxiv.org/abs/2611.08185v1)
-**Gizem Mert, Szymon Płotka, Pedro R. A. S. Bassi, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.08185v1) · [pdf](https://arxiv.org/pdf/2611.08185v1)  ·  relevance 15
-<br>matched: `medical imaging`, `segmentation`, `multimodal`
+### 7. [DINO-Nucleus: Multi-Level Self-Supervised Features for Nucleus Instance Segmentation](https://arxiv.org/abs/2611.09133)
+**Mohammad Sarhangzadeh, Elyar Esmaeilzadeh, Doruk Oner**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.09133) · [pdf](https://arxiv.org/pdf/2611.09133)  ·  relevance 20
+<br>matched: `self-supervised`, `transformer`, `segmentation`
 
-> Medical 3D scans and reports are inherently hierarchical, with diagnostic cues concentrated in specific anatomical regions across multiple levels of organization. Yet, most medical vision-language models ignore this structure and fail to focus on clinically relevant anatomy. We introduce MedHiVE, which combines hierarchical vision-language Soft Mixture-of-Experts (SMoE) with contrastive learning to jointly model fine-grained anatomy and global scan context. To our knowledge,…
+> Nucleus instance segmentation and counting are essential for quantitative microscopy, enabling reliable analysis of cell populations, tissue organization, and disease-related changes. However, accurately separating touching nuclei remains difficult, and many existing approaches rely on complex models or sensitive post-processing procedures. We present DINO-Nucleus, a parameter-efficient framework that leverages multi-level self-supervised DINOv2 representations for nucleus…
 
-### 10. [PersonaAgent: Retrieval-Augmented Transaction Anomaly Scoring with Refreshable Multi-Entity Persona Memory](https://arxiv.org/abs/2611.08094v1)
-**Zhengyu Fang, Liang Wang, Yingtong Dou, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.08094v1) · [pdf](https://arxiv.org/pdf/2611.08094v1)  ·  relevance 15
-<br>matched: `agent`, `retrieval-augmented`
+### 8. [Generative Reconstruction of Full-Field Sensor States for Safety-Critical Digital Twins](https://arxiv.org/abs/2611.08499)
+**Umme Mahbuba Nabila, Linyu Lin, Majdi I. Radaideh**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.08499) · [pdf](https://arxiv.org/pdf/2611.08499)  ·  relevance 18
+<br>matched: `graph neural network`, `graph neural`, `gnn`, `diffusion model`, `generative model`
 
-> In large-scale payment networks, entities (card, merchant, etc.) and their interactions play a key role in transaction anomaly detection. However, transaction patterns between different entities usually change more frequently than the production model refresh schedule. Meanwhile, entity embedding tables suffer from high-cardinality and sparse interaction issues. To resolve the above challenges, we present PersonaAgent, an agentic transaction anomaly detection framework which…
+> Accurate reconstruction of incomplete sensor fields is critical for state awareness in safety-critical digital twins (DTs). Thermocouples in high-temperature and radiation environments may drift, fail, or become intermittently unavailable, causing partial observability. This study develops a sparse-sensor reconstruction framework for Oregon State University's High Temperature Test Facility (HTTF) and evaluates six methods under intra- and inter-experiment protocols: three…
 
-### 11. [The Power of Meta Access in the Software of the Future --- Demonstrated on LLM Chat UIs and Chat AI](https://arxiv.org/abs/2611.08428v1)
-**Julian Kunkel, Ali Doosthosseini**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.08428v1) · [pdf](https://arxiv.org/pdf/2611.08428v1)  ·  relevance 14
+### 9. [StreamTab: Training-Free Temporal Link Prediction with Tabular Foundation Models](https://arxiv.org/abs/2611.09052)
+**Mingqi Yang, Renqi Wu**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.09052) · [pdf](https://arxiv.org/pdf/2611.09052)  ·  relevance 18
+<br>matched: `graph neural network`, `graph neural`, `foundation model`
+
+> Temporal link prediction uses past interactions to predict whether two nodes will interact in the future. Temporal graph neural networks achieve strong results on this task, but they are trained separately for each graph. How a model should use interaction history also depends on the candidates it is compared with. A past interaction can distinguish a recurring link from a random pair that has never interacted, but when the negative candidates have also interacted before,…
+
+### 10. [ELPAC: Endpoint-Anchored Latent Progression with Stage-Varying Multimodal Coordination](https://arxiv.org/abs/2611.08541)
+**Shengxian Ding, Yifei Zhang, Xinyuan Tian, et al.**  ·  `stat.ML`  ·  [abs](https://arxiv.org/abs/2611.08541) · [pdf](https://arxiv.org/pdf/2611.08541)  ·  relevance 18
+<br>matched: `alzheimer`, `interpretab`, `multimodal`
+
+> Aging cohorts increasingly combine imaging, plasma, and cognitive measurements, but most subjects provide only a partially observed cross-sectional snapshot, leaving latent stage, progression subtype, and stage-varying multimodal coordination to be inferred jointly. Existing methods estimate the cohort-level aging process, model covariance under observed covariates, or fuse modalities for prediction. However, they rarely target the joint problem of endpoint-anchored staging…
+
+### 11. [Authorization Drift in LLM Agents: Evaluating Boundary Compliance in Multi-Step Tool Use](https://arxiv.org/abs/2611.09113)
+**Chuxue Cao, Jingru Zeng, Boqin Yin, et al.**  ·  `cs.CR`  ·  [abs](https://arxiv.org/abs/2611.09113) · [pdf](https://arxiv.org/pdf/2611.09113)  ·  relevance 18
+<br>matched: `llm`, `agent`, `interpretab`
+
+> LLM agents can exceed their authorization boundaries while pursuing user goals without an adversary. We formalize this phenomenon as authorization drift across data, tool, scope, and time, and introduce the Authorization Drift Benchmark (ADB): 648 samples across seven domains, each pairing a sufficient compliant path with an attractive unauthorized shortcut. To ensure executable tasks, tempting shortcuts, and feasible compliant paths, Staged Execution-Reflective Synthesis…
+
+### 12. [Memory-Aware Multi-Agent Architecture with LLM-based Orchestration for Conversational Recommendation](https://arxiv.org/abs/2611.08718)
+**Emilly Pitman de Castro, Vanessa Silva, Gustavo Kanno, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.08718) · [pdf](https://arxiv.org/pdf/2611.08718)  ·  relevance 18
 <br>matched: `large language model`, `llm`, `agent`
 
-> Chat remains the default surface for many large language model (LLM) tasks, even as agentic tools such as OpenCode excel at coding and automation. Yet the model sees the current dialogue but not the workspace around it. We explore meta access---giving the assistant a structured, permissioned view of the interface itself and propose a ladder of levels: feature tutoring; metadata, settings, and preference access; retrieval over summaries and messages, confirmed mutation, and…
-
-### 12. [User Embeddings are Superpositions of Interpretable Behavioral Modes](https://arxiv.org/abs/2611.08487v1)
-**Jonathan Kozaczuk, Zheng Dong, Noyan Evirgen, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.08487v1) · [pdf](https://arxiv.org/pdf/2611.08487v1)  ·  relevance 13
-<br>matched: `generative model`, `transformer`, `interpretab`
-
-> User embeddings are central components of modern recommendation, personalization, and behavioral modeling systems. Though these embeddings can compactly encode rich behavioral information, they are inherently dense and opaque, limiting interpretability. To address this gap, we argue that user embeddings can be understood as sparse superpositions of interpretable behavioral modes. This structure is directly predicted by generative models of user behavior for linear embeddings…
+> Conversational recommender systems often treat user sessions in isolation, limiting their ability to capture how user intent evolves over time. While large language models (LLMs) have improved semantic understanding, they are typically used as isolated components, without addressing how memory, retrieval, and decision-making should be integrated at the system level. In this work, we propose a memory-aware multi-agent architecture for conversational recommendation, in which…
 
 
-<sub>Generated 2026-11-08 18:20 UTC via the arXiv API.</sub>
+<sub>Generated 2026-11-09 22:58 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-11-09](digests/2026-11-09.md) — 12 papers
 - [2026-11-08](digests/2026-11-08.md) — 12 papers
 - [2026-11-07](digests/2026-11-07.md) — 12 papers
 - [2026-11-06](digests/2026-11-06.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-09-08](digests/2026-09-08.md) — 12 papers
 - [2026-09-07](digests/2026-09-07.md) — 12 papers
 - [2026-09-06](digests/2026-09-06.md) — 12 papers
-- [2026-09-05](digests/2026-09-05.md) — 12 papers
 
-_…and 71 earlier digests in [`digests/`](digests/)._
+_…and 72 earlier digests in [`digests/`](digests/)._
 
 ---
 
