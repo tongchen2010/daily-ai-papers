@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-11-10** · browse the full archive below.
+**Latest digest: 2026-11-11** · browse the full archive below.
 
 ## How it works
 
@@ -29,89 +29,90 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-11-10
+# arXiv AI/ML digest — 2026-11-11
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [Bias, Measurement Error, and Double-Dipping: When Can GNN Convolutions Help Brain Connectome Prediction?](https://arxiv.org/abs/2611.10364)
-**Tommaso Castellani, Jiaqi Li, Muriah D. Wheelock, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.10364) · [pdf](https://arxiv.org/pdf/2611.10364)  ·  relevance 36
-<br>matched: `connectome`, `fmri`, `graph neural network`, `graph neural`, `gnn`
+### 1. [Predicting Time-to-conversion for Dementia of Alzheimer's Type using Multi-modal Deep Survival Analysis](https://arxiv.org/abs/2205.01188)
+**Ghazal Mirabnahrazam, Da Ma, C\'edric Beaulac, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2205.01188) · [pdf](https://arxiv.org/pdf/2205.01188)  ·  relevance 49
+<br>matched: `alzheimer`, `dementia`, `neuroimaging`, `disease progression`, `survival analysis`
 
-> Graph Neural Networks (GNNs) are an important tool for fMRI prediction, where empirical functional connectivity matrices serve both as features and for graph construction. However, recent studies and our own experiments show that these methods often fail to outperform simpler graph-agnostic baselines. We propose a statistical explanation for this failure by formulating connectome prediction as an errors-in-variables (EIV) problem: the true connectome is latent, while the…
+> Dementia of Alzheimer's Type (DAT) is a complex disorder influenced by numerous factors, but it is unclear how each factor contributes to disease progression. An in-depth examination of these factors may yield an accurate estimate of time-to-conversion to DAT for patients at various disease stages. We used 401 subjects with 63 features from MRI, genetic, and CDC (Cognitive tests, Demographic, and CSF) data modalities in the Alzheimer's Disease Neuroimaging Initiative (ADNI)…
 
-### 2. [Domain Adaptive Graph Neural Networks for Neutrino Experiments](https://arxiv.org/abs/2611.10057)
-**Hemalata Nayak, Giuseppe Cerati, Aleksandra \'Ciprijanovi\'c, et al.**  ·  `physics.data-an`  ·  [abs](https://arxiv.org/abs/2611.10057) · [pdf](https://arxiv.org/pdf/2611.10057)  ·  relevance 34
-<br>matched: `graph neural network`, `graph neural`, `gnn`, `domain adaptation`
+### 2. [Differential Diagnosis of Frontotemporal Dementia and Alzheimer's Disease using Generative Adversarial Network](https://arxiv.org/abs/2109.05627)
+**Da Ma, Donghuan Lu, Karteek Popuri, et al.**  ·  `eess.IV`  ·  [abs](https://arxiv.org/abs/2109.05627) · [pdf](https://arxiv.org/pdf/2109.05627)  ·  relevance 33
+<br>matched: `alzheimer`, `dementia`
 
-> Weakly interacting particles such as neutrinos require highly efficient and precise detection methods to enable searches for new physics. Deep learning, and particularly Graph Neural Networks (GNNs), has shown promise for reconstruction tasks in liquid argon time projection chamber (LArTPC) neutrino experiments. However, differences between simulations and experimental data introduce domain shifts that can degrade model performance and potentially mimic or obscure…
+> Frontotemporal dementia and Alzheimer's disease are two common forms of dementia and are easily misdiagnosed as each other due to their similar pattern of clinical symptoms. Differentiating between the two dementia types is crucial for determining disease-specific intervention and treatment. Recent development of Deep-learning-based approaches in the field of medical image computing are delivering some of the best performance for many binary classification tasks, although…
 
-### 3. [MicroSim: Contrastive Graph Neural Networks for Binary Code Similarity Detection](https://arxiv.org/abs/2611.11486)
-**Moussa Moussaoui, Tarik Houichime, Abdelghani Souhar, et al.**  ·  `cs.SE`  ·  [abs](https://arxiv.org/abs/2611.11486) · [pdf](https://arxiv.org/pdf/2611.11486)  ·  relevance 33
-<br>matched: `graph neural network`, `graph neural`, `gnn`, `transformer`
+### 3. [TimeOmni-o1: Bidirectionally Coupling Time Series Foundation Models and LLMs for Multimodal Reasoning and Forecasting](https://arxiv.org/abs/2611.12902)
+**Ziyang Zhang, Shenyi Li, Wen Wu, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.12902) · [pdf](https://arxiv.org/pdf/2611.12902)  ·  relevance 30
+<br>matched: `foundation model`, `large language model`, `llm`, `multimodal`
 
-> We present MicroSim, a system for binary code similarity detection that represents each function as a graph built from IDA Pro Hex-Rays microcode and compares such graphs with a contrastive Siamese graph neural network (GNN). We evaluate on the TREX cross-optimization benchmark, a corpus of 849,072 function-level microcode graphs spanning optimization levels -O0 through -O3, under a strict class-disjoint split in which no function key is shared between train and test. Under…
+> Time series from real-world systems are often accompanied by text, such as a report on an event that affects them. Two common tasks on these series are understanding, e.g., answering questions about a series, and forecasting its future values. Both tasks require reasoning over the series and the text together. Moreover, understanding outputs text while forecasting outputs a time series, so serving both requires a model that reads and generates both modalities. Large language…
 
-### 4. [HippoMamba: A Mamba-augmented network for hippocampal segmentation and serial volumetry in Alzheimers disease](https://arxiv.org/abs/2611.09958)
-**Dawa Chyophel Lepcha, Sophie A. Martin, Pierrick Coupe, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.09958) · [pdf](https://arxiv.org/pdf/2611.09958)  ·  relevance 32
-<br>matched: `alzheimer`, `transformer`, `segmentation`, `mamba`
+### 4. [LUMIR: Decoupled Multimodal Representation Learning from Heterogeneous Data for Next-POI Recommendation](https://arxiv.org/abs/2611.14004)
+**Zehui Wang, Wolfram H\"opken, Dietmar Jannach**  ·  `cs.IR`  ·  [abs](https://arxiv.org/abs/2611.14004) · [pdf](https://arxiv.org/pdf/2611.14004)  ·  relevance 27
+<br>matched: `representation learning`, `large language model`, `llm`, `multimodal`
 
-> Hippocampal atrophy is among the earliest structural markers of Alzheimer's disease, and reliable hippocampal segmentation across serial MRI visits is a prerequisite for measuring it. We present HippoMamba, a network that combines a 3D convolutional encoder and decoder with a Mamba selective state space block at the bottleneck, designed to process one or more MRI visits of a subject. On the Medical Segmentation Decathlon hippocampus dataset (260 subjects, five-fold…
+> As multimodal tourism-related information collected from heterogeneous data sources has become increasingly available, learning effective representations has attracted attention for improving recommendation performance. Existing approaches often tightly couple multimodal fusion with the architecture and optimization objective of a specific downstream model, which limits the generality and reusability of the learned representations. To address these limitations, we propose…
 
-### 5. [Reconstructing hourly traffic on every street of a capital from a sparse counting network: a graph neural network applied to Paris](https://arxiv.org/abs/2611.12379)
-**Xavier Jurado (ICube), C{\'e}dric Wemmert (ICube, ICube-SDC), et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.12379) · [pdf](https://arxiv.org/pdf/2611.12379)  ·  relevance 31
-<br>matched: `graph neural network`, `graph neural`, `gnn`
+### 5. [CroCoMAE: Cross-modal self-supervised collaborative representation learning for SAR-optical remote sensing data](https://arxiv.org/abs/2611.14124)
+**Vito Recchia, Giuseppe Guarino, C\'assio Fraga Dantas, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.14124) · [pdf](https://arxiv.org/pdf/2611.14124)  ·  relevance 26
+<br>matched: `representation learning`, `self-supervised`, `segmentation`
 
-> Micro-scale air quality models require hourly traffic data on every road segment, whereas permanent counters cover only a small part of the network. A graph neural network (GNN) was developed to reconstruct hourly traffic flows on the 32,163 road segments of Paris intra-muros from the 1,573 segments equipped with a counter (4.9%). The model adapts the Graph Neural Network for Urban Interpolation (GNNUI) to a real, sparse counting network. Flows are decoded on the edges of…
+> Remote sensing increasingly captures the Earth's surface through complementary sensors such as SAR and optical, yet ground-truth annotations remain scarce, limiting supervised approaches. Self-supervised learning (SSL) addresses the label scarcity, and cross-modal SSL further exploits the complementarity between co-located sensors, but existing cross-modal frameworks align modalities mostly through global image-level representations or treat them as largely redundant,…
 
-### 6. [Direct Conditioning of Audio Diffusion Transformers on fMRI Reveals Cortical Contributions to Sound Reconstruction](https://arxiv.org/abs/2611.12603)
-**Matteo Ciferri, Tonio Weidler, Matteo Ferrante, et al.**  ·  `cs.SD`  ·  [abs](https://arxiv.org/abs/2611.12603) · [pdf](https://arxiv.org/pdf/2611.12603)  ·  relevance 30
-<br>matched: `cortical`, `fmri`, `diffusion model`, `transformer`
+### 6. [IC-GNN: Modeling Individualized Brain Community Organization for Disease Prediction](https://arxiv.org/abs/2611.13070)
+**Yang Zhang, Xiao Zhou, Jonathan Warrell, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.13070) · [pdf](https://arxiv.org/pdf/2611.13070)  ·  relevance 25
+<br>matched: `alzheimer`, `brain network`, `fmri`, `gnn`
 
-> Reconstructing audio from brain activity remains challenging. Existing brain-to-audio pipelines typically map neural responses to predefined stimulus representations before synthesis. While recent work in the visual domain has explored direct conditioning on brain activity, this approach has not yet been extended to audio diffusion models. We introduce MAAS (Multi-Area Auditory Synthesis), an end-to-end framework that conditions a pretrained audio diffusion transformer on…
+> Brain networks exhibit modular organization, where community structures vary substantially across individuals and diseases. Understanding these individual differences is crucial for advancing both basic neuroscience research and precision medicine. However, widely used predefined group-level brain atlases often overlook this heterogeneity. While individualized functional parcellations capture subject-specific variability in community boundaries, they often require lengthy…
 
-### 7. [Representation Learning for 3D Brain Imaging: A Benchmark](https://arxiv.org/abs/2611.10007)
-**Pierre Falconnier (MYRIAD), Robin Trombetta (MYRIAD), Nicolas Duchateau (MYRIAD), et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.10007) · [pdf](https://arxiv.org/pdf/2611.10007)  ·  relevance 28
-<br>matched: `brain mri`, `representation learning`, `self-supervised`, `foundation model`, `medical imaging`
+### 7. [Hierarchical Graph Representation Learning with Pooling-Induced Substructures](https://arxiv.org/abs/2611.14126)
+**Luca Sbicego, Xiaowen Dong, Dorina Thanou**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.14126) · [pdf](https://arxiv.org/pdf/2611.14126)  ·  relevance 25
+<br>matched: `graph neural network`, `graph neural`, `gnn`, `representation learning`
 
-> Many deep learning architectures for computer vision tasks rely on features extracted by a pre-trained encoder on large databases of natural 2D RGB images. However, the wide domain gap with medical images hampers the direct transfer of optimized deep learning models from computer vision to clinical applications. Recently, self-supervised pre-training and foundation models emerged as promising alternatives to mitigate these limitations. Yet, constructing such models for…
+> Hierarchical graph-level tasks that require reasoning over substructures that extend beyond local neighborhoods are posing challenges for standard Graph Neural Networks (GNNs). While graph pooling aims to address this by coarsening graphs into hierarchical representations, existing methods often fail to explicitly preserve the substructures they induce, leading to inconsistent empirical performance. Moreover, evaluating such approaches remains challenging due to the lack of…
 
-### 8. [Universal Approximation by Equivariant Message-Passing Graph Neural Networks with a Bilinear Readout](https://arxiv.org/abs/2611.10772)
-**Pingbing Ming, Han Wang**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.10772) · [pdf](https://arxiv.org/pdf/2611.10772)  ·  relevance 27
-<br>matched: `graph neural network`, `graph neural`
+### 8. [Beyond Proxy Metrics: MLLMs as Human Surrogates for Explainable AI Evaluation](https://arxiv.org/abs/2611.13926)
+**Eoin M. Kenny, Salim I. Amoukou, Tom Bewley**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.13926) · [pdf](https://arxiv.org/pdf/2611.13926)  ·  relevance 24
+<br>matched: `large language model`, `llm`, `explainab`, `multimodal`
 
-> We prove universal approximation for the bilinear-readout equivariant message-passing network (BREMP), a reference architecture for equivariant graph neural network interatomic potentials. Its layers combine equivariant convolutions with affine maps, and its readout forms invariants from products of the equivariant features. We construct a one-layer feature that determines the local environment up to permutations of atoms of the same type. The construction uses spherical…
+> Explainable AI (XAI) has expanded into a broad and impactful research area, but the fundamental question of how best to evaluate explanation techniques has proven frustratingly elusive. Methodologies typically revolve around either proxy metrics which tell us little about the utility of an explanation, or human evaluation which---while generally considered the gold standard---is expensive, difficult to scale, and challenging to reproduce. In this paper, we investigate if…
 
-### 9. [A Hierarchical Tokenization Framework for Voxel-Level fMRI Representation Learning](https://arxiv.org/abs/2611.11081)
-**Karanpartap Singh, Yue Zhao, Mohammad H. Abbasi, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.11081) · [pdf](https://arxiv.org/pdf/2611.11081)  ·  relevance 26
-<br>matched: `neuroimaging`, `fmri`, `representation learning`
+### 9. [Domain adaptation of a video Foundation model for Heart Failure Diagnosis from Echocardiography](https://arxiv.org/abs/2611.13297)
+**Mahyar Bolhassani, Tijana Geroski, Narayana S. Singam, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.13297) · [pdf](https://arxiv.org/pdf/2611.13297)  ·  relevance 22
+<br>matched: `foundation model`, `medical imaging`, `domain adaptation`
 
-> We introduce HBAR (Hierarchical Brain Activity Representation), a hierarchical tokenization framework for learning compact, multi-scale representations of neuroimaging data. HBAR organizes voxel-level resting-state fMRI into a hierarchy spanning sub-parcel voxel groups, parcels, and large-scale functional networks, enabling up to 415x compression while preserving fine-grained spatial information beyond conventional parcellation. The framework supports fixed atlas-based,…
+> The rapid advancement of foundation models has transformed computer vision, yet their adaptation to medical imaging, particularly purpose built foundation models for spatio temporal echocardiography videos, remains limited. In this work, we explore the feasibility of fine tuning a pretrained foundation model for video (TimeSformer) for automated diagnosis of reduced ejection fraction heart failure (HFrEF) from apical four chamber videos. The model is finetuned on the…
 
-### 10. [Pixie: A Context-Aware Multi-Agent Multi-Modal Large Language Models (LLM) Architecture for Digital Marketing](https://arxiv.org/abs/2611.10016)
-**Vivek Vishwas Vichare, Akshat Singhal, Kirill Dubovikov, et al.**  ·  `cs.MA`  ·  [abs](https://arxiv.org/abs/2611.10016) · [pdf](https://arxiv.org/pdf/2611.10016)  ·  relevance 24
-<br>matched: `large language model`, `llm`, `agent`
+### 10. [Discovering Structurally Plausible and Interpretable Cognitive Models with Large Language Models](https://arxiv.org/abs/2611.13561)
+**Boyoung Kwon, Jiyoon Seo, Sang Ho Lee**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.13561) · [pdf](https://arxiv.org/pdf/2611.13561)  ·  relevance 21
+<br>matched: `large language model`, `llm`, `interpretab`
 
-> We present Pixie, a context-aware, multi-agent large language model (LLM) architecture designed to enhance digital marketing operations across real-time and offline activities. Pixie uses a primary orchestration agent alongside task-specific and reconciliation/reviewer agents to support a broad range of marketing tasks. These agents combine zero-shot and few-shot prompting with marketing data, proprietary expert strategy guidelines, and documentation for proprietary…
+> Computational cognitive modeling has traditionally relied on manual model construction, which is a time-intensive process that requires substantial domain expertise. Although recent LLM-based approaches have begun to automate model generation, they often prioritize predictive accuracy at the expense of structural plausibility and parameter identifiability. We introduce DisCo, an LLM-guided framework that discovers interpretable symbolic cognitive models through evolutionary…
 
-### 11. [Benchmarking CNNs, Vision Transformers, and Foundation Models for Explainable Brain Tumor MRI Classification: Calibration, Decision Analysis, and External Validation](https://arxiv.org/abs/2611.11793)
-**Akwasi Asare**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.11793) · [pdf](https://arxiv.org/pdf/2611.11793)  ·  relevance 24
-<br>matched: `foundation model`, `transformer`, `explainab`
+### 11. [Physics-Constrained Autoencoder for Interpretable Health Representation Learning in Turbofan Engines](https://arxiv.org/abs/2611.14266)
+**Leonardo Baldo, Jokin Alcibar Ibarzabal, Daniel Cisneros Acevedo, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.14266) · [pdf](https://arxiv.org/pdf/2611.14266)  ·  relevance 21
+<br>matched: `representation learning`, `interpretab`
 
-> Deep learning models for brain tumor MRI classification are usually compared by accuracy alone, on public datasets whose independence is rarely checked. We benchmarked six architectures: two convolutional networks (EfficientNetV2-M and ConvNeXt-V2-Tiny), two vision transformers (Swin-V2-S and ViT-L/16), and two foundation models (DINOv2-L and MedSigLIP-448), for four-class classification of 7,216 public MRI images. We assessed accuracy, calibration, explainability,…
+> Health Indices (HIs) summarize degradation from operational data and support diagnostic and prognostic tasks in Prognostics and Health Management (PHM). Their usefulness depends on capturing degradation and interpreting system condition. Autoencoders learn such representations from unlabelled monitoring data; however, when training is driven only by reconstruction, the physical meaning of latent variables remains undefined, limiting their interpretation and diagnostic value.…
 
-### 12. [Next-Generation Segmentation in Radiotherapy: A Narrative Review from Atlas-Based Methods to Agentic Vision-Language Models](https://arxiv.org/abs/2611.12085)
-**Josef A. Buchner, Richard Osuala, Ayhan Can Erdur, et al.**  ·  `eess.IV`  ·  [abs](https://arxiv.org/abs/2611.12085) · [pdf](https://arxiv.org/pdf/2611.12085)  ·  relevance 24
-<br>matched: `foundation model`, `large language model`, `agent`, `retrieval-augmented`, `segmentation`, `interpretab`
+### 12. [VIGOR: Benchmarking Visual Rationale Correctness in Multimodal Large Language Models](https://arxiv.org/abs/2611.13150)
+**Yanlin Chen, Tang Li, Xi Peng**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.13150) · [pdf](https://arxiv.org/pdf/2611.13150)  ·  relevance 21
+<br>matched: `large language model`, `llm`, `multimodal`
 
-> Precise segmentation of target volumes and organs at risk is an essential prerequisite for modern, high-precision radiation therapy. However, this task has traditionally been time-consuming and subject to high interobserver variability. Motivated by these limitations, more advanced and novel approaches to automating this task have been developed over the past two decades. This narrative review highlights representative milestones, with a focus on the most recent…
+> Multimodal large language models (MLLMs) are typically evaluated by whether they produce correct answers, but correctness alone does not reveal whether their outputs are supported by the right visual evidence. We introduce VIGOR, a benchmark for evaluating VIsually GrOunded Rationales in MLLMs. VIGOR represents visual rationales as explicit concepts paired with pixel-level groundings, covering multiple abstraction levels including low-level visual properties, intermediate…
 
 
-<sub>Generated 2026-11-10 20:27 UTC via the arXiv API.</sub>
+<sub>Generated 2026-11-11 20:11 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-11-11](digests/2026-11-11.md) — 12 papers
 - [2026-11-10](digests/2026-11-10.md) — 12 papers
 - [2026-11-09](digests/2026-11-09.md) — 12 papers
 - [2026-11-08](digests/2026-11-08.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-09-10](digests/2026-09-10.md) — 12 papers
 - [2026-09-09](digests/2026-09-09.md) — 12 papers
 - [2026-09-08](digests/2026-09-08.md) — 12 papers
-- [2026-09-07](digests/2026-09-07.md) — 12 papers
 
-_…and 73 earlier digests in [`digests/`](digests/)._
+_…and 74 earlier digests in [`digests/`](digests/)._
 
 ---
 
