@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-11-11** · browse the full archive below.
+**Latest digest: 2026-11-12** · browse the full archive below.
 
 ## How it works
 
@@ -29,89 +29,90 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-11-11
+# arXiv AI/ML digest — 2026-11-12
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [Predicting Time-to-conversion for Dementia of Alzheimer's Type using Multi-modal Deep Survival Analysis](https://arxiv.org/abs/2205.01188)
-**Ghazal Mirabnahrazam, Da Ma, C\'edric Beaulac, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2205.01188) · [pdf](https://arxiv.org/pdf/2205.01188)  ·  relevance 49
-<br>matched: `alzheimer`, `dementia`, `neuroimaging`, `disease progression`, `survival analysis`
-
-> Dementia of Alzheimer's Type (DAT) is a complex disorder influenced by numerous factors, but it is unclear how each factor contributes to disease progression. An in-depth examination of these factors may yield an accurate estimate of time-to-conversion to DAT for patients at various disease stages. We used 401 subjects with 63 features from MRI, genetic, and CDC (Cognitive tests, Demographic, and CSF) data modalities in the Alzheimer's Disease Neuroimaging Initiative (ADNI)…
-
-### 2. [Differential Diagnosis of Frontotemporal Dementia and Alzheimer's Disease using Generative Adversarial Network](https://arxiv.org/abs/2109.05627)
-**Da Ma, Donghuan Lu, Karteek Popuri, et al.**  ·  `eess.IV`  ·  [abs](https://arxiv.org/abs/2109.05627) · [pdf](https://arxiv.org/pdf/2109.05627)  ·  relevance 33
-<br>matched: `alzheimer`, `dementia`
-
-> Frontotemporal dementia and Alzheimer's disease are two common forms of dementia and are easily misdiagnosed as each other due to their similar pattern of clinical symptoms. Differentiating between the two dementia types is crucial for determining disease-specific intervention and treatment. Recent development of Deep-learning-based approaches in the field of medical image computing are delivering some of the best performance for many binary classification tasks, although…
-
-### 3. [TimeOmni-o1: Bidirectionally Coupling Time Series Foundation Models and LLMs for Multimodal Reasoning and Forecasting](https://arxiv.org/abs/2611.12902)
-**Ziyang Zhang, Shenyi Li, Wen Wu, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.12902) · [pdf](https://arxiv.org/pdf/2611.12902)  ·  relevance 30
-<br>matched: `foundation model`, `large language model`, `llm`, `multimodal`
-
-> Time series from real-world systems are often accompanied by text, such as a report on an event that affects them. Two common tasks on these series are understanding, e.g., answering questions about a series, and forecasting its future values. Both tasks require reasoning over the series and the text together. Moreover, understanding outputs text while forecasting outputs a time series, so serving both requires a model that reads and generates both modalities. Large language…
-
-### 4. [LUMIR: Decoupled Multimodal Representation Learning from Heterogeneous Data for Next-POI Recommendation](https://arxiv.org/abs/2611.14004)
-**Zehui Wang, Wolfram H\"opken, Dietmar Jannach**  ·  `cs.IR`  ·  [abs](https://arxiv.org/abs/2611.14004) · [pdf](https://arxiv.org/pdf/2611.14004)  ·  relevance 27
-<br>matched: `representation learning`, `large language model`, `llm`, `multimodal`
-
-> As multimodal tourism-related information collected from heterogeneous data sources has become increasingly available, learning effective representations has attracted attention for improving recommendation performance. Existing approaches often tightly couple multimodal fusion with the architecture and optimization objective of a specific downstream model, which limits the generality and reusability of the learned representations. To address these limitations, we propose…
-
-### 5. [CroCoMAE: Cross-modal self-supervised collaborative representation learning for SAR-optical remote sensing data](https://arxiv.org/abs/2611.14124)
-**Vito Recchia, Giuseppe Guarino, C\'assio Fraga Dantas, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.14124) · [pdf](https://arxiv.org/pdf/2611.14124)  ·  relevance 26
+### 1. [CroCoMAE: Cross-modal self-supervised collaborative representation learning for SAR-optical remote sensing data](https://arxiv.org/abs/2611.14124v1)
+**Vito Recchia, Giuseppe Guarino, Cássio Fraga Dantas, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.14124v1) · [pdf](https://arxiv.org/pdf/2611.14124v1)  ·  relevance 26
 <br>matched: `representation learning`, `self-supervised`, `segmentation`
 
 > Remote sensing increasingly captures the Earth's surface through complementary sensors such as SAR and optical, yet ground-truth annotations remain scarce, limiting supervised approaches. Self-supervised learning (SSL) addresses the label scarcity, and cross-modal SSL further exploits the complementarity between co-located sensors, but existing cross-modal frameworks align modalities mostly through global image-level representations or treat them as largely redundant,…
 
-### 6. [IC-GNN: Modeling Individualized Brain Community Organization for Disease Prediction](https://arxiv.org/abs/2611.13070)
-**Yang Zhang, Xiao Zhou, Jonathan Warrell, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.13070) · [pdf](https://arxiv.org/pdf/2611.13070)  ·  relevance 25
-<br>matched: `alzheimer`, `brain network`, `fmri`, `gnn`
-
-> Brain networks exhibit modular organization, where community structures vary substantially across individuals and diseases. Understanding these individual differences is crucial for advancing both basic neuroscience research and precision medicine. However, widely used predefined group-level brain atlases often overlook this heterogeneity. While individualized functional parcellations capture subject-specific variability in community boundaries, they often require lengthy…
-
-### 7. [Hierarchical Graph Representation Learning with Pooling-Induced Substructures](https://arxiv.org/abs/2611.14126)
-**Luca Sbicego, Xiaowen Dong, Dorina Thanou**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.14126) · [pdf](https://arxiv.org/pdf/2611.14126)  ·  relevance 25
+### 2. [Hierarchical Graph Representation Learning with Pooling-Induced Substructures](https://arxiv.org/abs/2611.14126v1)
+**Luca Sbicego, Xiaowen Dong, Dorina Thanou**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.14126v1) · [pdf](https://arxiv.org/pdf/2611.14126v1)  ·  relevance 25
 <br>matched: `graph neural network`, `graph neural`, `gnn`, `representation learning`
 
 > Hierarchical graph-level tasks that require reasoning over substructures that extend beyond local neighborhoods are posing challenges for standard Graph Neural Networks (GNNs). While graph pooling aims to address this by coarsening graphs into hierarchical representations, existing methods often fail to explicitly preserve the substructures they induce, leading to inconsistent empirical performance. Moreover, evaluating such approaches remains challenging due to the lack of…
 
-### 8. [Beyond Proxy Metrics: MLLMs as Human Surrogates for Explainable AI Evaluation](https://arxiv.org/abs/2611.13926)
-**Eoin M. Kenny, Salim I. Amoukou, Tom Bewley**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.13926) · [pdf](https://arxiv.org/pdf/2611.13926)  ·  relevance 24
-<br>matched: `large language model`, `llm`, `explainab`, `multimodal`
-
-> Explainable AI (XAI) has expanded into a broad and impactful research area, but the fundamental question of how best to evaluate explanation techniques has proven frustratingly elusive. Methodologies typically revolve around either proxy metrics which tell us little about the utility of an explanation, or human evaluation which---while generally considered the gold standard---is expensive, difficult to scale, and challenging to reproduce. In this paper, we investigate if…
-
-### 9. [Domain adaptation of a video Foundation model for Heart Failure Diagnosis from Echocardiography](https://arxiv.org/abs/2611.13297)
-**Mahyar Bolhassani, Tijana Geroski, Narayana S. Singam, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.13297) · [pdf](https://arxiv.org/pdf/2611.13297)  ·  relevance 22
-<br>matched: `foundation model`, `medical imaging`, `domain adaptation`
-
-> The rapid advancement of foundation models has transformed computer vision, yet their adaptation to medical imaging, particularly purpose built foundation models for spatio temporal echocardiography videos, remains limited. In this work, we explore the feasibility of fine tuning a pretrained foundation model for video (TimeSformer) for automated diagnosis of reduced ejection fraction heart failure (HFrEF) from apical four chamber videos. The model is finetuned on the…
-
-### 10. [Discovering Structurally Plausible and Interpretable Cognitive Models with Large Language Models](https://arxiv.org/abs/2611.13561)
-**Boyoung Kwon, Jiyoon Seo, Sang Ho Lee**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.13561) · [pdf](https://arxiv.org/pdf/2611.13561)  ·  relevance 21
-<br>matched: `large language model`, `llm`, `interpretab`
-
-> Computational cognitive modeling has traditionally relied on manual model construction, which is a time-intensive process that requires substantial domain expertise. Although recent LLM-based approaches have begun to automate model generation, they often prioritize predictive accuracy at the expense of structural plausibility and parameter identifiability. We introduce DisCo, an LLM-guided framework that discovers interpretable symbolic cognitive models through evolutionary…
-
-### 11. [Physics-Constrained Autoencoder for Interpretable Health Representation Learning in Turbofan Engines](https://arxiv.org/abs/2611.14266)
-**Leonardo Baldo, Jokin Alcibar Ibarzabal, Daniel Cisneros Acevedo, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.14266) · [pdf](https://arxiv.org/pdf/2611.14266)  ·  relevance 21
+### 3. [Physics-Constrained Autoencoder for Interpretable Health Representation Learning in Turbofan Engines](https://arxiv.org/abs/2611.14266v1)
+**Leonardo Baldo, Jokin Alcibar Ibarzabal, Daniel Cisneros Acevedo, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.14266v1) · [pdf](https://arxiv.org/pdf/2611.14266v1)  ·  relevance 21
 <br>matched: `representation learning`, `interpretab`
 
 > Health Indices (HIs) summarize degradation from operational data and support diagnostic and prognostic tasks in Prognostics and Health Management (PHM). Their usefulness depends on capturing degradation and interpreting system condition. Autoencoders learn such representations from unlabelled monitoring data; however, when training is driven only by reconstruction, the physical meaning of latent variables remains undefined, limiting their interpretation and diagnostic value.…
 
-### 12. [VIGOR: Benchmarking Visual Rationale Correctness in Multimodal Large Language Models](https://arxiv.org/abs/2611.13150)
-**Yanlin Chen, Tang Li, Xi Peng**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.13150) · [pdf](https://arxiv.org/pdf/2611.13150)  ·  relevance 21
+### 4. [Hx2Dx: From Anamnesis to Diagnosis - A Multimodal Arena for Conversational Clinical Reasoning in LLMs](https://arxiv.org/abs/2611.14122v1)
+**Federico Ravenda, Mirko Cesarini, Daniele Montagnani, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.14122v1) · [pdf](https://arxiv.org/pdf/2611.14122v1)  ·  relevance 21
 <br>matched: `large language model`, `llm`, `multimodal`
 
-> Multimodal large language models (MLLMs) are typically evaluated by whether they produce correct answers, but correctness alone does not reveal whether their outputs are supported by the right visual evidence. We introduce VIGOR, a benchmark for evaluating VIsually GrOunded Rationales in MLLMs. VIGOR represents visual rationales as explicit concepts paired with pixel-level groundings, covering multiple abstraction levels including low-level visual properties, intermediate…
+> Large language models (LLMs) achieve expert-level diagnostic accuracy in static evaluations, where the model receives a curated vignette or case report that already condenses the diagnostically relevant findings. Such evaluations measure inference over already selected evidence; the evaluations do not account for the inquiry used to obtain it. In clinical practice, however, diagnosis is an iterative process of inquiry. Clinicians take the patient's history, or anamnesis…
+
+### 5. [Stagewise and interpretable emergence of inside-outside computation in Transformer-based language models](https://arxiv.org/abs/2611.14221v1)
+**Jack T. Parley**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.14221v1) · [pdf](https://arxiv.org/pdf/2611.14221v1)  ·  relevance 18
+<br>matched: `transformer`, `llm`, `interpretab`
+
+> Variability in syntactic structure and parsing ambiguity are fundamental aspects of natural language which modern LLMs have to learn to deal with proficiently. Previous "post-mortem" studies have shown that fully trained Transformers indeed approximate canonical parsing algorithms such as inside-outside, but little is established theoretically about how this is actually learned. Here, we make a first step towards addressing this by studying the learning dynamics in synthetic…
+
+### 6. [Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training](https://arxiv.org/abs/2611.14519v1)
+**Emre Kutlusan, Yongmin Li**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.14519v1) · [pdf](https://arxiv.org/pdf/2611.14519v1)  ·  relevance 15
+<br>matched: `foundation model`, `segmentation`
+
+> Foundation models pretrained on large natural-image collections are increasingly adapted for medical image segmentation, in the expectation that they will replace models trained for each task. Most comparisons, however, use data from the training distribution and a single task-specific baseline whose configuration is rarely justified, and therefore provide limited evidence of performance at new clinical sites. It also remains unclear how much of a foundation model must be…
+
+### 7. [EngineAgent: Agentizing On-Device LLM Inference Engines with Inference Stack Hierarchy Awareness and Hardware Abilities](https://arxiv.org/abs/2611.14356v1)
+**Zhengxiang Huang, Yujie Sun, Shengheng Chen, et al.**  ·  `cs.OS`  ·  [abs](https://arxiv.org/abs/2611.14356v1) · [pdf](https://arxiv.org/pdf/2611.14356v1)  ·  relevance 15
+<br>matched: `llm`, `agent`
+
+> Rapidly evolving LLM architectures and heterogeneous mobile hardware make supporting new models in on-device inference engines a recurring and costly system challenge. Each model may require coordinated changes across conversion, graph construction, operators, and hardware backends. Existing coding agents often miss these cross-layer dependencies and struggle to diagnose failures across host--device execution paths. We present EngineAgent, an agentic system for automating…
+
+### 8. [When Should Agents Remember? Falsification-Gated Self-Evolution for LLM Agents](https://arxiv.org/abs/2611.14326v1)
+**Runxuan Tang, Haoyu Gao, Yuyan Ding, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.14326v1) · [pdf](https://arxiv.org/pdf/2611.14326v1)  ·  relevance 15
+<br>matched: `llm`, `agent`
+
+> LLM agents increasingly operate in long-horizon, verifier-rich environments, but current self-improvement mechanisms often write episode-derived lessons directly into memory, making local success an unreliable signal for reusable and safe knowledge. This paper addresses the core question of when an experience-derived behavioral update should be admitted into persistent agent state. We propose Falsification-Gated Self-Evolution (FGSE), a verifier-grounded framework that…
+
+### 9. [Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents](https://arxiv.org/abs/2611.14320v1)
+**Yukyeong Lee, Yumin Choi, Jinheon Baek, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.14320v1) · [pdf](https://arxiv.org/pdf/2611.14320v1)  ·  relevance 15
+<br>matched: `llm`, `agent`
+
+> External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from trajectories labeled only with task success or failure, yet are typically provided…
+
+### 10. [Chain of Physics: Supporting Fault Diagnosis with Engineering-Inspired Large Language Model Reasoning](https://arxiv.org/abs/2611.14263v1)
+**Wenqi Zhou, Leonardo Baldo, Kai Goebel, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.14263v1) · [pdf](https://arxiv.org/pdf/2611.14263v1)  ·  relevance 15
+<br>matched: `large language model`, `llm`, `retrieval-augmented`
+
+> Fault diagnosis in complex systems requires linking observed changes in physical quantities to the failure mechanisms that produce them. Experienced engineers perform this task by combining sensor information with knowledge of system behavior and fault propagation. Large Language Models (LLMs) can support this process, but their diagnostic reasoning depends on the availability of asset-specific engineering knowledge and on how this knowledge is represented and used during…
+
+### 11. [A Cross-Scenario Survey and Analysis of Self-Evolving Multimodal Agents](https://arxiv.org/abs/2611.14256v1)
+**Jingjing Jiang**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.14256v1) · [pdf](https://arxiv.org/pdf/2611.14256v1)  ·  relevance 15
+<br>matched: `agent`, `multimodal`
+
+> Recent work shows that multimodal agents increasingly self-improve without recurring human annotation. However, each self-improvement mechanism is designed and evaluated within a single scenario, leaving its preconditions unverified under cross-scenario transfer. This survey investigates the structural source of asymmetric mechanism transfer across four scenarios: multimodal reasoning, multimodal generation, GUI and Web navigation, and embodied manipulation. We first…
+
+### 12. [TAMEing the Open-World Personalization: Towards Open-Set Personalized MLLM Assistant](https://arxiv.org/abs/2611.14118v1)
+**Rongpei Hong, Jian Lang, Ting Zhong, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.14118v1) · [pdf](https://arxiv.org/pdf/2611.14118v1)  ·  relevance 15
+<br>matched: `large language model`, `llm`, `multimodal`
+
+> Personalizing Multimodal Large Language Models (MLLMs) as intelligent assistants has recently emerged as an active research topic, where an MLLM is expected to go beyond generic, one-size-fits-all replies, and instead generate responses grounded in user-specific objects, entities, and concepts encountered during interactions. Nevertheless, existing studies mainly focus on personalizing MLLMs on a static, predefined set of personalized concepts and require users to manually…
 
 
-<sub>Generated 2026-11-11 20:11 UTC via the arXiv API.</sub>
+<sub>Generated 2026-11-12 20:49 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-11-12](digests/2026-11-12.md) — 12 papers
 - [2026-11-11](digests/2026-11-11.md) — 12 papers
 - [2026-11-10](digests/2026-11-10.md) — 12 papers
 - [2026-11-09](digests/2026-11-09.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-09-11](digests/2026-09-11.md) — 12 papers
 - [2026-09-10](digests/2026-09-10.md) — 12 papers
 - [2026-09-09](digests/2026-09-09.md) — 12 papers
-- [2026-09-08](digests/2026-09-08.md) — 12 papers
 
-_…and 74 earlier digests in [`digests/`](digests/)._
+_…and 75 earlier digests in [`digests/`](digests/)._
 
 ---
 
