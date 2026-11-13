@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-11-12** · browse the full archive below.
+**Latest digest: 2026-11-13** · browse the full archive below.
 
 ## How it works
 
@@ -29,89 +29,90 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-11-12
+# arXiv AI/ML digest — 2026-11-13
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [CroCoMAE: Cross-modal self-supervised collaborative representation learning for SAR-optical remote sensing data](https://arxiv.org/abs/2611.14124v1)
-**Vito Recchia, Giuseppe Guarino, Cássio Fraga Dantas, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.14124v1) · [pdf](https://arxiv.org/pdf/2611.14124v1)  ·  relevance 26
-<br>matched: `representation learning`, `self-supervised`, `segmentation`
+### 1. [DySR-GNN: Dynamic Sensor-Relationship Graph Neural Network for Root Cause Analysis in Automotive HiL Multivariate Time Series](https://arxiv.org/abs/2611.16623)
+**Hamza Ouarrad, Mohammad Abboush, Andreas Rausch**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.16623) · [pdf](https://arxiv.org/pdf/2611.16623)  ·  relevance 39
+<br>matched: `graph neural network`, `graph neural`, `gnn`
 
-> Remote sensing increasingly captures the Earth's surface through complementary sensors such as SAR and optical, yet ground-truth annotations remain scarce, limiting supervised approaches. Self-supervised learning (SSL) addresses the label scarcity, and cross-modal SSL further exploits the complementarity between co-located sensors, but existing cross-modal frameworks align modalities mostly through global image-level representations or treat them as largely redundant,…
+> Root-cause analysis in automotive Hardware-in-the-Loop (HiL) systems is challenging because faults can propagate across multiple interacting signals, making the most abnormal sensor different from the actual fault origin. This work proposes DySR-GNN, a Dynamic Sensor-Relationship Graph Neural Network for supervised multi-label root-cause identification in multivariate HiL time series. The approach jointly extracts temporal patterns within individual sensor signals and…
 
-### 2. [Hierarchical Graph Representation Learning with Pooling-Induced Substructures](https://arxiv.org/abs/2611.14126v1)
-**Luca Sbicego, Xiaowen Dong, Dorina Thanou**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.14126v1) · [pdf](https://arxiv.org/pdf/2611.14126v1)  ·  relevance 25
-<br>matched: `graph neural network`, `graph neural`, `gnn`, `representation learning`
+### 2. [DGPExplainer: Generating Prototype Sequence Explanations for Dynamic Graph Neural Networks](https://arxiv.org/abs/2611.15224)
+**Jinlong Hu, Shixu Fan, Chongzhang Li**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.15224) · [pdf](https://arxiv.org/pdf/2611.15224)  ·  relevance 34
+<br>matched: `graph neural network`, `graph neural`, `gnn`, `explainab`
 
-> Hierarchical graph-level tasks that require reasoning over substructures that extend beyond local neighborhoods are posing challenges for standard Graph Neural Networks (GNNs). While graph pooling aims to address this by coarsening graphs into hierarchical representations, existing methods often fail to explicitly preserve the substructures they induce, leading to inconsistent empirical performance. Moreover, evaluating such approaches remains challenging due to the lack of…
+> Graph Neural Networks (GNNs) have been successfully applied to learning from graph-structured data. However, applying them to dynamic graphs-where nodes and edges evolve over time-presents significant challenges, particularly regarding explainability. While explanation techniques for static GNNs are well established, they do not readily extend to dynamic GNNs (DGNNs) due to the added complexity introduced by temporal dynamics and spatiotemporal dependencies, especially when…
 
-### 3. [Physics-Constrained Autoencoder for Interpretable Health Representation Learning in Turbofan Engines](https://arxiv.org/abs/2611.14266v1)
-**Leonardo Baldo, Jokin Alcibar Ibarzabal, Daniel Cisneros Acevedo, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.14266v1) · [pdf](https://arxiv.org/pdf/2611.14266v1)  ·  relevance 21
-<br>matched: `representation learning`, `interpretab`
+### 3. [NIBench: benchmarking autonomous AI agents for execution, skill evolution and scientific judgment in neuroimaging](https://arxiv.org/abs/2611.15831)
+**Lujia Zhong, Yihao Xia, Jianwei Zhang, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.15831) · [pdf](https://arxiv.org/pdf/2611.15831)  ·  relevance 30
+<br>matched: `alzheimer`, `neuroimaging`, `agent`, `multimodal`
 
-> Health Indices (HIs) summarize degradation from operational data and support diagnostic and prognostic tasks in Prognostics and Health Management (PHM). Their usefulness depends on capturing degradation and interpreting system condition. Autoencoders learn such representations from unlabelled monitoring data; however, when training is driven only by reconstruction, the physical meaning of latent variables remains undefined, limiting their interpretation and diagnostic value.…
+> Autonomous AI agents are increasingly used to automate biomedical research, creating a growing need to benchmark their capabilities on real scientific data and workflows. Their reliability in neuroimaging remains insufficiently characterized, where plausible analytical outputs can conceal errors that affect scientific conclusions. Existing studies have advanced scientific question answering and tool-based automation, but provide limited evidence on workflow reconstruction,…
 
-### 4. [Hx2Dx: From Anamnesis to Diagnosis - A Multimodal Arena for Conversational Clinical Reasoning in LLMs](https://arxiv.org/abs/2611.14122v1)
-**Federico Ravenda, Mirko Cesarini, Daniele Montagnani, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.14122v1) · [pdf](https://arxiv.org/pdf/2611.14122v1)  ·  relevance 21
+### 4. [MusicRWKV: A Multimodal RWKV Framework for Music Representation Learning](https://arxiv.org/abs/2611.16718)
+**Terry Tan**  ·  `cs.SD`  ·  [abs](https://arxiv.org/abs/2611.16718) · [pdf](https://arxiv.org/pdf/2611.16718)  ·  relevance 30
+<br>matched: `representation learning`, `self-supervised`, `foundation model`, `transformer`, `multimodal`
+
+> Recent music foundation models have achieved remarkable progress in music representation learning, yet most existing approaches rely on Transformer architectures whose quadratic attention complexity introduces substantial computational and memory overhead when modeling long-duration music recordings. In this work, we propose MusicRWKV, a multimodal music representation learning framework built upon the RWKV architecture. MusicRWKV jointly models waveform, spectrogram, and…
+
+### 5. [A frontier machine intelligence for human neuroimaging](https://arxiv.org/abs/2611.15094)
+**Chenhui Zhao, Akshay Rao, Akhil Kondepudi, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.15094) · [pdf](https://arxiv.org/pdf/2611.15094)  ·  relevance 27
+<br>matched: `neuroimaging`, `disease progression`, `longitudinal`, `medical imaging`
+
+> Medical imaging is essential for diagnosing disease, guiding treatment and monitoring patients over time. Although artificial intelligence has advanced image interpretation, existing medical models often address restricted tasks, while general-purpose proprietary models lack access to private clinical imaging required to achieve medical expertise. Developing models that can interpret complex examinations and communicate their findings in the context of clinical decisions…
+
+### 6. [Semantic Consistency of Vision Tokens: A Vision-Centric Perspective on Multimodal Large Language Models](https://arxiv.org/abs/2611.15448)
+**Nikola {\DJ}uki\'c, Tim Lebailly, Tinne Tuytelaars**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.15448) · [pdf](https://arxiv.org/pdf/2611.15448)  ·  relevance 25
+<br>matched: `self-supervised`, `large language model`, `llm`, `multimodal`
+
+> In computer vision, vision-language and self-supervised encoders are two unique paradigms characterized by global language alignment and high-quality vision-only patch representations, respectively. Multimodal large language models (MLLMs) often use the former because of language alignment, despite the recent rise in vision-centric tasks resembling traditional dense vision tasks that would likely benefit from the high-quality patch representations, raising the question…
+
+### 7. [MuViRL: Multimodal View-Invariant Visual Speech Representation Learning via Calibrated View Aggregation](https://arxiv.org/abs/2611.16655)
+**Fei Su, Kai Qiu, Juan Liu**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.16655) · [pdf](https://arxiv.org/pdf/2611.16655)  ·  relevance 25
+<br>matched: `representation learning`, `self-supervised`, `multimodal`
+
+> Multimodal representation learning combines complementary signals to capture shared semantic information. For dynamic scenes, these representations need to remain consistent across views while preserving distinctions between temporal states. In visual speech representation learning, view variation changes the visibility and reliability of articulation cues, making it difficult to learn such representations from synchronized audio and video. To address this challenge, we…
+
+### 8. [HyBridge: Bridge-Guided Self-Supervised Hyperbolic Hypergraph Representation Learning](https://arxiv.org/abs/2611.16351)
+**So-Bin Jung, David Yoon Suk, Sang-Wook Kim**  ·  `cs.SI`  ·  [abs](https://arxiv.org/abs/2611.16351) · [pdf](https://arxiv.org/pdf/2611.16351)  ·  relevance 24
+<br>matched: `representation learning`, `self-supervised`
+
+> Hypergraphs capture groupwise relationships among multiple nodes and often exhibit tree-like structures. Although hyperbolic space is well suited for modeling such structures, simply extending existing hypergraph representation learning (HRL) methods to hyperbolic space does not consistently improve performance. In this paper, we investigate the relationship between node structural properties and hyperbolic embedding radii and find that bridge nodes tend to lie closer to the…
+
+### 9. [Data-Efficient LLM Safety Alignment Guided by Interpretable Features](https://arxiv.org/abs/2611.16183)
+**Hongyu Li, Zhan Yu, Zhe Zhao, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.16183) · [pdf](https://arxiv.org/pdf/2611.16183)  ·  relevance 23
+<br>matched: `large language model`, `llm`, `agent`, `interpretab`
+
+> Existing large language models typically rely on massive fine-tuning datasets for safety alignment, which results in higher costs for safety alignment and often leads to the problem of over-refusal. We propose Less is Safer (LIS), a compact yet highly effective dataset for safety alignment, constructed through interpretable feature-guided selection and adversarial synthesis. Specifically, we leverage Sparse Autoencoder (SAE) activations to efficiently select prompts that…
+
+### 10. [A Mechanistic Interpretability Study of an Astronomy Foundation Model](https://arxiv.org/abs/2611.15653)
+**Rachel C. Zhang, Alberto Bietti, Wes Gurnee, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.15653) · [pdf](https://arxiv.org/pdf/2611.15653)  ·  relevance 21
+<br>matched: `foundation model`, `interpretab`, `multimodal`
+
+> Foundation models are increasingly used across the sciences, but whether their internal computations correspond to known scientific operations or proceed through different mechanisms remains unclear. Understanding these mechanisms is essential for assessing reliability, identifying failure modes, and learning new science from the models. We present, to our knowledge, the first causal mechanistic interpretability study of an astronomy foundation model, AION-1, focusing on its…
+
+### 11. [DRAMA: Dissecting Attention Redundancy for Accelerating Multimodal Diffusion Large Language Models](https://arxiv.org/abs/2611.16345)
+**Yi-Hsin Hung, Fangfu Liu, Shao-Yuan Lo, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.16345) · [pdf](https://arxiv.org/pdf/2611.16345)  ·  relevance 21
 <br>matched: `large language model`, `llm`, `multimodal`
 
-> Large language models (LLMs) achieve expert-level diagnostic accuracy in static evaluations, where the model receives a curated vignette or case report that already condenses the diagnostically relevant findings. Such evaluations measure inference over already selected evidence; the evaluations do not account for the inquiry used to obtain it. In clinical practice, however, diagnosis is an iterative process of inquiry. Clinicians take the patient's history, or anamnesis…
+> Multimodal diffusion large language models (dLLMs) generate text through iterative masked denoising with bidirectional attention, offering a compelling alternative to autoregressive vision-language modeling. However, each denoising step requires a full forward pass over long multimodal sequences in which visual tokens dominate the sequence length, and a fixed step budget further compounds this quadratic per-step cost. Existing inference acceleration approaches for multimodal…
 
-### 5. [Stagewise and interpretable emergence of inside-outside computation in Transformer-based language models](https://arxiv.org/abs/2611.14221v1)
-**Jack T. Parley**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.14221v1) · [pdf](https://arxiv.org/pdf/2611.14221v1)  ·  relevance 18
-<br>matched: `transformer`, `llm`, `interpretab`
+### 12. [GNN-Enhanced TCN Algorithms for ECG Anomaly Detection](https://arxiv.org/abs/2611.16648)
+**Angelica Simonetti, Ferdinando Zanchetta**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.16648) · [pdf](https://arxiv.org/pdf/2611.16648)  ·  relevance 21
+<br>matched: `graph neural network`, `graph neural`, `gnn`
 
-> Variability in syntactic structure and parsing ambiguity are fundamental aspects of natural language which modern LLMs have to learn to deal with proficiently. Previous "post-mortem" studies have shown that fully trained Transformers indeed approximate canonical parsing algorithms such as inside-outside, but little is established theoretically about how this is actually learned. Here, we make a first step towards addressing this by studying the learning dynamics in synthetic…
-
-### 6. [Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training](https://arxiv.org/abs/2611.14519v1)
-**Emre Kutlusan, Yongmin Li**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.14519v1) · [pdf](https://arxiv.org/pdf/2611.14519v1)  ·  relevance 15
-<br>matched: `foundation model`, `segmentation`
-
-> Foundation models pretrained on large natural-image collections are increasingly adapted for medical image segmentation, in the expectation that they will replace models trained for each task. Most comparisons, however, use data from the training distribution and a single task-specific baseline whose configuration is rarely justified, and therefore provide limited evidence of performance at new clinical sites. It also remains unclear how much of a foundation model must be…
-
-### 7. [EngineAgent: Agentizing On-Device LLM Inference Engines with Inference Stack Hierarchy Awareness and Hardware Abilities](https://arxiv.org/abs/2611.14356v1)
-**Zhengxiang Huang, Yujie Sun, Shengheng Chen, et al.**  ·  `cs.OS`  ·  [abs](https://arxiv.org/abs/2611.14356v1) · [pdf](https://arxiv.org/pdf/2611.14356v1)  ·  relevance 15
-<br>matched: `llm`, `agent`
-
-> Rapidly evolving LLM architectures and heterogeneous mobile hardware make supporting new models in on-device inference engines a recurring and costly system challenge. Each model may require coordinated changes across conversion, graph construction, operators, and hardware backends. Existing coding agents often miss these cross-layer dependencies and struggle to diagnose failures across host--device execution paths. We present EngineAgent, an agentic system for automating…
-
-### 8. [When Should Agents Remember? Falsification-Gated Self-Evolution for LLM Agents](https://arxiv.org/abs/2611.14326v1)
-**Runxuan Tang, Haoyu Gao, Yuyan Ding, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.14326v1) · [pdf](https://arxiv.org/pdf/2611.14326v1)  ·  relevance 15
-<br>matched: `llm`, `agent`
-
-> LLM agents increasingly operate in long-horizon, verifier-rich environments, but current self-improvement mechanisms often write episode-derived lessons directly into memory, making local success an unreliable signal for reusable and safe knowledge. This paper addresses the core question of when an experience-derived behavioral update should be admitted into persistent agent state. We propose Falsification-Gated Self-Evolution (FGSE), a verifier-grounded framework that…
-
-### 9. [Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents](https://arxiv.org/abs/2611.14320v1)
-**Yukyeong Lee, Yumin Choi, Jinheon Baek, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.14320v1) · [pdf](https://arxiv.org/pdf/2611.14320v1)  ·  relevance 15
-<br>matched: `llm`, `agent`
-
-> External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from trajectories labeled only with task success or failure, yet are typically provided…
-
-### 10. [Chain of Physics: Supporting Fault Diagnosis with Engineering-Inspired Large Language Model Reasoning](https://arxiv.org/abs/2611.14263v1)
-**Wenqi Zhou, Leonardo Baldo, Kai Goebel, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.14263v1) · [pdf](https://arxiv.org/pdf/2611.14263v1)  ·  relevance 15
-<br>matched: `large language model`, `llm`, `retrieval-augmented`
-
-> Fault diagnosis in complex systems requires linking observed changes in physical quantities to the failure mechanisms that produce them. Experienced engineers perform this task by combining sensor information with knowledge of system behavior and fault propagation. Large Language Models (LLMs) can support this process, but their diagnostic reasoning depends on the availability of asset-specific engineering knowledge and on how this knowledge is represented and used during…
-
-### 11. [A Cross-Scenario Survey and Analysis of Self-Evolving Multimodal Agents](https://arxiv.org/abs/2611.14256v1)
-**Jingjing Jiang**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.14256v1) · [pdf](https://arxiv.org/pdf/2611.14256v1)  ·  relevance 15
-<br>matched: `agent`, `multimodal`
-
-> Recent work shows that multimodal agents increasingly self-improve without recurring human annotation. However, each self-improvement mechanism is designed and evaluated within a single scenario, leaving its preconditions unverified under cross-scenario transfer. This survey investigates the structural source of asymmetric mechanism transfer across four scenarios: multimodal reasoning, multimodal generation, GUI and Web navigation, and embodied manipulation. We first…
-
-### 12. [TAMEing the Open-World Personalization: Towards Open-Set Personalized MLLM Assistant](https://arxiv.org/abs/2611.14118v1)
-**Rongpei Hong, Jian Lang, Ting Zhong, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.14118v1) · [pdf](https://arxiv.org/pdf/2611.14118v1)  ·  relevance 15
-<br>matched: `large language model`, `llm`, `multimodal`
-
-> Personalizing Multimodal Large Language Models (MLLMs) as intelligent assistants has recently emerged as an active research topic, where an MLLM is expected to go beyond generic, one-size-fits-all replies, and instead generate responses grounded in user-specific objects, entities, and concepts encountered during interactions. Nevertheless, existing studies mainly focus on personalizing MLLMs on a static, predefined set of personalized concepts and require users to manually…
+> To a time series can be also given the structure of directed graph, opening the doors to the usage of graph neural networks (GNNs) in this context. In this paper we develop a new pipeline involving novel geometric deep learning models that merge the capabilities of ordinary TCNs with the ones of GNNs to solve an anomaly detection problem on electrocardiogram signals.
 
 
-<sub>Generated 2026-11-12 20:49 UTC via the arXiv API.</sub>
+<sub>Generated 2026-11-13 20:29 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-11-13](digests/2026-11-13.md) — 12 papers
 - [2026-11-12](digests/2026-11-12.md) — 12 papers
 - [2026-11-11](digests/2026-11-11.md) — 12 papers
 - [2026-11-10](digests/2026-11-10.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-09-12](digests/2026-09-12.md) — 12 papers
 - [2026-09-11](digests/2026-09-11.md) — 12 papers
 - [2026-09-10](digests/2026-09-10.md) — 12 papers
-- [2026-09-09](digests/2026-09-09.md) — 12 papers
 
-_…and 75 earlier digests in [`digests/`](digests/)._
+_…and 76 earlier digests in [`digests/`](digests/)._
 
 ---
 
