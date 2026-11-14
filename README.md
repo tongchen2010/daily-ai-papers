@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-11-13** · browse the full archive below.
+**Latest digest: 2026-11-14** · browse the full archive below.
 
 ## How it works
 
@@ -29,89 +29,90 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-11-13
+# arXiv AI/ML digest — 2026-11-14
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [DySR-GNN: Dynamic Sensor-Relationship Graph Neural Network for Root Cause Analysis in Automotive HiL Multivariate Time Series](https://arxiv.org/abs/2611.16623)
-**Hamza Ouarrad, Mohammad Abboush, Andreas Rausch**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.16623) · [pdf](https://arxiv.org/pdf/2611.16623)  ·  relevance 39
-<br>matched: `graph neural network`, `graph neural`, `gnn`
+### 1. [MALNISI-Infused Graph Construction and Weighted Contrastive Loss based GAT for Unsupervised Representation Learning in HSI](https://arxiv.org/abs/2611.17199v1)
+**Soumi Sarkar, Subhadip Boral, Sarbani Palit, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.17199v1) · [pdf](https://arxiv.org/pdf/2611.17199v1)  ·  relevance 21
+<br>matched: `graph neural network`, `graph neural`, `representation learning`
 
-> Root-cause analysis in automotive Hardware-in-the-Loop (HiL) systems is challenging because faults can propagate across multiple interacting signals, making the most abnormal sensor different from the actual fault origin. This work proposes DySR-GNN, a Dynamic Sensor-Relationship Graph Neural Network for supervised multi-label root-cause identification in multivariate HiL time series. The approach jointly extracts temporal patterns within individual sensor signals and…
+> Hyperspectral images (HSI) possess discriminating spectral characteristics with respect to land utilization due to high-dimensional information. Recently, unsupervised representation learning using graph neural networks has unveiled these utilization-specific complex spectral relations. This article has three main contributions. First, it proposes an index, the Mean Absolute Local Neighborhood Inverse Spectral Index (MALNISI), which measures the similarity between two pixels…
 
-### 2. [DGPExplainer: Generating Prototype Sequence Explanations for Dynamic Graph Neural Networks](https://arxiv.org/abs/2611.15224)
-**Jinlong Hu, Shixu Fan, Chongzhang Li**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.15224) · [pdf](https://arxiv.org/pdf/2611.15224)  ·  relevance 34
-<br>matched: `graph neural network`, `graph neural`, `gnn`, `explainab`
+### 2. [AI for Biologists: The Knowledge Boundaries of Foundation Models in the Age of Agentic Systems](https://arxiv.org/abs/2611.17015v1)
+**Tian Cai, Andrew Kleist, Jaimin Patel, et al.**  ·  `q-bio.BM`  ·  [abs](https://arxiv.org/abs/2611.17015v1) · [pdf](https://arxiv.org/pdf/2611.17015v1)  ·  relevance 18
+<br>matched: `foundation model`, `large language model`, `agent`
 
-> Graph Neural Networks (GNNs) have been successfully applied to learning from graph-structured data. However, applying them to dynamic graphs-where nodes and edges evolve over time-presents significant challenges, particularly regarding explainability. While explanation techniques for static GNNs are well established, they do not readily extend to dynamic GNNs (DGNNs) due to the added complexity introduced by temporal dynamics and spatiotemporal dependencies, especially when…
+> Artificial intelligence (AI) is changing how biological research is done. Biological foundation models trained on millions of nucleotides, protein, and single-cell measurements predict protein structures, mutation effects, and cellular responses to genetic perturbations. Agentic systems, AI assistants built on large language models, can run multistep analyses from plain-language requests and increasingly call foundation models as tools. Yet it is often unclear when these…
 
-### 3. [NIBench: benchmarking autonomous AI agents for execution, skill evolution and scientific judgment in neuroimaging](https://arxiv.org/abs/2611.15831)
-**Lujia Zhong, Yihao Xia, Jianwei Zhang, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.15831) · [pdf](https://arxiv.org/pdf/2611.15831)  ·  relevance 30
-<br>matched: `alzheimer`, `neuroimaging`, `agent`, `multimodal`
+### 3. [Morphological Simplification in Alzheimer's Disease: Computational Analysis and Identification From Connected Speech](https://arxiv.org/abs/2611.16968v1)
+**Mohamed Zakaria Kurdi**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.16968v1) · [pdf](https://arxiv.org/pdf/2611.16968v1)  ·  relevance 18
+<br>matched: `alzheimer`
 
-> Autonomous AI agents are increasingly used to automate biomedical research, creating a growing need to benchmark their capabilities on real scientific data and workflows. Their reliability in neuroimaging remains insufficiently characterized, where plausible analytical outputs can conceal errors that affect scientific conclusions. Existing studies have advanced scientific question answering and tool-based automation, but provide limited evidence on workflow reconstruction,…
+> Purpose: Morphology is often regarded as relatively spared in Alzheimer's disease (AD) and is rarely modeled in connected speech. This study asked which morphological features distinguish speakers with AD from healthy controls, how well morphology classifies AD compared with other linguistic levels and BERT-based models, and whether the signal exceeds transcript length and vocabulary. Method: Fifty-five automatic measures in eight families, seven of them new and…
 
-### 4. [MusicRWKV: A Multimodal RWKV Framework for Music Representation Learning](https://arxiv.org/abs/2611.16718)
-**Terry Tan**  ·  `cs.SD`  ·  [abs](https://arxiv.org/abs/2611.16718) · [pdf](https://arxiv.org/pdf/2611.16718)  ·  relevance 30
-<br>matched: `representation learning`, `self-supervised`, `foundation model`, `transformer`, `multimodal`
-
-> Recent music foundation models have achieved remarkable progress in music representation learning, yet most existing approaches rely on Transformer architectures whose quadratic attention complexity introduces substantial computational and memory overhead when modeling long-duration music recordings. In this work, we propose MusicRWKV, a multimodal music representation learning framework built upon the RWKV architecture. MusicRWKV jointly models waveform, spectrogram, and…
-
-### 5. [A frontier machine intelligence for human neuroimaging](https://arxiv.org/abs/2611.15094)
-**Chenhui Zhao, Akshay Rao, Akhil Kondepudi, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.15094) · [pdf](https://arxiv.org/pdf/2611.15094)  ·  relevance 27
-<br>matched: `neuroimaging`, `disease progression`, `longitudinal`, `medical imaging`
-
-> Medical imaging is essential for diagnosing disease, guiding treatment and monitoring patients over time. Although artificial intelligence has advanced image interpretation, existing medical models often address restricted tasks, while general-purpose proprietary models lack access to private clinical imaging required to achieve medical expertise. Developing models that can interpret complex examinations and communicate their findings in the context of clinical decisions…
-
-### 6. [Semantic Consistency of Vision Tokens: A Vision-Centric Perspective on Multimodal Large Language Models](https://arxiv.org/abs/2611.15448)
-**Nikola {\DJ}uki\'c, Tim Lebailly, Tinne Tuytelaars**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.15448) · [pdf](https://arxiv.org/pdf/2611.15448)  ·  relevance 25
-<br>matched: `self-supervised`, `large language model`, `llm`, `multimodal`
-
-> In computer vision, vision-language and self-supervised encoders are two unique paradigms characterized by global language alignment and high-quality vision-only patch representations, respectively. Multimodal large language models (MLLMs) often use the former because of language alignment, despite the recent rise in vision-centric tasks resembling traditional dense vision tasks that would likely benefit from the high-quality patch representations, raising the question…
-
-### 7. [MuViRL: Multimodal View-Invariant Visual Speech Representation Learning via Calibrated View Aggregation](https://arxiv.org/abs/2611.16655)
-**Fei Su, Kai Qiu, Juan Liu**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.16655) · [pdf](https://arxiv.org/pdf/2611.16655)  ·  relevance 25
-<br>matched: `representation learning`, `self-supervised`, `multimodal`
-
-> Multimodal representation learning combines complementary signals to capture shared semantic information. For dynamic scenes, these representations need to remain consistent across views while preserving distinctions between temporal states. In visual speech representation learning, view variation changes the visibility and reliability of articulation cues, making it difficult to learn such representations from synchronized audio and video. To address this challenge, we…
-
-### 8. [HyBridge: Bridge-Guided Self-Supervised Hyperbolic Hypergraph Representation Learning](https://arxiv.org/abs/2611.16351)
-**So-Bin Jung, David Yoon Suk, Sang-Wook Kim**  ·  `cs.SI`  ·  [abs](https://arxiv.org/abs/2611.16351) · [pdf](https://arxiv.org/pdf/2611.16351)  ·  relevance 24
+### 4. [Temporal Regularized Learning: Self-Supervised Learning Local in Space and Time](https://arxiv.org/abs/2611.17019v1)
+**Davide Wiest**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.17019v1) · [pdf](https://arxiv.org/pdf/2611.17019v1)  ·  relevance 16
 <br>matched: `representation learning`, `self-supervised`
 
-> Hypergraphs capture groupwise relationships among multiple nodes and often exhibit tree-like structures. Although hyperbolic space is well suited for modeling such structures, simply extending existing hypergraph representation learning (HRL) methods to hyperbolic space does not consistently improve performance. In this paper, we investigate the relationship between node structural properties and hyperbolic embedding radii and find that bridge nodes tend to lie closer to the…
+> Layer-local self-supervised objectives remove the backward pass between layers, but almost all still compute their loss over a batch of samples and are therefore local in space but not in time. We introduce Temporal Regularized Learning (TeReL), a spatially and temporally local learning rule for self-supervised representation learning from sequential input streams. The key idea is to instantiate a VICReg-style objective with temporally adjacent positives and…
 
-### 9. [Data-Efficient LLM Safety Alignment Guided by Interpretable Features](https://arxiv.org/abs/2611.16183)
-**Hongyu Li, Zhan Yu, Zhe Zhao, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.16183) · [pdf](https://arxiv.org/pdf/2611.16183)  ·  relevance 23
-<br>matched: `large language model`, `llm`, `agent`, `interpretab`
+### 5. [Scalable Conversational Assessment: Chat-Based Exams with a Two-Agent LLM Pipeline](https://arxiv.org/abs/2611.17220v1)
+**Geoffrey Challen, Craig Zilles**  ·  `cs.CY`  ·  [abs](https://arxiv.org/abs/2611.17220v1) · [pdf](https://arxiv.org/pdf/2611.17220v1)  ·  relevance 15
+<br>matched: `llm`, `agent`
 
-> Existing large language models typically rely on massive fine-tuning datasets for safety alignment, which results in higher costs for safety alignment and often leads to the problem of over-refusal. We propose Less is Safer (LIS), a compact yet highly effective dataset for safety alignment, constructed through interpretable feature-guided selection and adversarial synthesis. Specifically, we leverage Sparse Autoencoder (SAE) activations to efficiently select prompts that…
+> Oral exams are compelling because (1) students can be asked to provide their reasoning for an answer and (2) their interactive nature permits follow-up questions to resolve ambiguous answers. But oral exams scale poorly. In this paper, we present scalable conversational assessment, an LLM-based system that conducts interactive text-based conversations with students to assess their ability to make and support an argument. We use a two-agent architecture to separate concerns…
 
-### 10. [A Mechanistic Interpretability Study of an Astronomy Foundation Model](https://arxiv.org/abs/2611.15653)
-**Rachel C. Zhang, Alberto Bietti, Wes Gurnee, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.15653) · [pdf](https://arxiv.org/pdf/2611.15653)  ·  relevance 21
-<br>matched: `foundation model`, `interpretab`, `multimodal`
+### 6. [Al-Ghasali: A Computational Framework for Simulating Islamic Jurisprudential Rulings via Finite State Automata and Large Language Models](https://arxiv.org/abs/2611.17235v1)
+**Elnaserledinellah Mahmoud Abdelwahab**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.17235v1) · [pdf](https://arxiv.org/pdf/2611.17235v1)  ·  relevance 14
+<br>matched: `transformer`, `large language model`, `llm`
 
-> Foundation models are increasingly used across the sciences, but whether their internal computations correspond to known scientific operations or proceed through different mechanisms remains unclear. Understanding these mechanisms is essential for assessing reliability, identifying failure modes, and learning new science from the models. We present, to our knowledge, the first causal mechanistic interpretability study of an astronomy foundation model, AION-1, focusing on its…
+> This paper presents Al Ghasali, a computational framework designed to formalize and simulate Islamic jurisprudential (Fiqh) rulings. Building upon recent set theoretic formalizations of al sabr wa al Taqsim that extract minimal operational rules as simple Horn clause logical programs, this work proves that the semantics of closed Fiqh chapters collapse completely to deterministic Finite State Automata (FSA). We establish a formal computational hierarchy, demonstrating that…
 
-### 11. [DRAMA: Dissecting Attention Redundancy for Accelerating Multimodal Diffusion Large Language Models](https://arxiv.org/abs/2611.16345)
-**Yi-Hsin Hung, Fangfu Liu, Shao-Yuan Lo, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.16345) · [pdf](https://arxiv.org/pdf/2611.16345)  ·  relevance 21
-<br>matched: `large language model`, `llm`, `multimodal`
+### 7. [Programming Quantum Circuit Parameters with Large Language Models](https://arxiv.org/abs/2611.17246v1)
+**Tiago de Souza Farias, Caio Moraes Porto, Matheus da Silva Fonseca, et al.**  ·  `quant-ph`  ·  [abs](https://arxiv.org/abs/2611.17246v1) · [pdf](https://arxiv.org/pdf/2611.17246v1)  ·  relevance 12
+<br>matched: `large language model`, `llm`
 
-> Multimodal diffusion large language models (dLLMs) generate text through iterative masked denoising with bidirectional attention, offering a compelling alternative to autoregressive vision-language modeling. However, each denoising step requires a full forward pass over long multimodal sequences in which visual tokens dominate the sequence length, and a fixed step budget further compounds this quadratic per-step cost. Existing inference acceleration approaches for multimodal…
+> Large language models (LLMs) have recently demonstrated the ability to generate parameters for variational quantum circuits without conventional optimization. However, the conditions under which this approach is effective remain unclear. Here, we investigate a frozen, general-purpose LLM that generates complete circuit parameter vectors from symbolic circuit and Hamiltonian descriptions, with optional iterative energy feedback. We evaluate the approach on general random…
 
-### 12. [GNN-Enhanced TCN Algorithms for ECG Anomaly Detection](https://arxiv.org/abs/2611.16648)
-**Angelica Simonetti, Ferdinando Zanchetta**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.16648) · [pdf](https://arxiv.org/pdf/2611.16648)  ·  relevance 21
-<br>matched: `graph neural network`, `graph neural`, `gnn`
+### 8. [Ballad: Bandit-Based LLM Routing for Automated Heuristic Discovery](https://arxiv.org/abs/2611.17241v1)
+**Samidha Verma, Ankit Anand, Sayan Ranu**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.17241v1) · [pdf](https://arxiv.org/pdf/2611.17241v1)  ·  relevance 12
+<br>matched: `large language model`, `llm`
 
-> To a time series can be also given the structure of directed graph, opening the doors to the usage of graph neural networks (GNNs) in this context. In this paper we develop a new pipeline involving novel geometric deep learning models that merge the capabilities of ordinary TCNs with the ones of GNNs to solve an anomaly detection problem on electrocardiogram signals.
+> Modern automated heuristic discovery (AHD) systems increasingly rival hand-crafted heuristics by leveraging Large Language Models (LLMs) to iteratively mutate and refine solutions. A natural assumption is that more powerful and more expensive models consistently yield better heuristics. We challenge this empirically: across multiple NP-hard combinatorial optimization problems, we find no consistent advantage for larger, costlier models. This raises a deeper question: given a…
+
+### 9. [Reasoning Supervision and Capability Retention in LoRA Domain Adaptation](https://arxiv.org/abs/2611.17072v1)
+**Saleh Ashkboos, Dhruv Desai, Lavinia Ghita**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.17072v1) · [pdf](https://arxiv.org/pdf/2611.17072v1)  ·  relevance 12
+<br>matched: `foundation model`, `domain adaptation`
+
+> Fine-tuning foundation models on financial data has a wide range of applications, including identifying event types from news, monitoring risk and compliance language, and answering questions over filings and earnings calls. In this setting, the main challenge is to improve task performance without degrading the generalization capabilities of the model. In this paper, we present an extensive set of ablations for fine-tuning Qwen3-8B with low-rank adaptation (LoRA). We…
+
+### 10. [Goal Encoding in LLMs](https://arxiv.org/abs/2611.17297v1)
+**Arnab Sen Sharma, Eric Todd, Sheridan Feucht, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.17297v1) · [pdf](https://arxiv.org/pdf/2611.17297v1)  ·  relevance 11
+<br>matched: `transformer`, `llm`
+
+> We investigate whether and how LLMs encode goals: internal neural representations that precede and guide action, and that are flexible enough to be realized through many different execution paths. We construct a coding setting with multiple sub-tasks that allows us to evaluate goal-seeking behavior and the selection of sub-goals. In this setting, we localize an encoding of the next sub-goal in the outputs of a sparse set of attention heads. The same heads can be used to…
+
+### 11. [AeroZoo: A Benchmark of Well-Posed Flow Problems for Foundation Models of Aerodynamics](https://arxiv.org/abs/2611.17152v1)
+**Peter Sharpe, Carmelo Gonzales, Corey Adams, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.17152v1) · [pdf](https://arxiv.org/pdf/2611.17152v1)  ·  relevance 11
+<br>matched: `foundation model`, `transformer`
+
+> Neural surrogates for computational fluid dynamics (CFD) are trained and ranked on datasets that each vary one design family in one flow domain. Such datasets cannot test the least that an aerodynamic foundation model must do: predict CFD-quality incompressible flow in seconds for new shapes in new enclosures. On DrivAerML, larger models and longer training barely lower Transolver's error; doubling the training cases cuts it by about 12% up to 400 cases, exhausting the…
+
+### 12. [Your Vision Foundation Model Is Secretly an EEG Foundation Model](https://arxiv.org/abs/2611.17031v1)
+**Guoan Wang, Feng Liu**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.17031v1) · [pdf](https://arxiv.org/pdf/2611.17031v1)  ·  relevance 11
+<br>matched: `foundation model`, `transformer`
+
+> Electroencephalography (EEG) foundation models are pretrained on thousands of hours of recordings, yet their frozen features transfer poorly to downstream tasks, and this transfer does not consistently improve with larger models or more pretraining data. We show that a vision foundation model that has never seen EEG is a stronger frozen EEG encoder than these specialized models, once the signals are rendered as images that a vision transformer can read. Our method, SeeEEG,…
 
 
-<sub>Generated 2026-11-13 20:29 UTC via the arXiv API.</sub>
+<sub>Generated 2026-11-14 18:44 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-11-14](digests/2026-11-14.md) — 12 papers
 - [2026-11-13](digests/2026-11-13.md) — 12 papers
 - [2026-11-12](digests/2026-11-12.md) — 12 papers
 - [2026-11-11](digests/2026-11-11.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-09-14](digests/2026-09-14.md) — 12 papers
 - [2026-09-12](digests/2026-09-12.md) — 12 papers
 - [2026-09-11](digests/2026-09-11.md) — 12 papers
-- [2026-09-10](digests/2026-09-10.md) — 12 papers
 
-_…and 76 earlier digests in [`digests/`](digests/)._
+_…and 77 earlier digests in [`digests/`](digests/)._
 
 ---
 
