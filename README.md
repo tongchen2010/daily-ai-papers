@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-11-14** · browse the full archive below.
+**Latest digest: 2026-11-15** · browse the full archive below.
 
 ## How it works
 
@@ -29,7 +29,7 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-11-14
+# arXiv AI/ML digest — 2026-11-15
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
@@ -106,12 +106,13 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 > Electroencephalography (EEG) foundation models are pretrained on thousands of hours of recordings, yet their frozen features transfer poorly to downstream tasks, and this transfer does not consistently improve with larger models or more pretraining data. We show that a vision foundation model that has never seen EEG is a stronger frozen EEG encoder than these specialized models, once the signals are rendered as images that a vision transformer can read. Our method, SeeEEG,…
 
 
-<sub>Generated 2026-11-14 18:44 UTC via the arXiv API.</sub>
+<sub>Generated 2026-11-15 19:22 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-11-15](digests/2026-11-15.md) — 12 papers
 - [2026-11-14](digests/2026-11-14.md) — 12 papers
 - [2026-11-13](digests/2026-11-13.md) — 12 papers
 - [2026-11-12](digests/2026-11-12.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-09-15](digests/2026-09-15.md) — 12 papers
 - [2026-09-14](digests/2026-09-14.md) — 12 papers
 - [2026-09-12](digests/2026-09-12.md) — 12 papers
-- [2026-09-11](digests/2026-09-11.md) — 12 papers
 
-_…and 77 earlier digests in [`digests/`](digests/)._
+_…and 78 earlier digests in [`digests/`](digests/)._
 
 ---
 
