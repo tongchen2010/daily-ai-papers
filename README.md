@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-11-15** · browse the full archive below.
+**Latest digest: 2026-11-16** · browse the full archive below.
 
 ## How it works
 
@@ -29,89 +29,90 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-11-15
+# arXiv AI/ML digest — 2026-11-16
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [MALNISI-Infused Graph Construction and Weighted Contrastive Loss based GAT for Unsupervised Representation Learning in HSI](https://arxiv.org/abs/2611.17199v1)
-**Soumi Sarkar, Subhadip Boral, Sarbani Palit, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.17199v1) · [pdf](https://arxiv.org/pdf/2611.17199v1)  ·  relevance 21
-<br>matched: `graph neural network`, `graph neural`, `representation learning`
+### 1. [AG-JEPA: Anatomically Guided Joint Embedding Predictive Architecture for Neurodegenerative Representation Learning](https://arxiv.org/abs/2611.18097)
+**Azad Singh, Ayantika Das, Amog Rao, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.18097) · [pdf](https://arxiv.org/pdf/2611.18097)  ·  relevance 43
+<br>matched: `alzheimer`, `neurodegenerative`, `brain mri`, `representation learning`, `disease progression`
 
-> Hyperspectral images (HSI) possess discriminating spectral characteristics with respect to land utilization due to high-dimensional information. Recently, unsupervised representation learning using graph neural networks has unveiled these utilization-specific complex spectral relations. This article has three main contributions. First, it proposes an index, the Mean Absolute Local Neighborhood Inverse Spectral Index (MALNISI), which measures the similarity between two pixels…
+> Brain MRI can reveal early signs of Alzheimers disease (AD) before measurable cognitive decline becomes apparent. However, during the transition from cognitively normal (CN) to mild cognitive impairment (MCI), the disease-related signals are often subtle and confined to only a few brain regions. Existing Joint Embedding Predictive Architecture (JEPA) models learn general structural representations but do not explicitly capture the anatomical regions affected in AD. We…
 
-### 2. [AI for Biologists: The Knowledge Boundaries of Foundation Models in the Age of Agentic Systems](https://arxiv.org/abs/2611.17015v1)
-**Tian Cai, Andrew Kleist, Jaimin Patel, et al.**  ·  `q-bio.BM`  ·  [abs](https://arxiv.org/abs/2611.17015v1) · [pdf](https://arxiv.org/pdf/2611.17015v1)  ·  relevance 18
-<br>matched: `foundation model`, `large language model`, `agent`
+### 2. [ERGo: Energy-Efficient Hybrid Graph Neural Network Training on Processing-In-Memory Architectures](https://arxiv.org/abs/2611.17478)
+**Pratyush Dhingra, Chibuike E. Ugwu, Janardhan Rao Doppa, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.17478) · [pdf](https://arxiv.org/pdf/2611.17478)  ·  relevance 31
+<br>matched: `graph neural network`, `graph neural`, `gnn`
 
-> Artificial intelligence (AI) is changing how biological research is done. Biological foundation models trained on millions of nucleotides, protein, and single-cell measurements predict protein structures, mutation effects, and cellular responses to genetic perturbations. Agentic systems, AI assistants built on large language models, can run multistep analyses from plain-language requests and increasingly call foundation models as tools. Yet it is often unclear when these…
+> Processing-in-memory (PIM) has been proposed as an alternative computing paradigm for training Deep Neural Networks, including Graph Neural Networks (GNNs). Despite these advancements, training GNN workloads on PIM devices necessitates off-chip memory access. This off-chip access is expensive in terms of performance and energy, thereby impacting the overall energy efficiency of the training process on PIM platforms. In this paper, we propose a novel hybrid training framework…
 
-### 3. [Morphological Simplification in Alzheimer's Disease: Computational Analysis and Identification From Connected Speech](https://arxiv.org/abs/2611.16968v1)
-**Mohamed Zakaria Kurdi**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.16968v1) · [pdf](https://arxiv.org/pdf/2611.16968v1)  ·  relevance 18
-<br>matched: `alzheimer`
+### 3. [Quantum Graph Neural Networks: Architectures, Trainability, and Applications](https://arxiv.org/abs/2611.17886)
+**Zeinab Sharifi, Hossein Shirazi**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.17886) · [pdf](https://arxiv.org/pdf/2611.17886)  ·  relevance 31
+<br>matched: `graph neural network`, `graph neural`, `gnn`
 
-> Purpose: Morphology is often regarded as relatively spared in Alzheimer's disease (AD) and is rarely modeled in connected speech. This study asked which morphological features distinguish speakers with AD from healthy controls, how well morphology classifies AD compared with other linguistic levels and BERT-based models, and whether the signal exceeds transcript length and vocabulary. Method: Fifty-five automatic measures in eight families, seven of them new and…
+> Quantum graph neural networks (QGNNs) apply parametrized quantum circuits to graph-structured data, with the aim of overcoming limits of classical graph neural networks in scalability, expressivity, and long-range information flow. Since the first Hamiltonian-based model in 2019, the field has produced many architectures, applications, and claims, but the evidence behind them has not been assessed systematically. This survey introduces a unified formalism that describes…
 
-### 4. [Temporal Regularized Learning: Self-Supervised Learning Local in Space and Time](https://arxiv.org/abs/2611.17019v1)
-**Davide Wiest**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.17019v1) · [pdf](https://arxiv.org/pdf/2611.17019v1)  ·  relevance 16
-<br>matched: `representation learning`, `self-supervised`
+### 4. [Can Mechanistic Interpretability Help Explain LLM Agent Failures? A Case Study on Web Element Hallucination](https://arxiv.org/abs/2611.18514)
+**Mohamed Aghzal, Mor Geva, Gregory J. Stein, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.18514) · [pdf](https://arxiv.org/pdf/2611.18514)  ·  relevance 27
+<br>matched: `large language model`, `llm`, `agent`, `interpretab`
 
-> Layer-local self-supervised objectives remove the backward pass between layers, but almost all still compute their loss over a batch of samples and are therefore local in space but not in time. We introduce Temporal Regularized Learning (TeReL), a spatially and temporally local learning rule for self-supervised representation learning from sequential input streams. The key idea is to instantiate a VICReg-style objective with temporally adjacent positives and…
+> Mechanistic Interpretability (MI) has made significant progress in explaining the internal computations of Large Language Models (LLMs); however, these advances have yet to demonstrate comparable success in explaining the decision-making processes of LLM-based agents. This paper examines the challenges MI tools face when applied to realistic agentic failures. We focus on one such failure: web agents hallucinating actions that are not available on a website. We apply a series…
 
-### 5. [Scalable Conversational Assessment: Chat-Based Exams with a Two-Agent LLM Pipeline](https://arxiv.org/abs/2611.17220v1)
-**Geoffrey Challen, Craig Zilles**  ·  `cs.CY`  ·  [abs](https://arxiv.org/abs/2611.17220v1) · [pdf](https://arxiv.org/pdf/2611.17220v1)  ·  relevance 15
-<br>matched: `llm`, `agent`
+### 5. [Curvature-Aware Edge Dynamic GNNs for Low-$p_T$ Track Reconstruction at HL-LHC](https://arxiv.org/abs/2611.17343)
+**Syed Haider Ali, Nouhaila Innan, Muhammad Shafique**  ·  `physics.ins-det`  ·  [abs](https://arxiv.org/abs/2611.17343) · [pdf](https://arxiv.org/pdf/2611.17343)  ·  relevance 23
+<br>matched: `graph neural network`, `graph neural`, `gnn`, `transformer`
 
-> Oral exams are compelling because (1) students can be asked to provide their reasoning for an answer and (2) their interactive nature permits follow-up questions to resolve ambiguous answers. But oral exams scale poorly. In this paper, we present scalable conversational assessment, an LLM-based system that conducts interactive text-based conversations with students to assess their ability to make and support an argument. We use a two-agent architecture to separate concerns…
+> Particle track reconstruction in high-energy collider experiments is a computationally demanding combinatorial problem, traditionally solved by Kalman filters that scale poorly with increasing detector occupancy. Graph Neural Networks (GNNs) have recently emerged as a promising alternative. In this work, we introduce the Manifold Helical-IN, a novel Interaction Network architecture that explicitly embeds detector spacepoints onto a helical manifold chart using…
 
-### 6. [Al-Ghasali: A Computational Framework for Simulating Islamic Jurisprudential Rulings via Finite State Automata and Large Language Models](https://arxiv.org/abs/2611.17235v1)
-**Elnaserledinellah Mahmoud Abdelwahab**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.17235v1) · [pdf](https://arxiv.org/pdf/2611.17235v1)  ·  relevance 14
-<br>matched: `transformer`, `large language model`, `llm`
+### 6. [Interpretable weight-space programming builds transparent transformers and brain encoding models](https://arxiv.org/abs/2611.18114)
+**Yash Mehta, Chandan Singh, Weijia Xu, et al.**  ·  `cs.CE`  ·  [abs](https://arxiv.org/abs/2611.18114) · [pdf](https://arxiv.org/pdf/2611.18114)  ·  relevance 23
+<br>matched: `fmri`, `transformer`, `llm`, `agent`, `interpretab`
 
-> This paper presents Al Ghasali, a computational framework designed to formalize and simulate Islamic jurisprudential (Fiqh) rulings. Building upon recent set theoretic formalizations of al sabr wa al Taqsim that extract minimal operational rules as simple Horn clause logical programs, this work proves that the semantics of closed Fiqh chapters collapse completely to deterministic Finite State Automata (FSA). We establish a formal computational hierarchy, demonstrating that…
+> Neural networks are powerful predictors, yet their opacity limits their usefulness in science, where the goal is explanation rather than mere prediction. In neuroscience, for example, deep encoding models accurately predict brain activity in response to natural stimuli, but struggle to reveal which stimulus features drive those predictions. Here we introduce interpretable weight-space programming (iWSP), a method in which an LLM agent iteratively builds interpretable models…
 
-### 7. [Programming Quantum Circuit Parameters with Large Language Models](https://arxiv.org/abs/2611.17246v1)
-**Tiago de Souza Farias, Caio Moraes Porto, Matheus da Silva Fonseca, et al.**  ·  `quant-ph`  ·  [abs](https://arxiv.org/abs/2611.17246v1) · [pdf](https://arxiv.org/pdf/2611.17246v1)  ·  relevance 12
-<br>matched: `large language model`, `llm`
+### 7. [A Tumour-Aware Multimodal Framework for Explainable Prediction of IDH Mutation in Gliomas from Multi-Sequence MRI](https://arxiv.org/abs/2611.17712)
+**Tahsien Al-Quraishi, Waseem Alwan Zaboon, O. S. Albahri, et al.**  ·  `eess.IV`  ·  [abs](https://arxiv.org/abs/2611.17712) · [pdf](https://arxiv.org/pdf/2611.17712)  ·  relevance 23
+<br>matched: `segmentation`, `interpretab`, `explainab`, `multimodal`
 
-> Large language models (LLMs) have recently demonstrated the ability to generate parameters for variational quantum circuits without conventional optimization. However, the conditions under which this approach is effective remain unclear. Here, we investigate a frozen, general-purpose LLM that generates complete circuit parameter vectors from symbolic circuit and Hamiltonian descriptions, with optional iterative energy feedback. We evaluate the approach on general random…
+> Accurate prediction of isocitrate dehydrogenase (IDH) mutation status is essential for glioma diagnosis, prognosis, and treatment planning. Although recent deep learning approaches have demonstrated promising performance, many rely on whole-brain feature extraction and provide limited interpretability. This study proposes a tumour-aware multimodal framework for explainable, non-invasive prediction of IDH mutation status from multiparametric magnetic resonance imaging (MRI).…
 
-### 8. [Ballad: Bandit-Based LLM Routing for Automated Heuristic Discovery](https://arxiv.org/abs/2611.17241v1)
-**Samidha Verma, Ankit Anand, Sayan Ranu**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.17241v1) · [pdf](https://arxiv.org/pdf/2611.17241v1)  ·  relevance 12
-<br>matched: `large language model`, `llm`
+### 8. [A thorough review on Deep Learning approaches to 2D-to-3D Registration in Medical Imaging](https://arxiv.org/abs/2611.17468)
+**Andrea Borghesi, Julia van Beurden, Maarten van Alphen, et al.**  ·  `eess.IV`  ·  [abs](https://arxiv.org/abs/2611.17468) · [pdf](https://arxiv.org/pdf/2611.17468)  ·  relevance 22
+<br>matched: `representation learning`, `foundation model`, `medical imaging`, `domain adaptation`
 
-> Modern automated heuristic discovery (AHD) systems increasingly rival hand-crafted heuristics by leveraging Large Language Models (LLMs) to iteratively mutate and refine solutions. A natural assumption is that more powerful and more expensive models consistently yield better heuristics. We challenge this empirically: across multiple NP-hard combinatorial optimization problems, we find no consistent advantage for larger, costlier models. This raises a deeper question: given a…
+> 2D-to-3D image registration is a key component for several medical imaging purposes such as intraoperative guidance, enabling the alignment between preoperative 3D volumes and real-time 2D images. While conventional optimisation-based methods often struggle with non-convex objectives, sensitivity to initialisation, and high computational demands, deep learning (DL) has emerged as a promising alternative, offering improved alignment robustness and the potential for real-time…
 
-### 9. [Reasoning Supervision and Capability Retention in LoRA Domain Adaptation](https://arxiv.org/abs/2611.17072v1)
-**Saleh Ashkboos, Dhruv Desai, Lavinia Ghita**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.17072v1) · [pdf](https://arxiv.org/pdf/2611.17072v1)  ·  relevance 12
-<br>matched: `foundation model`, `domain adaptation`
+### 9. [Vision-as-a-Tool: Visual Harness for Multimodal Agentic Coding](https://arxiv.org/abs/2611.17797)
+**Haolin Yang, Wenshan Wu, Jin Jiang, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.17797) · [pdf](https://arxiv.org/pdf/2611.17797)  ·  relevance 21
+<br>matched: `large language model`, `llm`, `agent`, `multimodal`
 
-> Fine-tuning foundation models on financial data has a wide range of applications, including identifying event types from news, monitoring risk and compliance language, and answering questions over filings and earnings calls. In this setting, the main challenge is to improve task performance without degrading the generalization capabilities of the model. In this paper, we present an extensive set of ablations for fine-tuning Qwen3-8B with low-rank adaptation (LoRA). We…
+> Multimodal agentic coding requires robust visual reasoning to analyze observations and evaluate generated artifacts. Current frameworks largely rely on a Thinking-with-Images paradigm, where agents depend on their intrinsic vision to execute visually grounded tasks. However, this architectural coupling introduces a fundamental bottleneck. Agent performance remains strictly bounded by internal perceptual limitations. Furthermore, text-only agents lack native perception.…
 
-### 10. [Goal Encoding in LLMs](https://arxiv.org/abs/2611.17297v1)
-**Arnab Sen Sharma, Eric Todd, Sheridan Feucht, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.17297v1) · [pdf](https://arxiv.org/pdf/2611.17297v1)  ·  relevance 11
-<br>matched: `transformer`, `llm`
+### 10. [WebArena-Pro: A Heterogeneous, Multimodal, Reproducible Benchmark for Web Agents](https://arxiv.org/abs/2611.17955)
+**Imene Kerboua, Fatemeh Pesaran Zadeh, Xing Han L\`u, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.17955) · [pdf](https://arxiv.org/pdf/2611.17955)  ·  relevance 18
+<br>matched: `llm`, `agent`, `multimodal`
 
-> We investigate whether and how LLMs encode goals: internal neural representations that precede and guide action, and that are flexible enough to be realized through many different execution paths. We construct a coding setting with multiple sub-tasks that allows us to evaluate goal-seeking behavior and the selection of sub-goals. In this setting, we localize an encoding of the next sub-goal in the outputs of a sparse set of attention heads. The same heads can be used to…
+> Web agents powered by large language and vision-language models are increasingly applied to realistic browser work that spans heterogeneous applications, multimodal content, and stateful workflows. However, existing reproducible web-agent benchmarks cover only a small number of web applications drawn from a few software categories, and restrict modality to text and vision. Live benchmarks broaden site coverage but sacrifice reproducibility, since pages and data drift between…
 
-### 11. [AeroZoo: A Benchmark of Well-Posed Flow Problems for Foundation Models of Aerodynamics](https://arxiv.org/abs/2611.17152v1)
-**Peter Sharpe, Carmelo Gonzales, Corey Adams, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.17152v1) · [pdf](https://arxiv.org/pdf/2611.17152v1)  ·  relevance 11
-<br>matched: `foundation model`, `transformer`
+### 11. [Large Language Model-Empowered Intelligent Agent for Adaptive Fast-Charging Control of Lithium-Ion Batteries](https://arxiv.org/abs/2611.18140)
+**Joey Chan, Haoyu Pan, Zhen Chen, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.18140) · [pdf](https://arxiv.org/pdf/2611.18140)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
 
-> Neural surrogates for computational fluid dynamics (CFD) are trained and ranked on datasets that each vary one design family in one flow domain. Such datasets cannot test the least that an aerodynamic foundation model must do: predict CFD-quality incompressible flow in seconds for new shapes in new enclosures. On DrivAerML, larger models and longer training barely lower Transolver's error; doubling the training cases cuts it by about 12% up to 400 cases, exhausting the…
+> Fast charging of lithium-ion batteries is a multi-objective control problem that requires reducing charging time and sustaining high energy throughput while suppressing accelerated degradation and safety-critical electrochemical reactions. Conventional protocols are easy to implement but have limited ability to adapt to variations in battery chemistry, operating conditions, and aging state. Model-based optimization and conventional data-driven control often require accurate…
 
-### 12. [Your Vision Foundation Model Is Secretly an EEG Foundation Model](https://arxiv.org/abs/2611.17031v1)
-**Guoan Wang, Feng Liu**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.17031v1) · [pdf](https://arxiv.org/pdf/2611.17031v1)  ·  relevance 11
-<br>matched: `foundation model`, `transformer`
+### 12. [MineralExp: Benchmarking LLM Agents for Experimental Design in Real-World Mineral Exploration](https://arxiv.org/abs/2611.17931)
+**Bing Wang, Mingyang Wang, Yuanhang Mi, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.17931) · [pdf](https://arxiv.org/pdf/2611.17931)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
 
-> Electroencephalography (EEG) foundation models are pretrained on thousands of hours of recordings, yet their frozen features transfer poorly to downstream tasks, and this transfer does not consistently improve with larger models or more pretraining data. We show that a vision foundation model that has never seen EEG is a stronger frozen EEG encoder than these specialized models, once the signals are rendered as images that a vision transformer can read. Our method, SeeEEG,…
+> In mineral exploration, verifying geological hypotheses relies on designing a variety of geochemical experiments. While large language model (LLM) agents increasingly automate downstream geoscientific data analysis, a crucial upstream capability remains largely unexplored: automated geochemical experimental design, i.e., deciding which experiments to conduct before committing to costly laboratory work. Evaluating this capability of LLM agents is difficult for two reasons.…
 
 
-<sub>Generated 2026-11-15 19:22 UTC via the arXiv API.</sub>
+<sub>Generated 2026-11-16 22:53 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-11-16](digests/2026-11-16.md) — 12 papers
 - [2026-11-15](digests/2026-11-15.md) — 12 papers
 - [2026-11-14](digests/2026-11-14.md) — 12 papers
 - [2026-11-13](digests/2026-11-13.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-09-16](digests/2026-09-16.md) — 12 papers
 - [2026-09-15](digests/2026-09-15.md) — 12 papers
 - [2026-09-14](digests/2026-09-14.md) — 12 papers
-- [2026-09-12](digests/2026-09-12.md) — 12 papers
 
-_…and 78 earlier digests in [`digests/`](digests/)._
+_…and 79 earlier digests in [`digests/`](digests/)._
 
 ---
 
