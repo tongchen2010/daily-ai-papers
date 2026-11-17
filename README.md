@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-11-16** · browse the full archive below.
+**Latest digest: 2026-11-17** · browse the full archive below.
 
 ## How it works
 
@@ -29,89 +29,90 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-11-16
+# arXiv AI/ML digest — 2026-11-17
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [AG-JEPA: Anatomically Guided Joint Embedding Predictive Architecture for Neurodegenerative Representation Learning](https://arxiv.org/abs/2611.18097)
-**Azad Singh, Ayantika Das, Amog Rao, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.18097) · [pdf](https://arxiv.org/pdf/2611.18097)  ·  relevance 43
-<br>matched: `alzheimer`, `neurodegenerative`, `brain mri`, `representation learning`, `disease progression`
+### 1. [One Question, Four Voices: How Advice for Alzheimer's Caregiving Differs Between Caregivers, Clinicians, and Large Language Models](https://arxiv.org/abs/2611.18604)
+**Congning Ni, Jinkyung Katie Park, Yang Li, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.18604) · [pdf](https://arxiv.org/pdf/2611.18604)  ·  relevance 38
+<br>matched: `alzheimer`, `dementia`, `large language model`, `llm`, `retrieval-augmented`
 
-> Brain MRI can reveal early signs of Alzheimers disease (AD) before measurable cognitive decline becomes apparent. However, during the transition from cognitively normal (CN) to mild cognitive impairment (MCI), the disease-related signals are often subtle and confined to only a few brain regions. Existing Joint Embedding Predictive Architecture (JEPA) models learn general structural representations but do not explicitly capture the anatomical regions affected in AD. We…
+> Online caregiver forums are an important source of emotional and informational support for Alzheimer's disease and related dementias (ADRD). We compare responses to 85 real caregiver questions from ALZConnected across four responder groups: peer caregivers, physicians, ChatGPT, and a retrieval-augmented CareGPT grounded in peer discussions. Using 28 measures spanning linguistic form, emotional support, informational support, and topic scope, we examine how these voices…
 
-### 2. [ERGo: Energy-Efficient Hybrid Graph Neural Network Training on Processing-In-Memory Architectures](https://arxiv.org/abs/2611.17478)
-**Pratyush Dhingra, Chibuike E. Ugwu, Janardhan Rao Doppa, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.17478) · [pdf](https://arxiv.org/pdf/2611.17478)  ·  relevance 31
+### 2. [GraphPass: A Study of Graph Neural Networks for Compiler Pass Selection](https://arxiv.org/abs/2611.19821)
+**Mohammed Saqlain**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.19821) · [pdf](https://arxiv.org/pdf/2611.19821)  ·  relevance 31
 <br>matched: `graph neural network`, `graph neural`, `gnn`
 
-> Processing-in-memory (PIM) has been proposed as an alternative computing paradigm for training Deep Neural Networks, including Graph Neural Networks (GNNs). Despite these advancements, training GNN workloads on PIM devices necessitates off-chip memory access. This off-chip access is expensive in terms of performance and energy, thereby impacting the overall energy efficiency of the training process on PIM platforms. In this paper, we propose a novel hybrid training framework…
+> Compiler pass selection is usually governed by fixed pipelines (-O2, -O3) or hand-written heuristics. We study whether a graph neural network (GNN) over a program's control-flow graph (CFG) can select among a fixed menu of five pass sequences in a single forward pass. GraphPass encodes each CFG with a graph attention (GAT) or graph convolutional (GCN) encoder and classifies it into one of the five sequences. On a synthetic benchmark of 5,000 generated CFGs in five program…
 
-### 3. [Quantum Graph Neural Networks: Architectures, Trainability, and Applications](https://arxiv.org/abs/2611.17886)
-**Zeinab Sharifi, Hossein Shirazi**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.17886) · [pdf](https://arxiv.org/pdf/2611.17886)  ·  relevance 31
+### 3. [Improving fine-grained expressivity of graph neural networks](https://arxiv.org/abs/2611.20020)
+**Yonatan Sverdlov**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.20020) · [pdf](https://arxiv.org/pdf/2611.20020)  ·  relevance 31
 <br>matched: `graph neural network`, `graph neural`, `gnn`
 
-> Quantum graph neural networks (QGNNs) apply parametrized quantum circuits to graph-structured data, with the aim of overcoming limits of classical graph neural networks in scalability, expressivity, and long-range information flow. Since the first Hamiltonian-based model in 2019, the field has produced many architectures, applications, and claims, but the evidence behind them has not been assessed systematically. This survey introduces a unified formalism that describes…
+> This thesis investigates the expressive power of neural networks for structured data, focusing on graph neural networks and symmetry-aware architectures. We present four main contributions. First, we characterize the generic expressive power of geometric message-passing neural networks on sparse graphs and introduce EGenNet, an architecture achieving the corresponding guarantees. Second, we use representation theory to characterize linear layers equivariant to multiple…
 
-### 4. [Can Mechanistic Interpretability Help Explain LLM Agent Failures? A Case Study on Web Element Hallucination](https://arxiv.org/abs/2611.18514)
-**Mohamed Aghzal, Mor Geva, Gregory J. Stein, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.18514) · [pdf](https://arxiv.org/pdf/2611.18514)  ·  relevance 27
+### 4. [Open-fMIND: A Large-Scale Open-Access fMRI Corpus for Pretraining Brain Foundation Models](https://arxiv.org/abs/2611.21215)
+**Carlo Alberto Barbano, Giovanni Marraffini, Demian Wassermann**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.21215) · [pdf](https://arxiv.org/pdf/2611.21215)  ·  relevance 29
+<br>matched: `functional mri`, `fmri`, `representation learning`, `self-supervised`, `foundation model`
+
+> Self-supervised pretraining has transformed language and vision, but its application to functional MRI (fMRI) is constrained by data access. The largest standardized fMRI resources are governed by data use agreements and dominated by a small number of acquisition protocols, while the thousands of openly licensed datasets on OpenNeuro are individually small, heterogeneously organized, and unprocessed. We present the first release of Open-fMIND, a uniformly preprocessed,…
+
+### 5. [LogicEye: Agent Driven Multimodal Dataset for Interpretable Ophthalmic Diagnosis](https://arxiv.org/abs/2611.18669)
+**Jiajie Mu, Lu Chen, Zheyun Qin, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.18669) · [pdf](https://arxiv.org/pdf/2611.18669)  ·  relevance 27
+<br>matched: `large language model`, `agent`, `interpretab`, `multimodal`
+
+> Clinical adoption of ophthalmic Artificial Intelligence remains limited by low interpretability and a lack of finely annotated multimodal data. Most existing datasets provide only coarse disease labels without the granular pathological findings required for differential diagnosis. We present LogicEye$^{Agent}$, a dual-pool inference and verification agent that emulates clinical reasoning by jointly verifying positive inclusion signs and negative exclusion criteria. Using…
+
+### 6. [Brain AI Scientist: An Evidence-Based Multi-Agent System for Translational Neuroimaging in Precision Psychiatry](https://arxiv.org/abs/2611.18634)
+**Zeyun Zhao, Lin Gu, Ruogu Fang**  ·  `q-bio.QM`  ·  [abs](https://arxiv.org/abs/2611.18634) · [pdf](https://arxiv.org/pdf/2611.18634)  ·  relevance 24
+<br>matched: `neuroimaging`, `fmri`, `agent`
+
+> Resting-state functional magnetic resonance imaging (rs-fMRI) has revealed widespread brain-network alterations in psychiatric disorders, yet translating these findings into individualized clinical decision support remains challenging. Here we introduce Brain AI Scientist, an autonomous multi-agent framework that integrates patient-specific fMRI, clinical information, and scientific evidence through retrieval, verification, and prioritization. Guided by Research Domain…
+
+### 7. [FRAAC: A French Multimodal Large Language Model and Dataset forPictogram-Based Augmentative and Alternative Communication](https://arxiv.org/abs/2611.20094)
+**Alexandre Audibert, Fran\c{c}ois Portet, Benoit Favre, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.20094) · [pdf](https://arxiv.org/pdf/2611.20094)  ·  relevance 24
+<br>matched: `large language model`, `llm`, `retrieval-augmented`, `multimodal`
+
+> Pictograms are a core modality in augmentative and alternative communication (AAC), yet recent multimodal large language models (MLLMs) cannot reliably interpret or produce pictogram sequences. Two obstacles explain this gap: the absence of a standardized pictogram grammar and the scarcity of parallel text-pictogram data. We introduce Retrieval-Augmented Pictogram Selection (RAPS), an annotation method that refines a rule-based transcription system's output with LLM-based…
+
+### 8. [Multimodal AI in Healthcare: Review of Vision-Language Foundation Models for Real-World Medical Applications](https://arxiv.org/abs/2611.19958)
+**Taha Razzaq, Murtaza Taj, Asim Iqbal**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.19958) · [pdf](https://arxiv.org/pdf/2611.19958)  ·  relevance 24
+<br>matched: `foundation model`, `large language model`, `llm`, `multimodal`
+
+> The emergence of foundation models has marked a transformative shift in AI, enabling robust generalization across diverse downstream tasks through putative zero-shot learning. Large Language Models and Vision Language Models have demonstrated strong capabilities in tasks such as image interpretation, report generation, and question answering by effectively learning from multimodal data-images paired with associated text often with minimal supervision. In the healthcare…
+
+### 9. [How Much Do Foundation Models Add to Gradient Boosting on Financial Event Sequences?](https://arxiv.org/abs/2611.18914)
+**Carlos Eduardo Martins Relvas, Gustavo di Giovanni Bernardo**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.18914) · [pdf](https://arxiv.org/pdf/2611.18914)  ·  relevance 22
+<br>matched: `graph neural network`, `graph neural`, `self-supervised`, `foundation model`
+
+> Foundation models pretrained on raw transaction sequences are proposed for credit, fraud and churn modeling, with reported gains over gradient boosting, but the data and baselines behind these gains are rarely public. We measure how much the pretraining and adaptation recipes of these models add to a baseline of point-in-time window aggregates and LightGBM, and we propose TBS (Temporal Boosting-Sequence ensemble), which averages the ranks of a boosting model enriched with…
+
+### 10. [Weights & Caches: LLMs Can Program Tabular Foundation Models](https://arxiv.org/abs/2611.20174)
+**Shi Bin Hoo, Magnus Buehler, Omar Swelam, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.20174) · [pdf](https://arxiv.org/pdf/2611.20174)  ·  relevance 21
+<br>matched: `foundation model`, `large language model`, `llm`
+
+> Neural networks are typically programmed through optimization, rather than by explicitly specifying their computations. Recent work on weight-space programming suggests that large language models (LLMs) can instead reason about and manipulate neural-network weights directly. In this work, we show that LLMs can directly program statistical computations in tabular foundation models (TFMs), whose parameters enable inference across different datasets. We investigate three…
+
+### 11. [Macro Control and Capability Evaluation of Black-Box World Models: A Two-Regime Framework for LLM-Agent Markets](https://arxiv.org/abs/2611.19311)
+**Zhiyang Niu, Chuanjie Li, Huayuan Shen, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.19311) · [pdf](https://arxiv.org/pdf/2611.19311)  ·  relevance 21
 <br>matched: `large language model`, `llm`, `agent`, `interpretab`
 
-> Mechanistic Interpretability (MI) has made significant progress in explaining the internal computations of Large Language Models (LLMs); however, these advances have yet to demonstrate comparable success in explaining the decision-making processes of LLM-based agents. This paper examines the challenges MI tools face when applied to realistic agentic failures. We focus on one such failure: web agents hallucinating actions that are not available on a website. We apply a series…
+> Large language model (LLM) agents can be organized into multi-agent markets that act as world models, mapping macro information to emergent macro dynamics while the evaluator observes only macro inputs and outputs. This paper separates a model's capability into two stages that a single aggregate score cannot separate: information simulation, from macro information to micro behavior, and macro emergence, from micro behavior to the macro outcome. We introduce a soft…
 
-### 5. [Curvature-Aware Edge Dynamic GNNs for Low-$p_T$ Track Reconstruction at HL-LHC](https://arxiv.org/abs/2611.17343)
-**Syed Haider Ali, Nouhaila Innan, Muhammad Shafique**  ·  `physics.ins-det`  ·  [abs](https://arxiv.org/abs/2611.17343) · [pdf](https://arxiv.org/pdf/2611.17343)  ·  relevance 23
-<br>matched: `graph neural network`, `graph neural`, `gnn`, `transformer`
+### 12. [Multimodal Fusion: A Review of Breast Cancer Advanced and Traditional Modalities](https://arxiv.org/abs/2611.18793)
+**Jawaher Al-Tuweity, Jo\~ao Paulo Papa**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.18793) · [pdf](https://arxiv.org/pdf/2611.18793)  ·  relevance 21
+<br>matched: `medical imaging`, `segmentation`, `interpretab`, `explainab`, `multimodal`
 
-> Particle track reconstruction in high-energy collider experiments is a computationally demanding combinatorial problem, traditionally solved by Kalman filters that scale poorly with increasing detector occupancy. Graph Neural Networks (GNNs) have recently emerged as a promising alternative. In this work, we introduce the Manifold Helical-IN, a novel Interaction Network architecture that explicitly embeds detector spacepoints onto a helical manifold chart using…
-
-### 6. [Interpretable weight-space programming builds transparent transformers and brain encoding models](https://arxiv.org/abs/2611.18114)
-**Yash Mehta, Chandan Singh, Weijia Xu, et al.**  ·  `cs.CE`  ·  [abs](https://arxiv.org/abs/2611.18114) · [pdf](https://arxiv.org/pdf/2611.18114)  ·  relevance 23
-<br>matched: `fmri`, `transformer`, `llm`, `agent`, `interpretab`
-
-> Neural networks are powerful predictors, yet their opacity limits their usefulness in science, where the goal is explanation rather than mere prediction. In neuroscience, for example, deep encoding models accurately predict brain activity in response to natural stimuli, but struggle to reveal which stimulus features drive those predictions. Here we introduce interpretable weight-space programming (iWSP), a method in which an LLM agent iteratively builds interpretable models…
-
-### 7. [A Tumour-Aware Multimodal Framework for Explainable Prediction of IDH Mutation in Gliomas from Multi-Sequence MRI](https://arxiv.org/abs/2611.17712)
-**Tahsien Al-Quraishi, Waseem Alwan Zaboon, O. S. Albahri, et al.**  ·  `eess.IV`  ·  [abs](https://arxiv.org/abs/2611.17712) · [pdf](https://arxiv.org/pdf/2611.17712)  ·  relevance 23
-<br>matched: `segmentation`, `interpretab`, `explainab`, `multimodal`
-
-> Accurate prediction of isocitrate dehydrogenase (IDH) mutation status is essential for glioma diagnosis, prognosis, and treatment planning. Although recent deep learning approaches have demonstrated promising performance, many rely on whole-brain feature extraction and provide limited interpretability. This study proposes a tumour-aware multimodal framework for explainable, non-invasive prediction of IDH mutation status from multiparametric magnetic resonance imaging (MRI).…
-
-### 8. [A thorough review on Deep Learning approaches to 2D-to-3D Registration in Medical Imaging](https://arxiv.org/abs/2611.17468)
-**Andrea Borghesi, Julia van Beurden, Maarten van Alphen, et al.**  ·  `eess.IV`  ·  [abs](https://arxiv.org/abs/2611.17468) · [pdf](https://arxiv.org/pdf/2611.17468)  ·  relevance 22
-<br>matched: `representation learning`, `foundation model`, `medical imaging`, `domain adaptation`
-
-> 2D-to-3D image registration is a key component for several medical imaging purposes such as intraoperative guidance, enabling the alignment between preoperative 3D volumes and real-time 2D images. While conventional optimisation-based methods often struggle with non-convex objectives, sensitivity to initialisation, and high computational demands, deep learning (DL) has emerged as a promising alternative, offering improved alignment robustness and the potential for real-time…
-
-### 9. [Vision-as-a-Tool: Visual Harness for Multimodal Agentic Coding](https://arxiv.org/abs/2611.17797)
-**Haolin Yang, Wenshan Wu, Jin Jiang, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.17797) · [pdf](https://arxiv.org/pdf/2611.17797)  ·  relevance 21
-<br>matched: `large language model`, `llm`, `agent`, `multimodal`
-
-> Multimodal agentic coding requires robust visual reasoning to analyze observations and evaluate generated artifacts. Current frameworks largely rely on a Thinking-with-Images paradigm, where agents depend on their intrinsic vision to execute visually grounded tasks. However, this architectural coupling introduces a fundamental bottleneck. Agent performance remains strictly bounded by internal perceptual limitations. Furthermore, text-only agents lack native perception.…
-
-### 10. [WebArena-Pro: A Heterogeneous, Multimodal, Reproducible Benchmark for Web Agents](https://arxiv.org/abs/2611.17955)
-**Imene Kerboua, Fatemeh Pesaran Zadeh, Xing Han L\`u, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.17955) · [pdf](https://arxiv.org/pdf/2611.17955)  ·  relevance 18
-<br>matched: `llm`, `agent`, `multimodal`
-
-> Web agents powered by large language and vision-language models are increasingly applied to realistic browser work that spans heterogeneous applications, multimodal content, and stateful workflows. However, existing reproducible web-agent benchmarks cover only a small number of web applications drawn from a few software categories, and restrict modality to text and vision. Live benchmarks broaden site coverage but sacrifice reproducibility, since pages and data drift between…
-
-### 11. [Large Language Model-Empowered Intelligent Agent for Adaptive Fast-Charging Control of Lithium-Ion Batteries](https://arxiv.org/abs/2611.18140)
-**Joey Chan, Haoyu Pan, Zhen Chen, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.18140) · [pdf](https://arxiv.org/pdf/2611.18140)  ·  relevance 18
-<br>matched: `large language model`, `llm`, `agent`
-
-> Fast charging of lithium-ion batteries is a multi-objective control problem that requires reducing charging time and sustaining high energy throughput while suppressing accelerated degradation and safety-critical electrochemical reactions. Conventional protocols are easy to implement but have limited ability to adapt to variations in battery chemistry, operating conditions, and aging state. Model-based optimization and conventional data-driven control often require accurate…
-
-### 12. [MineralExp: Benchmarking LLM Agents for Experimental Design in Real-World Mineral Exploration](https://arxiv.org/abs/2611.17931)
-**Bing Wang, Mingyang Wang, Yuanhang Mi, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.17931) · [pdf](https://arxiv.org/pdf/2611.17931)  ·  relevance 18
-<br>matched: `large language model`, `llm`, `agent`
-
-> In mineral exploration, verifying geological hypotheses relies on designing a variety of geochemical experiments. While large language model (LLM) agents increasingly automate downstream geoscientific data analysis, a crucial upstream capability remains largely unexplored: automated geochemical experimental design, i.e., deciding which experiments to conduct before committing to costly laboratory work. Evaluating this capability of LLM agents is difficult for two reasons.…
+> Purpose: Multimodal medical imaging fusion (MMIF) is an increasingly important approach to breast cancer detection (BCD), as different imaging modalities rely on different physical principles and provide complementary information. No single modality can capture all the structural, functional, and biological information needed for accurate diagnosis and characterization. Methods: This review examines more than 15 imaging modalities used in breast cancer detection, including…
 
 
-<sub>Generated 2026-11-16 22:53 UTC via the arXiv API.</sub>
+<sub>Generated 2026-11-17 21:45 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-11-17](digests/2026-11-17.md) — 12 papers
 - [2026-11-16](digests/2026-11-16.md) — 12 papers
 - [2026-11-15](digests/2026-11-15.md) — 12 papers
 - [2026-11-14](digests/2026-11-14.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-09-17](digests/2026-09-17.md) — 12 papers
 - [2026-09-16](digests/2026-09-16.md) — 12 papers
 - [2026-09-15](digests/2026-09-15.md) — 12 papers
-- [2026-09-14](digests/2026-09-14.md) — 12 papers
 
-_…and 79 earlier digests in [`digests/`](digests/)._
+_…and 80 earlier digests in [`digests/`](digests/)._
 
 ---
 
