@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-11-17** · browse the full archive below.
+**Latest digest: 2026-11-18** · browse the full archive below.
 
 ## How it works
 
@@ -29,89 +29,90 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-11-17
+# arXiv AI/ML digest — 2026-11-18
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [One Question, Four Voices: How Advice for Alzheimer's Caregiving Differs Between Caregivers, Clinicians, and Large Language Models](https://arxiv.org/abs/2611.18604)
-**Congning Ni, Jinkyung Katie Park, Yang Li, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.18604) · [pdf](https://arxiv.org/pdf/2611.18604)  ·  relevance 38
-<br>matched: `alzheimer`, `dementia`, `large language model`, `llm`, `retrieval-augmented`
+### 1. [SARVIA: Fast-Adapting the Strong SAR Foundation Models That Are Already in Your MLLMs](https://arxiv.org/abs/2611.22273)
+**Yuxuan Li, Zichen Tian, Qianru Sun**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.22273) · [pdf](https://arxiv.org/pdf/2611.22273)  ·  relevance 30
+<br>matched: `self-supervised`, `foundation model`, `large language model`, `llm`, `segmentation`, `multimodal`
 
-> Online caregiver forums are an important source of emotional and informational support for Alzheimer's disease and related dementias (ADRD). We compare responses to 85 real caregiver questions from ALZConnected across four responder groups: peer caregivers, physicians, ChatGPT, and a retrieval-augmented CareGPT grounded in peer discussions. Using 28 measures spanning linguistic form, emotional support, informational support, and topic scope, we examine how these voices…
+> Synthetic aperture radar (SAR) foundation models provide transferable representations for diverse perception tasks in all-weather Earth observation. However, their development often relies on costly large-scale SAR pretraining, raising the question of whether such extensive domain-specific pretraining is necessary. We find that modern multimodal large language models (MLLMs) already provide visual encoders that can outperform dedicated SAR foundation models as downstream…
 
-### 2. [GraphPass: A Study of Graph Neural Networks for Compiler Pass Selection](https://arxiv.org/abs/2611.19821)
-**Mohammed Saqlain**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.19821) · [pdf](https://arxiv.org/pdf/2611.19821)  ·  relevance 31
-<br>matched: `graph neural network`, `graph neural`, `gnn`
+### 2. [DLS: Dual-Logic Graph Neural Networks with Chaos-Fuzzy Residuals for Robust Link Prediction](https://arxiv.org/abs/2611.22607)
+**Mohammad Mehdi Keikha, Abolfazl Nadi**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.22607) · [pdf](https://arxiv.org/pdf/2611.22607)  ·  relevance 27
+<br>matched: `graph neural network`, `graph neural`
 
-> Compiler pass selection is usually governed by fixed pipelines (-O2, -O3) or hand-written heuristics. We study whether a graph neural network (GNN) over a program's control-flow graph (CFG) can select among a fixed menu of five pass sequences in a single forward pass. GraphPass encodes each CFG with a graph attention (GAT) or graph convolutional (GCN) encoder and classifies it into one of the five sequences. On a synthetic benchmark of 5,000 generated CFGs in five program…
+> Link prediction is a fundamental task in graph mining, critical for applications ranging from biological interaction discovery to recommender systems. While Message Passing Neural Networks (MPNNs) have achieved state-of-the-art results, they are fundamentally limited by the inadvertent suppression of high-frequency signals, as the recursive aggregation that stabilizes structural learning inherently leads to over-smoothing, rendering node representations indistinguishable in…
 
-### 3. [Improving fine-grained expressivity of graph neural networks](https://arxiv.org/abs/2611.20020)
-**Yonatan Sverdlov**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.20020) · [pdf](https://arxiv.org/pdf/2611.20020)  ·  relevance 31
-<br>matched: `graph neural network`, `graph neural`, `gnn`
+### 3. [When AUC Meets Generative Reconstruction: A Unified Principle for Balanced Visual Representation Learning](https://arxiv.org/abs/2611.22094)
+**Boyu Han, Qianqian Xu, Shilong Bao, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.22094) · [pdf](https://arxiv.org/pdf/2611.22094)  ·  relevance 21
+<br>matched: `representation learning`, `large language model`, `llm`, `multimodal`
 
-> This thesis investigates the expressive power of neural networks for structured data, focusing on graph neural networks and symmetry-aware architectures. We present four main contributions. First, we characterize the generic expressive power of geometric message-passing neural networks on sparse graphs and introduce EGenNet, an architecture achieving the corresponding guarantees. Second, we use representation theory to characterize linear layers equivariant to multiple…
+> Multimodal large language models (MLLMs) require visual encoders that extract fine-grained visual features while constructing semantically disentangled and discriminative representations. Conventional methodologies encounter a fundamental trade-off: contrastive learning enhances inter-class discrimination by suppressing intra-class variability, whereas generative reconstruction emphasizes perceptual fidelity but lacks explicit comparative supervision. The naive aggregation…
 
-### 4. [Open-fMIND: A Large-Scale Open-Access fMRI Corpus for Pretraining Brain Foundation Models](https://arxiv.org/abs/2611.21215)
-**Carlo Alberto Barbano, Giovanni Marraffini, Demian Wassermann**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.21215) · [pdf](https://arxiv.org/pdf/2611.21215)  ·  relevance 29
-<br>matched: `functional mri`, `fmri`, `representation learning`, `self-supervised`, `foundation model`
+### 4. [OAK-Mind: Zero-Training Mental Health Change Inference from Passive Sensing via Knowledge-Grounded Multi-Agent LLMs](https://arxiv.org/abs/2611.22248)
+**Yishu Ji, Zhihan Jiang, Will Ke Wang, et al.**  ·  `cs.MA`  ·  [abs](https://arxiv.org/abs/2611.22248) · [pdf](https://arxiv.org/pdf/2611.22248)  ·  relevance 21
+<br>matched: `longitudinal`, `large language model`, `llm`, `agent`
 
-> Self-supervised pretraining has transformed language and vision, but its application to functional MRI (fMRI) is constrained by data access. The largest standardized fMRI resources are governed by data use agreements and dominated by a small number of acquisition protocols, while the thousands of openly licensed datasets on OpenNeuro are individually small, heterogeneously organized, and unprocessed. We present the first release of Open-fMIND, a uniformly preprocessed,…
+> Wearable and smartphone sensors capture behavioral signals associated with mental health, yet inferring mental health outcomes from these signals has traditionally relied on supervised models requiring labeled data and offering limited insight into their predictions. Large language models (LLMs) offer new opportunities to reason over behavioral evidence, but existing LLM-based approaches to passive sensing have largely continued to rely on task-specific fine-tuning or…
 
-### 5. [LogicEye: Agent Driven Multimodal Dataset for Interpretable Ophthalmic Diagnosis](https://arxiv.org/abs/2611.18669)
-**Jiajie Mu, Lu Chen, Zheyun Qin, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.18669) · [pdf](https://arxiv.org/pdf/2611.18669)  ·  relevance 27
-<br>matched: `large language model`, `agent`, `interpretab`, `multimodal`
+### 5. [Thinking Harder Doesn't Lead to Better Choices: Reasoning Effort Increases the Confidence but Not the Correctness of LLM Shopping Agents](https://arxiv.org/abs/2611.22033)
+**Adi Krishnamoorthy, X. Y. Han**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.22033) · [pdf](https://arxiv.org/pdf/2611.22033)  ·  relevance 21
+<br>matched: `large language model`, `llm`, `agent`, `multimodal`
 
-> Clinical adoption of ophthalmic Artificial Intelligence remains limited by low interpretability and a lack of finely annotated multimodal data. Most existing datasets provide only coarse disease labels without the granular pathological findings required for differential diagnosis. We present LogicEye$^{Agent}$, a dual-pool inference and verification agent that emulates clinical reasoning by jointly verifying positive inclusion signs and negative exclusion criteria. Using…
+> Large language models (LLMs) are increasingly deployed as autonomous shopping agents that process multimodal product listings (consisting of visual and text data) and recommend purchases on behalf of consumers. Naturally, one might assume that models with more thinking power would make higher-quality purchasing decisions. To test this belief, we ask two questions about such agents: does asking a model to think harder make it choose better products, and does the confidence it…
 
-### 6. [Brain AI Scientist: An Evidence-Based Multi-Agent System for Translational Neuroimaging in Precision Psychiatry](https://arxiv.org/abs/2611.18634)
-**Zeyun Zhao, Lin Gu, Ruogu Fang**  ·  `q-bio.QM`  ·  [abs](https://arxiv.org/abs/2611.18634) · [pdf](https://arxiv.org/pdf/2611.18634)  ·  relevance 24
-<br>matched: `neuroimaging`, `fmri`, `agent`
+### 6. [A Visual Information Extraction System Using Multimodal Large Language Models for Scanned Cognitive and Behavioral Assessments](https://arxiv.org/abs/2611.22252)
+**Enshuo Hsu, Linh Nguyen, Sunyang Fu, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.22252) · [pdf](https://arxiv.org/pdf/2611.22252)  ·  relevance 21
+<br>matched: `large language model`, `llm`, `multimodal`
 
-> Resting-state functional magnetic resonance imaging (rs-fMRI) has revealed widespread brain-network alterations in psychiatric disorders, yet translating these findings into individualized clinical decision support remains challenging. Here we introduce Brain AI Scientist, an autonomous multi-agent framework that integrates patient-specific fMRI, clinical information, and scientific evidence through retrieval, verification, and prioritization. Guided by Research Domain…
+> Objective. Paper-based assessments are common in patient care, but handwriting and scanning artifacts make these forms difficult to process at scale. This study proposes a modular, multimodal LLM-based system with human oversight for extracting fields and scores. We conducted a qualitative analysis of the use of LLMs for hand-drawing analysis. Materials and Methods. The system processes cognitive assessments (i.e., MMSE, MoCA, Mini-Cog) and the NICHQ Vanderbilt Assessment…
 
-### 7. [FRAAC: A French Multimodal Large Language Model and Dataset forPictogram-Based Augmentative and Alternative Communication](https://arxiv.org/abs/2611.20094)
-**Alexandre Audibert, Fran\c{c}ois Portet, Benoit Favre, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.20094) · [pdf](https://arxiv.org/pdf/2611.20094)  ·  relevance 24
-<br>matched: `large language model`, `llm`, `retrieval-augmented`, `multimodal`
+### 7. [Can AI Help Explain AI? Effects of Multimodal LLM-Generated Explanations on Perceived Understanding and Perceived Trust in XAI Visualizations](https://arxiv.org/abs/2611.21638)
+**Mario Truss, Marc Schmitt, Stefan Feuerriegel**  ·  `cs.HC`  ·  [abs](https://arxiv.org/abs/2611.21638) · [pdf](https://arxiv.org/pdf/2611.21638)  ·  relevance 21
+<br>matched: `llm`, `explainab`, `multimodal`
 
-> Pictograms are a core modality in augmentative and alternative communication (AAC), yet recent multimodal large language models (MLLMs) cannot reliably interpret or produce pictogram sequences. Two obstacles explain this gap: the absence of a standardized pictogram grammar and the scarcity of parallel text-pictogram data. We introduce Retrieval-Augmented Pictogram Selection (RAPS), an annotation method that refines a rule-based transcription system's output with LLM-based…
+> Explainable artificial intelligence (XAI) aims to make machine learning models understandable, yet many XAI visualizations remain difficult for end-users to interpret. Here, we evaluate whether augmenting XAI outputs with textual explanations from multimodal LLMs improves perceived understanding and perceived trust. We conducted a pre-registered within-subject experiment ($N = 128$) across seven decision scenarios and five XAI methods, with and without LLM generated…
 
-### 8. [Multimodal AI in Healthcare: Review of Vision-Language Foundation Models for Real-World Medical Applications](https://arxiv.org/abs/2611.19958)
-**Taha Razzaq, Murtaza Taj, Asim Iqbal**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.19958) · [pdf](https://arxiv.org/pdf/2611.19958)  ·  relevance 24
-<br>matched: `foundation model`, `large language model`, `llm`, `multimodal`
+### 8. [Stress Testing a Multimodal Large Language Model Grading Assistant on Kinematics Graph Reading](https://arxiv.org/abs/2611.22726)
+**Ons Zammel, Carlos Soares, Fl\'avia Carvalhido, et al.**  ·  `physics.ed-ph`  ·  [abs](https://arxiv.org/abs/2611.22726) · [pdf](https://arxiv.org/pdf/2611.22726)  ·  relevance 21
+<br>matched: `large language model`, `llm`, `multimodal`
 
-> The emergence of foundation models has marked a transformative shift in AI, enabling robust generalization across diverse downstream tasks through putative zero-shot learning. Large Language Models and Vision Language Models have demonstrated strong capabilities in tasks such as image interpretation, report generation, and question answering by effectively learning from multimodal data-images paired with associated text often with minimal supervision. In the healthcare…
+> Multimodal large language models (MLLMs) can recognize graph features yet award credit without sufficient graphical support. This exploratory study examines selected grading outputs for synthetic responses to four kinematics exercises, generated through visual distortion and progressive transformation toward reference graphs. Different model and prompt configurations were used. Some judgments correctly distinguished instantaneous zero velocity from rest over a finite…
 
-### 9. [How Much Do Foundation Models Add to Gradient Boosting on Financial Event Sequences?](https://arxiv.org/abs/2611.18914)
-**Carlos Eduardo Martins Relvas, Gustavo di Giovanni Bernardo**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.18914) · [pdf](https://arxiv.org/pdf/2611.18914)  ·  relevance 22
-<br>matched: `graph neural network`, `graph neural`, `self-supervised`, `foundation model`
+### 9. [SpatialMind: Adaptive Multi-Level Geometric Fusion for Spatial Reasoning in Multimodal Large Language Models](https://arxiv.org/abs/2611.22415)
+**Shibin Zhao, Hao Tan, Fan Yang, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.22415) · [pdf](https://arxiv.org/pdf/2611.22415)  ·  relevance 21
+<br>matched: `large language model`, `llm`, `multimodal`
 
-> Foundation models pretrained on raw transaction sequences are proposed for credit, fraud and churn modeling, with reported gains over gradient boosting, but the data and baselines behind these gains are rarely public. We measure how much the pretraining and adaptation recipes of these models add to a baseline of point-in-time window aggregates and LightGBM, and we propose TBS (Temporal Boosting-Sequence ensemble), which averages the ranks of a boosting model enriched with…
+> Multimodal Large Language Models (MLLMs) demonstrate promising capabilities in 2D visual understanding, yet remain limited in 3D spatial reasoning. Recent studies explore integrating 3D reconstruction models into MLLMs. However, these approaches either use a single geometric granularity across all tasks or adopt a fixed multi-level fusion scheme, regardless of task-specific reasoning requirements. Through systematic experiments on multi-level geometric fusion, we find that…
 
-### 10. [Weights & Caches: LLMs Can Program Tabular Foundation Models](https://arxiv.org/abs/2611.20174)
-**Shi Bin Hoo, Magnus Buehler, Omar Swelam, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.20174) · [pdf](https://arxiv.org/pdf/2611.20174)  ·  relevance 21
-<br>matched: `foundation model`, `large language model`, `llm`
+### 10. [SCAN: Site-Aware Collaborative Privacy-Preserving Adaptation of Vision-Language Models for Neurological Disease Classification](https://arxiv.org/abs/2611.21955)
+**Nikhil J. Dhinagar, Rishab Pendam, Harmony S. Cen, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.21955) · [pdf](https://arxiv.org/pdf/2611.21955)  ·  relevance 19
+<br>matched: `alzheimer`, `neuroimaging`, `brain mri`, `foundation model`
 
-> Neural networks are typically programmed through optimization, rather than by explicitly specifying their computations. Recent work on weight-space programming suggests that large language models (LLMs) can instead reason about and manipulate neural-network weights directly. In this work, we show that LLMs can directly program statistical computations in tabular foundation models (TFMs), whose parameters enable inference across different datasets. We investigate three…
+> Worldwide neuroimaging data could strengthen diagnostic foundation models, but privacy rules often prevent centralizing brain MRI scans. We present SCAN, a site-aware collaborative adaptation framework for Neurological Disease Classification that lets new sites adapt a 3D medical vision-language model (VLM) without retraining or sharing patient scans. Each site keeps exact class prototypes for local prediction and can share privacy-protected class summaries: norm-bounded…
 
-### 11. [Macro Control and Capability Evaluation of Black-Box World Models: A Two-Regime Framework for LLM-Agent Markets](https://arxiv.org/abs/2611.19311)
-**Zhiyang Niu, Chuanjie Li, Huayuan Shen, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.19311) · [pdf](https://arxiv.org/pdf/2611.19311)  ·  relevance 21
-<br>matched: `large language model`, `llm`, `agent`, `interpretab`
+### 11. [OmniTongue: A Comprehensive MLLM Benchmark for Automated Tongue Diagnosis in Traditional Chinese Medicine](https://arxiv.org/abs/2611.22652)
+**Liuyi Xu, Yun Guo, Shusheng Li, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.22652) · [pdf](https://arxiv.org/pdf/2611.22652)  ·  relevance 19
+<br>matched: `large language model`, `llm`, `medical imaging`, `multimodal`
 
-> Large language model (LLM) agents can be organized into multi-agent markets that act as world models, mapping macro information to emergent macro dynamics while the evaluator observes only macro inputs and outputs. This paper separates a model's capability into two stages that a single aggregate score cannot separate: information simulation, from macro information to micro behavior, and macro emergence, from micro behavior to the macro outcome. We introduce a soft…
+> Multimodal Large Language Models (MLLMs) have excelled in Western medical imaging, yet their potential in Traditional Chinese Medicine (TCM) tongue diagnosis remains systematically unevaluated. Tongue diagnosis requires sophisticated global and local perception, serving as a rigorous touchstone for assessing the visual understanding depth of MLLMs. However, existing datasets are limited by single dimensions, coarse granularity, and ambiguous labels, hindering the evaluation…
 
-### 12. [Multimodal Fusion: A Review of Breast Cancer Advanced and Traditional Modalities](https://arxiv.org/abs/2611.18793)
-**Jawaher Al-Tuweity, Jo\~ao Paulo Papa**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.18793) · [pdf](https://arxiv.org/pdf/2611.18793)  ·  relevance 21
-<br>matched: `medical imaging`, `segmentation`, `interpretab`, `explainab`, `multimodal`
+### 12. [The Only Edge Was Memorized in Training: LLM Trading Agents Around Earnings and Bad News](https://arxiv.org/abs/2611.22177)
+**Jackson Wang**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.22177) · [pdf](https://arxiv.org/pdf/2611.22177)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
 
-> Purpose: Multimodal medical imaging fusion (MMIF) is an increasingly important approach to breast cancer detection (BCD), as different imaging modalities rely on different physical principles and provide complementary information. No single modality can capture all the structural, functional, and biological information needed for accurate diagnosis and characterization. Methods: This review examines more than 15 imaging modalities used in breast cancer detection, including…
+> Large language model (LLM) trading agents are tested on news, but news reaches stock prices within minutes, and a benchmark that replays headlines at their publication time finds no alpha in trading on them. Money can then remain in two places, before news whose date is known, such as earnings announcements, and after bad news, if the market's fall went too far. However, studies of LLMs and earnings read documents published with or after the announcement, and studies of…
 
 
-<sub>Generated 2026-11-17 21:45 UTC via the arXiv API.</sub>
+<sub>Generated 2026-11-18 21:26 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-11-18](digests/2026-11-18.md) — 12 papers
 - [2026-11-17](digests/2026-11-17.md) — 12 papers
 - [2026-11-16](digests/2026-11-16.md) — 12 papers
 - [2026-11-15](digests/2026-11-15.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-09-18](digests/2026-09-18.md) — 12 papers
 - [2026-09-17](digests/2026-09-17.md) — 12 papers
 - [2026-09-16](digests/2026-09-16.md) — 12 papers
-- [2026-09-15](digests/2026-09-15.md) — 12 papers
 
-_…and 80 earlier digests in [`digests/`](digests/)._
+_…and 81 earlier digests in [`digests/`](digests/)._
 
 ---
 
