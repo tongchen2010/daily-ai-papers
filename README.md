@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-11-18** · browse the full archive below.
+**Latest digest: 2026-11-19** · browse the full archive below.
 
 ## How it works
 
@@ -29,89 +29,90 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-11-18
+# arXiv AI/ML digest — 2026-11-19
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [SARVIA: Fast-Adapting the Strong SAR Foundation Models That Are Already in Your MLLMs](https://arxiv.org/abs/2611.22273)
-**Yuxuan Li, Zichen Tian, Qianru Sun**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.22273) · [pdf](https://arxiv.org/pdf/2611.22273)  ·  relevance 30
-<br>matched: `self-supervised`, `foundation model`, `large language model`, `llm`, `segmentation`, `multimodal`
+### 1. [Element-Wise Femoral Stress Prediction: A Hybrid Graph Neural Network Surrogate for Finite Element Analysis](https://arxiv.org/abs/2611.24274)
+**Sikha O K, Abdollah Moslemi, Elham Alizadeh, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.24274) · [pdf](https://arxiv.org/pdf/2611.24274)  ·  relevance 31
+<br>matched: `graph neural network`, `graph neural`, `gnn`
 
-> Synthetic aperture radar (SAR) foundation models provide transferable representations for diverse perception tasks in all-weather Earth observation. However, their development often relies on costly large-scale SAR pretraining, raising the question of whether such extensive domain-specific pretraining is necessary. We find that modern multimodal large language models (MLLMs) already provide visual encoders that can outperform dedicated SAR foundation models as downstream…
+> Hip fractures represent a significant clinical challenge because they cause excess disability and mortality, and have a growing incidence in aging populations, as bone fragility increases. Although finite element analysis (FEA) provides biomechanical assessment of femoral strength, its clinical applicability is mainly limited by high computational cost. Conventional machine learning (ML) approaches have been explored as surrogate models for FEA; predictions are fast but fail…
 
-### 2. [DLS: Dual-Logic Graph Neural Networks with Chaos-Fuzzy Residuals for Robust Link Prediction](https://arxiv.org/abs/2611.22607)
-**Mohammad Mehdi Keikha, Abolfazl Nadi**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.22607) · [pdf](https://arxiv.org/pdf/2611.22607)  ·  relevance 27
-<br>matched: `graph neural network`, `graph neural`
-
-> Link prediction is a fundamental task in graph mining, critical for applications ranging from biological interaction discovery to recommender systems. While Message Passing Neural Networks (MPNNs) have achieved state-of-the-art results, they are fundamentally limited by the inadvertent suppression of high-frequency signals, as the recursive aggregation that stabilizes structural learning inherently leads to over-smoothing, rendering node representations indistinguishable in…
-
-### 3. [When AUC Meets Generative Reconstruction: A Unified Principle for Balanced Visual Representation Learning](https://arxiv.org/abs/2611.22094)
-**Boyu Han, Qianqian Xu, Shilong Bao, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.22094) · [pdf](https://arxiv.org/pdf/2611.22094)  ·  relevance 21
-<br>matched: `representation learning`, `large language model`, `llm`, `multimodal`
-
-> Multimodal large language models (MLLMs) require visual encoders that extract fine-grained visual features while constructing semantically disentangled and discriminative representations. Conventional methodologies encounter a fundamental trade-off: contrastive learning enhances inter-class discrimination by suppressing intra-class variability, whereas generative reconstruction emphasizes perceptual fidelity but lacks explicit comparative supervision. The naive aggregation…
-
-### 4. [OAK-Mind: Zero-Training Mental Health Change Inference from Passive Sensing via Knowledge-Grounded Multi-Agent LLMs](https://arxiv.org/abs/2611.22248)
-**Yishu Ji, Zhihan Jiang, Will Ke Wang, et al.**  ·  `cs.MA`  ·  [abs](https://arxiv.org/abs/2611.22248) · [pdf](https://arxiv.org/pdf/2611.22248)  ·  relevance 21
-<br>matched: `longitudinal`, `large language model`, `llm`, `agent`
-
-> Wearable and smartphone sensors capture behavioral signals associated with mental health, yet inferring mental health outcomes from these signals has traditionally relied on supervised models requiring labeled data and offering limited insight into their predictions. Large language models (LLMs) offer new opportunities to reason over behavioral evidence, but existing LLM-based approaches to passive sensing have largely continued to rely on task-specific fine-tuning or…
-
-### 5. [Thinking Harder Doesn't Lead to Better Choices: Reasoning Effort Increases the Confidence but Not the Correctness of LLM Shopping Agents](https://arxiv.org/abs/2611.22033)
-**Adi Krishnamoorthy, X. Y. Han**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.22033) · [pdf](https://arxiv.org/pdf/2611.22033)  ·  relevance 21
+### 2. [SpecLook: Speculating Where to Look for Fast and Reliable Agentic MLLMs](https://arxiv.org/abs/2611.23483)
+**Xi Ding, Jiawei Zhang**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.23483) · [pdf](https://arxiv.org/pdf/2611.23483)  ·  relevance 21
 <br>matched: `large language model`, `llm`, `agent`, `multimodal`
 
-> Large language models (LLMs) are increasingly deployed as autonomous shopping agents that process multimodal product listings (consisting of visual and text data) and recommend purchases on behalf of consumers. Naturally, one might assume that models with more thinking power would make higher-quality purchasing decisions. To test this belief, we ask two questions about such agents: does asking a model to think harder make it choose better products, and does the confidence it…
+> Agentic multimodal large language models (MLLMs) that think with images interleave reasoning with zoom-in tool calls. However, this sequential loop is slow, and its answers carry no reliability score. Prior speculation of tokens, reasoning steps, or answers keeps the loop, and answer speculation also accepts confident errors. We find that the loop mostly adds one zoom-in step, with which a small model is ahead of the agent on most splits. Our key insight is to speculate the…
 
-### 6. [A Visual Information Extraction System Using Multimodal Large Language Models for Scanned Cognitive and Behavioral Assessments](https://arxiv.org/abs/2611.22252)
-**Enshuo Hsu, Linh Nguyen, Sunyang Fu, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.22252) · [pdf](https://arxiv.org/pdf/2611.22252)  ·  relevance 21
+### 3. [Ultimate3D: Teaching Multimodal LLMs 3D Camera-Object Relations by Large-Scale Visual Instruction Data](https://arxiv.org/abs/2611.24795)
+**Liu He, Yizhi Song, Ruiqi Xu, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.24795) · [pdf](https://arxiv.org/pdf/2611.24795)  ·  relevance 21
 <br>matched: `large language model`, `llm`, `multimodal`
 
-> Objective. Paper-based assessments are common in patient care, but handwriting and scanning artifacts make these forms difficult to process at scale. This study proposes a modular, multimodal LLM-based system with human oversight for extracting fields and scores. We conducted a qualitative analysis of the use of LLMs for hand-drawing analysis. Materials and Methods. The system processes cognitive assessments (i.e., MMSE, MoCA, Mini-Cog) and the NICHQ Vanderbilt Assessment…
+> Multimodal Large Language Models (MLLMs) struggle with accurately capturing camera-object relations, especially for object orientation, camera viewpoint, and camera shots. This stems from the fact that existing MLLMs are trained on images with limited diverse camera-object relations and corresponding textual descriptions. To address this, we propose a synthetic generation pipeline to create large-scale 3D visual instruction datasets. Our framework takes 3D assets as input…
 
-### 7. [Can AI Help Explain AI? Effects of Multimodal LLM-Generated Explanations on Perceived Understanding and Perceived Trust in XAI Visualizations](https://arxiv.org/abs/2611.21638)
-**Mario Truss, Marc Schmitt, Stefan Feuerriegel**  ·  `cs.HC`  ·  [abs](https://arxiv.org/abs/2611.21638) · [pdf](https://arxiv.org/pdf/2611.21638)  ·  relevance 21
-<br>matched: `llm`, `explainab`, `multimodal`
-
-> Explainable artificial intelligence (XAI) aims to make machine learning models understandable, yet many XAI visualizations remain difficult for end-users to interpret. Here, we evaluate whether augmenting XAI outputs with textual explanations from multimodal LLMs improves perceived understanding and perceived trust. We conducted a pre-registered within-subject experiment ($N = 128$) across seven decision scenarios and five XAI methods, with and without LLM generated…
-
-### 8. [Stress Testing a Multimodal Large Language Model Grading Assistant on Kinematics Graph Reading](https://arxiv.org/abs/2611.22726)
-**Ons Zammel, Carlos Soares, Fl\'avia Carvalhido, et al.**  ·  `physics.ed-ph`  ·  [abs](https://arxiv.org/abs/2611.22726) · [pdf](https://arxiv.org/pdf/2611.22726)  ·  relevance 21
-<br>matched: `large language model`, `llm`, `multimodal`
-
-> Multimodal large language models (MLLMs) can recognize graph features yet award credit without sufficient graphical support. This exploratory study examines selected grading outputs for synthetic responses to four kinematics exercises, generated through visual distortion and progressive transformation toward reference graphs. Different model and prompt configurations were used. Some judgments correctly distinguished instantaneous zero velocity from rest over a finite…
-
-### 9. [SpatialMind: Adaptive Multi-Level Geometric Fusion for Spatial Reasoning in Multimodal Large Language Models](https://arxiv.org/abs/2611.22415)
-**Shibin Zhao, Hao Tan, Fan Yang, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.22415) · [pdf](https://arxiv.org/pdf/2611.22415)  ·  relevance 21
-<br>matched: `large language model`, `llm`, `multimodal`
-
-> Multimodal Large Language Models (MLLMs) demonstrate promising capabilities in 2D visual understanding, yet remain limited in 3D spatial reasoning. Recent studies explore integrating 3D reconstruction models into MLLMs. However, these approaches either use a single geometric granularity across all tasks or adopt a fixed multi-level fusion scheme, regardless of task-specific reasoning requirements. Through systematic experiments on multi-level geometric fusion, we find that…
-
-### 10. [SCAN: Site-Aware Collaborative Privacy-Preserving Adaptation of Vision-Language Models for Neurological Disease Classification](https://arxiv.org/abs/2611.21955)
-**Nikhil J. Dhinagar, Rishab Pendam, Harmony S. Cen, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.21955) · [pdf](https://arxiv.org/pdf/2611.21955)  ·  relevance 19
-<br>matched: `alzheimer`, `neuroimaging`, `brain mri`, `foundation model`
-
-> Worldwide neuroimaging data could strengthen diagnostic foundation models, but privacy rules often prevent centralizing brain MRI scans. We present SCAN, a site-aware collaborative adaptation framework for Neurological Disease Classification that lets new sites adapt a 3D medical vision-language model (VLM) without retraining or sharing patient scans. Each site keeps exact class prototypes for local prediction and can share privacy-protected class summaries: norm-bounded…
-
-### 11. [OmniTongue: A Comprehensive MLLM Benchmark for Automated Tongue Diagnosis in Traditional Chinese Medicine](https://arxiv.org/abs/2611.22652)
-**Liuyi Xu, Yun Guo, Shusheng Li, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.22652) · [pdf](https://arxiv.org/pdf/2611.22652)  ·  relevance 19
-<br>matched: `large language model`, `llm`, `medical imaging`, `multimodal`
-
-> Multimodal Large Language Models (MLLMs) have excelled in Western medical imaging, yet their potential in Traditional Chinese Medicine (TCM) tongue diagnosis remains systematically unevaluated. Tongue diagnosis requires sophisticated global and local perception, serving as a rigorous touchstone for assessing the visual understanding depth of MLLMs. However, existing datasets are limited by single dimensions, coarse granularity, and ambiguous labels, hindering the evaluation…
-
-### 12. [The Only Edge Was Memorized in Training: LLM Trading Agents Around Earnings and Bad News](https://arxiv.org/abs/2611.22177)
-**Jackson Wang**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.22177) · [pdf](https://arxiv.org/pdf/2611.22177)  ·  relevance 18
+### 4. [QDA: Closed-Loop LLM Quantization Design with Agents](https://arxiv.org/abs/2611.23388)
+**Xingyang Li, Tianlang Zhao, Song Han, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.23388) · [pdf](https://arxiv.org/pdf/2611.23388)  ·  relevance 18
 <br>matched: `large language model`, `llm`, `agent`
 
-> Large language model (LLM) trading agents are tested on news, but news reaches stock prices within minutes, and a benchmark that replays headlines at their publication time finds no alpha in trading on them. Money can then remain in two places, before news whose date is known, such as earnings announcements, and after bad news, if the market's fall went too far. However, studies of LLMs and earnings read documents published with or after the announcement, and studies of…
+> Post-training quantization is the standard way to serve large language models at low cost. However, the best quantization recipe differs across models and precisions. As a result, experts must redesign it for every new model, which is time-consuming and often sub-optimal. Fortunately, an LLM agent can take over this design by refining the recipe over rounds of building and evaluating candidates, so that more rounds lead to better recipes. However, evaluating one quantized…
+
+### 5. [SCAFFOLD: Toward Warrant-Preserving Evidence Transport for Reusable LLM-Agent Skills](https://arxiv.org/abs/2611.23990)
+**Nami Cho, Shailja Gupta**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.23990) · [pdf](https://arxiv.org/pdf/2611.23990)  ·  relevance 18
+<br>matched: `longitudinal`, `llm`, `agent`
+
+> An agent skill that succeeded yesterday may be executable today without being justified for reuse today. Tests may cover only observable contract clauses, outcome oracles may be absent, evaluations may inherit the same erroneous specification, and permissions or dependencies may change between validation and invocation. We argue that the appropriate unit of prospective trust is a Warranted Reuse Claim (WRC): a defeasible, claim-specific authorization tied to a versioned…
+
+### 6. [Depth Before Breadth: Reverse-to-Forward Curriculum with Advantage Decomposition for LLM Agent](https://arxiv.org/abs/2611.24697)
+**Siyuan Du, Yuxin Liu, Meng Tang, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.24697) · [pdf](https://arxiv.org/pdf/2611.24697)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
+
+> Reinforcement learning (RL) has become a common approach for training large language model (LLM) agents on long-horizon tasks. However, learning from sparse terminal rewards makes credit assignment and exploration difficult. We approach these challenges through a policy-induced capability region, the set of states from which the current policy can reliably complete a task. Near its boundary, an agent may need only a few actions to reach a more solvable state, even when the…
+
+### 7. [PIPETTE: Prompt Injection Purple-Teaming for Robust LLM Agents](https://arxiv.org/abs/2611.24362)
+**Lipeng He, Yihan Wang, Jiawen Zhang, et al.**  ·  `cs.CR`  ·  [abs](https://arxiv.org/abs/2611.24362) · [pdf](https://arxiv.org/pdf/2611.24362)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
+
+> Large language model (LLM) agents routinely interact with untrusted external data, exposing them to indirect prompt injection (IPI) attacks that hijack agents into executing attacker-chosen tasks. To uncover these vulnerabilities at scale, automated red-teaming methods often leverage reinforcement learning (RL) to generate attacks that achieve high attack success rates (ASR). Model developers use the attacks discovered during internal red-teaming to harden agents through…
+
+### 8. [MedHarness: A Unified Budgeted Runtime for Reliable Medical Imaging Agents](https://arxiv.org/abs/2611.23501)
+**Haofan Wu, Le Zhang**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.23501) · [pdf](https://arxiv.org/pdf/2611.23501)  ·  relevance 18
+<br>matched: `agent`, `medical imaging`
+
+> Medical imaging agents already return answers on heterogeneous imaging surfaces, yet deployment still faces a limited verification budget where each wrong accept can harm clinical trust. When a thin check and a deeper evidence pass disagree on the same case, deciding when to stop, open more evidence, repair, or reject without a shared controller remains ill-posed. Tool-using workflows often lock a surface-specific evidence order per dataset, or a private always-open…
+
+### 9. [ReCoCo: From Patches to Compositions for Visual Representation Learning](https://arxiv.org/abs/2611.24806)
+**Juan Guti\'errez, Saman Zadtootaghaj, Jos\'e Luis Blanco-Murillo, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.24806) · [pdf](https://arxiv.org/pdf/2611.24806)  ·  relevance 18
+<br>matched: `representation learning`, `self-supervised`, `segmentation`
+
+> Self-supervised learning has produced powerful visual representations, yet learning strong dense features remains challenging. While consistency between augmented views provides strong image-level supervision, extending this principle to local visual content is less straightforward. Existing approaches often match individual patches across views or identify coherent regions, introducing uncertainties in correspondence estimation and assumptions about how visual content…
+
+### 10. [A Hybrid RAG Framework for Deceptive Review Detection: Integrating RoBERTa-LoRA, FAISS-Based Retrieval, and LLM Reasoning](https://arxiv.org/abs/2611.24049)
+**Andrei Kostin, Jos\'e \'Angel Diaz-Garcia, Karel Guti\'errez-Batista**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.24049) · [pdf](https://arxiv.org/pdf/2611.24049)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `retrieval-augmented`, `explainab`
+
+> The growth of deceptive online opinions poses a critical risk of misinformation and fraud. This paper proposes a Retrieval-Augmented Generation (RAG) system to automatically distinguish spam reviews. The architecture integrates RoBERTa with Low-Rank Adaptation (LoRA) classification, FAISS semantic vector retrieval, and a Large Language Model (LLM) for final reasoning. The system was evaluated across balanced and severely imbalanced real-world scenarios. Results demonstrate…
+
+### 11. [GateWatch: Low-Overhead LLM Monitoring with Boolean Circuits](https://arxiv.org/abs/2611.24619)
+**Firas Spanioli, Yaniv David**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.24619) · [pdf](https://arxiv.org/pdf/2611.24619)  ·  relevance 17
+<br>matched: `large language model`, `llm`, `agent`, `interpretab`
+
+> As large language models (LLMs) and LLM-based agents are increasingly deployed, monitoring their behavior becomes important for detecting unsafe or unintended actions. Activation probes offer an efficient approach, but existing methods face trade-offs between accuracy, interpretability, and computational overhead. Probes on raw activations lack interpretable inputs, whereas sparse autoencoder (SAE) probes use interpretable features but often rely on additive classifiers and…
+
+### 12. [Tracking Representations in LLM Reasoning Traces for Iterated Games](https://arxiv.org/abs/2611.23403)
+**Chaipat Tirapongprasert, Rajarshi Das, Parijat Dube**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.23403) · [pdf](https://arxiv.org/pdf/2611.23403)  ·  relevance 17
+<br>matched: `large language model`, `llm`, `agent`, `interpretab`
+
+> Large language model (LLM) agents achieve state-of-the-art performance across domains through chain-of-thought (CoT) reasoning. Despite their ubiquitous use, little is understood about the relationship between the externalized trace and the model's actual computation. We address this by investigating how LLM agents make decisions in iterative games with incomplete information. Using a series of mechanistic interpretability techniques, we find that the model forms and…
 
 
-<sub>Generated 2026-11-18 21:26 UTC via the arXiv API.</sub>
+<sub>Generated 2026-11-19 21:33 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-11-19](digests/2026-11-19.md) — 12 papers
 - [2026-11-18](digests/2026-11-18.md) — 12 papers
 - [2026-11-17](digests/2026-11-17.md) — 12 papers
 - [2026-11-16](digests/2026-11-16.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-09-21](digests/2026-09-21.md) — 12 papers
 - [2026-09-18](digests/2026-09-18.md) — 12 papers
 - [2026-09-17](digests/2026-09-17.md) — 12 papers
-- [2026-09-16](digests/2026-09-16.md) — 12 papers
 
-_…and 81 earlier digests in [`digests/`](digests/)._
+_…and 82 earlier digests in [`digests/`](digests/)._
 
 ---
 
