@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-11-19** · browse the full archive below.
+**Latest digest: 2026-11-20** · browse the full archive below.
 
 ## How it works
 
@@ -29,89 +29,90 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-11-19
+# arXiv AI/ML digest — 2026-11-20
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [Element-Wise Femoral Stress Prediction: A Hybrid Graph Neural Network Surrogate for Finite Element Analysis](https://arxiv.org/abs/2611.24274)
-**Sikha O K, Abdollah Moslemi, Elham Alizadeh, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.24274) · [pdf](https://arxiv.org/pdf/2611.24274)  ·  relevance 31
+### 1. [Phantom of the Masquerade: Graph Neural Network-Based Detection of Masquerade Attacks in Controller Area Networks](https://arxiv.org/abs/2611.26094)
+**Nehal Ameen, Pablo Moriano, Irfan Ahmed**  ·  `cs.CR`  ·  [abs](https://arxiv.org/abs/2611.26094) · [pdf](https://arxiv.org/pdf/2611.26094)  ·  relevance 35
+<br>matched: `graph neural network`, `graph neural`, `gnn`, `representation learning`
+
+> The lack of built-in security in controller area networks (CANs) exposes modern vehicles and industrial systems to masquerade attacks that can compromise safety and reliability. These attacks inject malicious messages that mimic legitimate communication patterns, making them difficult to detect using existing intrusion detection systems (IDS). Prior graph-based IDS approaches often rely on shallow embeddings that decouple representation learning from classification, which…
+
+### 2. [DeepQuest: From Knowledge Gaps to Scientific Discovery in Alzheimer's Disease](https://arxiv.org/abs/2611.26343)
+**Chunbo Jiang, Yifei Chen, Beining Wu, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.26343) · [pdf](https://arxiv.org/pdf/2611.26343)  ·  relevance 32
+<br>matched: `alzheimer`, `dementia`, `cortical`, `longitudinal`, `agent`
+
+> Automating experiments does not necessarily advance scientific understanding. Research agents must identify meaningful knowledge gaps, determine what available data can resolve, and assess whether their findings advance existing knowledge. We introduce DeepQuest, a knowledge-gap-driven AI scientist framework for Alzheimer's disease research. DeepQuest transforms unresolved questions from domain reviews into traceable, testable hypotheses and prioritizes them through data…
+
+### 3. [AdsNet: A Graph Neural Network for Direct Adsorption Energy Prediction](https://arxiv.org/abs/2611.25646)
+**Changzhi Ai, Frank Abild-Pedersen, Johannes Voss**  ·  `cond-mat.mtrl-sci`  ·  [abs](https://arxiv.org/abs/2611.25646) · [pdf](https://arxiv.org/pdf/2611.25646)  ·  relevance 30
+<br>matched: `graph neural network`, `graph neural`, `interpretab`
+
+> Fast and accurate prediction of adsorption energies is critical for high-throughput computational catalyst screening, existing methods compromise either on evaluation speed (full-graph machine learning potentials) or geometric sensitivity (coordination-based models like the alpha-scheme). Here, we present AdsNet, an equivariant graph neural network that directly predicts adsorption energies in a single forward pass, which operates on a local graph restricted only to…
+
+### 4. [VidToC: Rethinking Video Token Compression for Multimodal Large Language Models](https://arxiv.org/abs/2611.25574)
+**Zihan Xiao (AIM3 Lab, Renmin University of China), Boshen Xu (AIM3 Lab, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.25574) · [pdf](https://arxiv.org/pdf/2611.25574)  ·  relevance 25
+<br>matched: `transformer`, `large language model`, `llm`, `multimodal`, `mamba`
+
+> Extending multimodal large language models (MLLMs) from images to videos faces substantial memory and latency challenges due to the massive number of visual tokens. These challenges have driven the development of numerous visual token compression methods and more efficient LLM architectures. However, existing compression methods are often evaluated with different training setups, tasks, and models, making fair comparison difficult. Meanwhile, the growing use of hybrid…
+
+### 5. [Perfumer: A Large Language Model-based Agentic Framework Accelerating Structural Relaxation and Electronic Band Prediction for First-Principle Calculation](https://arxiv.org/abs/2611.26349)
+**Zhiwei Li, Yuhao Zhou, Yikai Yang, et al.**  ·  `cond-mat.mtrl-sci`  ·  [abs](https://arxiv.org/abs/2611.26349) · [pdf](https://arxiv.org/pdf/2611.26349)  ·  relevance 24
+<br>matched: `graph neural network`, `graph neural`, `large language model`, `agent`
+
+> First-principles structural relaxation and band calculations require substantial computation and expertise. Here we present Perfumer, a large language model-based agentic framework that couples Quantum ESPRESSO with two predictive models. Across tested structures, pre-relaxation with Perfumer-relax model followed by QE refinement yielded a 2.75-fold overall speedup over QE alone. Perfumer-band model combines a periodic graph neural network with a latent Hermitian spectral…
+
+### 6. [SEEC: A Large-Scale Dataset and Benchmark for Self-Supervised External-Eye Representation Learning](https://arxiv.org/abs/2611.26386)
+**George R. Nahass, Michelle Fleishaker, Sanjay Ganesh, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.26386) · [pdf](https://arxiv.org/pdf/2611.26386)  ·  relevance 24
+<br>matched: `representation learning`, `self-supervised`
+
+> External-eye photography captures clinically relevant periocular anatomy at low acquisition cost, yet no large-scale standardized resource exists for evaluating self-supervised external-eye representations. We introduce a 4.35-million-image Standardized External-Eye Corpus (SEEC) derived from fourteen heterogeneous public face datasets, together with a benchmark for external-eye representation learning. For evaluation, we provide held-out evaluation distributions,…
+
+### 7. [On the Informativeness of Structural Stability Bounds for GNNs: GINs versus GATs](https://arxiv.org/abs/2611.25603)
+**Alan Gany, Paul Landrier, Bogdan Cautis, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.25603) · [pdf](https://arxiv.org/pdf/2611.25603)  ·  relevance 21
 <br>matched: `graph neural network`, `graph neural`, `gnn`
 
-> Hip fractures represent a significant clinical challenge because they cause excess disability and mortality, and have a growing incidence in aging populations, as bone fragility increases. Although finite element analysis (FEA) provides biomechanical assessment of femoral strength, its clinical applicability is mainly limited by high computational cost. Conventional machine learning (ML) approaches have been explored as surrogate models for FEA; predictions are fast but fail…
+> Stability bounds for graph neural networks limit how much node representations can drift when the graph changes, but they are rarely compared with the simplest alternative: a bound on the distance between any two outputs, whatever the graph. We derive structural stability bounds for Graph Isomorphism Networks (GINs) and single-head GATv1 networks under deterministic edge perturbations that need not be small, and compare each with such a perturbation-independent diameter…
 
-### 2. [SpecLook: Speculating Where to Look for Fast and Reliable Agentic MLLMs](https://arxiv.org/abs/2611.23483)
-**Xi Ding, Jiawei Zhang**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.23483) · [pdf](https://arxiv.org/pdf/2611.23483)  ·  relevance 21
-<br>matched: `large language model`, `llm`, `agent`, `multimodal`
+### 8. [Reasoning-Trace Analysis Using Large Language Models for Interpretable Q-Matrix Construction](https://arxiv.org/abs/2611.26422)
+**Jihong Zhang, Zijing Jin, Mingfeng Xue**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.26422) · [pdf](https://arxiv.org/pdf/2611.26422)  ·  relevance 21
+<br>matched: `large language model`, `llm`, `interpretab`
 
-> Agentic multimodal large language models (MLLMs) that think with images interleave reasoning with zoom-in tool calls. However, this sequential loop is slow, and its answers carry no reliability score. Prior speculation of tokens, reasoning steps, or answers keeps the loop, and answer speculation also accepts confident errors. We find that the loop mostly adds one zoom-in step, with which a small model is ahead of the agent on most splits. Our key insight is to speculate the…
+> Large language models (LLMs) can generate Q-matrices for diagnostic classification models that approximate expert specifications, but evaluations have focused on the final matrices, leaving the basis of individual item-attribute assignments unexamined. This opacity limits the responsible use of AI in measurement. We propose Reasoning-Trace Analysis (RTA), a framework in which an LLM generates attribute-labeled reasoning steps through chain-of-thought (CoT) prompting and…
 
-### 3. [Ultimate3D: Teaching Multimodal LLMs 3D Camera-Object Relations by Large-Scale Visual Instruction Data](https://arxiv.org/abs/2611.24795)
-**Liu He, Yizhi Song, Ruiqi Xu, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.24795) · [pdf](https://arxiv.org/pdf/2611.24795)  ·  relevance 21
+### 9. [AutoRAGBench: A Benchmark for LLM Agents Automating RAG System Development](https://arxiv.org/abs/2611.25582)
+**Hang Zhang, Yuzhi Pan, Ziyao Zhong, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.25582) · [pdf](https://arxiv.org/pdf/2611.25582)  ·  relevance 21
+<br>matched: `large language model`, `llm`, `agent`, `retrieval-augmented`
+
+> Retrieval-augmented generation (RAG) is a well-established paradigm for augmenting large language models (LLMs) with information retrieved from external corpora. However, developing effective RAG systems requires substantial engineering effort and iterative experimentation, as effective design choices vary across tasks and domains. With rapid advances in LLM agent capabilities, we ask how well these agents can autonomously build RAG systems and how effectively they can…
+
+### 10. [Query-Aware vs. Query-Agnostic Training-Free Video Token Pruning in Multimodal LLMs](https://arxiv.org/abs/2611.25537)
+**Divya Kothandaraman, Timo Kumkel, Jaclyn Pytlarz**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.25537) · [pdf](https://arxiv.org/pdf/2611.25537)  ·  relevance 21
 <br>matched: `large language model`, `llm`, `multimodal`
 
-> Multimodal Large Language Models (MLLMs) struggle with accurately capturing camera-object relations, especially for object orientation, camera viewpoint, and camera shots. This stems from the fact that existing MLLMs are trained on images with limited diverse camera-object relations and corresponding textual descriptions. To address this, we propose a synthetic generation pipeline to create large-scale 3D visual instruction datasets. Our framework takes 3D assets as input…
+> Video Large Language Models process large numbers of visual tokens, making token pruning important for efficient inference. Training-free pruning methods differ in whether and how they use the user query, and the value of query conditioning remains unclear. We present a controlled study of training-free, pre-LLM video token selection. Using a shared Qwen-3-VL backbone, token budgets, and decoding settings, we compare 21 pruning principles spanning query-agnostic, shallow…
 
-### 4. [QDA: Closed-Loop LLM Quantization Design with Agents](https://arxiv.org/abs/2611.23388)
-**Xingyang Li, Tianlang Zhao, Song Han, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.23388) · [pdf](https://arxiv.org/pdf/2611.23388)  ·  relevance 18
+### 11. [Uncertainty-Aware Multimodal Deep Learning for Prediction of Radiation-Induced Xerostomia in Head and Neck Cancer](https://arxiv.org/abs/2611.25481)
+**Jin Yang, Tian Liu, Jose Penagaricano, et al.**  ·  `eess.IV`  ·  [abs](https://arxiv.org/abs/2611.25481) · [pdf](https://arxiv.org/pdf/2611.25481)  ·  relevance 19
+<br>matched: `representation learning`, `self-supervised`, `transformer`, `multimodal`
+
+> To develop and evaluate an uncertainty-aware multimodal learning framework for predicting radiation-induced xerostomia in patients receiving head-and-neck cancer radiotherapy. We developed a Bidirectional Attention-enhanced Diffusion Transformer (BA-DiT) that combines self-supervised multimodal representation learning with supervised Bayesian fine-tuning. The model integrates pretreatment CT images and three-dimensional dose distributions, focusing on bilateral parotid…
+
+### 12. [Moving Generality from Model to Modeler: LLM Agents for PHM on a Deployment-Style Benchmark](https://arxiv.org/abs/2611.25252)
+**Zhenling Chen, Zhiguo Zeng, Anne Barros**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.25252) · [pdf](https://arxiv.org/pdf/2611.25252)  ·  relevance 18
 <br>matched: `large language model`, `llm`, `agent`
 
-> Post-training quantization is the standard way to serve large language models at low cost. However, the best quantization recipe differs across models and precisions. As a result, experts must redesign it for every new model, which is time-consuming and often sub-optimal. Fortunately, an LLM agent can take over this design by refining the recipe over rounds of building and evaluating candidates, so that more rounds lead to better recipes. However, evaluating one quantized…
-
-### 5. [SCAFFOLD: Toward Warrant-Preserving Evidence Transport for Reusable LLM-Agent Skills](https://arxiv.org/abs/2611.23990)
-**Nami Cho, Shailja Gupta**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.23990) · [pdf](https://arxiv.org/pdf/2611.23990)  ·  relevance 18
-<br>matched: `longitudinal`, `llm`, `agent`
-
-> An agent skill that succeeded yesterday may be executable today without being justified for reuse today. Tests may cover only observable contract clauses, outcome oracles may be absent, evaluations may inherit the same erroneous specification, and permissions or dependencies may change between validation and invocation. We argue that the appropriate unit of prospective trust is a Warranted Reuse Claim (WRC): a defeasible, claim-specific authorization tied to a versioned…
-
-### 6. [Depth Before Breadth: Reverse-to-Forward Curriculum with Advantage Decomposition for LLM Agent](https://arxiv.org/abs/2611.24697)
-**Siyuan Du, Yuxin Liu, Meng Tang, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.24697) · [pdf](https://arxiv.org/pdf/2611.24697)  ·  relevance 18
-<br>matched: `large language model`, `llm`, `agent`
-
-> Reinforcement learning (RL) has become a common approach for training large language model (LLM) agents on long-horizon tasks. However, learning from sparse terminal rewards makes credit assignment and exploration difficult. We approach these challenges through a policy-induced capability region, the set of states from which the current policy can reliably complete a task. Near its boundary, an agent may need only a few actions to reach a more solvable state, even when the…
-
-### 7. [PIPETTE: Prompt Injection Purple-Teaming for Robust LLM Agents](https://arxiv.org/abs/2611.24362)
-**Lipeng He, Yihan Wang, Jiawen Zhang, et al.**  ·  `cs.CR`  ·  [abs](https://arxiv.org/abs/2611.24362) · [pdf](https://arxiv.org/pdf/2611.24362)  ·  relevance 18
-<br>matched: `large language model`, `llm`, `agent`
-
-> Large language model (LLM) agents routinely interact with untrusted external data, exposing them to indirect prompt injection (IPI) attacks that hijack agents into executing attacker-chosen tasks. To uncover these vulnerabilities at scale, automated red-teaming methods often leverage reinforcement learning (RL) to generate attacks that achieve high attack success rates (ASR). Model developers use the attacks discovered during internal red-teaming to harden agents through…
-
-### 8. [MedHarness: A Unified Budgeted Runtime for Reliable Medical Imaging Agents](https://arxiv.org/abs/2611.23501)
-**Haofan Wu, Le Zhang**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.23501) · [pdf](https://arxiv.org/pdf/2611.23501)  ·  relevance 18
-<br>matched: `agent`, `medical imaging`
-
-> Medical imaging agents already return answers on heterogeneous imaging surfaces, yet deployment still faces a limited verification budget where each wrong accept can harm clinical trust. When a thin check and a deeper evidence pass disagree on the same case, deciding when to stop, open more evidence, repair, or reject without a shared controller remains ill-posed. Tool-using workflows often lock a surface-specific evidence order per dataset, or a private always-open…
-
-### 9. [ReCoCo: From Patches to Compositions for Visual Representation Learning](https://arxiv.org/abs/2611.24806)
-**Juan Guti\'errez, Saman Zadtootaghaj, Jos\'e Luis Blanco-Murillo, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.24806) · [pdf](https://arxiv.org/pdf/2611.24806)  ·  relevance 18
-<br>matched: `representation learning`, `self-supervised`, `segmentation`
-
-> Self-supervised learning has produced powerful visual representations, yet learning strong dense features remains challenging. While consistency between augmented views provides strong image-level supervision, extending this principle to local visual content is less straightforward. Existing approaches often match individual patches across views or identify coherent regions, introducing uncertainties in correspondence estimation and assumptions about how visual content…
-
-### 10. [A Hybrid RAG Framework for Deceptive Review Detection: Integrating RoBERTa-LoRA, FAISS-Based Retrieval, and LLM Reasoning](https://arxiv.org/abs/2611.24049)
-**Andrei Kostin, Jos\'e \'Angel Diaz-Garcia, Karel Guti\'errez-Batista**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.24049) · [pdf](https://arxiv.org/pdf/2611.24049)  ·  relevance 18
-<br>matched: `large language model`, `llm`, `retrieval-augmented`, `explainab`
-
-> The growth of deceptive online opinions poses a critical risk of misinformation and fraud. This paper proposes a Retrieval-Augmented Generation (RAG) system to automatically distinguish spam reviews. The architecture integrates RoBERTa with Low-Rank Adaptation (LoRA) classification, FAISS semantic vector retrieval, and a Large Language Model (LLM) for final reasoning. The system was evaluated across balanced and severely imbalanced real-world scenarios. Results demonstrate…
-
-### 11. [GateWatch: Low-Overhead LLM Monitoring with Boolean Circuits](https://arxiv.org/abs/2611.24619)
-**Firas Spanioli, Yaniv David**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.24619) · [pdf](https://arxiv.org/pdf/2611.24619)  ·  relevance 17
-<br>matched: `large language model`, `llm`, `agent`, `interpretab`
-
-> As large language models (LLMs) and LLM-based agents are increasingly deployed, monitoring their behavior becomes important for detecting unsafe or unintended actions. Activation probes offer an efficient approach, but existing methods face trade-offs between accuracy, interpretability, and computational overhead. Probes on raw activations lack interpretable inputs, whereas sparse autoencoder (SAE) probes use interpretable features but often rely on additive classifiers and…
-
-### 12. [Tracking Representations in LLM Reasoning Traces for Iterated Games](https://arxiv.org/abs/2611.23403)
-**Chaipat Tirapongprasert, Rajarshi Das, Parijat Dube**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.23403) · [pdf](https://arxiv.org/pdf/2611.23403)  ·  relevance 17
-<br>matched: `large language model`, `llm`, `agent`, `interpretab`
-
-> Large language model (LLM) agents achieve state-of-the-art performance across domains through chain-of-thought (CoT) reasoning. Despite their ubiquitous use, little is understood about the relationship between the externalized trace and the model's actual computation. We address this by investigating how LLM agents make decisions in iterative games with incomplete information. Using a series of mechanistic interpretability techniques, we find that the model forms and…
+> Coding agents built on large language models (LLMs) now help develop many models published as general solutions. Should generality instead reside in the agent that builds a model for each new task? We examine this question in prognostics and health management (PHM), where every model must work on unseen equipment. Our deployment-style benchmark, NextUnit-Bench, covers 24 public datasets split into 58 folds that hold out units or operating conditions; each agent has two hours…
 
 
-<sub>Generated 2026-11-19 21:33 UTC via the arXiv API.</sub>
+<sub>Generated 2026-11-20 21:04 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-11-20](digests/2026-11-20.md) — 12 papers
 - [2026-11-19](digests/2026-11-19.md) — 12 papers
 - [2026-11-18](digests/2026-11-18.md) — 12 papers
 - [2026-11-17](digests/2026-11-17.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-09-22](digests/2026-09-22.md) — 12 papers
 - [2026-09-21](digests/2026-09-21.md) — 12 papers
 - [2026-09-18](digests/2026-09-18.md) — 12 papers
-- [2026-09-17](digests/2026-09-17.md) — 12 papers
 
-_…and 82 earlier digests in [`digests/`](digests/)._
+_…and 83 earlier digests in [`digests/`](digests/)._
 
 ---
 
