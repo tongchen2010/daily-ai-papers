@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-11-21** · browse the full archive below.
+**Latest digest: 2026-11-22** · browse the full archive below.
 
 ## How it works
 
@@ -29,89 +29,90 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-11-21
+# arXiv AI/ML digest — 2026-11-22
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [Phantom of the Masquerade: Graph Neural Network-Based Detection of Masquerade Attacks in Controller Area Networks](https://arxiv.org/abs/2611.26094)
-**Nehal Ameen, Pablo Moriano, Irfan Ahmed**  ·  `cs.CR`  ·  [abs](https://arxiv.org/abs/2611.26094) · [pdf](https://arxiv.org/pdf/2611.26094)  ·  relevance 35
-<br>matched: `graph neural network`, `graph neural`, `gnn`, `representation learning`
+### 1. [DeepQuest: From Knowledge Gaps to Scientific Discovery in Alzheimer's Disease](https://arxiv.org/abs/2611.26343v1)
+**Chunbo Jiang, Yifei Chen, Beining Wu, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.26343v1) · [pdf](https://arxiv.org/pdf/2611.26343v1)  ·  relevance 32
+<br>matched: `alzheimer`, `dementia`, `cortical`, `longitudinal`, `agent`
 
-> The lack of built-in security in controller area networks (CANs) exposes modern vehicles and industrial systems to masquerade attacks that can compromise safety and reliability. These attacks inject malicious messages that mimic legitimate communication patterns, making them difficult to detect using existing intrusion detection systems (IDS). Prior graph-based IDS approaches often rely on shallow embeddings that decouple representation learning from classification, which…
+> Automating experiments does not necessarily advance scientific understanding. Research agents must identify meaningful knowledge gaps, determine what available data can resolve, and assess whether their findings advance existing knowledge. We introduce DeepQuest, a knowledge-gap-driven AI scientist framework for Alzheimer's disease research. DeepQuest transforms unresolved questions from domain reviews into traceable, testable hypotheses and prioritizes them through data…
 
-### 2. [AdsNet: A Graph Neural Network for Direct Adsorption Energy Prediction](https://arxiv.org/abs/2611.25646)
-**Changzhi Ai, Frank Abild-Pedersen, Johannes Voss**  ·  `cond-mat.mtrl-sci`  ·  [abs](https://arxiv.org/abs/2611.25646) · [pdf](https://arxiv.org/pdf/2611.25646)  ·  relevance 30
-<br>matched: `graph neural network`, `graph neural`, `interpretab`
+### 2. [SEEC: A Large-Scale Dataset and Benchmark for Self-Supervised External-Eye Representation Learning](https://arxiv.org/abs/2611.26386v1)
+**George R. Nahass, Michelle Fleishaker, Sanjay Ganesh, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.26386v1) · [pdf](https://arxiv.org/pdf/2611.26386v1)  ·  relevance 24
+<br>matched: `representation learning`, `self-supervised`
 
-> Fast and accurate prediction of adsorption energies is critical for high-throughput computational catalyst screening, existing methods compromise either on evaluation speed (full-graph machine learning potentials) or geometric sensitivity (coordination-based models like the alpha-scheme). Here, we present AdsNet, an equivariant graph neural network that directly predicts adsorption energies in a single forward pass, which operates on a local graph restricted only to…
+> External-eye photography captures clinically relevant periocular anatomy at low acquisition cost, yet no large-scale standardized resource exists for evaluating self-supervised external-eye representations. We introduce a 4.35-million-image Standardized External-Eye Corpus (SEEC) derived from fourteen heterogeneous public face datasets, together with a benchmark for external-eye representation learning. For evaluation, we provide held-out evaluation distributions,…
 
-### 3. [Perfumer: A Large Language Model-based Agentic Framework Accelerating Structural Relaxation and Electronic Band Prediction for First-Principle Calculation](https://arxiv.org/abs/2611.26349)
-**Zhiwei Li, Yuhao Zhou, Yikai Yang, et al.**  ·  `cond-mat.mtrl-sci`  ·  [abs](https://arxiv.org/abs/2611.26349) · [pdf](https://arxiv.org/pdf/2611.26349)  ·  relevance 24
+### 3. [Perfumer: A Large Language Model-based Agentic Framework Accelerating Structural Relaxation and Electronic Band Prediction for First-Principle Calculation](https://arxiv.org/abs/2611.26349v1)
+**Zhiwei Li, Yuhao Zhou, Yikai Yang, et al.**  ·  `cond-mat.mtrl-sci`  ·  [abs](https://arxiv.org/abs/2611.26349v1) · [pdf](https://arxiv.org/pdf/2611.26349v1)  ·  relevance 24
 <br>matched: `graph neural network`, `graph neural`, `large language model`, `agent`
 
 > First-principles structural relaxation and band calculations require substantial computation and expertise. Here we present Perfumer, a large language model-based agentic framework that couples Quantum ESPRESSO with two predictive models. Across tested structures, pre-relaxation with Perfumer-relax model followed by QE refinement yielded a 2.75-fold overall speedup over QE alone. Perfumer-band model combines a periodic graph neural network with a latent Hermitian spectral…
 
-### 4. [On the Informativeness of Structural Stability Bounds for GNNs: GINs versus GATs](https://arxiv.org/abs/2611.25603)
-**Alan Gany, Paul Landrier, Bogdan Cautis, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.25603) · [pdf](https://arxiv.org/pdf/2611.25603)  ·  relevance 21
-<br>matched: `graph neural network`, `graph neural`, `gnn`
+### 4. [Reasoning-Trace Analysis Using Large Language Models for Interpretable Q-Matrix Construction](https://arxiv.org/abs/2611.26422v1)
+**Jihong Zhang, Zijing Jin, Mingfeng Xue**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.26422v1) · [pdf](https://arxiv.org/pdf/2611.26422v1)  ·  relevance 21
+<br>matched: `large language model`, `llm`, `interpretab`
 
-> Stability bounds for graph neural networks limit how much node representations can drift when the graph changes, but they are rarely compared with the simplest alternative: a bound on the distance between any two outputs, whatever the graph. We derive structural stability bounds for Graph Isomorphism Networks (GINs) and single-head GATv1 networks under deterministic edge perturbations that need not be small, and compare each with such a perturbation-independent diameter…
+> Large language models (LLMs) can generate Q-matrices for diagnostic classification models that approximate expert specifications, but evaluations have focused on the final matrices, leaving the basis of individual item-attribute assignments unexamined. This opacity limits the responsible use of AI in measurement. We propose Reasoning-Trace Analysis (RTA), a framework in which an LLM generates attribute-labeled reasoning steps through chain-of-thought (CoT) prompting and…
 
-### 5. [Moving Generality from Model to Modeler: LLM Agents for PHM on a Deployment-Style Benchmark](https://arxiv.org/abs/2611.25252)
-**Zhenling Chen, Zhiguo Zeng, Anne Barros**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.25252) · [pdf](https://arxiv.org/pdf/2611.25252)  ·  relevance 18
-<br>matched: `large language model`, `llm`, `agent`
-
-> Coding agents built on large language models (LLMs) now help develop many models published as general solutions. Should generality instead reside in the agent that builds a model for each new task? We examine this question in prognostics and health management (PHM), where every model must work on unseen equipment. Our deployment-style benchmark, NextUnit-Bench, covers 24 public datasets split into 58 folds that hold out units or operating conditions; each agent has two hours…
-
-### 6. [LLM Complexity: Towards a Computational Complexity View of Large Language Model Inference](https://arxiv.org/abs/2611.24943)
-**Yu-Hung Wu, Shao-Xiang Yuan, Chan-Hung Yu, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.24943) · [pdf](https://arxiv.org/pdf/2611.24943)  ·  relevance 18
-<br>matched: `large language model`, `llm`
-
-> Computational complexity theory offers a principled framework for characterizing the efficiency of computational problems, and Large Language Models (LLMs) can similarly be viewed as computational systems executing a structured process of input, inference-time compute, and output. In this context, the number of generated tokens emerges as a natural and directly observable proxy for inference-time compute. However, we show that the tempting analogy between LLM token length…
-
-### 7. [Statistical, Machine Learning and Deep Learning Methods for Missing Covariates: An Empirical Evaluation with Applications to Alzheimer's Disease Research](https://arxiv.org/abs/2611.25219)
-**Yiqing Pan, Sharon X. Xie, Shujie Ma, et al.**  ·  `stat.ML`  ·  [abs](https://arxiv.org/abs/2611.25219) · [pdf](https://arxiv.org/pdf/2611.25219)  ·  relevance 18
-<br>matched: `alzheimer`
-
-> Missing data are common in biomedical research, particularly when biomarkers are costly or require invasive procedures to obtain, such as cerebrospinal fluid measures in Alzheimer's disease. Although a wide range of missing data methods exists, from traditional statistical approaches to modern machine learning (ML) and deep learning (DL) algorithms, their comparative performance under different missingness mechanisms remains insufficiently understood. In this study, we…
-
-### 8. [Verifiable Logic in Medical LLMs: A Critical Review of Agentic Clinical Reasoning Optimization and Neuro-Symbolic Grounding](https://arxiv.org/abs/2611.25898)
-**Youssef ElNahas, Adel Ammar, Soumaya Chaffar, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.25898) · [pdf](https://arxiv.org/pdf/2611.25898)  ·  relevance 18
-<br>matched: `large language model`, `llm`, `agent`
-
-> Clinical large language models are usually judged by whether the final answer is right. Yet a model can reach a fluent, plausible output through invalid reasoning that static benchmarks do not detect, and confident hallucination, causally invalid inference, and spurious demographic shortcuts can pass conventional evaluation. This critical review covers four paradigms in turn: how clinical hallucination arises and why static metrics miss it; the agentic hallucination cascade,…
-
-### 9. [One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning](https://arxiv.org/abs/2611.26617)
-**Yuxin Jiang, Wenqiang Sun, Jiaqi Li, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.26617) · [pdf](https://arxiv.org/pdf/2611.26617)  ·  relevance 18
+### 5. [One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning](https://arxiv.org/abs/2611.26617v1)
+**Yuxin Jiang, Wenqiang Sun, Jiaqi Li, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.26617v1) · [pdf](https://arxiv.org/pdf/2611.26617v1)  ·  relevance 18
 <br>matched: `self-supervised`, `transformer`
 
 > Videos reveal how the world changes, but rarely the actions that cause those changes. Latent action learning recovers such supervision from visual transitions, yet often learns the underlying dynamics largely from scratch. We ask whether a pretrained video generator can instead provide the prior for both inverse and forward dynamics. We introduce O$^{2}$LaF, built on a simple principle: one prior, two dynamics. We initialize both models from the same pretrained video DiT and…
 
-### 10. [Empirical Variational Bayes Factorization for Longitudinal Matrix Data](https://arxiv.org/abs/2611.25065)
-**Jiakun Li, Eric F. Lock**  ·  `stat.ML`  ·  [abs](https://arxiv.org/abs/2611.25065) · [pdf](https://arxiv.org/pdf/2611.25065)  ·  relevance 17
-<br>matched: `disease progression`, `longitudinal`, `interpretab`
+### 6. [Multimodal Error Detection in Chest X-ray Reports: A Large Language Model Reading Image Evidence](https://arxiv.org/abs/2611.26492v1)
+**Yanda Cheng, Bo Wen, Yuhao Lu**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.26492v1) · [pdf](https://arxiv.org/pdf/2611.26492v1)  ·  relevance 18
+<br>matched: `large language model`, `multimodal`
 
-> Collecting high-dimensional data over time for multiple individuals is increasingly common in biomedical research, particularly in studies of disease progression or molecular time-course experiments. Often data are missing or the timepoints are irregularly spaced across individuals. There is a lack of flexible methodology to explore latent patterns of change over time and account for missing data. We propose an empirical variational Bayes (EVB) approach to factorize…
+> Rad-Linter checks chest X-ray reports against image-derived evidence to flag potential errors for review. A pretrained image classifier supplies scores for nine pathologies, and a 1.5B-parameter language model, fine-tuned with LoRA on 1,816 examples, checks their consistency with the report. We compare it with a keyword-and-negation rule baseline given the same reports and scores. Evaluation uses controlled report-score pairings from OpenI, with consistency labels derived…
 
-### 11. [Separating Interpretability and Reconstruction in Sparse Autoencoders](https://arxiv.org/abs/2611.25165)
-**Anh Tien Nguyen, Dimitris Samaras, Mahdi S. Hosseini**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.25165) · [pdf](https://arxiv.org/pdf/2611.25165)  ·  relevance 16
-<br>matched: `representation learning`, `llm`, `interpretab`
+### 7. [C-LiTE: A Lightweight Foundation Model for Cellular feature learning in Histopathology](https://arxiv.org/abs/2611.26316v1)
+**Esha Sadia Nasir, Jiaqi Lv, Gozde N. Gunesli, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.26316v1) · [pdf](https://arxiv.org/pdf/2611.26316v1)  ·  relevance 17
+<br>matched: `representation learning`, `self-supervised`, `foundation model`
 
-> Sparse Autoencoders (SAEs) are effective tools for mechanistic interpretability by decomposing neural representations into sparse and interpretable features. However, a single sparse representation in traditional SAEs is responsible for both reconstruction fidelity and interpretability, which are not guaranteed to align. To separate these objectives, we propose DualSAE, a modular framework that augments standard SAEs with a plug-in Residual Branch. A standard SAE serves as…
+> Characterising individual cells is fundamental to computational pathology, as cellular morphology informs tasks such as tumour grading, mitotic assessment and immune profiling. However, most pathology foundation models are trained on tissue patches and capture cellular features only implicitly, while existing cell-level models are either restricted to specific cell populations or rely on computationally expensive architectures with hundreds of millions of parameters.…
 
-### 12. [Antom 3-in-1 Transformer: A Payment Foundation Model](https://arxiv.org/abs/2611.25403)
-**Weiyu Han, Haoyu Jiang, Jie Sheng, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.25403) · [pdf](https://arxiv.org/pdf/2611.25403)  ·  relevance 15
-<br>matched: `foundation model`, `transformer`
+### 8. [How Much Should an Agent Remember? Deployment Lessons from Self-Distilled Memory for LLM Agents](https://arxiv.org/abs/2611.26361v1)
+**K. R. Jayaram, Vatche Isahagian, Aswath Vaithinathan Aravindan, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.26361v1) · [pdf](https://arxiv.org/pdf/2611.26361v1)  ·  relevance 15
+<br>matched: `llm`, `agent`
 
-> We report the development of Antom 3-in-1 Transformer, a payment foundation model that integrates sequence, tabular, and graph representations for payment risk detection. The model contains approximately 7B parameters, with approximately 1.7B activated per task route. Antom 3-in-1 Transformer is pretrained to learn reusable behavioral and relational representations, primarily on Ant International's internal payment data. In a cross-business transfer experiment, pretraining…
+> LLM agents on long-horizon tasks fail in recurring, procedural ways. They mis-paginate an API, resolve the wrong entity, or answer when no answer was asked. We built a pipeline that lets an agent learn from its own history. It first mines short \emph{lessons} from the agent's own trajectories, one to three per episode. It then consolidates those lessons into a smaller set of \emph{guidelines}, where each guideline records how many lessons it merged. At inference the agent…
+
+### 9. [Client Exits - A Way to Increase LLM Transparency on the Client Side](https://arxiv.org/abs/2611.26309v1)
+**Marc Jansen**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.26309v1) · [pdf](https://arxiv.org/pdf/2611.26309v1)  ·  relevance 15
+<br>matched: `large language model`, `llm`, `interpretab`
+
+> Textual recommendations generated by large language models (LLMs) can be difficult to inspect. This paper introduces \emph{Client Exits}, a lightweight mechanism for enriching LLM responses while separating semantic intent from client-specific presentation. The model inserts predefined, machine-interpretable markers into its output, and the receiving client decides whether and how to realize the corresponding enrichments. This allows supplementary information to be presented…
+
+### 10. [Training Vision Models for LLM-Driven Weight-Space Programming](https://arxiv.org/abs/2611.26408v1)
+**Timo Ropinski, Sebastian Kranz**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.26408v1) · [pdf](https://arxiv.org/pdf/2611.26408v1)  ·  relevance 14
+<br>matched: `transformer`, `large language model`, `llm`
+
+> It has been demonstrated that, in certain settings, large language models can perform weight-space programming to directly modify the weights of neural networks. However, it is unknown how dedicated training of these networks can contribute to the successes of weight-space programming. We present a benchmark of LLM-driven weight-space programming on vision models, in which five LLMs edit convolutional networks and vision transformers on relabeling and error-correction tasks…
+
+### 11. [Replication of Agentic Security Events: Audit and Investigation (ROGUE-AI)](https://arxiv.org/abs/2611.26553v1)
+**Mengxiao Wang, Mahbub Alam, Kalyan Nakka, et al.**  ·  `cs.CR`  ·  [abs](https://arxiv.org/abs/2611.26553v1) · [pdf](https://arxiv.org/pdf/2611.26553v1)  ·  relevance 12
+<br>matched: `large language model`, `llm`, `agent`
+
+> Agents based on large language models (LLMs) can now delete files and send payments on behalf of their users. News media reports routinely describe failures of these agents (e.g., Replit's coding agent deleting a production database), but a report often only says what went wrong and rarely (in)validates the incident or finds its root cause. Incident catalogs collect these reports, and benchmarks record whether agents fail, but neither replicates an incident nor tests the…
+
+### 12. [The Geometry of Lies: Knowledge and Persona Directions for Detecting Deception in Large Language Models](https://arxiv.org/abs/2611.26545v1)
+**Md. Abdullah Al Zami, Suraiya Shanaz, Mahdi Hasan, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.26545v1) · [pdf](https://arxiv.org/pdf/2611.26545v1)  ·  relevance 12
+<br>matched: `large language model`, `llm`
+
+> Linear probes are the cheapest LLM lie detectors but often fail to transfer across kinds of lie. Label-free directions from honest and deceptive role-play are untested at 70B scale and on lies about knowledge, where a lie and an honest denial can be identical. We widen a published persona bank with roles that deny knowledge they have, plus honest counterparts. At each model's middle layer the resulting persona direction ranks lies across Liars' Bench better than…
 
 
-<sub>Generated 2026-11-21 20:05 UTC via the arXiv API.</sub>
+<sub>Generated 2026-11-22 20:20 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-11-22](digests/2026-11-22.md) — 12 papers
 - [2026-11-21](digests/2026-11-21.md) — 12 papers
 - [2026-11-20](digests/2026-11-20.md) — 12 papers
 - [2026-11-19](digests/2026-11-19.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-09-24](digests/2026-09-24.md) — 12 papers
 - [2026-09-23](digests/2026-09-23.md) — 12 papers
 - [2026-09-22](digests/2026-09-22.md) — 12 papers
-- [2026-09-21](digests/2026-09-21.md) — 12 papers
 
-_…and 84 earlier digests in [`digests/`](digests/)._
+_…and 85 earlier digests in [`digests/`](digests/)._
 
 ---
 
