@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-11-22** · browse the full archive below.
+**Latest digest: 2026-11-24** · browse the full archive below.
 
 ## How it works
 
@@ -29,89 +29,90 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-11-22
+# arXiv AI/ML digest — 2026-11-24
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [DeepQuest: From Knowledge Gaps to Scientific Discovery in Alzheimer's Disease](https://arxiv.org/abs/2611.26343v1)
-**Chunbo Jiang, Yifei Chen, Beining Wu, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.26343v1) · [pdf](https://arxiv.org/pdf/2611.26343v1)  ·  relevance 32
-<br>matched: `alzheimer`, `dementia`, `cortical`, `longitudinal`, `agent`
+### 1. [Spatiotemporal Graph Neural Networks for Fault Detection and Structural Learning in Chemical Processes: Use Case on the Tennessee Eastman Process](https://arxiv.org/abs/2611.27698)
+**Rayane Ammar Khodja, Alexandre Voisin, Victor Costa, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.27698) · [pdf](https://arxiv.org/pdf/2611.27698)  ·  relevance 34
+<br>matched: `graph neural network`, `graph neural`, `gnn`, `interpretab`
 
-> Automating experiments does not necessarily advance scientific understanding. Research agents must identify meaningful knowledge gaps, determine what available data can resolve, and assess whether their findings advance existing knowledge. We introduce DeepQuest, a knowledge-gap-driven AI scientist framework for Alzheimer's disease research. DeepQuest transforms unresolved questions from domain reviews into traceable, testable hypotheses and prioritizes them through data…
+> Classical Fault Detection and Diagnosis (FDD) methods, including many data-driven approaches, assume a static normal operating space and interpret deviations from a fixed reference as fault indicators. When Operating Conditions (OCs) vary over time, this assumption breaks down: legitimate transitions trigger false alarms while moderate faults go undetected. We propose a spatiotemporal Graph Neural Network (GNN) framework that decomposes the normal operating space into…
 
-### 2. [SEEC: A Large-Scale Dataset and Benchmark for Self-Supervised External-Eye Representation Learning](https://arxiv.org/abs/2611.26386v1)
-**George R. Nahass, Michelle Fleishaker, Sanjay Ganesh, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.26386v1) · [pdf](https://arxiv.org/pdf/2611.26386v1)  ·  relevance 24
-<br>matched: `representation learning`, `self-supervised`
+### 2. [LesionAgent: Training-Free Agentic Tumor Tracking and Response Assessment in Longitudinal CT](https://arxiv.org/abs/2611.27876)
+**Maximilian Rokuss, Jeya Maria Jose Valanarasu, Alejandro Lozano, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.27876) · [pdf](https://arxiv.org/pdf/2611.27876)  ·  relevance 21
+<br>matched: `foundation model`, `longitudinal`, `llm`, `agent`
 
-> External-eye photography captures clinically relevant periocular anatomy at low acquisition cost, yet no large-scale standardized resource exists for evaluating self-supervised external-eye representations. We introduce a 4.35-million-image Standardized External-Eye Corpus (SEEC) derived from fourteen heterogeneous public face datasets, together with a benchmark for external-eye representation learning. For evaluation, we provide held-out evaluation distributions,…
+> Every few months, a cancer patient's CT scans decide whether treatment continues. 3D foundation models can now detect, segment, register and track lesions, yet none of them reads the scans as a radiologist does. A radiologist decides which findings are lesions, which are the same lesion months later and whether a new spot means progression, and checks each decision against the extensive rules of a clinical guideline. We introduce LesionAgent, an LLM agent that performs this…
 
-### 3. [Perfumer: A Large Language Model-based Agentic Framework Accelerating Structural Relaxation and Electronic Band Prediction for First-Principle Calculation](https://arxiv.org/abs/2611.26349v1)
-**Zhiwei Li, Yuhao Zhou, Yikai Yang, et al.**  ·  `cond-mat.mtrl-sci`  ·  [abs](https://arxiv.org/abs/2611.26349v1) · [pdf](https://arxiv.org/pdf/2611.26349v1)  ·  relevance 24
-<br>matched: `graph neural network`, `graph neural`, `large language model`, `agent`
+### 3. [CanopyFormer: Attention-Guided SegFormer for Explainable Forest Cover Segmentation](https://arxiv.org/abs/2611.27674)
+**Dhinanjaya Fernando, Dinura Ginige, Kalana Lakshan, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.27674) · [pdf](https://arxiv.org/pdf/2611.27674)  ·  relevance 20
+<br>matched: `transformer`, `segmentation`, `interpretab`, `explainab`
 
-> First-principles structural relaxation and band calculations require substantial computation and expertise. Here we present Perfumer, a large language model-based agentic framework that couples Quantum ESPRESSO with two predictive models. Across tested structures, pre-relaxation with Perfumer-relax model followed by QE refinement yielded a 2.75-fold overall speedup over QE alone. Perfumer-band model combines a periodic graph neural network with a latent Hermitian spectral…
+> In transformer segmentation models, attention is usually visualized after training rather than supervised. Although attention supervision has been explored for natural images and driving scenes, aerial forest segmentation typically uses attention only as an architectural component and evaluates interpretability qualitatively. We present CanopyFormer, an attention-guided SegFormer-B0 that uses an Attention Consistency Loss to align attention with the ground-truth forest mask,…
 
-### 4. [Reasoning-Trace Analysis Using Large Language Models for Interpretable Q-Matrix Construction](https://arxiv.org/abs/2611.26422v1)
-**Jihong Zhang, Zijing Jin, Mingfeng Xue**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.26422v1) · [pdf](https://arxiv.org/pdf/2611.26422v1)  ·  relevance 21
-<br>matched: `large language model`, `llm`, `interpretab`
+### 4. [Decision Columns as an Index: Interpretable Embeddings for Explainable Entity Matching and Search](https://arxiv.org/abs/2611.27910)
+**Aadharsh Kannan, Robert Bruckner, Philip A. Bernstein**  ·  `cs.IR`  ·  [abs](https://arxiv.org/abs/2611.27910) · [pdf](https://arxiv.org/pdf/2611.27910)  ·  relevance 20
+<br>matched: `agent`, `interpretab`, `explainab`
 
-> Large language models (LLMs) can generate Q-matrices for diagnostic classification models that approximate expert specifications, but evaluations have focused on the final matrices, leaving the basis of individual item-attribute assignments unexamined. This opacity limits the responsible use of AI in measurement. We propose Reasoning-Trace Analysis (RTA), a framework in which an LLM generates attribute-labeled reasoning steps through chain-of-thought (CoT) prompting and…
+> Business data systems must determine whether records refer to the same entity and retrieve records satisfying requests whose decisive properties are implicit. As agents act on these records, both tasks require auditable reasons. Dense embeddings perform well but offer opaque coordinates, cannot be filtered by meaning, and require corpus re-encoding to add new properties. We propose interpretable embeddings built from decision columns: each column stores a decision model's…
 
-### 5. [One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning](https://arxiv.org/abs/2611.26617v1)
-**Yuxin Jiang, Wenqiang Sun, Jiaqi Li, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.26617v1) · [pdf](https://arxiv.org/pdf/2611.26617v1)  ·  relevance 18
-<br>matched: `self-supervised`, `transformer`
+### 5. [UDA-Restoration: Bridging Unsupervised Domain Adaptation and Multi-Degradation Denoising for Enhanced AV Semantic Segmentation](https://arxiv.org/abs/2611.27097)
+**Zainab Bibi, Mohsin Kamal**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.27097) · [pdf](https://arxiv.org/pdf/2611.27097)  ·  relevance 19
+<br>matched: `self-supervised`, `segmentation`, `domain adaptation`
 
-> Videos reveal how the world changes, but rarely the actions that cause those changes. Latent action learning recovers such supervision from visual transitions, yet often learns the underlying dynamics largely from scratch. We ask whether a pretrained video generator can instead provide the prior for both inverse and forward dynamics. We introduce O$^{2}$LaF, built on a simple principle: one prior, two dynamics. We initialize both models from the same pretrained video DiT and…
+> Autonomous vehicles rely heavily on vision-based perception systems for safe navigation and decision-making. Adverse weather conditions, sensor noise, moving artifacts and illumination changes, however, often degrade the image quality and hence reduce perception performance. This paper introduces a diffusion-guided unsupervised domain adaptation algorithm for autonomous driving environments, namely UDA-Restoration, which is designed to enhance and denoise images. The…
 
-### 6. [Multimodal Error Detection in Chest X-ray Reports: A Large Language Model Reading Image Evidence](https://arxiv.org/abs/2611.26492v1)
-**Yanda Cheng, Bo Wen, Yuhao Lu**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.26492v1) · [pdf](https://arxiv.org/pdf/2611.26492v1)  ·  relevance 18
-<br>matched: `large language model`, `multimodal`
+### 6. [FM4SAR-Bench 1.0: Towards A Fair Benchmark for Evaluating Foundation Models for SAR Image Interpretation](https://arxiv.org/abs/2611.27158)
+**Mingyao Chen, Yongxiang Liu, Tianpeng Liu, et al.**  ·  `eess.IV`  ·  [abs](https://arxiv.org/abs/2611.27158) · [pdf](https://arxiv.org/pdf/2611.27158)  ·  relevance 18
+<br>matched: `foundation model`, `large language model`, `interpretab`, `multimodal`
 
-> Rad-Linter checks chest X-ray reports against image-derived evidence to flag potential errors for review. A pretrained image classifier supplies scores for nine pathologies, and a 1.5B-parameter language model, fine-tuned with LoRA on 1,816 examples, checks their consistency with the report. We compare it with a keyword-and-negation rule baseline given the same reports and scores. Evaluation uses controlled report-score pairings from OpenI, with consistency labels derived…
+> Foundation models have advanced SAR image interpretation but created a heterogeneous, fragmented model ecosystem. Existing models differ substantially in their input, training data, objectives, architectures, and release policy, yet the field lacks a unified taxonomy and comparative framework. Current evaluations rely primarily on task-specific benchmarks, which are ill-suited to fair comparison among models with fundamentally different input-output formats and task…
 
-### 7. [C-LiTE: A Lightweight Foundation Model for Cellular feature learning in Histopathology](https://arxiv.org/abs/2611.26316v1)
-**Esha Sadia Nasir, Jiaqi Lv, Gozde N. Gunesli, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.26316v1) · [pdf](https://arxiv.org/pdf/2611.26316v1)  ·  relevance 17
-<br>matched: `representation learning`, `self-supervised`, `foundation model`
-
-> Characterising individual cells is fundamental to computational pathology, as cellular morphology informs tasks such as tumour grading, mitotic assessment and immune profiling. However, most pathology foundation models are trained on tissue patches and capture cellular features only implicitly, while existing cell-level models are either restricted to specific cell populations or rely on computationally expensive architectures with hundreds of millions of parameters.…
-
-### 8. [How Much Should an Agent Remember? Deployment Lessons from Self-Distilled Memory for LLM Agents](https://arxiv.org/abs/2611.26361v1)
-**K. R. Jayaram, Vatche Isahagian, Aswath Vaithinathan Aravindan, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.26361v1) · [pdf](https://arxiv.org/pdf/2611.26361v1)  ·  relevance 15
-<br>matched: `llm`, `agent`
-
-> LLM agents on long-horizon tasks fail in recurring, procedural ways. They mis-paginate an API, resolve the wrong entity, or answer when no answer was asked. We built a pipeline that lets an agent learn from its own history. It first mines short \emph{lessons} from the agent's own trajectories, one to three per episode. It then consolidates those lessons into a smaller set of \emph{guidelines}, where each guideline records how many lessons it merged. At inference the agent…
-
-### 9. [Client Exits - A Way to Increase LLM Transparency on the Client Side](https://arxiv.org/abs/2611.26309v1)
-**Marc Jansen**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.26309v1) · [pdf](https://arxiv.org/pdf/2611.26309v1)  ·  relevance 15
-<br>matched: `large language model`, `llm`, `interpretab`
-
-> Textual recommendations generated by large language models (LLMs) can be difficult to inspect. This paper introduces \emph{Client Exits}, a lightweight mechanism for enriching LLM responses while separating semantic intent from client-specific presentation. The model inserts predefined, machine-interpretable markers into its output, and the receiving client decides whether and how to realize the corresponding enrichments. This allows supplementary information to be presented…
-
-### 10. [Training Vision Models for LLM-Driven Weight-Space Programming](https://arxiv.org/abs/2611.26408v1)
-**Timo Ropinski, Sebastian Kranz**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.26408v1) · [pdf](https://arxiv.org/pdf/2611.26408v1)  ·  relevance 14
-<br>matched: `transformer`, `large language model`, `llm`
-
-> It has been demonstrated that, in certain settings, large language models can perform weight-space programming to directly modify the weights of neural networks. However, it is unknown how dedicated training of these networks can contribute to the successes of weight-space programming. We present a benchmark of LLM-driven weight-space programming on vision models, in which five LLMs edit convolutional networks and vision transformers on relabeling and error-correction tasks…
-
-### 11. [Replication of Agentic Security Events: Audit and Investigation (ROGUE-AI)](https://arxiv.org/abs/2611.26553v1)
-**Mengxiao Wang, Mahbub Alam, Kalyan Nakka, et al.**  ·  `cs.CR`  ·  [abs](https://arxiv.org/abs/2611.26553v1) · [pdf](https://arxiv.org/pdf/2611.26553v1)  ·  relevance 12
+### 7. [ChatAtom: A Multi-Agent LLM System for Molecular Dynamics Simulation and Visualization](https://arxiv.org/abs/2611.26782)
+**Trupti Mohanty, Ming Du, Mitchell A. Wood, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.26782) · [pdf](https://arxiv.org/pdf/2611.26782)  ·  relevance 18
 <br>matched: `large language model`, `llm`, `agent`
 
-> Agents based on large language models (LLMs) can now delete files and send payments on behalf of their users. News media reports routinely describe failures of these agents (e.g., Replit's coding agent deleting a production database), but a report often only says what went wrong and rarely (in)validates the incident or finds its root cause. Incident catalogs collect these reports, and benchmarks record whether agents fail, but neither replicates an incident nor tests the…
+> Molecular dynamics (MD) simulation resolves atomic-scale motion and predicts the structural, mechanical, and dynamic properties of materials, making it cen- tral to materials design and discovery. Yet an MD study requires an expert-driven workflow: designing the simulation, writing reliable input scripts, executing them, and analyzing the results with separate tools. Here we present ChatAtom, a multi-agent large language model system that translates a natural-language…
 
-### 12. [The Geometry of Lies: Knowledge and Persona Directions for Detecting Deception in Large Language Models](https://arxiv.org/abs/2611.26545v1)
-**Md. Abdullah Al Zami, Suraiya Shanaz, Mahdi Hasan, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.26545v1) · [pdf](https://arxiv.org/pdf/2611.26545v1)  ·  relevance 12
-<br>matched: `large language model`, `llm`
+### 8. [Beyond Final Answers: Interpretable Tumor Immune Microenvironment Reasoning from H&E and mIF](https://arxiv.org/abs/2611.26794)
+**Yixuan Duan, Kexin Geng, Hanwen Xu, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.26794) · [pdf](https://arxiv.org/pdf/2611.26794)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `interpretab`, `multimodal`
 
-> Linear probes are the cheapest LLM lie detectors but often fail to transfer across kinds of lie. Label-free directions from honest and deceptive role-play are untested at 70B scale and on lies about knowledge, where a lie and an honest denial can be identical. We widen a published persona bank with roles that deny knowledge they have, plus honest counterparts. At each model's middle layer the resulting persona direction ranks lies across Liars' Bench better than…
+> Readouts of the tumor immune microenvironment (TIME), such as CD8+ T-cell density, intra-epithelial infiltration and the Ki67 index, combine tissue architecture from H&E with cell phenotypes from multiplex immunofluorescence (mIF). Multimodal large language models (MLLMs) could automate these readouts with an explanation, but two gaps remain. Pathology MLLMs read H&E alone, while these readouts need the cell phenotypes that mIF measures. And their reasoning has no step-level…
+
+### 9. [DermKG: A Concept-Centric Knowledge Graph for Interpretable Skin Disease Diagnosis from Dermatological Morphology](https://arxiv.org/abs/2611.27283)
+**Cheng Huang, Yanmei Li, Mao Lin**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.27283) · [pdf](https://arxiv.org/pdf/2611.27283)  ·  relevance 18
+<br>matched: `graph neural network`, `graph neural`, `interpretab`
+
+> Dermatologists describe lesions with a standardized morphological lexicon, which makes concept-based models attractive for interpretable skin disease diagnosis. How much diagnostic information these concepts actually carry, however, is rarely quantified. We present DermKG, a concept-centric knowledge graph built on the expert-annotated SkinCon subset of Fitzpatrick17k (3,230 images, 48 concepts, 113 diseases). DermKG has 3,452 nodes of 8 types and 19,365 edges of 11 relation…
+
+### 10. [Neurodegenerative Differential Diagnosis with Knowledge-enhanced Structural Reasoning](https://arxiv.org/abs/2611.27427)
+**Mingxuan Wang, Siyuan Du, Yanfeng Wang, et al.**  ·  `cs.CE`  ·  [abs](https://arxiv.org/abs/2611.27427) · [pdf](https://arxiv.org/pdf/2611.27427)  ·  relevance 18
+<br>matched: `neurodegenerative`, `multimodal`
+
+> Accurate differential diagnosis of neurodegenerative disorders remains challenging due to overlapping clinical manifestations and heterogeneous, often incomplete multimodal observations. Existing multimodal models can integrate imaging and clinical measurements but often overlook disease-specific evidence patterns and pairwise relations among competing diagnoses. We therefore propose Knowledge-enhanced Structural Reasoning (KnowSR), which aligns multimodal patient…
+
+### 11. [Bringing AI Assistance to the Beznau Nuclear Power Plant: A Hierarchical System of LLM Agents for Reactor Monitoring](https://arxiv.org/abs/2611.27556)
+**Wenqi Zhou, Leonardo Baldo, Edwin Kolbe, et al.**  ·  `cs.MA`  ·  [abs](https://arxiv.org/abs/2611.27556) · [pdf](https://arxiv.org/pdf/2611.27556)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
+
+> Beznau Unit 1 in Switzerland, in operation since 1969, is the most experienced nuclear reactor still running worldwide. Five decades of incremental modernization have left its monitoring systems, alarm logs, variable catalogs, technical specifications and investigation reports in separate silos that were never designed to be queried together. As a result, investigating a core instrumentation anomaly means slow, manual gathering of knowledge scattered across databases,…
+
+### 12. [Interpretable Tissue Architecture Complements Pathology Foundation Models](https://arxiv.org/abs/2611.27881)
+**Zeeshan Shahid, Hammam M. AlGhamdi**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.27881) · [pdf](https://arxiv.org/pdf/2611.27881)  ·  relevance 18
+<br>matched: `foundation model`, `interpretab`
+
+> Tissue architecture provides important information for histopathological assessment, yet its complementary predictive value alongside pathology foundation-model representations remains insufficiently understood. This study investigates whether interpretable measurements of cellular and multicellular tissue organization provide additional predictive information beyond learned representations. We introduce a 139-dimensional cellular-to-community representation comprising nine…
 
 
-<sub>Generated 2026-11-22 20:20 UTC via the arXiv API.</sub>
+<sub>Generated 2026-11-24 00:50 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-11-24](digests/2026-11-24.md) — 12 papers
 - [2026-11-22](digests/2026-11-22.md) — 12 papers
 - [2026-11-21](digests/2026-11-21.md) — 12 papers
 - [2026-11-20](digests/2026-11-20.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-09-25](digests/2026-09-25.md) — 12 papers
 - [2026-09-24](digests/2026-09-24.md) — 12 papers
 - [2026-09-23](digests/2026-09-23.md) — 12 papers
-- [2026-09-22](digests/2026-09-22.md) — 12 papers
 
-_…and 85 earlier digests in [`digests/`](digests/)._
+_…and 86 earlier digests in [`digests/`](digests/)._
 
 ---
 
