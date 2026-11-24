@@ -33,80 +33,80 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [Spatiotemporal Graph Neural Networks for Fault Detection and Structural Learning in Chemical Processes: Use Case on the Tennessee Eastman Process](https://arxiv.org/abs/2611.27698)
-**Rayane Ammar Khodja, Alexandre Voisin, Victor Costa, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.27698) · [pdf](https://arxiv.org/pdf/2611.27698)  ·  relevance 34
-<br>matched: `graph neural network`, `graph neural`, `gnn`, `interpretab`
+### 1. [Towards Global Counterfactual-Based Self-Explainable Graph Neural Networks](https://arxiv.org/abs/2611.29681)
+**Wendy Zheng, Yinhan He, Jundong Li**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.29681) · [pdf](https://arxiv.org/pdf/2611.29681)  ·  relevance 40
+<br>matched: `graph neural network`, `graph neural`, `gnn`, `explainab`
 
-> Classical Fault Detection and Diagnosis (FDD) methods, including many data-driven approaches, assume a static normal operating space and interpret deviations from a fixed reference as fault indicators. When Operating Conditions (OCs) vary over time, this assumption breaks down: legitimate transitions trigger false alarms while moderate faults go undetected. We propose a spatiotemporal Graph Neural Network (GNN) framework that decomposes the normal operating space into…
+> Graph Counterfactual Explanations (GCEs) have emerged as an effective approach for interpreting Graph Neural Network (GNN) predictions by identifying minimal graph modifications needed to change predictions. However, existing methods suffer from two fundamental limitations: (1) They rely on a post-hoc explanation paradigm, where a separate explainer is trained after the GNN. This sequential optimization prevents the explainer from leveraging how the GNN learned its…
 
-### 2. [LesionAgent: Training-Free Agentic Tumor Tracking and Response Assessment in Longitudinal CT](https://arxiv.org/abs/2611.27876)
-**Maximilian Rokuss, Jeya Maria Jose Valanarasu, Alejandro Lozano, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.27876) · [pdf](https://arxiv.org/pdf/2611.27876)  ·  relevance 21
-<br>matched: `foundation model`, `longitudinal`, `llm`, `agent`
+### 2. [Direct Conditioning of Audio Diffusion Transformers on fMRI Reveals Cortical Contributions to Sound Reconstruction](https://arxiv.org/abs/2611.12603)
+**Matteo Ciferri, Tonio Weidler, Matteo Ferrante, et al.**  ·  `cs.SD`  ·  [abs](https://arxiv.org/abs/2611.12603) · [pdf](https://arxiv.org/pdf/2611.12603)  ·  relevance 30
+<br>matched: `cortical`, `fmri`, `diffusion model`, `transformer`
 
-> Every few months, a cancer patient's CT scans decide whether treatment continues. 3D foundation models can now detect, segment, register and track lesions, yet none of them reads the scans as a radiologist does. A radiologist decides which findings are lesions, which are the same lesion months later and whether a new spot means progression, and checks each decision against the extensive rules of a clinical guideline. We introduce LesionAgent, an LLM agent that performs this…
+> Reconstructing audio from brain activity remains challenging. Existing brain-to-audio pipelines typically map neural responses to predefined stimulus representations before synthesis. While recent work in the visual domain has explored direct conditioning on brain activity, this approach has not yet been extended to audio diffusion models. We introduce MAAS (Multi-Area Auditory Synthesis), an end-to-end framework that conditions a pretrained audio diffusion transformer on…
 
-### 3. [CanopyFormer: Attention-Guided SegFormer for Explainable Forest Cover Segmentation](https://arxiv.org/abs/2611.27674)
-**Dhinanjaya Fernando, Dinura Ginige, Kalana Lakshan, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.27674) · [pdf](https://arxiv.org/pdf/2611.27674)  ·  relevance 20
-<br>matched: `transformer`, `segmentation`, `interpretab`, `explainab`
+### 3. [LimeTree: Linear-Memory Graph Neural Networks over Tree-Graphs for Resource-Efficient Language Modeling and Context Extrapolation](https://arxiv.org/abs/2611.30934)
+**Elisabeth Fink**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.30934) · [pdf](https://arxiv.org/pdf/2611.30934)  ·  relevance 29
+<br>matched: `graph neural network`, `graph neural`, `transformer`
 
-> In transformer segmentation models, attention is usually visualized after training rather than supervised. Although attention supervision has been explored for natural images and driving scenes, aerial forest segmentation typically uses attention only as an architectural component and evaluates interpretability qualitatively. We present CanopyFormer, an attention-guided SegFormer-B0 that uses an Attention Consistency Loss to align attention with the ground-truth forest mask,…
+> The search for computationally efficient alternatives to the Transformer has yielded numerous architectures in recent years; however, most exhibit severe weaknesses in associative recall-such as key-value (KV) retrieval-and length extrapolation, where even standard Transformers struggle. This paper introduces LimeTree, a linear-complexity architecture in both memory and compute for sequence modeling. By integrating synthetic KV retrieval tasks directly into standard language…
 
-### 4. [Decision Columns as an Index: Interpretable Embeddings for Explainable Entity Matching and Search](https://arxiv.org/abs/2611.27910)
-**Aadharsh Kannan, Robert Bruckner, Philip A. Bernstein**  ·  `cs.IR`  ·  [abs](https://arxiv.org/abs/2611.27910) · [pdf](https://arxiv.org/pdf/2611.27910)  ·  relevance 20
-<br>matched: `agent`, `interpretab`, `explainab`
+### 4. [From Observation to Explanation: Mechanistic Interpretability of LLM-Generated Code for Principled Repair](https://arxiv.org/abs/2611.28153)
+**Musfiqur Rahman**  ·  `cs.SE`  ·  [abs](https://arxiv.org/abs/2611.28153) · [pdf](https://arxiv.org/pdf/2611.28153)  ·  relevance 28
+<br>matched: `longitudinal`, `transformer`, `large language model`, `llm`, `agent`, `interpretab`
 
-> Business data systems must determine whether records refer to the same entity and retrieve records satisfying requests whose decisive properties are implicit. As agents act on these records, both tasks require auditable reasons. Dense embeddings perform well but offer opaque coordinates, cannot be filtered by meaning, and require corpus re-encoding to add new properties. We propose interpretable embeddings built from decision columns: each column stores a decision model's…
+> Large language models (LLMs) have transformed software development, yet our understanding of how they generate code remains critically underdeveloped. We address this gap by triangulating evidence across three layers. Longitudinally, autonomous agent-attributed code is statistically indistinguishable from human code under a semantic modification definition (HR = 1.019, p = 0.490), yet attracts disproportionately corrective modifications in production (49.1% vs 37.9% human…
 
-### 5. [UDA-Restoration: Bridging Unsupervised Domain Adaptation and Multi-Degradation Denoising for Enhanced AV Semantic Segmentation](https://arxiv.org/abs/2611.27097)
-**Zainab Bibi, Mohsin Kamal**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.27097) · [pdf](https://arxiv.org/pdf/2611.27097)  ·  relevance 19
-<br>matched: `self-supervised`, `segmentation`, `domain adaptation`
+### 5. [Aggregation Dispersion: An Information-Geometric Diagnostic of Oversmoothing in Graph Neural Networks](https://arxiv.org/abs/2611.29600)
+**Abdessalam Ed-dib, Amine Mohamed Aboussalah**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.29600) · [pdf](https://arxiv.org/pdf/2611.29600)  ·  relevance 27
+<br>matched: `graph neural network`, `graph neural`
 
-> Autonomous vehicles rely heavily on vision-based perception systems for safe navigation and decision-making. Adverse weather conditions, sensor noise, moving artifacts and illumination changes, however, often degrade the image quality and hence reduce perception performance. This paper introduces a diffusion-guided unsupervised domain adaptation algorithm for autonomous driving environments, namely UDA-Restoration, which is designed to enhance and denoise images. The…
+> Message-passing neural networks (MPNNs) learn node representations by iteratively aggregating information from neighbors, but stacking too many layers causes all representations to converge, an effect known as oversmoothing. We propose a geometric perspective on this phenomenon. At each depth $k$, the propagation operator assigns to every node $v$ a walk distribution $p_v^{(k)}$, a probability distribution over source nodes. These walk distributions form a point cloud on the…
 
-### 6. [FM4SAR-Bench 1.0: Towards A Fair Benchmark for Evaluating Foundation Models for SAR Image Interpretation](https://arxiv.org/abs/2611.27158)
-**Mingyao Chen, Yongxiang Liu, Tianpeng Liu, et al.**  ·  `eess.IV`  ·  [abs](https://arxiv.org/abs/2611.27158) · [pdf](https://arxiv.org/pdf/2611.27158)  ·  relevance 18
-<br>matched: `foundation model`, `large language model`, `interpretab`, `multimodal`
+### 6. [Potential Games for Self-Neighborhood Channel Mixing in Graph Neural Networks](https://arxiv.org/abs/2611.30829)
+**Marco Lavorini, Davide Bacciu, Giancarlo Bigi**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.30829) · [pdf](https://arxiv.org/pdf/2611.30829)  ·  relevance 27
+<br>matched: `graph neural network`, `graph neural`
 
-> Foundation models have advanced SAR image interpretation but created a heterogeneous, fragmented model ecosystem. Existing models differ substantially in their input, training data, objectives, architectures, and release policy, yet the field lacks a unified taxonomy and comparative framework. Current evaluations rely primarily on task-specific benchmarks, which are ill-suited to fair comparison among models with fundamentally different input-output formats and task…
+> Graph message passing must balance two competing objectives: incorporating neighborhood signals while preserving node-specific information. We model this trade-off as a game in which nodes choose how to mix their own representations with strict-neighborhood aggregates. For fixed channel representations, task supervision defines a common-payoff game, while local distinctness payoffs induce an exact potential game whose potential is the degree-normalized strict Dirichlet…
 
-### 7. [ChatAtom: A Multi-Agent LLM System for Molecular Dynamics Simulation and Visualization](https://arxiv.org/abs/2611.26782)
-**Trupti Mohanty, Ming Du, Mitchell A. Wood, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.26782) · [pdf](https://arxiv.org/pdf/2611.26782)  ·  relevance 18
-<br>matched: `large language model`, `llm`, `agent`
+### 7. [StudioBench: Benchmarking Agentic Multimodal Large Language Models for Productive Audiovisual Creation](https://arxiv.org/abs/2611.28902)
+**Xinglong Xu, Yuxia Zhu, Siyuan Li, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.28902) · [pdf](https://arxiv.org/pdf/2611.28902)  ·  relevance 27
+<br>matched: `large language model`, `llm`, `agent`, `multimodal`
 
-> Molecular dynamics (MD) simulation resolves atomic-scale motion and predicts the structural, mechanical, and dynamic properties of materials, making it cen- tral to materials design and discovery. Yet an MD study requires an expert-driven workflow: designing the simulation, writing reliable input scripts, executing them, and analyzing the results with separate tools. Here we present ChatAtom, a multi-agent large language model system that translates a natural-language…
+> Video generators can now render convincing short clips, yet complete audiovisual works require coordinating visuals, sound, and editing across multiple stages. Existing benchmarks focus on individual generators or video agents under narrower production settings, leaving end-to-end creation by general multimodal large language models (MLLMs) underexplored. We introduce StudioBench, a benchmark comprising 160 tasks across eight video genres and five task types, spanning…
 
-### 8. [Beyond Final Answers: Interpretable Tumor Immune Microenvironment Reasoning from H&E and mIF](https://arxiv.org/abs/2611.26794)
-**Yixuan Duan, Kexin Geng, Hanwen Xu, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.26794) · [pdf](https://arxiv.org/pdf/2611.26794)  ·  relevance 18
-<br>matched: `large language model`, `llm`, `interpretab`, `multimodal`
+### 8. [Lorentz symmetry in self-supervised representation learning](https://arxiv.org/abs/2611.31011)
+**Andreas Hermansen, Tobias Golling, Slava Voloshynovskiy**  ·  `hep-ph`  ·  [abs](https://arxiv.org/abs/2611.31011) · [pdf](https://arxiv.org/pdf/2611.31011)  ·  relevance 26
+<br>matched: `representation learning`, `self-supervised`, `transformer`
 
-> Readouts of the tumor immune microenvironment (TIME), such as CD8+ T-cell density, intra-epithelial infiltration and the Ki67 index, combine tissue architecture from H&E with cell phenotypes from multiplex immunofluorescence (mIF). Multimodal large language models (MLLMs) could automate these readouts with an explanation, but two gaps remain. Pathology MLLMs read H&E alone, while these readouts need the cell phenotypes that mIF measures. And their reasoning has no step-level…
+> Self-supervised learning (SSL) and explicit physical inductive biases have driven major advances in jet tagging, yet they are typically pursued along separate tracks. In this work, we unify both paradigms by integrating the Lorentz-equivariant Geometric Algebra Transformer slim (L-GATr-slim) architecture with the LeJEPA framework for representation learning. Pre-training on 100 million jets from the JetClass dataset, we optimize towards a latent space, which is invariant…
 
-### 9. [DermKG: A Concept-Centric Knowledge Graph for Interpretable Skin Disease Diagnosis from Dermatological Morphology](https://arxiv.org/abs/2611.27283)
-**Cheng Huang, Yanmei Li, Mao Lin**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.27283) · [pdf](https://arxiv.org/pdf/2611.27283)  ·  relevance 18
-<br>matched: `graph neural network`, `graph neural`, `interpretab`
+### 9. [HEART: Hierarchical Expert Adaptive Refinement Transformer for ECG Representation Learning](https://arxiv.org/abs/2611.30298)
+**Junho Song, Jong-Hwan Jang, Joon-Myoung Kwon, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.30298) · [pdf](https://arxiv.org/pdf/2611.30298)  ·  relevance 25
+<br>matched: `representation learning`, `self-supervised`, `foundation model`, `transformer`
 
-> Dermatologists describe lesions with a standardized morphological lexicon, which makes concept-based models attractive for interpretable skin disease diagnosis. How much diagnostic information these concepts actually carry, however, is rarely quantified. We present DermKG, a concept-centric knowledge graph built on the expert-annotated SkinCon subset of Fitzpatrick17k (3,230 images, 48 concepts, 113 diseases). DermKG has 3,452 nodes of 8 types and 19,365 edges of 11 relation…
+> Learning robust representations from electrocardiograms (ECGs) is challenging because repeated cardiac cycles coexist with subtle and sparse diagnostic cues in local morphology and rhythm-level context. Existing ECG foundation models commonly rely on Transformerbased patch encoders with uniformly shared dense refinement pathways, limiting adaptive processing across heterogeneous ECG tokens. We propose HEART (Hierarchical Expert Adaptive Refinement Transformer), an ECG…
 
-### 10. [Neurodegenerative Differential Diagnosis with Knowledge-enhanced Structural Reasoning](https://arxiv.org/abs/2611.27427)
-**Mingxuan Wang, Siyuan Du, Yanfeng Wang, et al.**  ·  `cs.CE`  ·  [abs](https://arxiv.org/abs/2611.27427) · [pdf](https://arxiv.org/pdf/2611.27427)  ·  relevance 18
-<br>matched: `neurodegenerative`, `multimodal`
+### 10. [Learning from Another Angle: Rotation-Based Test-Time Training for Multimodal Large Language Models](https://arxiv.org/abs/2611.28972)
+**Changyu Liu, Fei Zhao, Yiyang Liu, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.28972) · [pdf](https://arxiv.org/pdf/2611.28972)  ·  relevance 25
+<br>matched: `self-supervised`, `large language model`, `llm`, `multimodal`
 
-> Accurate differential diagnosis of neurodegenerative disorders remains challenging due to overlapping clinical manifestations and heterogeneous, often incomplete multimodal observations. Existing multimodal models can integrate imaging and clinical measurements but often overlook disease-specific evidence patterns and pairwise relations among competing diagnoses. We therefore propose Knowledge-enhanced Structural Reasoning (KnowSR), which aligns multimodal patient…
+> Multimodal Large Language Models (MLLMs) achieve strong performance on vision-language tasks but often remain vulnerable to distribution shifts due to their fixed parameters during inference. While Test-Time Training (TTT) offers a pathway for dynamic adaptation, existing approaches suffer from prohibitive computational overhead due to multiple sampling and the risk of error reinforcement from biased self-generated supervision. In light of this view, we propose RoTTT…
 
-### 11. [Bringing AI Assistance to the Beznau Nuclear Power Plant: A Hierarchical System of LLM Agents for Reactor Monitoring](https://arxiv.org/abs/2611.27556)
-**Wenqi Zhou, Leonardo Baldo, Edwin Kolbe, et al.**  ·  `cs.MA`  ·  [abs](https://arxiv.org/abs/2611.27556) · [pdf](https://arxiv.org/pdf/2611.27556)  ·  relevance 18
-<br>matched: `large language model`, `llm`, `agent`
+### 11. [SleepXA: Composing Pretrained Neural and Cardiac Foundation Models for Sleep Representation Learning](https://arxiv.org/abs/2611.29364)
+**Xiaoyu Chen, Xiao Gu, Chao Zhang, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.29364) · [pdf](https://arxiv.org/pdf/2611.29364)  ·  relevance 24
+<br>matched: `representation learning`, `foundation model`, `multimodal`
 
-> Beznau Unit 1 in Switzerland, in operation since 1969, is the most experienced nuclear reactor still running worldwide. Five decades of incremental modernization have left its monitoring systems, alarm logs, variable catalogs, technical specifications and investigation reports in separate silos that were never designed to be queried together. As a result, investigating a core instrumentation anomaly means slow, manual gathering of knowledge scattered across databases,…
+> Physiological signals recorded during sleep provide synchronized views of neural, cardiac, respiratory, and other bodily systems, while preserving modality-specific information. Existing EEG and ECG foundation models already capture rich but distinct physiological structure, motivating an alternative to training a multimodal sleep model from scratch: composing existing pretrained models. We introduce SleepXA, a framework that uses synchronized polysomnography (PSG) to…
 
-### 12. [Interpretable Tissue Architecture Complements Pathology Foundation Models](https://arxiv.org/abs/2611.27881)
-**Zeeshan Shahid, Hammam M. AlGhamdi**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.27881) · [pdf](https://arxiv.org/pdf/2611.27881)  ·  relevance 18
-<br>matched: `foundation model`, `interpretab`
+### 12. [From Local Errors to System Failures: Modeling and Benchmarking Error Propagation in Multi-Agent LLM Systems](https://arxiv.org/abs/2611.31063)
+**Wenlong Yu, Bingxu Lu, Qilong Wang, et al.**  ·  `cs.MA`  ·  [abs](https://arxiv.org/abs/2611.31063) · [pdf](https://arxiv.org/pdf/2611.31063)  ·  relevance 24
+<br>matched: `large language model`, `llm`, `agent`, `retrieval-augmented`, `interpretab`
 
-> Tissue architecture provides important information for histopathological assessment, yet its complementary predictive value alongside pathology foundation-model representations remains insufficiently understood. This study investigates whether interpretable measurements of cellular and multicellular tissue organization provide additional predictive information beyond learned representations. We introduce a 139-dimensional cellular-to-community representation comprising nine…
+> In multi-agent systems (MAS) built on large language models (LLMs), errors can propagate through intermediate messages and compromise final answers. However, outcome-based evaluation obscures how agents amplify, attenuate, or correct these errors. We propose Response-Aware Error Propagation among Agents (REPA), a structural model that connects measured local responses to system-level error propagation. REPA separately estimates input assembly and agent processing across…
 
 
-<sub>Generated 2026-11-24 00:50 UTC via the arXiv API.</sub>
+<sub>Generated 2026-11-24 23:00 UTC via the arXiv API.</sub>
 
 ---
 
