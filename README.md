@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-11-24** · browse the full archive below.
+**Latest digest: 2026-11-25** · browse the full archive below.
 
 ## How it works
 
@@ -29,89 +29,90 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-11-24
+# arXiv AI/ML digest — 2026-11-25
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [Towards Global Counterfactual-Based Self-Explainable Graph Neural Networks](https://arxiv.org/abs/2611.29681)
-**Wendy Zheng, Yinhan He, Jundong Li**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.29681) · [pdf](https://arxiv.org/pdf/2611.29681)  ·  relevance 40
-<br>matched: `graph neural network`, `graph neural`, `gnn`, `explainab`
+### 1. [ST-GNN-AAAS: Spatio-Temporal Graph Neural Networks for Anytime Automatic Algorithm Selection in the Traveling Salesman Problem](https://arxiv.org/abs/2611.32602)
+**Zeyu Zhang, Mustafa Misir**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.32602) · [pdf](https://arxiv.org/pdf/2611.32602)  ·  relevance 39
+<br>matched: `graph neural network`, `graph neural`, `gnn`
 
-> Graph Counterfactual Explanations (GCEs) have emerged as an effective approach for interpreting Graph Neural Network (GNN) predictions by identifying minimal graph modifications needed to change predictions. However, existing methods suffer from two fundamental limitations: (1) They rely on a post-hoc explanation paradigm, where a separate explainer is trained after the GNN. This sequential optimization prevents the explainer from leveraging how the GNN learned its…
+> Anytime Automatic Algorithm Selection (AAAS) aims to make solver choices under varying time budgets. The existing AAAS approaches largely rely on static instance characteristics and make limited use of temporal information revealed during solver execution. We propose ST-GNN-AAAS, a Spatio-Temporal Graph Neural Network framework for AAAS in the Traveling Salesman Problem (TSP). The framework represents evolving incumbent tours using time-varying node features, including…
 
-### 2. [Direct Conditioning of Audio Diffusion Transformers on fMRI Reveals Cortical Contributions to Sound Reconstruction](https://arxiv.org/abs/2611.12603)
+### 2. [Analysis of Federated Graph Neural Networks for Predicting Nuclear Core Properties](https://arxiv.org/abs/2611.32509)
+**Oliver Ko\v{z}ul, Mihailo Ili\'c, Julia Bartos, et al.**  ·  `cs.DC`  ·  [abs](https://arxiv.org/abs/2611.32509) · [pdf](https://arxiv.org/pdf/2611.32509)  ·  relevance 31
+<br>matched: `graph neural network`, `graph neural`, `gnn`
+
+> Federated learning has grown in popularity owing to the increasing data privacy and safety concerns. It allows multiple parties to collaboratively train a model without exchanging their raw data. As an example of highly sensitive infrastructure of national importance, nuclear reactors benefit from this approach, where---while pooling multiple large datasets from different institutions could improve machine learning solutions---the confidentiality of the datasets is…
+
+### 3. [Direct Conditioning of Audio Diffusion Transformers on fMRI Reveals Cortical Contributions to Sound Reconstruction](https://arxiv.org/abs/2611.12603)
 **Matteo Ciferri, Tonio Weidler, Matteo Ferrante, et al.**  ·  `cs.SD`  ·  [abs](https://arxiv.org/abs/2611.12603) · [pdf](https://arxiv.org/pdf/2611.12603)  ·  relevance 30
 <br>matched: `cortical`, `fmri`, `diffusion model`, `transformer`
 
 > Reconstructing audio from brain activity remains challenging. Existing brain-to-audio pipelines typically map neural responses to predefined stimulus representations before synthesis. While recent work in the visual domain has explored direct conditioning on brain activity, this approach has not yet been extended to audio diffusion models. We introduce MAAS (Multi-Area Auditory Synthesis), an end-to-end framework that conditions a pretrained audio diffusion transformer on…
 
-### 3. [LimeTree: Linear-Memory Graph Neural Networks over Tree-Graphs for Resource-Efficient Language Modeling and Context Extrapolation](https://arxiv.org/abs/2611.30934)
-**Elisabeth Fink**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.30934) · [pdf](https://arxiv.org/pdf/2611.30934)  ·  relevance 29
-<br>matched: `graph neural network`, `graph neural`, `transformer`
+### 4. [CSC-Mamba: Bridging multimodal convolutional sparse coding and state space models for multi-contrast MRI super-resolution](https://arxiv.org/abs/2611.32144)
+**Iman Marivani, David Van Hamme, Jan Aelterman, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.32144) · [pdf](https://arxiv.org/pdf/2611.32144)  ·  relevance 24
+<br>matched: `interpretab`, `multimodal`, `state space model`, `mamba`
 
-> The search for computationally efficient alternatives to the Transformer has yielded numerous architectures in recent years; however, most exhibit severe weaknesses in associative recall-such as key-value (KV) retrieval-and length extrapolation, where even standard Transformers struggle. This paper introduces LimeTree, a linear-complexity architecture in both memory and compute for sequence modeling. By integrating synthetic KV retrieval tasks directly into standard language…
+> Multi-contrast MRI super-resolution accelerates clinical protocols by reconstructing high-resolution (HR) target modalities from low-resolution (LR) inputs, guided by easily acquired reference contrasts. While purely data-driven deep neural networks achieve strong performance via rich representation capacity, they rely on heuristic fusion mechanisms (e.g., naive concatenation or black-box cross-attention) that lack theoretical grounding. Alternatively, model-based deep…
 
-### 4. [From Observation to Explanation: Mechanistic Interpretability of LLM-Generated Code for Principled Repair](https://arxiv.org/abs/2611.28153)
-**Musfiqur Rahman**  ·  `cs.SE`  ·  [abs](https://arxiv.org/abs/2611.28153) · [pdf](https://arxiv.org/pdf/2611.28153)  ·  relevance 28
-<br>matched: `longitudinal`, `transformer`, `large language model`, `llm`, `agent`, `interpretab`
+### 5. [A multimodal foundation model for tissue proteomics and morphology in cancer](https://arxiv.org/abs/2611.31451)
+**Benedikt von Querfurth, Lukas Klein, C\'edric Vincent-Cuaz, et al.**  ·  `q-bio.QM`  ·  [abs](https://arxiv.org/abs/2611.31451) · [pdf](https://arxiv.org/pdf/2611.31451)  ·  relevance 22
+<br>matched: `foundation model`, `transformer`, `segmentation`, `multimodal`
 
-> Large language models (LLMs) have transformed software development, yet our understanding of how they generate code remains critically underdeveloped. We address this gap by triangulating evidence across three layers. Longitudinally, autonomous agent-attributed code is statistically indistinguishable from human code under a semantic modification definition (HR = 1.019, p = 0.490), yet attracts disproportionately corrective modifications in production (49.1% vs 37.9% human…
+> Cancer diagnosis, prognosis, and treatment decisions increasingly rely on integrating tissue morphology with specific molecular readouts of the tumor and its microenvironment. H&E histopathology provides scalable morphology, whereas multiplex spatial proteomics quantifies dozens of proteins in situ with spatial context, but remains selectively deployed, often with different marker panels across cohorts. This creates a translational bottleneck: most patients lack high-depth…
 
-### 5. [Aggregation Dispersion: An Information-Geometric Diagnostic of Oversmoothing in Graph Neural Networks](https://arxiv.org/abs/2611.29600)
-**Abdessalam Ed-dib, Amine Mohamed Aboussalah**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.29600) · [pdf](https://arxiv.org/pdf/2611.29600)  ·  relevance 27
-<br>matched: `graph neural network`, `graph neural`
+### 6. [Scale-Robust and Global-Aware Representation Learning for Multivariate Time Series Anomaly Detection](https://arxiv.org/abs/2611.32033)
+**Gyuwon Lee, Saejoon Park, Won-Seok Hwang, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.32033) · [pdf](https://arxiv.org/pdf/2611.32033)  ·  relevance 21
+<br>matched: `graph neural network`, `graph neural`, `representation learning`
 
-> Message-passing neural networks (MPNNs) learn node representations by iteratively aggregating information from neighbors, but stacking too many layers causes all representations to converge, an effect known as oversmoothing. We propose a geometric perspective on this phenomenon. At each depth $k$, the propagation operator assigns to every node $v$ a walk distribution $p_v^{(k)}$, a probability distribution over source nodes. These walk distributions form a point cloud on the…
+> Multivariate time series anomaly detection (MTSAD) is an essential task for identifying abnormal system behaviors and supporting reliable operations across diverse real-world applications. Despite substantial advances in MTSAD, two key challenges in representation learning remain underexplored: (C1) how to learn scale-robust temporal representations that capture anomalies across different temporal scales and (C2) how to learn global-aware relational representations that…
 
-### 6. [Potential Games for Self-Neighborhood Channel Mixing in Graph Neural Networks](https://arxiv.org/abs/2611.30829)
-**Marco Lavorini, Davide Bacciu, Giancarlo Bigi**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.30829) · [pdf](https://arxiv.org/pdf/2611.30829)  ·  relevance 27
-<br>matched: `graph neural network`, `graph neural`
+### 7. [ASTERISM: Do Multimodal LLMs Actually Look at All the Images?](https://arxiv.org/abs/2611.32316)
+**Chanseul Cho, Dongwoo Kim, Noori Bae, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.32316) · [pdf](https://arxiv.org/pdf/2611.32316)  ·  relevance 21
+<br>matched: `large language model`, `llm`, `multimodal`
 
-> Graph message passing must balance two competing objectives: incorporating neighborhood signals while preserving node-specific information. We model this trade-off as a game in which nodes choose how to mix their own representations with strict-neighborhood aggregates. For fixed channel representations, task supervision defines a common-payoff game, while local distinctness payoffs induce an exact potential game whose potential is the degree-normalized strict Dirichlet…
+> Multi-image benchmarks aim to test whether a multimodal large language model (MLLM) combines evidence across images, but many of their items can be answered from a single image. Across about 33k items from 19 public benchmarks, our audit and a two-stage single-image filter find that one image or the question alone settles 24.2% of them. On these items, MLLMs recover from one image a median 78% of the accuracy that all images add over the text alone, so these items reward…
 
-### 7. [StudioBench: Benchmarking Agentic Multimodal Large Language Models for Productive Audiovisual Creation](https://arxiv.org/abs/2611.28902)
-**Xinglong Xu, Yuxia Zhu, Siyuan Li, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.28902) · [pdf](https://arxiv.org/pdf/2611.28902)  ·  relevance 27
-<br>matched: `large language model`, `llm`, `agent`, `multimodal`
+### 8. [Clinical3D-Bench: Evaluating and Improving Spatial Intelligence of Multimodal LLMs in Hospital Environments](https://arxiv.org/abs/2611.32094)
+**Yang Bai, Yingzhi Xia, Ling Lin, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.32094) · [pdf](https://arxiv.org/pdf/2611.32094)  ·  relevance 21
+<br>matched: `large language model`, `llm`, `multimodal`
 
-> Video generators can now render convincing short clips, yet complete audiovisual works require coordinating visuals, sound, and editing across multiple stages. Existing benchmarks focus on individual generators or video agents under narrower production settings, leaving end-to-end creation by general multimodal large language models (MLLMs) underexplored. We introduce StudioBench, a benchmark comprising 160 tasks across eight video genres and five task types, spanning…
+> Spatial reasoning in hospitals requires tracking look-alike equipment, interpreting patient-relative directions, and judging passage widths, yet existing benchmarks provide limited coverage of these abilities. We introduce Clinical3D-Bench, a simulated benchmark with 3,368 questions of eight types on egocentric walkthroughs of 373 hospital-room layouts. Layouts follow hospital design guidelines, answers are computed from the 3D scenes, and paired scene states test whether…
 
-### 8. [Lorentz symmetry in self-supervised representation learning](https://arxiv.org/abs/2611.31011)
-**Andreas Hermansen, Tobias Golling, Slava Voloshynovskiy**  ·  `hep-ph`  ·  [abs](https://arxiv.org/abs/2611.31011) · [pdf](https://arxiv.org/pdf/2611.31011)  ·  relevance 26
-<br>matched: `representation learning`, `self-supervised`, `transformer`
+### 9. [C3H: Compression-to-Consensus Criteria Hijacking in Multimodal LLM Recommender Systems](https://arxiv.org/abs/2611.32780)
+**Guowei Guan, Yurong Hao, Jiaming Zhang, et al.**  ·  `cs.CR`  ·  [abs](https://arxiv.org/abs/2611.32780) · [pdf](https://arxiv.org/pdf/2611.32780)  ·  relevance 21
+<br>matched: `large language model`, `llm`, `multimodal`
 
-> Self-supervised learning (SSL) and explicit physical inductive biases have driven major advances in jet tagging, yet they are typically pursued along separate tracks. In this work, we unify both paradigms by integrating the Lorentz-equivariant Geometric Algebra Transformer slim (L-GATr-slim) architecture with the LeJEPA framework for representation learning. Pre-training on 100 million jets from the JetClass dataset, we optimize towards a latent space, which is invariant…
+> Multimodal large language models (MLLMs) are transforming recommender systems into content-aware decision systems. In these systems, multimodal compression and cross-modal fusion are often viewed as robustness-enhancing mechanisms against content manipulation, as compression can filter noisy signals and cross-modal consensus can suppress inconsistent anomalies. We challenge this assumption by showing that the same process can expose a compression-to-consensus (C2C) bias in…
 
-### 9. [HEART: Hierarchical Expert Adaptive Refinement Transformer for ECG Representation Learning](https://arxiv.org/abs/2611.30298)
-**Junho Song, Jong-Hwan Jang, Joon-Myoung Kwon, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.30298) · [pdf](https://arxiv.org/pdf/2611.30298)  ·  relevance 25
-<br>matched: `representation learning`, `self-supervised`, `foundation model`, `transformer`
+### 10. [InCue: Making Better Use of What Multimodal LLMs Already See at Test Time](https://arxiv.org/abs/2611.31987)
+**Shuwei Wu, Siyue Yu, Longin Jan Latecki**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.31987) · [pdf](https://arxiv.org/pdf/2611.31987)  ·  relevance 21
+<br>matched: `large language model`, `llm`, `multimodal`
 
-> Learning robust representations from electrocardiograms (ECGs) is challenging because repeated cardiac cycles coexist with subtle and sparse diagnostic cues in local morphology and rhythm-level context. Existing ECG foundation models commonly rely on Transformerbased patch encoders with uniformly shared dense refinement pathways, limiting adaptive processing across heterogeneous ECG tokens. We propose HEART (Hierarchical Expert Adaptive Refinement Transformer), an ECG…
+> Even when multimodal large language models (MLLMs) answer incorrectly, their internal cues often point to the relevant region. A widely used remedy re-presents the cue-selected region as an enlarged crop to supply finer detail. However, we find that much of its gain requires no new detail: it largely survives when the crop comes from the already-seen low-resolution input, and partly even when the region's cached tokens are merely copied. Part of re-presentation's gain thus…
 
-### 10. [Learning from Another Angle: Rotation-Based Test-Time Training for Multimodal Large Language Models](https://arxiv.org/abs/2611.28972)
-**Changyu Liu, Fei Zhao, Yiyang Liu, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.28972) · [pdf](https://arxiv.org/pdf/2611.28972)  ·  relevance 25
-<br>matched: `self-supervised`, `large language model`, `llm`, `multimodal`
+### 11. [IMPACT-Seg: Consistent Anatomical Segmentation and Representation Learning Across CT, CBCT, and MRI](https://arxiv.org/abs/2611.32903)
+**C\'edric H\'emon, Valentin Boussot, Matthew McCormick, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.32903) · [pdf](https://arxiv.org/pdf/2611.32903)  ·  relevance 21
+<br>matched: `representation learning`, `segmentation`, `multimodal`
 
-> Multimodal Large Language Models (MLLMs) achieve strong performance on vision-language tasks but often remain vulnerable to distribution shifts due to their fixed parameters during inference. While Test-Time Training (TTT) offers a pathway for dynamic adaptation, existing approaches suffer from prohibitive computational overhead due to multiple sampling and the risk of error reinforcement from biased self-generated supervision. In light of this view, we propose RoTTT…
+> Computed tomography (CT), cone-beam CT (CBCT), and magnetic resonance imaging (MRI) provide complementary representations of the same underlying anatomy, yet substantial differences in image appearance challenge consistent segmentation and deformable registration in adaptive radiotherapy. We investigate whether dense anatomical segmentation supervision can promote cross-modality correspondence without explicit feature alignment. We introduce IMPACT-Seg, which segments 126…
 
-### 11. [SleepXA: Composing Pretrained Neural and Cardiac Foundation Models for Sleep Representation Learning](https://arxiv.org/abs/2611.29364)
-**Xiaoyu Chen, Xiao Gu, Chao Zhang, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.29364) · [pdf](https://arxiv.org/pdf/2611.29364)  ·  relevance 24
-<br>matched: `representation learning`, `foundation model`, `multimodal`
+### 12. [Evaluating Latent Knowledge Stability in Multimodal Large Language Models](https://arxiv.org/abs/2611.32566)
+**Chuancheng Shi, Shangze Li, Wenhua Wu, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.32566) · [pdf](https://arxiv.org/pdf/2611.32566)  ·  relevance 21
+<br>matched: `large language model`, `llm`, `multimodal`
 
-> Physiological signals recorded during sleep provide synchronized views of neural, cardiac, respiratory, and other bodily systems, while preserving modality-specific information. Existing EEG and ECG foundation models already capture rich but distinct physiological structure, motivating an alternative to training a multimodal sleep model from scratch: composing existing pretrained models. We introduce SleepXA, a framework that uses synchronized polysomnography (PSG) to…
-
-### 12. [From Local Errors to System Failures: Modeling and Benchmarking Error Propagation in Multi-Agent LLM Systems](https://arxiv.org/abs/2611.31063)
-**Wenlong Yu, Bingxu Lu, Qilong Wang, et al.**  ·  `cs.MA`  ·  [abs](https://arxiv.org/abs/2611.31063) · [pdf](https://arxiv.org/pdf/2611.31063)  ·  relevance 24
-<br>matched: `large language model`, `llm`, `agent`, `retrieval-augmented`, `interpretab`
-
-> In multi-agent systems (MAS) built on large language models (LLMs), errors can propagate through intermediate messages and compromise final answers. However, outcome-based evaluation obscures how agents amplify, attenuate, or correct these errors. We propose Response-Aware Error Propagation among Agents (REPA), a structural model that connects measured local responses to system-level error propagation. REPA separately estimates input assembly and agent processing across…
+> Changes in image viewpoint and question formulation can alter latent knowledge representations in multimodal large language models (MLLMs). However, output correctness and overall representational drift provide limited insight into how these changes affect model decisions. We therefore evaluate latent knowledge stability across visual and linguistic elicitation conditions from two complementary perspectives: answer preference and internal support. Specifically, we devise the…
 
 
-<sub>Generated 2026-11-24 23:00 UTC via the arXiv API.</sub>
+<sub>Generated 2026-11-25 22:32 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-11-25](digests/2026-11-25.md) — 12 papers
 - [2026-11-24](digests/2026-11-24.md) — 12 papers
 - [2026-11-22](digests/2026-11-22.md) — 12 papers
 - [2026-11-21](digests/2026-11-21.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-09-26](digests/2026-09-26.md) — 12 papers
 - [2026-09-25](digests/2026-09-25.md) — 12 papers
 - [2026-09-24](digests/2026-09-24.md) — 12 papers
-- [2026-09-23](digests/2026-09-23.md) — 12 papers
 
-_…and 86 earlier digests in [`digests/`](digests/)._
+_…and 87 earlier digests in [`digests/`](digests/)._
 
 ---
 
