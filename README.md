@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-11-25** · browse the full archive below.
+**Latest digest: 2026-11-26** · browse the full archive below.
 
 ## How it works
 
@@ -29,89 +29,90 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-11-25
+# arXiv AI/ML digest — 2026-11-26
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [ST-GNN-AAAS: Spatio-Temporal Graph Neural Networks for Anytime Automatic Algorithm Selection in the Traveling Salesman Problem](https://arxiv.org/abs/2611.32602)
-**Zeyu Zhang, Mustafa Misir**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.32602) · [pdf](https://arxiv.org/pdf/2611.32602)  ·  relevance 39
-<br>matched: `graph neural network`, `graph neural`, `gnn`
+### 1. [Adaptive attention routing multimodal expert graph neural network for drug-drug interaction prediction](https://arxiv.org/abs/2611.33200)
+**Jingyi Yang, Chengcheng Yan, Hongri Cong, et al.**  ·  `q-bio.QM`  ·  [abs](https://arxiv.org/abs/2611.33200) · [pdf](https://arxiv.org/pdf/2611.33200)  ·  relevance 40
+<br>matched: `graph neural network`, `graph neural`, `gnn`, `multimodal`
 
-> Anytime Automatic Algorithm Selection (AAAS) aims to make solver choices under varying time budgets. The existing AAAS approaches largely rely on static instance characteristics and make limited use of temporal information revealed during solver execution. We propose ST-GNN-AAAS, a Spatio-Temporal Graph Neural Network framework for AAAS in the Traveling Salesman Problem (TSP). The framework represents evolving incumbent tours using time-varying node features, including…
+> Accurate prediction of drug-drug interactions (DDIs) is essential for drug safety in combination therapy. Multimodal methods built on knowledge graphs (KGs) already combine molecular structures, substructures, targets and biomedical relations into drug representations, but they still face three problems: features are heterogeneous across modalities, fusion does not adapt to individual drug pairs, and modality-specific information is diluted during integration. We propose the…
 
-### 2. [Analysis of Federated Graph Neural Networks for Predicting Nuclear Core Properties](https://arxiv.org/abs/2611.32509)
-**Oliver Ko\v{z}ul, Mihailo Ili\'c, Julia Bartos, et al.**  ·  `cs.DC`  ·  [abs](https://arxiv.org/abs/2611.32509) · [pdf](https://arxiv.org/pdf/2611.32509)  ·  relevance 31
-<br>matched: `graph neural network`, `graph neural`, `gnn`
+### 2. [Scaling and Cross-Simulation Generalization of Graph Neural Networks for Cosmic-Web Classification in CAMELS](https://arxiv.org/abs/2611.34332)
+**Kalash Thakkar, Unnati Shah**  ·  `astro-ph.CO`  ·  [abs](https://arxiv.org/abs/2611.34332) · [pdf](https://arxiv.org/pdf/2611.34332)  ·  relevance 33
+<br>matched: `graph neural network`, `graph neural`, `gnn`, `transformer`
 
-> Federated learning has grown in popularity owing to the increasing data privacy and safety concerns. It allows multiple parties to collaboratively train a model without exchanging their raw data. As an example of highly sensitive infrastructure of national importance, nuclear reactors benefit from this approach, where---while pooling multiple large datasets from different institutions could improve machine learning solutions---the confidentiality of the datasets is…
+> Graph-based methods can classify galaxies by their dark-matter cosmic-web environments, but reliability beyond development simulations remains uncertain. Galaxy-formation models alter tracer populations and spatial distributions, potentially shifting graph features. We test how graph neural networks scale with independent training realizations and transfer across hydrodynamical simulations. Using the $z=0$ CAMELS IllustrisTNG, SIMBA and Astrid suites, we label galaxies with…
 
-### 3. [Direct Conditioning of Audio Diffusion Transformers on fMRI Reveals Cortical Contributions to Sound Reconstruction](https://arxiv.org/abs/2611.12603)
-**Matteo Ciferri, Tonio Weidler, Matteo Ferrante, et al.**  ·  `cs.SD`  ·  [abs](https://arxiv.org/abs/2611.12603) · [pdf](https://arxiv.org/pdf/2611.12603)  ·  relevance 30
-<br>matched: `cortical`, `fmri`, `diffusion model`, `transformer`
+### 3. [ChemoMAE: Self-Supervised Spectral Representation Learning Reveals Chemical Heterogeneity in Historical Wood](https://arxiv.org/abs/2611.34581)
+**Ryuji Yamaguchi, Miyuki Matsuo**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.34581) · [pdf](https://arxiv.org/pdf/2611.34581)  ·  relevance 26
+<br>matched: `representation learning`, `self-supervised`, `transformer`
 
-> Reconstructing audio from brain activity remains challenging. Existing brain-to-audio pipelines typically map neural responses to predefined stimulus representations before synthesis. While recent work in the visual domain has explored direct conditioning on brain activity, this approach has not yet been extended to audio diffusion models. We introduce MAAS (Multi-Area Auditory Synthesis), an end-to-end framework that conditions a pretrained audio diffusion transformer on…
+> In historical timber buildings, multiple environmental factors act over centuries on wood whose chemical composition varies across anatomical regions, producing complex patterns of degradation. Understanding how timber members degrade is important for the effective conservation and restoration of historical buildings, yet the mechanisms underlying these patterns remain unclear. To investigate these mechanisms, we used self-supervised learning to establish a common basis for…
 
-### 4. [CSC-Mamba: Bridging multimodal convolutional sparse coding and state space models for multi-contrast MRI super-resolution](https://arxiv.org/abs/2611.32144)
-**Iman Marivani, David Van Hamme, Jan Aelterman, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.32144) · [pdf](https://arxiv.org/pdf/2611.32144)  ·  relevance 24
-<br>matched: `interpretab`, `multimodal`, `state space model`, `mamba`
+### 4. [GeoCAM: Self-Supervised Sonar-Optical Representation Learning via Geographic Overlap Supervision](https://arxiv.org/abs/2611.34218)
+**Fadi Abdeladhim Zidi, Andrea De Salve, Giuseppe Celeste, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.34218) · [pdf](https://arxiv.org/pdf/2611.34218)  ·  relevance 24
+<br>matched: `representation learning`, `self-supervised`
 
-> Multi-contrast MRI super-resolution accelerates clinical protocols by reconstructing high-resolution (HR) target modalities from low-resolution (LR) inputs, guided by easily acquired reference contrasts. While purely data-driven deep neural networks achieve strong performance via rich representation capacity, they rely on heuristic fusion mechanisms (e.g., naive concatenation or black-box cross-attention) that lack theoretical grounding. Alternatively, model-based deep…
+> Cross-modal self-supervised learning for paired side-scan sonar and underwater optical imagery is a promising direction for benthic habitat understanding, but it remains underexplored because existing methods do not fully exploit the one-to-many correspondences and geographic metadata available in real opti-acoustic surveys. This limits the ability to learn representations that are both semantically meaningful and geometrically consistent from abundant unlabeled marine data.…
 
-### 5. [A multimodal foundation model for tissue proteomics and morphology in cancer](https://arxiv.org/abs/2611.31451)
-**Benedikt von Querfurth, Lukas Klein, C\'edric Vincent-Cuaz, et al.**  ·  `q-bio.QM`  ·  [abs](https://arxiv.org/abs/2611.31451) · [pdf](https://arxiv.org/pdf/2611.31451)  ·  relevance 22
-<br>matched: `foundation model`, `transformer`, `segmentation`, `multimodal`
+### 5. [Variation-aware Temporal Correspondence for Self-Supervised Video Representation Learning](https://arxiv.org/abs/2611.34220)
+**Yang Liu, Qianqian Xu, Peisong Wen, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.34220) · [pdf](https://arxiv.org/pdf/2611.34220)  ·  relevance 24
+<br>matched: `representation learning`, `self-supervised`
 
-> Cancer diagnosis, prognosis, and treatment decisions increasingly rely on integrating tissue morphology with specific molecular readouts of the tumor and its microenvironment. H&E histopathology provides scalable morphology, whereas multiplex spatial proteomics quantifies dozens of proteins in situ with spatial context, but remains selectively deployed, often with different marker panels across cohorts. This creates a translational bottleneck: most patients lack high-depth…
+> Self-supervised video representation learning has achieved remarkable progress by leveraging large-scale unlabeled video data. Recent methods commonly extend Masked Image Modeling (MIM) to Masked Video Modeling (MVM), where video representations are learned by capturing semantic information from temporal contexts during masked content recovery. Unlike static images, videos exhibit inherent temporal variation, as visual objects continuously change their positions,…
 
-### 6. [Scale-Robust and Global-Aware Representation Learning for Multivariate Time Series Anomaly Detection](https://arxiv.org/abs/2611.32033)
-**Gyuwon Lee, Saejoon Park, Won-Seok Hwang, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.32033) · [pdf](https://arxiv.org/pdf/2611.32033)  ·  relevance 21
-<br>matched: `graph neural network`, `graph neural`, `representation learning`
+### 6. [Privileged On-Policy Distillation for Calibrated Alzheimer's Diagnosis With Missing Modalities](https://arxiv.org/abs/2611.34721)
+**Vo Minh Khoi Nguyen, Dat Tien Chung, Quang Minh Khoa Le, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.34721) · [pdf](https://arxiv.org/pdf/2611.34721)  ·  relevance 23
+<br>matched: `alzheimer`, `neuroimaging`
 
-> Multivariate time series anomaly detection (MTSAD) is an essential task for identifying abnormal system behaviors and supporting reliable operations across diverse real-world applications. Despite substantial advances in MTSAD, two key challenges in representation learning remain underexplored: (C1) how to learn scale-robust temporal representations that capture anomalies across different temporal scales and (C2) how to learn global-aware relational representations that…
+> Alzheimer's disease is diagnosed from clinical, biospecimen and imaging evidence, but few patients undergo every test. Because these modalities are complementary, a missing one has many plausible values. Most existing methods leave it out or train on one estimate, so their classifier never sees its other values, and the estimate is never checked against the diagnosis. We address both gaps with on-policy distillation: the model fills in the missing modalities itself, and…
 
-### 7. [ASTERISM: Do Multimodal LLMs Actually Look at All the Images?](https://arxiv.org/abs/2611.32316)
-**Chanseul Cho, Dongwoo Kim, Noori Bae, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.32316) · [pdf](https://arxiv.org/pdf/2611.32316)  ·  relevance 21
+### 7. [EVA: Evidence-seeking Visual Agent for Hallucination-Resistant Multimodal Reasoning](https://arxiv.org/abs/2611.33706)
+**Ting Lei, Yu Chen, Yang Liu**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.33706) · [pdf](https://arxiv.org/pdf/2611.33706)  ·  relevance 21
+<br>matched: `large language model`, `llm`, `agent`, `multimodal`
+
+> Hallucinations in multimodal large language models (MLLMs) often arise from visual assumptions that go unchecked. Self-reflection, multi-agent debate, and counterfactual verification can reinforce erroneous conclusions when they rely on the same unverified visual assumptions. External visual tools can provide verifiable evidence, but models may select the wrong tools, supply incorrect parameters, or ignore or contradict the evidence they obtain. In this work, we propose EVA,…
+
+### 8. [Lost in the Grid: Where Multimodal LLMs Fail Between Seeing and Planning](https://arxiv.org/abs/2611.34152)
+**Luoxi Zhang, Tianyi Tan, Jiawei Liu, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.34152) · [pdf](https://arxiv.org/pdf/2611.34152)  ·  relevance 21
 <br>matched: `large language model`, `llm`, `multimodal`
 
-> Multi-image benchmarks aim to test whether a multimodal large language model (MLLM) combines evidence across images, but many of their items can be answered from a single image. Across about 33k items from 19 public benchmarks, our audit and a two-stage single-image filter find that one image or the question alone settles 24.2% of them. On these items, MLLMs recover from one image a median 78% of the accuracy that all images add over the text alone, so these items reward…
+> Multimodal large language models (MLLMs) excel at static visual understanding and are increasingly applied to spatial planning, where a model interprets a visual layout and outputs an action sequence to reach a goal. Grid games are a common testbed for this ability because their rules are explicit and a solver can verify every move. Yet existing benchmarks mostly report end-to-end success rates, which hide whether a failure stems from visual perception, rule application, or…
 
-### 8. [Clinical3D-Bench: Evaluating and Improving Spatial Intelligence of Multimodal LLMs in Hospital Environments](https://arxiv.org/abs/2611.32094)
-**Yang Bai, Yingzhi Xia, Ling Lin, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.32094) · [pdf](https://arxiv.org/pdf/2611.32094)  ·  relevance 21
-<br>matched: `large language model`, `llm`, `multimodal`
+### 9. [SPiXSeg: Rethinking MLLM-based Image Segmentation as Superpixel Classification](https://arxiv.org/abs/2611.33842)
+**Piyush Tiwary, Sohini Dutta, Prathosh A. P**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.33842) · [pdf](https://arxiv.org/pdf/2611.33842)  ·  relevance 21
+<br>matched: `large language model`, `llm`, `segmentation`, `multimodal`
 
-> Spatial reasoning in hospitals requires tracking look-alike equipment, interpreting patient-relative directions, and judging passage widths, yet existing benchmarks provide limited coverage of these abilities. We introduce Clinical3D-Bench, a simulated benchmark with 3,368 questions of eight types on egocentric walkthroughs of 373 hospital-room layouts. Layouts follow hospital design guidelines, answers are computed from the 3D scenes, and paired scene states test whether…
+> Multimodal large language models (MLLMs) are widely used for image segmentation. However, existing methods either use a decoder or use patch-based approach which trades boundary precision against the number of decisions as coarse grid cells mix foreground and background pixels, while finer grids require many more predictions, and autoregressive mask generation adds sequential decoding overhead. We propose SPiXSeg, which shifts the output from per-patch to per-superpixel…
 
-### 9. [C3H: Compression-to-Consensus Criteria Hijacking in Multimodal LLM Recommender Systems](https://arxiv.org/abs/2611.32780)
-**Guowei Guan, Yurong Hao, Jiaming Zhang, et al.**  ·  `cs.CR`  ·  [abs](https://arxiv.org/abs/2611.32780) · [pdf](https://arxiv.org/pdf/2611.32780)  ·  relevance 21
-<br>matched: `large language model`, `llm`, `multimodal`
+### 10. [Text-Conditioned Low-Rank Adaptation of Time-Series Foundation Models for Multimodal Forecasting](https://arxiv.org/abs/2611.34206)
+**Kunqi Li, Bin Liang, Zhidong Li**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.34206) · [pdf](https://arxiv.org/pdf/2611.34206)  ·  relevance 18
+<br>matched: `foundation model`, `multimodal`
 
-> Multimodal large language models (MLLMs) are transforming recommender systems into content-aware decision systems. In these systems, multimodal compression and cross-modal fusion are often viewed as robustness-enhancing mechanisms against content manipulation, as compression can filter noisy signals and cross-modal consensus can suppress inconsistent anomalies. We challenge this assumption by showing that the same process can expose a compression-to-consensus (C2C) bias in…
+> Time-series foundation models (TSFMs) provide transferable numerical forecasting priors. However, forecast-relevant information may be conveyed in text without being reflected in the observed series. Many multimodal forecasting methods integrate such context through model inputs or intermediate representations. We investigate a complementary mechanism: text-conditioned parameter adaptation. We propose Context-to-LoRA for Time Series (C2LoRA-TS), which encodes text and…
 
-### 10. [InCue: Making Better Use of What Multimodal LLMs Already See at Test Time](https://arxiv.org/abs/2611.31987)
-**Shuwei Wu, Siyue Yu, Longin Jan Latecki**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.31987) · [pdf](https://arxiv.org/pdf/2611.31987)  ·  relevance 21
-<br>matched: `large language model`, `llm`, `multimodal`
+### 11. [LLM-coupled interpretable tool wear monitoring with multi-evidence reasoning in CNC machining](https://arxiv.org/abs/2611.34270)
+**Yuntong Chen, Yingqi Li, Qiwen Shen, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.34270) · [pdf](https://arxiv.org/pdf/2611.34270)  ·  relevance 18
+<br>matched: `llm`, `interpretab`
 
-> Even when multimodal large language models (MLLMs) answer incorrectly, their internal cues often point to the relevant region. A widely used remedy re-presents the cue-selected region as an enlarged crop to supply finer detail. However, we find that much of its gain requires no new detail: it largely survives when the crop comes from the already-seen low-resolution input, and partly even when the region's cached tokens are merely copied. Part of re-presentation's gain thus…
+> Interpretable tool wear assessment in CNC machining is challenging. Existing diagnostic models have high accuracy but provide limited guidance for tool replacement. This study proposes a two layer framework combining deep learning wear classification and LLM assisted reasoning. The first layer uses PCA Loading feature selection and optimized GRU to recognize three wear states, achieving 98.38 percent macro F1 score on the PHM2010 dataset. The second layer uses LLMs to…
 
-### 11. [IMPACT-Seg: Consistent Anatomical Segmentation and Representation Learning Across CT, CBCT, and MRI](https://arxiv.org/abs/2611.32903)
-**C\'edric H\'emon, Valentin Boussot, Matthew McCormick, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.32903) · [pdf](https://arxiv.org/pdf/2611.32903)  ·  relevance 21
-<br>matched: `representation learning`, `segmentation`, `multimodal`
+### 12. [Feature-Based Explainability of Transformer Scoring Models: A Fidelity-First Framework for Automated Writing Assessment](https://arxiv.org/abs/2611.33175)
+**Michael Hemenway, Edward W. Wolfe**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.33175) · [pdf](https://arxiv.org/pdf/2611.33175)  ·  relevance 18
+<br>matched: `transformer`, `interpretab`, `explainab`
 
-> Computed tomography (CT), cone-beam CT (CBCT), and magnetic resonance imaging (MRI) provide complementary representations of the same underlying anatomy, yet substantial differences in image appearance challenge consistent segmentation and deformable registration in adaptive radiotherapy. We investigate whether dense anatomical segmentation supervision can promote cross-modality correspondence without explicit feature alignment. We introduce IMPACT-Seg, which segments 126…
-
-### 12. [Evaluating Latent Knowledge Stability in Multimodal Large Language Models](https://arxiv.org/abs/2611.32566)
-**Chuancheng Shi, Shangze Li, Wenhua Wu, et al.**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.32566) · [pdf](https://arxiv.org/pdf/2611.32566)  ·  relevance 21
-<br>matched: `large language model`, `llm`, `multimodal`
-
-> Changes in image viewpoint and question formulation can alter latent knowledge representations in multimodal large language models (MLLMs). However, output correctness and overall representational drift provide limited insight into how these changes affect model decisions. We therefore evaluate latent knowledge stability across visual and linguistic elicitation conditions from two complementary perspectives: answer preference and internal support. Specifically, we devise the…
+> Transformer-based automated writing scoring models can achieve strong agreement with human scores while providing limited transparency into the response characteristics associated with their predictions. This study evaluated a feature-based post-hoc explanation approach in which explanatory fidelity was established before feature importance was interpreted. English Language Arts responses from three writing prompts in Grades 6 and 8 were analyzed, with about 12,700 responses…
 
 
-<sub>Generated 2026-11-25 22:32 UTC via the arXiv API.</sub>
+<sub>Generated 2026-11-26 22:20 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-11-26](digests/2026-11-26.md) — 12 papers
 - [2026-11-25](digests/2026-11-25.md) — 12 papers
 - [2026-11-24](digests/2026-11-24.md) — 12 papers
 - [2026-11-22](digests/2026-11-22.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-09-28](digests/2026-09-28.md) — 12 papers
 - [2026-09-26](digests/2026-09-26.md) — 12 papers
 - [2026-09-25](digests/2026-09-25.md) — 12 papers
-- [2026-09-24](digests/2026-09-24.md) — 12 papers
 
-_…and 87 earlier digests in [`digests/`](digests/)._
+_…and 88 earlier digests in [`digests/`](digests/)._
 
 ---
 
