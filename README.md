@@ -6,7 +6,7 @@ medical/neuro imaging, ranks them against a research-interest profile, and
 publishes a dated digest. It runs entirely on GitHub Actions — no server, no
 manual step.
 
-**Latest digest: 2026-11-26** · browse the full archive below.
+**Latest digest: 2026-11-27** · browse the full archive below.
 
 ## How it works
 
@@ -29,89 +29,90 @@ Edit the interest profile (`CATEGORIES`, `KEYWORDS`, `TOP_N`) at the top of
 
 ## Latest
 
-# arXiv AI/ML digest — 2026-11-26
+# arXiv AI/ML digest — 2026-11-27
 
 _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `eess.IV`, `q-bio.NC`, ranked against a neuro-AI interest profile. Auto-generated._
 
-### 1. [Adaptive attention routing multimodal expert graph neural network for drug-drug interaction prediction](https://arxiv.org/abs/2611.33200)
-**Jingyi Yang, Chengcheng Yan, Hongri Cong, et al.**  ·  `q-bio.QM`  ·  [abs](https://arxiv.org/abs/2611.33200) · [pdf](https://arxiv.org/pdf/2611.33200)  ·  relevance 40
-<br>matched: `graph neural network`, `graph neural`, `gnn`, `multimodal`
-
-> Accurate prediction of drug-drug interactions (DDIs) is essential for drug safety in combination therapy. Multimodal methods built on knowledge graphs (KGs) already combine molecular structures, substructures, targets and biomedical relations into drug representations, but they still face three problems: features are heterogeneous across modalities, fusion does not adapt to individual drug pairs, and modality-specific information is diluted during integration. We propose the…
-
-### 2. [Scaling and Cross-Simulation Generalization of Graph Neural Networks for Cosmic-Web Classification in CAMELS](https://arxiv.org/abs/2611.34332)
-**Kalash Thakkar, Unnati Shah**  ·  `astro-ph.CO`  ·  [abs](https://arxiv.org/abs/2611.34332) · [pdf](https://arxiv.org/pdf/2611.34332)  ·  relevance 33
-<br>matched: `graph neural network`, `graph neural`, `gnn`, `transformer`
-
-> Graph-based methods can classify galaxies by their dark-matter cosmic-web environments, but reliability beyond development simulations remains uncertain. Galaxy-formation models alter tracer populations and spatial distributions, potentially shifting graph features. We test how graph neural networks scale with independent training realizations and transfer across hydrodynamical simulations. Using the $z=0$ CAMELS IllustrisTNG, SIMBA and Astrid suites, we label galaxies with…
-
-### 3. [ChemoMAE: Self-Supervised Spectral Representation Learning Reveals Chemical Heterogeneity in Historical Wood](https://arxiv.org/abs/2611.34581)
-**Ryuji Yamaguchi, Miyuki Matsuo**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.34581) · [pdf](https://arxiv.org/pdf/2611.34581)  ·  relevance 26
-<br>matched: `representation learning`, `self-supervised`, `transformer`
-
-> In historical timber buildings, multiple environmental factors act over centuries on wood whose chemical composition varies across anatomical regions, producing complex patterns of degradation. Understanding how timber members degrade is important for the effective conservation and restoration of historical buildings, yet the mechanisms underlying these patterns remain unclear. To investigate these mechanisms, we used self-supervised learning to establish a common basis for…
-
-### 4. [GeoCAM: Self-Supervised Sonar-Optical Representation Learning via Geographic Overlap Supervision](https://arxiv.org/abs/2611.34218)
+### 1. [GeoCAM: Self-Supervised Sonar-Optical Representation Learning via Geographic Overlap Supervision](https://arxiv.org/abs/2611.34218)
 **Fadi Abdeladhim Zidi, Andrea De Salve, Giuseppe Celeste, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.34218) · [pdf](https://arxiv.org/pdf/2611.34218)  ·  relevance 24
 <br>matched: `representation learning`, `self-supervised`
 
 > Cross-modal self-supervised learning for paired side-scan sonar and underwater optical imagery is a promising direction for benthic habitat understanding, but it remains underexplored because existing methods do not fully exploit the one-to-many correspondences and geographic metadata available in real opti-acoustic surveys. This limits the ability to learn representations that are both semantically meaningful and geometrically consistent from abundant unlabeled marine data.…
 
-### 5. [Variation-aware Temporal Correspondence for Self-Supervised Video Representation Learning](https://arxiv.org/abs/2611.34220)
-**Yang Liu, Qianqian Xu, Peisong Wen, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.34220) · [pdf](https://arxiv.org/pdf/2611.34220)  ·  relevance 24
-<br>matched: `representation learning`, `self-supervised`
-
-> Self-supervised video representation learning has achieved remarkable progress by leveraging large-scale unlabeled video data. Recent methods commonly extend Masked Image Modeling (MIM) to Masked Video Modeling (MVM), where video representations are learned by capturing semantic information from temporal contexts during masked content recovery. Unlike static images, videos exhibit inherent temporal variation, as visual objects continuously change their positions,…
-
-### 6. [Privileged On-Policy Distillation for Calibrated Alzheimer's Diagnosis With Missing Modalities](https://arxiv.org/abs/2611.34721)
-**Vo Minh Khoi Nguyen, Dat Tien Chung, Quang Minh Khoa Le, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.34721) · [pdf](https://arxiv.org/pdf/2611.34721)  ·  relevance 23
-<br>matched: `alzheimer`, `neuroimaging`
-
-> Alzheimer's disease is diagnosed from clinical, biospecimen and imaging evidence, but few patients undergo every test. Because these modalities are complementary, a missing one has many plausible values. Most existing methods leave it out or train on one estimate, so their classifier never sees its other values, and the estimate is never checked against the diagnosis. We address both gaps with on-policy distillation: the model fills in the missing modalities itself, and…
-
-### 7. [EVA: Evidence-seeking Visual Agent for Hallucination-Resistant Multimodal Reasoning](https://arxiv.org/abs/2611.33706)
+### 2. [EVA: Evidence-seeking Visual Agent for Hallucination-Resistant Multimodal Reasoning](https://arxiv.org/abs/2611.33706)
 **Ting Lei, Yu Chen, Yang Liu**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.33706) · [pdf](https://arxiv.org/pdf/2611.33706)  ·  relevance 21
 <br>matched: `large language model`, `llm`, `agent`, `multimodal`
 
 > Hallucinations in multimodal large language models (MLLMs) often arise from visual assumptions that go unchecked. Self-reflection, multi-agent debate, and counterfactual verification can reinforce erroneous conclusions when they rely on the same unverified visual assumptions. External visual tools can provide verifiable evidence, but models may select the wrong tools, supply incorrect parameters, or ignore or contradict the evidence they obtain. In this work, we propose EVA,…
 
-### 8. [Lost in the Grid: Where Multimodal LLMs Fail Between Seeing and Planning](https://arxiv.org/abs/2611.34152)
+### 3. [Lost in the Grid: Where Multimodal LLMs Fail Between Seeing and Planning](https://arxiv.org/abs/2611.34152)
 **Luoxi Zhang, Tianyi Tan, Jiawei Liu, et al.**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.34152) · [pdf](https://arxiv.org/pdf/2611.34152)  ·  relevance 21
 <br>matched: `large language model`, `llm`, `multimodal`
 
 > Multimodal large language models (MLLMs) excel at static visual understanding and are increasingly applied to spatial planning, where a model interprets a visual layout and outputs an action sequence to reach a goal. Grid games are a common testbed for this ability because their rules are explicit and a solver can verify every move. Yet existing benchmarks mostly report end-to-end success rates, which hide whether a failure stems from visual perception, rule application, or…
 
-### 9. [SPiXSeg: Rethinking MLLM-based Image Segmentation as Superpixel Classification](https://arxiv.org/abs/2611.33842)
-**Piyush Tiwary, Sohini Dutta, Prathosh A. P**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.33842) · [pdf](https://arxiv.org/pdf/2611.33842)  ·  relevance 21
-<br>matched: `large language model`, `llm`, `segmentation`, `multimodal`
+### 4. [InterGenEHR$^+$: An Interactive Framework for Natural Language-Conditioned Generation of Longitudinal Patient Trajectories](https://arxiv.org/abs/2611.33788)
+**Yu Yang, Jiafeng Song, Baraa F Abed, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.33788) · [pdf](https://arxiv.org/pdf/2611.33788)  ·  relevance 18
+<br>matched: `longitudinal`, `diffusion model`, `large language model`, `llm`
 
-> Multimodal large language models (MLLMs) are widely used for image segmentation. However, existing methods either use a decoder or use patch-based approach which trades boundary precision against the number of decisions as coarse grid cells mix foreground and background pixels, while finer grids require many more predictions, and autoregressive mask generation adds sequential decoding overhead. We propose SPiXSeg, which shifts the output from per-patch to per-superpixel…
+> Objective: To develop and validate InterGenEHR$^+$, an interactive framework for natural language-conditioned generation of synthetic tabular electronic health records (EHRs) and longitudinal trajectories for scenario-based evaluation of machine learning models. Methods: An optional large language model (LLM) parser converts clinical requests into structured constraints. Conditional variational autoencoders and diffusion models generate single-time-point records, while…
 
-### 10. [Text-Conditioned Low-Rank Adaptation of Time-Series Foundation Models for Multimodal Forecasting](https://arxiv.org/abs/2611.34206)
-**Kunqi Li, Bin Liang, Zhidong Li**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.34206) · [pdf](https://arxiv.org/pdf/2611.34206)  ·  relevance 18
-<br>matched: `foundation model`, `multimodal`
+### 5. [Crucible: Evaluating LLM Agents in Executable Chemistry Research Environments](https://arxiv.org/abs/2611.34254)
+**Yinjun Liu, Xinye Li, Ruisen Peng, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.34254) · [pdf](https://arxiv.org/pdf/2611.34254)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
 
-> Time-series foundation models (TSFMs) provide transferable numerical forecasting priors. However, forecast-relevant information may be conveyed in text without being reflected in the observed series. Many multimodal forecasting methods integrate such context through model inputs or intermediate representations. We investigate a complementary mechanism: text-conditioned parameter adaptation. We propose Context-to-LoRA for Time Series (C2LoRA-TS), which encodes text and…
+> Large language models (LLMs) perform well on chemistry knowledge benchmarks, which mainly assess question answering and isolated tasks. Chemical research, however, requires using specialized tools and interpreting their outputs to obtain chemically valid results. To address this gap, we introduce Crucible Bench to evaluate this ability across all four stages of the design-make-test-analyze (DMTA) cycle. The benchmark contains 1,078 tasks in 12 task families curated from 18…
 
-### 11. [LLM-coupled interpretable tool wear monitoring with multi-evidence reasoning in CNC machining](https://arxiv.org/abs/2611.34270)
+### 6. [Psychophysics of Duration Perception in Multimodal Large Language Models](https://arxiv.org/abs/2611.33176)
+**Auss Abbood, Zihao Fu, Nigel Collier**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.33176) · [pdf](https://arxiv.org/pdf/2611.33176)  ·  relevance 18
+<br>matched: `large language model`, `multimodal`
+
+> Studies of time perception in language models focus mainly on text-based settings. Yet multimodal models are increasingly used for tasks that require perceiving the passage of time, making the limits of their temporal perception important to understand. We measure the limits of duration perception from audio against a human baseline to address this gap. Drawing from psychophysics, we operationalise duration perception as a melody recognition task, testing when a melody…
+
+### 7. [CypherMAS: Benchmarking Routing Reliability in LLM-Based Multi-Agent Systems](https://arxiv.org/abs/2611.33242)
+**Danil Kostromin, Andrey Sakhovskiy, Semen Budennyy**  ·  `cs.MA`  ·  [abs](https://arxiv.org/abs/2611.33242) · [pdf](https://arxiv.org/pdf/2611.33242)  ·  relevance 18
+<br>matched: `large language model`, `llm`, `agent`
+
+> Multi-agent systems (MAS) built on large language models (LLMs) distribute reasoning across specialized agents that must exchange messages and invoke tools reliably. Existing evaluations typically couple communication with open domain tasks, making it difficult to determine whether a failure arises from reasoning, malformed tool use, lost messages, or forgotten requests. Prior benchmarks do not isolate communication execution or measure routing redundancy against a known…
+
+### 8. [LLM-coupled interpretable tool wear monitoring with multi-evidence reasoning in CNC machining](https://arxiv.org/abs/2611.34270)
 **Yuntong Chen, Yingqi Li, Qiwen Shen, et al.**  ·  `cs.LG`  ·  [abs](https://arxiv.org/abs/2611.34270) · [pdf](https://arxiv.org/pdf/2611.34270)  ·  relevance 18
 <br>matched: `llm`, `interpretab`
 
 > Interpretable tool wear assessment in CNC machining is challenging. Existing diagnostic models have high accuracy but provide limited guidance for tool replacement. This study proposes a two layer framework combining deep learning wear classification and LLM assisted reasoning. The first layer uses PCA Loading feature selection and optimized GRU to recognize three wear states, achieving 98.38 percent macro F1 score on the PHM2010 dataset. The second layer uses LLMs to…
 
-### 12. [Feature-Based Explainability of Transformer Scoring Models: A Fidelity-First Framework for Automated Writing Assessment](https://arxiv.org/abs/2611.33175)
+### 9. [Feature-Based Explainability of Transformer Scoring Models: A Fidelity-First Framework for Automated Writing Assessment](https://arxiv.org/abs/2611.33175)
 **Michael Hemenway, Edward W. Wolfe**  ·  `cs.CL`  ·  [abs](https://arxiv.org/abs/2611.33175) · [pdf](https://arxiv.org/pdf/2611.33175)  ·  relevance 18
 <br>matched: `transformer`, `interpretab`, `explainab`
 
 > Transformer-based automated writing scoring models can achieve strong agreement with human scores while providing limited transparency into the response characteristics associated with their predictions. This study evaluated a feature-based post-hoc explanation approach in which explanatory fidelity was established before feature importance was interpreted. English Language Arts responses from three writing prompts in Grades 6 and 8 were analyzed, with about 12,700 responses…
 
+### 10. [Can Its Own Misses Teach an MLLM to Find Small Brain Metastases?](https://arxiv.org/abs/2611.33836)
+**Yixuan Duan, Kexin Geng, Hanwen Xu, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.33836) · [pdf](https://arxiv.org/pdf/2611.33836)  ·  relevance 17
+<br>matched: `large language model`, `llm`, `agent`, `multimodal`
 
-<sub>Generated 2026-11-26 22:20 UTC via the arXiv API.</sub>
+> Multimodal large language models (MLLMs) are becoming general readers of medical images, yet they remain weak at locating small abnormalities. Brain metastases expose this gap: at 384 px a 0.1 mL lesion covers less than a quarter of one visual token, and at one false positive per scan frontier MLLMs find fewer than 30% of lesions of 0.1-1 mL. Fine-tuning on one dataset helps but transfers poorly, and improving it further is slow trial and error steered by a single score. We…
+
+### 11. [PatternMiner: Automated Mathematical Discovery Through LLM-Guided Training and Interpretation of Small Models](https://arxiv.org/abs/2611.33966)
+**Michael Ruofan Zeng, Junaid Hasan, Xuanyu Yang, et al.**  ·  `cs.AI`  ·  [abs](https://arxiv.org/abs/2611.33966) · [pdf](https://arxiv.org/pdf/2611.33966)  ·  relevance 17
+<br>matched: `large language model`, `llm`, `agent`, `interpretab`
+
+> There are several approaches to AI-driven mathematical discovery. One of these involves the use of large language models (LLMs) to resolve well-specified conjectures via text-based reasoning, while another uses narrow models and interpretability for more open-ended, human-in-the-loop exploration using object-based mathematical data. The latter is limited in its ability to move beyond simple empirical pattern detection while the former is not well-designed for direct,…
+
+### 12. [A Semantics-First Approach to Multimodal Video Captioning with Frozen Encoders and Stabilized Reinforcement Learning](https://arxiv.org/abs/2611.33409)
+**Albert Chiwara, Erhan Guven**  ·  `cs.CV`  ·  [abs](https://arxiv.org/abs/2611.33409) · [pdf](https://arxiv.org/pdf/2611.33409)  ·  relevance 17
+<br>matched: `transformer`, `large language model`, `llm`, `multimodal`
+
+> We propose the Audio-Visual Query Transformer (AVQFormer), a highly efficient architecture built upon a 2.7B parameter LLM featuring a fixed-length $K=16$ semantic alignment module, stabilized via Adaptive Self-Critical Sequence Training (ASCST) with Entropy Regularization. Multimodal Large Language Models (LLMs) often rely on global audio representations to compensate for inefficient, frame-based visual encoders. While our Phase 1 prompted evaluations demonstrate that the…
+
+
+<sub>Generated 2026-11-27 21:57 UTC via the arXiv API.</sub>
 
 ---
 
 ## Archive
 
+- [2026-11-27](digests/2026-11-27.md) — 12 papers
 - [2026-11-26](digests/2026-11-26.md) — 12 papers
 - [2026-11-25](digests/2026-11-25.md) — 12 papers
 - [2026-11-24](digests/2026-11-24.md) — 12 papers
@@ -171,9 +172,8 @@ _The 12 most relevant new papers across `cs.LG`, `cs.AI`, `cs.CV`, `cs.CL`, `ees
 - [2026-09-29](digests/2026-09-29.md) — 12 papers
 - [2026-09-28](digests/2026-09-28.md) — 12 papers
 - [2026-09-26](digests/2026-09-26.md) — 12 papers
-- [2026-09-25](digests/2026-09-25.md) — 12 papers
 
-_…and 88 earlier digests in [`digests/`](digests/)._
+_…and 89 earlier digests in [`digests/`](digests/)._
 
 ---
 
